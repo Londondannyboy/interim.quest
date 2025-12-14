@@ -115,38 +115,43 @@ export function Footer() {
                       Interim COO Services
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/interim-chro-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CHRO Services
+                    </Link>
+                  </li>
                 </ul>
               </div>
 
-              {/* Interim Jobs by Location */}
+              {/* Interim Jobs */}
               <div>
                 <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
-                  Interim Jobs UK
+                  Interim Jobs
                 </h4>
                 <ul className="space-y-3">
+                  <li>
+                    <Link href="/interim-jobs" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      All Interim Jobs UK
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/interim-jobs-london" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Interim Jobs London
                     </Link>
                   </li>
                   <li>
-                    <Link href="/interim-jobs-manchester" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim Jobs Manchester
+                    <Link href="/interim-jobs-nhs" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      NHS Interim Jobs
                     </Link>
                   </li>
                   <li>
-                    <Link href="/interim-jobs-birmingham" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim Jobs Birmingham
+                    <Link href="/interim-jobs-procurement" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim Procurement Jobs
                     </Link>
                   </li>
                   <li>
-                    <Link href="/interim-jobs-edinburgh" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim Jobs Edinburgh
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/interim-jobs" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      All Interim Jobs UK
+                    <Link href="/interim-jobs-finance" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Finance Interim Jobs
                     </Link>
                   </li>
                 </ul>
@@ -166,6 +171,11 @@ export function Footer() {
                   <li>
                     <Link href="/interim-cfo-salary" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Interim CFO Salary Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/interim-ceo-jobs-uk" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CEO Jobs UK
                     </Link>
                   </li>
                   <li>

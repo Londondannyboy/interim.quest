@@ -408,6 +408,25 @@ export const CTO_SERVICE_FAQS: FAQItem[] = [
   },
 ]
 
+export const CEO_FAQS: FAQItem[] = [
+  {
+    question: 'What does an interim CEO do?',
+    answer: 'An interim CEO provides full-time executive leadership during critical transitions, crises, or transformations. They manage board and investor relations, lead turnarounds, oversee pre-acquisition or post-merger integration, handle crisis management situations, and provide bridge leadership between permanent CEOs. Interim CEOs take complete P&L accountability and strategic decision-making authority during 6-12 month mandates.',
+  },
+  {
+    question: 'How much do interim CEOs earn in the UK?',
+    answer: 'Interim CEOs in the UK typically earn £2,000-£3,500 per day for full-time work (5 days/week). This translates to £40,000-£70,000 monthly or £480,000-£840,000 annually. Rates vary based on company size, complexity, sector, and crisis severity. PE-backed turnarounds and public company mandates command premium rates. The average engagement lasts 6-12 months with total costs of £240,000-£840,000.',
+  },
+  {
+    question: 'When should a company hire an interim CEO?',
+    answer: 'Companies hire interim CEOs during leadership crises or critical transitions: sudden founder/CEO departure, PE/VC portfolio company turnarounds, pre-acquisition or post-merger leadership needs, financial or reputational crises, board-mandated leadership changes, or as a bridge to permanent CEO hire. Interim CEOs are brought in when immediate, experienced leadership is required and the company cannot afford a lengthy permanent recruitment process.',
+  },
+  {
+    question: 'How long do interim CEO assignments last?',
+    answer: 'Interim CEO assignments typically last 6-12 months. Leadership gap coverage or bridge roles: 3-6 months. Turnarounds and transformations: 6-9 months. Pre-acquisition preparation or post-merger integration: 9-12 months. Assignments can extend if additional crisis work emerges or permanent recruitment takes longer than expected, but interim CEO roles are always temporary with defined objectives and end dates.',
+  },
+]
+
 export const COO_SERVICE_FAQS: FAQItem[] = [
   {
     question: 'What is an Interim COO?',

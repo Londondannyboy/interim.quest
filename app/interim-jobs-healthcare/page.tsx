@@ -10,7 +10,8 @@ export const revalidate = 3600
 
 export const metadata: Metadata = {
   title: 'Interim Jobs in Healthcare | Interim Quest',
-  description: 'Full-time temporary executive roles in HealthTech and Life Sciences. £700-£1,300 daily rates. Navigate regulatory approvals, clinical trials, and commercial launches.',
+  description: 'Full-time temporary executive roles in HealthTech, Life Sciences, and NHS interim jobs. £700-£1,800 daily rates. Navigate regulatory approvals, clinical trials, NHS turnarounds, and commercial launches.',
+  keywords: ['healthcare interim jobs', 'nhs interim jobs', 'healthtech interim', 'life sciences interim', 'medtech interim', 'biotech interim', 'pharma interim jobs'],
   openGraph: {
     title: 'Interim Jobs in Healthcare | Interim Quest',
     description: 'Full-time temporary healthcare leadership roles for critical milestones.',
@@ -44,7 +45,7 @@ const healthcareHubs = [
 ]
 
 const relatedSearches = [
-  'Interim CFO Healthcare', 'Interim CTO HealthTech', 'MedTech Interim CMO',
+  'NHS Interim Jobs', 'Interim CFO Healthcare', 'Interim CTO HealthTech', 'MedTech Interim CMO',
   'BioTech Interim Executive', 'Life Sciences CFO', 'Digital Health Interim',
   'Interim CSO UK', 'Cambridge Interim', 'Pharma Interim Jobs'
 ]
@@ -104,7 +105,7 @@ export default async function HealthcarePage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    Full-time temporary executive roles in HealthTech and Life Sciences. Navigate regulatory approvals, clinical trials, and commercial launches. £700-£1,300 daily rates.
+                    Full-time temporary executive roles in HealthTech, Life Sciences, and NHS interim positions. Navigate regulatory approvals, clinical trials, NHS turnarounds, and commercial launches. £700-£1,800 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -161,6 +162,46 @@ export default async function HealthcarePage() {
             <p className="text-xl text-gray-500">Browse {stats.totalHealthcare}+ opportunities in life sciences</p>
           </div>
           <EmbeddedJobBoard />
+        </div>
+      </section>
+
+      {/* NHS Interim Jobs Section */}
+      <section className="py-16 bg-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center gap-4 mb-8">
+            <span className="text-4xl">🏥</span>
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900">NHS Interim Jobs</h2>
+              <p className="text-gray-600">Full-time temporary leadership roles across NHS Trusts</p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="font-bold text-lg mb-4">Popular NHS Interim Roles</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Interim Director of Operations - £900-£1,300/day</li>
+                <li>• Interim Director of Finance - £850-£1,200/day</li>
+                <li>• Interim Turnaround Director - £1,000-£1,500/day</li>
+                <li>• Interim Chief Executive - £1,200-£1,800/day</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-lg mb-4">NHS Interim Scenarios</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• CQC improvement programmes</li>
+                <li>• Trust financial recovery</li>
+                <li>• EPR/digital transformation</li>
+                <li>• Leadership vacancy cover</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-8">
+            <Link href="/interim-jobs-nhs" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">
+              View all NHS Interim Jobs →
+            </Link>
+          </div>
         </div>
       </section>
 

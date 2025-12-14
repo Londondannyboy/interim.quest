@@ -23,7 +23,7 @@ export async function getAgencies(): Promise<Agency[]> {
     SELECT id, slug, name, description, headquarters, specializations, overview, meta_description, payload
     FROM companies
     WHERE app = 'interim'
-      AND company_type = 'fractional_recruiter'
+      AND company_type = 'interim_recruiter'
       AND status = 'published'
     ORDER BY (payload->>'featured')::boolean DESC NULLS LAST, name
   `
@@ -37,7 +37,7 @@ export async function getAgencyBySlug(slug: string): Promise<Agency | null> {
     FROM companies
     WHERE slug = ${slug}
       AND app = 'interim'
-      AND company_type = 'fractional_recruiter'
+      AND company_type = 'interim_recruiter'
       AND status = 'published'
     LIMIT 1
   `
@@ -50,7 +50,7 @@ export async function getAgencySlugs(): Promise<string[]> {
     SELECT slug
     FROM companies
     WHERE app = 'interim'
-      AND company_type = 'fractional_recruiter'
+      AND company_type = 'interim_recruiter'
       AND status = 'published'
   `
   return (agencies as Array<{ slug: string }>).map(a => a.slug)

@@ -9,22 +9,22 @@ import { FAQ, FINANCE_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Fractional Finance Jobs UK - CFO, FD, Finance Director Roles',
-  description: 'Find fractional finance jobs in the UK. Interim CFO, Finance Director, FD roles. £800-£1,400 daily rates. PE-backed, startups, and SMEs.',
+  title: 'Interim Finance Jobs UK - CFO, FD, Finance Director Roles',
+  description: 'Find interim finance jobs in the UK. Interim CFO, Finance Director, FD roles. £800-£1,400 daily rates. PE-backed, startups, and SMEs.',
   openGraph: {
-    title: 'Fractional Finance Jobs UK - CFO, FD, Finance Director Roles',
-    description: 'Find fractional finance leadership roles across the UK.',
+    title: 'Interim Finance Jobs UK - CFO, FD, Finance Director Roles',
+    description: 'Find interim finance leadership roles across the UK.',
     type: 'website',
   },
 }
 
 const financeRoles = [
   { name: 'Interim CFO', description: 'Strategic finance leadership', rateRange: '£900-£1,400/day', demand: 'Very High' },
-  { name: 'Fractional Finance Director', description: 'Financial operations & reporting', rateRange: '£750-£1,100/day', demand: 'High' },
-  { name: 'Fractional FP&A Director', description: 'Financial planning & analysis', rateRange: '£700-£1,000/day', demand: 'High' },
-  { name: 'Fractional Controller', description: 'Accounting & controls', rateRange: '£600-£900/day', demand: 'Medium' },
-  { name: 'Fractional Treasury Director', description: 'Cash & risk management', rateRange: '£800-£1,200/day', demand: 'Growing' },
-  { name: 'Fractional M&A Director', description: 'Deals & transactions', rateRange: '£1,000-£1,500/day', demand: 'High' },
+  { name: 'Interim Finance Director', description: 'Financial operations & reporting', rateRange: '£750-£1,100/day', demand: 'High' },
+  { name: 'Interim FP&A Director', description: 'Financial planning & analysis', rateRange: '£700-£1,000/day', demand: 'High' },
+  { name: 'Interim Controller', description: 'Accounting & controls', rateRange: '£600-£900/day', demand: 'Medium' },
+  { name: 'Interim Treasury Director', description: 'Cash & risk management', rateRange: '£800-£1,200/day', demand: 'Growing' },
+  { name: 'Interim M&A Director', description: 'Deals & transactions', rateRange: '£1,000-£1,500/day', demand: 'High' },
 ]
 
 const financeSectors = [
@@ -43,9 +43,9 @@ const financeSkills = [
 ]
 
 const relatedSearches = [
-  'Interim CFO Jobs UK', 'Fractional Finance Director', 'Part-Time CFO London',
-  'Fractional FD Jobs', 'PE Backed Interim CFO', 'Startup CFO Jobs',
-  'Interim CFO Day Rate', 'Fractional Finance Jobs Remote', 'SaaS Interim CFO'
+  'Interim CFO Jobs UK', 'Interim Finance Director', 'Part-Time CFO London',
+  'Interim FD Jobs', 'PE Backed Interim CFO', 'Startup CFO Jobs',
+  'Interim CFO Day Rate', 'Interim Finance Jobs Remote', 'SaaS Interim CFO'
 ]
 
 // Same video as homepage
@@ -95,7 +95,7 @@ export default async function FinanceJobsPage() {
                   </span>
 
                   <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-[0.95] tracking-tight">
-                    Fractional<br />
+                    Interim<br />
                     <span className="text-emerald-300">Finance</span> Jobs UK
                   </h1>
 
@@ -153,7 +153,7 @@ export default async function FinanceJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">Opportunities</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fractional Finance Jobs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Finance Jobs</h2>
             <p className="text-xl text-gray-500">Browse {stats.total}+ finance leadership opportunities</p>
           </div>
           <EmbeddedJobBoard defaultDepartment="Finance" />
@@ -165,7 +165,7 @@ export default async function FinanceJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fractional Finance Roles</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Finance Roles</h2>
             <p className="text-xl text-gray-500">Finance leadership positions available</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -276,8 +276,8 @@ export default async function FinanceJobsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Finance Fractional FAQs</h2>
-            <p className="text-xl text-gray-500">Common questions about fractional finance roles</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Finance Interim FAQs</h2>
+            <p className="text-xl text-gray-500">Common questions about interim finance roles</p>
           </div>
           <FAQ items={FINANCE_FAQS} title="" />
         </div>
@@ -306,7 +306,7 @@ export default async function FinanceJobsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-6 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready for Fractional Finance Leadership?
+            Ready for Interim Finance Leadership?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
             {stats.total}+ CFO, Finance Director, and FD opportunities

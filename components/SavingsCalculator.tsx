@@ -21,8 +21,8 @@ export function SavingsCalculator() {
   const fullTimeTotalCost = fullTimeSalary * 1.35 // Include NI, benefits, overhead
   const hourlyRate = 150 // Average interim executive hourly rate
   const weeksPerYear = 48
-  const fractionalAnnualCost = hoursNeeded * hourlyRate * weeksPerYear
-  const savings = fullTimeTotalCost - fractionalAnnualCost
+  const interimAnnualCost = hoursNeeded * hourlyRate * weeksPerYear
+  const savings = fullTimeTotalCost - interimAnnualCost
   const savingsPercent = Math.round((savings / fullTimeTotalCost) * 100)
 
   const formatCurrency = (amount: number) => {
@@ -138,15 +138,15 @@ export function SavingsCalculator() {
             </div>
           </div>
 
-          {/* Fractional Cost */}
+          {/* Interim Cost */}
           <div className="bg-green-500/20 rounded-xl p-4">
             <div className="flex justify-between items-center">
               <div>
-                <div className="text-sm text-purple-200">Fractional {ROLE_DEFAULTS[role].label}</div>
+                <div className="text-sm text-purple-200">Interim {ROLE_DEFAULTS[role].label}</div>
                 <div className="text-xs text-purple-300">({hoursNeeded} hrs/week × 48 weeks)</div>
               </div>
               <div className="text-2xl font-bold text-green-300">
-                {formatCurrency(fractionalAnnualCost)}
+                {formatCurrency(interimAnnualCost)}
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ export function SavingsCalculator() {
           </div>
 
           <p className="text-xs text-purple-300 text-center mt-4">
-            Based on £150/hr average fractional rate. Full-time includes 35% for employer NI, pension, benefits and overhead.
+            Based on £150/hr average interim rate. Full-time includes 35% for employer NI, pension, benefits and overhead.
           </p>
         </div>
       </div>
@@ -174,7 +174,7 @@ export function SavingsCalculator() {
           href="#contact"
           className="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-bold rounded-xl hover:bg-purple-100 transition-all shadow-lg hover:shadow-xl"
         >
-          Find Your Fractional Executive
+          Find Your Interim Executive
           <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>

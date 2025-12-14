@@ -12,10 +12,10 @@ export const revalidate = 14400 // Revalidate every 4 hours
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Executive Articles & Guides | Interim Quest',
+  title: 'Interim Executive Articles & Guides | Interim Quest',
   description: 'Expert guides and articles about interim executive roles, career tips, salary guides, and hiring strategies for CFO, CTO, CMO roles.',
   openGraph: {
-    title: 'Fractional Executive Articles & Guides | Interim Quest',
+    title: 'Interim Executive Articles & Guides | Interim Quest',
     description: 'Expert guides and articles about interim executive roles, career tips, and hiring strategies.',
     type: 'website',
   },
@@ -297,7 +297,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
                 { icon: '💻', title: 'Interim CTO Guides', desc: 'Technology leadership, architecture, and team building', link: '/interim-cto-jobs-uk' },
                 { icon: '📢', title: 'Interim CMO Guides', desc: 'Marketing strategy, brand building, and growth', link: '/interim-cmo-jobs-uk' },
                 { icon: '📊', title: 'Salary Guides', desc: 'Day rates, annual earnings, and market benchmarks', link: '/interim-executive-salary-uk' },
-                { icon: '🚀', title: 'Career Transition', desc: 'How to go from full-time to interim executive', link: '/how-to-become-a-fractional-executive' },
+                { icon: '🚀', title: 'Career Transition', desc: 'How to go from full-time to interim executive', link: '/how-to-become-a-interim-executive' },
                 { icon: '🤝', title: 'Hiring Guides', desc: 'How companies hire interim executives', link: '/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter' },
               ].map((topic) => (
                 <Link key={topic.title} href={topic.link} className="group">

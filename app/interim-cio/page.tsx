@@ -27,7 +27,7 @@ export default function InterimCIOPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary IT leadership for digital transformations, system migrations, and critical technology periods. Expert IT executives available immediately.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">Hire an Interim CIO</Link>
-                <Link href="/interim-cio-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-cio-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function InterimCIOPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">What is an Interim CIO?</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CIO</strong> is a temporary Chief Information Officer who works full-time for a defined period—typically 3-12 months. Unlike fractional CIOs who work part-time, interim CIOs focus exclusively on one organisation during major IT transformations or transitions.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CIO</strong> is a temporary Chief Information Officer who works full-time for a defined period—typically 3-12 months. Unlike interim CIOs who work part-time, interim CIOs focus exclusively on one organisation during major IT transformations or transitions.</p>
         </div>
       </section>
 
@@ -71,10 +71,10 @@ export default function InterimCIOPage() {
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-black mb-6">Need an Interim CIO?</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your IT challenges and we'll help you find the right interim or fractional CIO.</p>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your IT challenges and we'll help you find the right interim or interim CIO.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">Find an Interim CIO</Link>
-            <Link href="/interim-cio-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CIO</Link>
+            <Link href="/interim-cio-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Interim CIO</Link>
           </div>
         </div>
       </section>

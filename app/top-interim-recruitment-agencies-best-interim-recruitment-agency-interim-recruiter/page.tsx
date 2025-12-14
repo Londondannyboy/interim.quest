@@ -5,15 +5,15 @@ import { VideoHeroBackground } from '@/components/VideoHeroBackground'
 import { getAgencies, Agency } from '@/lib/agencies'
 
 export const metadata: Metadata = {
-  title: 'Best Fractional Recruitment Agency UK | Top Recruiters',
-  description: 'Find the best interim recruitment agency in the UK. Compare top fractional recruiters for CFO, CTO, CMO hiring. Save 40-60% vs full-time executive hires.',
-  keywords: 'best interim recruitment agency, fractional recruiters, top interim recruitment agencies, interim recruitment agency uk, interim executive recruitment, fractional cfo recruitment',
+  title: 'Best Interim Recruitment Agency UK | Top Recruiters',
+  description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters for CFO, CTO, CMO hiring. Save 40-60% vs full-time executive hires.',
+  keywords: 'best interim recruitment agency, interim recruiters, top interim recruitment agencies, interim recruitment agency uk, interim executive recruitment, interim cfo recruitment',
   alternates: {
     canonical: 'https://interim.quest/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter',
   },
   openGraph: {
-    title: 'Best Fractional Recruitment Agency UK | Top Recruiters',
-    description: 'Find the best interim recruitment agency in the UK. Compare top fractional recruiters and save 40-60% vs full-time hires.',
+    title: 'Best Interim Recruitment Agency UK | Top Recruiters',
+    description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters and save 40-60% vs full-time hires.',
     type: 'website',
     url: 'https://interim.quest/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter',
   },
@@ -24,7 +24,7 @@ export const revalidate = 3600
 // Mux video - professional executive theme (same as CMO page)
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
-export default async function TopFractionalRecruitmentAgenciesPage() {
+export default async function TopInterimRecruitmentAgenciesPage() {
   const agencies = await getAgencies()
   const otherAgencies = agencies.filter(a => !a.payload?.featured)
 
@@ -52,7 +52,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
                 </span>
 
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-[0.95] tracking-tight">
-                  Fractional Recruitment Agency
+                  Interim Recruitment Agency
                   <span className="block text-amber-400"> - Done Differently</span>
                 </h1>
 
@@ -132,7 +132,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
                       <option value="cto">Interim CTO</option>
                       <option value="cmo">Interim CMO</option>
                       <option value="coo">Interim COO</option>
-                      <option value="chro">Fractional CHRO / HR Director</option>
+                      <option value="chro">Interim CHRO / HR Director</option>
                       <option value="other">Other Executive Role</option>
                     </select>
                   </div>
@@ -183,7 +183,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Our Approach</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">
-              How Our Fractional Recruitment Agency Works
+              How Our Interim Recruitment Agency Works
             </h2>
             <p className="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
               A interim recruitment agency that prioritises quality matching over volume, with transparent pricing.
@@ -215,7 +215,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
           <div className="text-center mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Pricing</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4">
-              Fractional Recruitment Agency Fees
+              Interim Recruitment Agency Fees
             </h2>
             <p className="text-xl text-gray-600">No retainers. No upfront costs. Pay only when you hire.</p>
           </div>
@@ -250,7 +250,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
           <div className="text-center mb-10">
             <span className="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">Beta Tool</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">Savings Calculator</h2>
-            <p className="text-gray-600 mt-2">Estimate potential savings with fractional hiring. Results are illustrative only.</p>
+            <p className="text-gray-600 mt-2">Estimate potential savings with interim hiring. Results are illustrative only.</p>
           </div>
           <SavingsCalculator />
           <p className="text-center text-xs text-gray-500 mt-4">
@@ -260,23 +260,23 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
         </div>
       </section>
 
-      {/* Why Fractional Recruitment */}
+      {/* Why Interim Recruitment */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">The Value</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">
-              Why Use a Fractional Recruitment Agency?
+              Why Use a Interim Recruitment Agency?
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Access Senior Talent', description: 'Fractional executives bring years of experience to your specific challenges without the full-time commitment.', icon: '✓' },
-              { title: 'Faster Than Executive Search', description: 'Traditional executive search can take 3-6 months. Fractional placements typically happen in weeks.', icon: '⚡' },
+              { title: 'Access Senior Talent', description: 'Interim executives bring years of experience to your specific challenges without the full-time commitment.', icon: '✓' },
+              { title: 'Faster Than Executive Search', description: 'Traditional executive search can take 3-6 months. Interim placements typically happen in weeks.', icon: '⚡' },
               { title: 'Lower Commitment', description: 'Start with an interim arrangement and scale up if needed. Less risk than a full-time hire.', icon: '🛡️' },
               { title: 'Cost Efficient', description: 'Get senior expertise without full-time salary, benefits, and equity costs.', icon: '💰' },
-              { title: 'Specialist Matching', description: 'Fractional recruitment requires understanding both executive capability and part-time working dynamics.', icon: '🎯' },
+              { title: 'Specialist Matching', description: 'Interim recruitment requires understanding both executive capability and part-time working dynamics.', icon: '🎯' },
               { title: 'Flexible Engagement', description: 'Matched on industry, stage, culture fit, and specific business challenges—not just availability.', icon: '🤝' }
             ].map((benefit, index) => (
               <div key={index} className="bg-gray-50 p-6 border border-gray-200">
@@ -296,7 +296,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
             <div className="text-center mb-12">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Market Landscape</span>
               <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4">
-                Other Fractional Recruiters UK
+                Other Interim Recruiters UK
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 We've compiled other reputable interim recruitment agencies operating in the UK market for comparison.
@@ -319,7 +319,7 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-4 block">The Guide</span>
             <h2 className="text-4xl font-black text-gray-900 mb-6 leading-tight">
               What Makes the Best<br />
-              <span className="text-amber-600">Fractional Recruitment Agency</span>
+              <span className="text-amber-600">Interim Recruitment Agency</span>
             </h2>
             <div className="w-24 h-1 bg-amber-500"></div>
           </div>
@@ -328,8 +328,8 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
           <figure className="mb-12 -mx-6 lg:-mx-16">
             <img
               src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200"
-              alt="Fractional recruitment agency - executive recruiters matching businesses with part-time CFO, CTO and CMO talent"
-              title="Fractional recruitment agency UK"
+              alt="Interim recruitment agency - executive recruiters matching businesses with part-time CFO, CTO and CMO talent"
+              title="Interim recruitment agency UK"
               className="w-full h-64 md:h-80 object-cover"
             />
             <figcaption className="text-sm text-gray-500 mt-3 px-6 lg:px-16">
@@ -339,11 +339,11 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
 
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed mb-8 font-light">
-              The <strong className="font-semibold text-gray-900">best interim recruitment agency</strong> specialises in connecting businesses with experienced executives who work on a part-time, ongoing basis. Unlike traditional recruitment agencies that place full-time employees, top fractional recruiters understand the unique requirements of part-time executive engagements.
+              The <strong className="font-semibold text-gray-900">best interim recruitment agency</strong> specialises in connecting businesses with experienced executives who work on a part-time, ongoing basis. Unlike traditional recruitment agencies that place full-time employees, top interim recruiters understand the unique requirements of part-time executive engagements.
             </p>
 
             <p>
-              The <strong>best interim recruitment agencies</strong> in the UK maintain networks of verified interim CFOs, CTOs, CMOs, COOs, and other C-suite professionals. They understand that fractional hiring requires different assessment criteria: candidates must excel at rapid onboarding, managing multiple clients, and delivering impact in limited time.
+              The <strong>best interim recruitment agencies</strong> in the UK maintain networks of verified interim CFOs, CTOs, CMOs, COOs, and other C-suite professionals. They understand that interim hiring requires different assessment criteria: candidates must excel at rapid onboarding, managing multiple clients, and delivering impact in limited time.
             </p>
 
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-amber-500">
@@ -352,18 +352,18 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
               </p>
             </div>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What to Look for in Fractional Recruiters</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What to Look for in Interim Recruiters</h3>
             <ul className="space-y-3">
-              <li><strong>Specialisation:</strong> They focus on fractional placements, not just interim or permanent roles</li>
-              <li><strong>Quality over Volume:</strong> Vetted executives with proven fractional experience</li>
+              <li><strong>Specialisation:</strong> They focus on interim placements, not just interim or permanent roles</li>
+              <li><strong>Quality over Volume:</strong> Vetted executives with proven interim experience</li>
               <li><strong>Transparent Fees:</strong> Clear pricing without hidden costs or retainers</li>
-              <li><strong>Understanding of Fractional Work:</strong> Knowledge of part-time executive dynamics</li>
+              <li><strong>Understanding of Interim Work:</strong> Knowledge of part-time executive dynamics</li>
               <li><strong>Guarantee:</strong> Replacement guarantee if the match doesn't work</li>
             </ul>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Fractional vs Interim Recruitment</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim vs Interim Recruitment</h3>
             <p>
-              <strong>Fractional recruiters</strong> place part-time executives for ongoing engagements (typically 1-3 days/week indefinitely). <strong>Interim recruiters</strong> place full-time executives for temporary periods (3-12 months). The best interim recruitment agency understands this distinction and builds networks accordingly.
+              <strong>Interim recruiters</strong> place part-time executives for ongoing engagements (typically 1-3 days/week indefinitely). <strong>Interim recruiters</strong> place full-time executives for temporary periods (3-12 months). The best interim recruitment agency understands this distinction and builds networks accordingly.
             </p>
           </article>
         </div>
@@ -375,17 +375,17 @@ export default async function TopFractionalRecruitmentAgenciesPage() {
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">FAQ</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">
-              Fractional Recruitment Agency FAQ
+              Interim Recruitment Agency FAQ
             </h2>
           </div>
 
           <div className="space-y-4">
             {[
-              { q: 'What is a interim recruitment agency?', a: 'A interim recruitment agency specialises in placing executives who work part-time with businesses on an ongoing basis. Unlike interim recruitment (full-time, temporary), fractional means part-time, typically 1-3 days per week.' },
-              { q: 'How much do fractional recruiters charge?', a: 'Fractional recruitment agency fees typically range from 10-25% of first year engagement value. This is often lower than traditional executive search firms which charge 25-33% of annual salary for full-time placements.' },
-              { q: 'How long does interim recruitment take?', a: 'Fractional placements typically happen faster than full-time executive search—often 2-4 weeks versus 3-6 months. However, quality matching is more important than speed.' },
-              { q: 'What roles do fractional recruiters fill?', a: 'Fractional recruitment agencies typically place C-suite roles (CFO, CTO, CMO, COO) and senior director positions. These are roles where strategic expertise is needed but full-time isn\'t required.' },
-              { q: 'What\'s the difference between fractional and interim?', a: 'Interim recruiters place full-time executives for temporary periods (3-12 months). Fractional recruiters place part-time executives for ongoing engagements, typically 1-3 days per week on an indefinite basis.' }
+              { q: 'What is a interim recruitment agency?', a: 'A interim recruitment agency specialises in placing executives who work part-time with businesses on an ongoing basis. Unlike interim recruitment (full-time, temporary), interim means part-time, typically 1-3 days per week.' },
+              { q: 'How much do interim recruiters charge?', a: 'Interim recruitment agency fees typically range from 10-25% of first year engagement value. This is often lower than traditional executive search firms which charge 25-33% of annual salary for full-time placements.' },
+              { q: 'How long does interim recruitment take?', a: 'Interim placements typically happen faster than full-time executive search—often 2-4 weeks versus 3-6 months. However, quality matching is more important than speed.' },
+              { q: 'What roles do interim recruiters fill?', a: 'Interim recruitment agencies typically place C-suite roles (CFO, CTO, CMO, COO) and senior director positions. These are roles where strategic expertise is needed but full-time isn\'t required.' },
+              { q: 'What\'s the difference between interim and interim?', a: 'Interim recruiters place full-time executives for temporary periods (3-12 months). Interim recruiters place part-time executives for ongoing engagements, typically 1-3 days per week on an indefinite basis.' }
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{faq.q}</h3>

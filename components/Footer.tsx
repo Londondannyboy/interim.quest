@@ -13,7 +13,7 @@ export function Footer() {
                 <span className="text-white font-black text-2xl">F</span>
               </div>
               <div>
-                <span className="font-bold text-white text-xl">Fractional</span>
+                <span className="font-bold text-white text-xl">Interim</span>
                 <span className="text-gray-400 font-bold text-xl">.Quest</span>
               </div>
             </Link>
@@ -57,7 +57,7 @@ export function Footer() {
                 </h4>
                 <ul className="space-y-3">
                   <li>
-                    <Link href="/fractional-jobs" className="text-gray-400 hover:text-white text-sm transition-colors">
+                    <Link href="/interim-jobs" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Browse Jobs
                     </Link>
                   </li>
@@ -125,22 +125,22 @@ export function Footer() {
                 </h4>
                 <ul className="space-y-3">
                   <li>
-                    <Link href="/fractional-jobs-london" className="text-gray-400 hover:text-white text-sm transition-colors">
+                    <Link href="/interim-jobs-london" className="text-gray-400 hover:text-white text-sm transition-colors">
                       London
                     </Link>
                   </li>
                   <li>
-                    <Link href="/fractional-jobs-manchester" className="text-gray-400 hover:text-white text-sm transition-colors">
+                    <Link href="/interim-jobs-manchester" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Manchester
                     </Link>
                   </li>
                   <li>
-                    <Link href="/fractional-jobs-birmingham" className="text-gray-400 hover:text-white text-sm transition-colors">
+                    <Link href="/interim-jobs-birmingham" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Birmingham
                     </Link>
                   </li>
                   <li>
-                    <Link href="/fractional-jobs-edinburgh" className="text-gray-400 hover:text-white text-sm transition-colors">
+                    <Link href="/interim-jobs-edinburgh" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Edinburgh
                     </Link>
                   </li>

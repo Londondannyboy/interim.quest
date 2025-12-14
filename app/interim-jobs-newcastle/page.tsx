@@ -43,7 +43,7 @@ const successStories = [
     earnings: "£125k/year"
   },
   {
-    quote: "Newcastle Helix is transforming the region. The innovation happening in data science and ageing & health is creating incredible fractional opportunities.",
+    quote: "Newcastle Helix is transforming the region. The innovation happening in data science and ageing & health is creating incredible interim opportunities.",
     name: "Emma Richardson",
     role: "Interim CFO",
     area: "Newcastle Helix",
@@ -231,7 +231,7 @@ export default async function NewcastlePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Newcastle Success Stories</h2>
-            <p className="text-xl text-slate-200">Real fractional professionals thriving in Newcastle</p>
+            <p className="text-xl text-slate-200">Real interim professionals thriving in Newcastle</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -298,7 +298,7 @@ export default async function NewcastlePage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Newcastle Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Newcastle Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -322,7 +322,7 @@ export default async function NewcastlePage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/guide" className="hover:text-slate-700">Fractional Work Guide</Link></li>
+                <li><Link href="/guide" className="hover:text-slate-700">Interim Work Guide</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-slate-700">Salary Guide</Link></li>
               </ul>
             </div>
@@ -337,7 +337,7 @@ export default async function NewcastlePage() {
             Ready to Work in Newcastle?
           </h2>
           <p className="text-xl text-slate-100 mb-10">
-            {stats.totalNewcastle}+ fractional opportunities in the North East's tech capital.
+            {stats.totalNewcastle}+ interim opportunities in the North East's tech capital.
           </p>
           <Link
             href="/interim-jobs?location=Newcastle"

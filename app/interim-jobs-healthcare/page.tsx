@@ -32,8 +32,8 @@ const healthcareRoles = [
   { icon: '💻', title: 'Interim CTO HealthTech', rate: '£800-£1,300/day', desc: 'Platform architecture, regulatory tech' },
   { icon: '📢', title: 'Interim CMO MedTech', rate: '£750-£1,200/day', desc: 'Go-to-market, clinical marketing' },
   { icon: '⚙️', title: 'Interim COO BioTech', rate: '£800-£1,250/day', desc: 'Operations, manufacturing scale-up' },
-  { icon: '🔬', title: 'Fractional CSO', rate: '£900-£1,400/day', desc: 'Scientific strategy, R&D leadership' },
-  { icon: '📋', title: 'Fractional Regulatory', rate: '£800-£1,200/day', desc: 'FDA/MHRA submissions, compliance' },
+  { icon: '🔬', title: 'Interim CSO', rate: '£900-£1,400/day', desc: 'Scientific strategy, R&D leadership' },
+  { icon: '📋', title: 'Interim Regulatory', rate: '£800-£1,200/day', desc: 'FDA/MHRA submissions, compliance' },
 ]
 
 const healthcareHubs = [
@@ -45,8 +45,8 @@ const healthcareHubs = [
 
 const relatedSearches = [
   'Interim CFO Healthcare', 'Interim CTO HealthTech', 'MedTech Interim CMO',
-  'BioTech Fractional Executive', 'Life Sciences CFO', 'Digital Health Fractional',
-  'Fractional CSO UK', 'Cambridge Fractional', 'Pharma Interim Jobs'
+  'BioTech Interim Executive', 'Life Sciences CFO', 'Digital Health Interim',
+  'Interim CSO UK', 'Cambridge Interim', 'Pharma Interim Jobs'
 ]
 
 // Same video as homepage
@@ -191,7 +191,7 @@ export default async function HealthcarePage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Top Healthcare Roles</h2>
-            <p className="text-xl text-gray-500">Most in-demand fractional positions</p>
+            <p className="text-xl text-gray-500">Most in-demand interim positions</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {healthcareRoles.map((role) => (
@@ -262,7 +262,7 @@ export default async function HealthcarePage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Perfect Fit</h3>
               <p className="text-gray-600">
-                Healthcare companies often need senior expertise for specific phases - fundraising, regulatory approval, commercial launch - making fractional arrangements ideal.
+                Healthcare companies often need senior expertise for specific phases - fundraising, regulatory approval, commercial launch - making interim arrangements ideal.
               </p>
             </div>
           </div>
@@ -286,7 +286,7 @@ export default async function HealthcarePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Healthcare Fractional FAQs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Healthcare Interim FAQs</h2>
             <p className="text-xl text-gray-500">Common questions about interim work in healthcare</p>
           </div>
           <FAQ items={HEALTHCARE_FAQS} title="" />
@@ -319,7 +319,7 @@ export default async function HealthcarePage() {
             Ready for Healthcare Leadership?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
-            {stats.totalHealthcare}+ fractional opportunities in the UK's fastest-growing sector
+            {stats.totalHealthcare}+ interim opportunities in the UK's fastest-growing sector
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

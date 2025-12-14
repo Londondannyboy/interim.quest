@@ -18,7 +18,7 @@ export async function GET() {
         compensation
       FROM jobs
       WHERE is_active = true
-        AND (is_fractional = true OR LOWER(title) LIKE '%fractional%')
+        AND (is_interim = true OR LOWER(title) LIKE '%interim%')
       ORDER BY posted_date DESC NULLS LAST
       LIMIT 5
     `

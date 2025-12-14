@@ -2,8 +2,8 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Fractional Executive Calculators | Day Rate, Savings & Portfolio Tools',
-  description: 'Free calculators for interim executives and companies. Calculate day rates, company savings vs full-time hires, and plan your portfolio career. Essential tools for the UK fractional market.',
+  title: 'Interim Executive Calculators | Day Rate, Savings & Portfolio Tools',
+  description: 'Free calculators for interim executives and companies. Calculate day rates, company savings vs full-time hires, and plan your portfolio career. Essential tools for the UK interim market.',
   alternates: {
     canonical: 'https://interim.quest/calculators'
   }
@@ -17,7 +17,7 @@ const calculators = [
     description: 'See how much your company saves hiring a interim executive vs a full-time hire. Compare total costs including NI, pension, benefits, and overheads.',
     icon: '🏢',
     color: 'from-purple-600 to-purple-800',
-    features: ['Full-time cost breakdown', 'Fractional cost comparison', 'Annual savings calculation', 'Role-specific defaults']
+    features: ['Full-time cost breakdown', 'Interim cost comparison', 'Annual savings calculation', 'Role-specific defaults']
   },
   {
     slug: 'rate-finder',
@@ -32,7 +32,7 @@ const calculators = [
     slug: 'portfolio-builder',
     title: 'Portfolio Builder Calculator',
     subtitle: 'Career Planning',
-    description: 'Plan your fractional portfolio career. Calculate how many clients you need, optimize your schedule, and assess concentration risk.',
+    description: 'Plan your interim portfolio career. Calculate how many clients you need, optimize your schedule, and assess concentration risk.',
     icon: '📊',
     color: 'from-emerald-500 to-teal-600',
     features: ['Client number planning', 'Weekly allocation', 'Risk assessment', 'Income optimization']
@@ -57,11 +57,11 @@ export default function CalculatorsHub() {
         <div className="max-w-5xl mx-auto px-4 text-center">
           <span className="section-label text-purple-300 mb-4 block">Free Tools</span>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Fractional Executive Calculators
+            Interim Executive Calculators
           </h1>
           <p className="text-xl text-purple-200 max-w-3xl mx-auto leading-relaxed">
-            Essential tools for executives exploring fractional careers and companies
-            considering fractional hires. Make data-driven decisions about your next move.
+            Essential tools for executives exploring interim careers and companies
+            considering interim hires. Make data-driven decisions about your next move.
           </p>
         </div>
       </section>
@@ -178,7 +178,7 @@ export default function CalculatorsHub() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start gap-2">
                   <span className="text-purple-500 mt-1">✓</span>
-                  <span>Comparing fractional vs full-time hiring costs</span>
+                  <span>Comparing interim vs full-time hiring costs</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-purple-500 mt-1">✓</span>
@@ -212,7 +212,7 @@ export default function CalculatorsHub() {
           </h2>
           <p className="text-xl text-gray-600 mb-8">
             Whether you're an executive looking for your next opportunity or a
-            company seeking fractional talent, we can help.
+            company seeking interim talent, we can help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

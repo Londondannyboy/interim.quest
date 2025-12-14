@@ -17,7 +17,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CTO Jobs UK | Part-Time CTO Roles',
   description: 'Interim CTO jobs UK - Find part-time Chief Technology Officer positions paying £850-£1,600/day. Browse live CTO roles for experienced tech leaders.',
-  keywords: 'fractional cto jobs uk, fractional cto jobs, part time cto jobs, fractional cto uk, cto jobs uk, part time chief technology officer',
+  keywords: 'interim cto jobs uk, interim cto jobs, part time cto jobs, interim cto uk, cto jobs uk, part time chief technology officer',
   openGraph: {
     title: 'Interim CTO Jobs UK | Part-Time CTO Roles',
     description: 'Interim CTO jobs UK - Find part-time CTO positions paying £850-£1,600/day.',
@@ -57,7 +57,7 @@ async function getFeaturedCompanies() {
   }
 }
 
-export default async function FractionalCtoJobsUkPage() {
+export default async function InterimCtoJobsUkPage() {
   const [stats, companies] = await Promise.all([getEngineeringStats(), getFeaturedCompanies()])
 
   return (
@@ -131,7 +131,7 @@ export default async function FractionalCtoJobsUkPage() {
             <p className="text-gray-500">Pre-filtered to Engineering. Change filters to explore.</p>
           </div>
           <Suspense fallback={<div className="bg-white rounded-2xl border border-gray-200 p-8"><div className="animate-pulse space-y-4"><div className="h-10 bg-gray-200 rounded w-1/3"></div><div className="grid grid-cols-2 gap-4"><div className="h-48 bg-gray-200 rounded"></div><div className="h-48 bg-gray-200 rounded"></div></div></div></div>}>
-            <EmbeddedJobBoard defaultDepartment="Engineering" pageSlug="fractional-cto-jobs-uk" jobsPerPage={10} title="Latest Engineering & CTO Jobs" allJobsLinkText="View All Engineering Jobs" />
+            <EmbeddedJobBoard defaultDepartment="Engineering" pageSlug="interim-cto-jobs-uk" jobsPerPage={10} title="Latest Engineering & CTO Jobs" allJobsLinkText="View All Engineering Jobs" />
           </Suspense>
         </div>
       </section>
@@ -253,7 +253,7 @@ export default async function FractionalCtoJobsUkPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Ready?</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">Find Your Next<br /><span className="text-blue-400">Interim CTO Role</span></h2>
-          <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Create your profile and get matched with companies seeking fractional technology leadership.</p>
+          <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Create your profile and get matched with companies seeking interim technology leadership.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-blue-500 text-white font-bold uppercase tracking-wider hover:bg-blue-400 transition-colors">Create Profile</Link>
             <Link href="/interim-jobs-tech" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Tech Jobs</Link>

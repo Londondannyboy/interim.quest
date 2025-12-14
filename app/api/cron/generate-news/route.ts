@@ -118,7 +118,7 @@ export async function GET(request: Request) {
         ${article.content},
         ${article.excerpt},
         'published',
-        'fractional',
+        'interim',
         ${article.category},
         ${contentType},
         true,

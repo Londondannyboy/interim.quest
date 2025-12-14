@@ -23,7 +23,7 @@ export function InterimCalculator() {
     <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-4xl mx-auto">
       <div className="text-center mb-8">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">
-          Fractional Earnings Calculator
+          Interim Earnings Calculator
         </h3>
         <p className="text-gray-600">
           See how much you could earn as a interim executive

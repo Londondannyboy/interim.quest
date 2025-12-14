@@ -6,13 +6,13 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Marketing Agency UK | Part-Time Marketing Support',
-  description: 'Access fractional marketing agency services. Part-time marketing strategy, campaigns, and execution. Agency expertise without full agency retainers.',
-  keywords: 'fractional marketing agency, part-time marketing agency, fractional marketing services, fractional marketing support uk',
+  title: 'Interim Marketing Agency UK | Part-Time Marketing Support',
+  description: 'Access interim marketing agency services. Part-time marketing strategy, campaigns, and execution. Agency expertise without full agency retainers.',
+  keywords: 'interim marketing agency, part-time marketing agency, interim marketing services, interim marketing support uk',
   alternates: { canonical: 'https://interim.quest/interim-marketing-agency' },
 }
 
-export default function FractionalMarketingAgencyPage() {
+export default function InterimMarketingAgencyPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
@@ -22,7 +22,7 @@ export default function FractionalMarketingAgencyPage() {
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
               <span className="inline-block bg-amber-500 text-black px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Marketing Agency</span>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Fractional<br /><span className="text-amber-400">Marketing Agency</span></h1>
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-amber-400">Marketing Agency</span></h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access marketing agency expertise on an interim basis. Get strategic marketing leadership and execution without the overhead of traditional agency retainers.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-amber-500 text-black font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">Get Started</Link>
@@ -35,7 +35,7 @@ export default function FractionalMarketingAgencyPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">What is a Fractional Marketing Agency?</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-6">What is a Interim Marketing Agency?</h2>
           <p className="text-xl text-gray-600 leading-relaxed mb-6">An interim marketing agency provides ongoing marketing strategy and execution on a part-time, retained basis. Instead of expensive full-service agency retainers, you get focused marketing support tailored to your specific needs and budget.</p>
           <p className="text-gray-600 mb-6">This model is perfect for growing businesses that need professional marketing but can't justify £15-30k monthly agency fees. You get senior marketing talent working as an extension of your team.</p>
         </div>
@@ -64,13 +64,13 @@ export default function FractionalMarketingAgencyPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">Fractional vs Traditional Marketing Agency</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Interim vs Traditional Marketing Agency</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-gray-100">
                   <th className="p-4 text-left font-bold">Aspect</th>
-                  <th className="p-4 text-left font-bold text-amber-700">Fractional Agency</th>
+                  <th className="p-4 text-left font-bold text-amber-700">Interim Agency</th>
                   <th className="p-4 text-left font-bold">Traditional Agency</th>
                 </tr>
               </thead>
@@ -88,8 +88,8 @@ export default function FractionalMarketingAgencyPage() {
 
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-black mb-6">Get Fractional Marketing Support</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your marketing needs and we'll match you with the right fractional marketing expertise.</p>
+          <h2 className="text-4xl font-black mb-6">Get Interim Marketing Support</h2>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your marketing needs and we'll match you with the right interim marketing expertise.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-amber-500 text-black font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">Get Started</Link>
             <Link href="/interim-marketing" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Marketing Leadership</Link>

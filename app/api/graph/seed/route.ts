@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     const skillsData = {
       type: 'professional_profile',
       person: `${firstName || ''} ${lastName || ''}`.trim() || userId,
-      role: 'Fractional Executive & Entrepreneur',
+      role: 'Interim Executive & Entrepreneur',
       skills: [
         { name: 'Product Strategy', category: 'leadership', years: 12, proficiency: 'expert' },
         { name: 'Go-to-Market', category: 'strategy', years: 10, proficiency: 'expert' },
@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
       experiences: [
         { company: 'Quest Network', role: 'Founder & CEO', startYear: 2023, isCurrent: true, industry: 'Technology' },
         { company: 'Predeploy', role: 'Co-Founder', startYear: 2024, isCurrent: true, industry: 'AI/Dev Tools' },
-        { company: 'Tech Startup (Series B)', role: 'Fractional CPO', startYear: 2022, endYear: 2023, industry: 'FinTech' },
+        { company: 'Tech Startup (Series B)', role: 'Interim CPO', startYear: 2022, endYear: 2023, industry: 'FinTech' },
         { company: 'Enterprise SaaS', role: 'VP Product', startYear: 2019, endYear: 2022, industry: 'SaaS' },
       ],
       summary: 'Founded multiple companies and held senior product/exec roles at high-growth startups.',
@@ -66,12 +66,12 @@ export async function POST(request: NextRequest) {
     // Add preferences
     const preferencesData = {
       type: 'job_preferences',
-      looking_for: ['Fractional CPO', 'Interim CTO', 'Board Advisor'],
+      looking_for: ['Interim CPO', 'Interim CTO', 'Board Advisor'],
       industries: ['AI/ML', 'SaaS', 'FinTech', 'Climate Tech'],
       locations: ['London', 'Remote'],
       day_rate_range: '800-1500 GBP',
       availability: '2-3 days per week',
-      summary: 'Open to fractional C-level roles in technology companies, particularly AI-first startups.',
+      summary: 'Open to interim C-level roles in technology companies, particularly AI-first startups.',
     }
 
     await client.graph.add({

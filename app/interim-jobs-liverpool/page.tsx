@@ -51,7 +51,7 @@ const successStories = [
     earnings: "£125k/year"
   },
   {
-    quote: "Liverpool's cost of living means my fractional income goes much further. I'm earning the same as my London peers but with a much better lifestyle.",
+    quote: "Liverpool's cost of living means my interim income goes much further. I'm earning the same as my London peers but with a much better lifestyle.",
     name: "James Harrison",
     role: "Interim CTO",
     area: "City Centre",
@@ -63,7 +63,7 @@ const successStories = [
 const relatedSearches = [
   'Interim CFO Jobs Liverpool', 'Interim CMO Jobs Liverpool', 'Interim CTO Jobs Liverpool',
   'Part-Time CFO Liverpool', 'Interim Executive Liverpool', 'Portfolio Career Liverpool',
-  'Interim Jobs North West', 'Fractional Executive Salary Liverpool', 'Interim Jobs Baltic Triangle'
+  'Interim Jobs North West', 'Interim Executive Salary Liverpool', 'Interim Jobs Baltic Triangle'
 ]
 
 async function getLiverpoolStats() {
@@ -233,8 +233,8 @@ export default async function LiverpoolPage() {
               { icon: '💻', title: 'Interim CTO Liverpool', rate: '£650-£1,050/day', role: 'CTO' },
               { icon: '📢', title: 'Interim CMO Liverpool', rate: '£550-£950/day', role: 'CMO' },
               { icon: '⚙️', title: 'Interim COO Liverpool', rate: '£550-£950/day', role: 'COO' },
-              { icon: '👥', title: 'Fractional HR Director Liverpool', rate: '£500-£850/day', role: 'HR' },
-              { icon: '📈', title: 'Fractional Sales Director Liverpool', rate: '£550-£900/day', role: 'Sales' },
+              { icon: '👥', title: 'Interim HR Director Liverpool', rate: '£500-£850/day', role: 'HR' },
+              { icon: '📈', title: 'Interim Sales Director Liverpool', rate: '£550-£900/day', role: 'Sales' },
             ].map((item) => {
               const roleCount = stats.roleStats.find(r => r.role_category === item.role)?.count || '0'
               return (
@@ -283,7 +283,7 @@ export default async function LiverpoolPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Excellent Value</h3>
               <p className="text-gray-600">
-                Cost of living 40% lower than London. Your fractional earnings go significantly further while enjoying one of the UK's most vibrant cities.
+                Cost of living 40% lower than London. Your interim earnings go significantly further while enjoying one of the UK's most vibrant cities.
               </p>
             </div>
 
@@ -367,7 +367,7 @@ export default async function LiverpoolPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Liverpool Success Stories</h2>
-            <p className="text-xl text-red-200">Real fractional professionals thriving in Liverpool</p>
+            <p className="text-xl text-red-200">Real interim professionals thriving in Liverpool</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -455,7 +455,7 @@ export default async function LiverpoolPage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Liverpool Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Liverpool Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -465,7 +465,7 @@ export default async function LiverpoolPage() {
                 <li><Link href="/cmo" className="hover:text-red-700 transition-colors">Interim CMO Jobs</Link></li>
                 <li><Link href="/cto" className="hover:text-red-700 transition-colors">Interim CTO Jobs</Link></li>
                 <li><Link href="/coo" className="hover:text-red-700 transition-colors">Interim COO Jobs</Link></li>
-                <li><Link href="/hr" className="hover:text-red-700 transition-colors">Fractional HR Jobs</Link></li>
+                <li><Link href="/hr" className="hover:text-red-700 transition-colors">Interim HR Jobs</Link></li>
               </ul>
             </div>
 
@@ -483,9 +483,9 @@ export default async function LiverpoolPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/how-to-become-a-fractional-executive" className="hover:text-red-700 transition-colors">Become a Fractional Executive</Link></li>
-                <li><Link href="/interim-executive-salary-uk" className="hover:text-red-700 transition-colors">Fractional Salary UK</Link></li>
-                <li><Link href="/guide" className="hover:text-red-700 transition-colors">Fractional Work Guide</Link></li>
+                <li><Link href="/how-to-become-a-interim-executive" className="hover:text-red-700 transition-colors">Become a Interim Executive</Link></li>
+                <li><Link href="/interim-executive-salary-uk" className="hover:text-red-700 transition-colors">Interim Salary UK</Link></li>
+                <li><Link href="/guide" className="hover:text-red-700 transition-colors">Interim Work Guide</Link></li>
                 <li><Link href="/articles" className="hover:text-red-700 transition-colors">All Guides</Link></li>
               </ul>
             </div>
@@ -518,7 +518,7 @@ export default async function LiverpoolPage() {
             Ready to Work in Liverpool?
           </h2>
           <p className="text-xl text-red-100 mb-10">
-            {stats.totalLiverpool}+ fractional opportunities in the North West's creative capital.
+            {stats.totalLiverpool}+ interim opportunities in the North West's creative capital.
           </p>
           <Link
             href="/interim-jobs?location=Liverpool"

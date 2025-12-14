@@ -73,7 +73,7 @@ function generateResponse(query: string, articles: Article[]): string {
 
   // Check for specific intents
   if (lowerQuery.includes('what is') || lowerQuery.includes('what are')) {
-    if (lowerQuery.includes('fractional')) {
+    if (lowerQuery.includes('interim')) {
       return `A **interim executive** is an experienced professional who works part-time for multiple companies, typically 1-3 days per week. They bring senior-level expertise (CFO, CMO, CTO, etc.) to businesses that need strategic leadership but can't justify or afford a full-time hire.
 
 **Key benefits include:**
@@ -99,7 +99,7 @@ Typical day rates in the UK range from **£900-£1,500/day** depending on experi
   }
 
   if (lowerQuery.includes('day rate') || lowerQuery.includes('earn') || lowerQuery.includes('salary') || lowerQuery.includes('money')) {
-    return `**Typical UK Fractional Executive Day Rates:**
+    return `**Typical UK Interim Executive Day Rates:**
 
 | Role | Day Rate Range |
 |------|----------------|
@@ -107,7 +107,7 @@ Typical day rates in the UK range from **£900-£1,500/day** depending on experi
 | Interim CMO | £850 - £1,400 |
 | Interim CTO | £950 - £1,600 |
 | Interim COO | £900 - £1,400 |
-| Fractional HR Director | £700 - £1,200 |
+| Interim HR Director | £700 - £1,200 |
 
 Annual earnings depend on utilization:
 - **3 days/week** × 46 weeks × £1,000/day = **£138,000**
@@ -129,12 +129,12 @@ ${articles.length > 0 ? '\nHere are some relevant articles:' : ''}`
   }
 
   if (lowerQuery.includes('transition') || lowerQuery.includes('become') || lowerQuery.includes('start')) {
-    return `**How to Transition to Fractional Work:**
+    return `**How to Transition to Interim Work:**
 
 1. **Build your network** - Let contacts know you're available for interim work
 2. **Define your niche** - Focus on specific industries or challenges
 3. **Start with one client** - Often your first client is a former employer
-4. **Create a runway** - Have 6-12 months of savings before going fully fractional
+4. **Create a runway** - Have 6-12 months of savings before going fully interim
 5. **Build your brand** - LinkedIn, speaking, and thought leadership help attract clients
 
 Most successful interim executives have 15-20+ years of experience before making the transition.

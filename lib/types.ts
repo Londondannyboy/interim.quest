@@ -8,7 +8,7 @@ export interface Job {
   compensation?: string
   posted_date?: string
   updated_date?: string
-  is_fractional?: boolean
+  is_interim?: boolean
   classification_confidence?: number
   skills_required?: string[]
   seniority_level?: string
@@ -75,7 +75,7 @@ export interface Company {
 export interface JobFilter {
   title?: string
   location?: string
-  isFractional?: boolean
+  isInterim?: boolean
   seniority?: string
   skills?: string[]
   remote?: boolean

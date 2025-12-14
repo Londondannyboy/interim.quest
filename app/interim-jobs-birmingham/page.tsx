@@ -10,7 +10,7 @@ export const revalidate = 3600
 
 export const metadata: Metadata = {
   title: 'Interim Jobs Birmingham - Executive Roles in the West Midlands',
-  description: 'Find interim executive jobs in Birmingham. CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. Growing fractional market.',
+  description: 'Find interim executive jobs in Birmingham. CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. Growing interim market.',
   openGraph: {
     title: 'Interim Jobs Birmingham - Executive Roles in the West Midlands',
     description: 'Find interim executive jobs in Birmingham and the West Midlands region.',
@@ -39,7 +39,7 @@ const birminghamIndustries = [
 const relatedSearches = [
   'Interim CFO Jobs Birmingham', 'Interim CMO Jobs Birmingham', 'Interim CTO Jobs West Midlands',
   'Part-Time CFO Birmingham', 'Interim Executive Birmingham', 'Portfolio Career Birmingham',
-  'Interim Jobs Solihull', 'Interim Jobs Coventry', 'Fractional Executive Salary Birmingham'
+  'Interim Jobs Solihull', 'Interim Jobs Coventry', 'Interim Executive Salary Birmingham'
 ]
 
 // Same video as homepage
@@ -102,7 +102,7 @@ export default async function BirminghamPage() {
                   />
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. The UK's second city for fractional careers.
+                    CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. The UK's second city for interim careers.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -291,7 +291,7 @@ export default async function BirminghamPage() {
             Ready to Work in Birmingham?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
-            {stats.total}+ fractional opportunities in the UK's second city
+            {stats.total}+ interim opportunities in the UK's second city
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

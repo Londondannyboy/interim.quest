@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Hire Marketing Consultants UK | Fractional Marketing Experts',
+  title: 'Hire Marketing Consultants UK | Interim Marketing Experts',
   description: 'Hire experienced marketing consultants on an interim basis. Expert marketing professionals for strategy, brand, digital, and growth. Available part-time.',
-  keywords: 'marketing consultants, hire marketing consultant, fractional marketing expert, marketing consultant uk, marketing strategy consultant',
+  keywords: 'marketing consultants, hire marketing consultant, interim marketing expert, marketing consultant uk, marketing strategy consultant',
   alternates: { canonical: 'https://interim.quest/marketing-consultants' },
 }
 

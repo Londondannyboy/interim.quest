@@ -70,7 +70,7 @@ export async function GET(request: NextRequest) {
           role_category
         FROM jobs
         WHERE is_active = true
-          AND is_fractional = true
+          AND is_interim = true
           AND LOWER(title) LIKE LOWER(${`%${roleFilter}%`})
         ORDER BY posted_date DESC NULLS LAST
         LIMIT ${limit}
@@ -87,7 +87,7 @@ export async function GET(request: NextRequest) {
           role_category
         FROM jobs
         WHERE is_active = true
-          AND is_fractional = true
+          AND is_interim = true
           AND (
             LOWER(title) LIKE LOWER(${`%${searchQuery}%`})
             OR LOWER(company_name) LIKE LOWER(${`%${searchQuery}%`})
@@ -107,7 +107,7 @@ export async function GET(request: NextRequest) {
           skills_required,
           role_category
         FROM jobs
-        WHERE is_active = true AND is_fractional = true
+        WHERE is_active = true AND is_interim = true
         ORDER BY posted_date DESC NULLS LAST
         LIMIT ${limit}
       `
@@ -237,7 +237,7 @@ export async function POST(request: NextRequest) {
         day_rate_max,
         role_category
       FROM jobs
-      WHERE is_active = true AND is_fractional = true
+      WHERE is_active = true AND is_interim = true
       ORDER BY posted_date DESC NULLS LAST
       LIMIT ${limit}
     `

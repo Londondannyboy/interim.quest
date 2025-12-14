@@ -267,7 +267,7 @@ export default async function OxfordPage() {
                 <span className="text-indigo-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Harwell Campus is the UK's leading science and innovation campus with ESA, Diamond Light Source, and 100+ space and healthcare tech companies. It's creating huge demand for fractional tech leadership.
+                Harwell Campus is the UK's leading science and innovation campus with ESA, Diamond Light Source, and 100+ space and healthcare tech companies. It's creating huge demand for interim tech leadership.
               </p>
             </details>
           </div>
@@ -277,7 +277,7 @@ export default async function OxfordPage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Oxford Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Oxford Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -301,7 +301,7 @@ export default async function OxfordPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/guide" className="hover:text-indigo-700">Fractional Work Guide</Link></li>
+                <li><Link href="/guide" className="hover:text-indigo-700">Interim Work Guide</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-indigo-700">Salary Guide</Link></li>
               </ul>
             </div>
@@ -316,7 +316,7 @@ export default async function OxfordPage() {
             Ready to Work in Oxford?
           </h2>
           <p className="text-xl text-indigo-100 mb-10">
-            {stats.totalOxford}+ fractional opportunities in the UK's life sciences capital.
+            {stats.totalOxford}+ interim opportunities in the UK's life sciences capital.
           </p>
           <Link
             href="/interim-jobs?location=Oxford"

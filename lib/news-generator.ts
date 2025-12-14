@@ -17,13 +17,13 @@ export type ContentType = 'job_roundup' | 'company_spotlight' | 'market_trend'
 
 // Internal links for SEO - spread link juice to pillar pages
 const INTERNAL_LINKS: Record<ArticleCategory, { services: string; jobs: string; salary?: string }> = {
-  Finance: { services: '/fractional-cfo-services', jobs: '/fractional-cfo-jobs-uk', salary: '/fractional-cfo-salary' },
-  Marketing: { services: '/fractional-cmo-services', jobs: '/fractional-cmo-jobs-uk', salary: '/fractional-cmo-salary' },
-  Engineering: { services: '/fractional-cto-services', jobs: '/fractional-cto-jobs-uk' },
-  Operations: { services: '/fractional-coo-services', jobs: '/fractional-coo-jobs-uk' },
-  HR: { services: '/fractional-chro-services', jobs: '/fractional-jobs?role=HR' },
-  Sales: { services: '/fractional-sales-director-services', jobs: '/fractional-jobs?role=Sales' },
-  General: { services: '/fractional-executive-services', jobs: '/fractional-jobs' }
+  Finance: { services: '/interim-cfo-services', jobs: '/interim-cfo-jobs-uk', salary: '/interim-cfo-salary' },
+  Marketing: { services: '/interim-cmo-services', jobs: '/interim-cmo-jobs-uk', salary: '/interim-cmo-salary' },
+  Engineering: { services: '/interim-cto-services', jobs: '/interim-cto-jobs-uk' },
+  Operations: { services: '/interim-coo-services', jobs: '/interim-coo-jobs-uk' },
+  HR: { services: '/interim-chro-services', jobs: '/interim-jobs?role=HR' },
+  Sales: { services: '/interim-sales-director-services', jobs: '/interim-jobs?role=Sales' },
+  General: { services: '/interim-executive-services', jobs: '/interim-jobs' }
 }
 
 // Zod schema for generated article validation
@@ -56,7 +56,7 @@ export interface JobData {
 function getInternalLinkingInstructions(category: ArticleCategory): string {
   const links = INTERNAL_LINKS[category]
   const linkList = [
-    `[fractional ${category.toLowerCase()} services](${links.services})`,
+    `[interim ${category.toLowerCase()} services](${links.services})`,
     `[${category.toLowerCase()} jobs](${links.jobs})`,
     links.salary ? `[salary guide](${links.salary})` : null
   ].filter(Boolean).join(', ')
@@ -66,7 +66,7 @@ IMPORTANT - Internal Linking for SEO:
 Include 2-3 natural internal links in the article body using markdown format. Use these target URLs:
 ${linkList}
 
-Example: "Companies seeking [interim CFO services](/fractional-cfo-services) are increasingly..." or "Browse current [CFO jobs](/fractional-cfo-jobs-uk) to see..."
+Example: "Companies seeking [interim CFO services](/interim-cfo-services) are increasingly..." or "Browse current [CFO jobs](/interim-cfo-jobs-uk) to see..."
 Make links contextual and natural - don't force them.`
 }
 
@@ -80,7 +80,7 @@ const PROMPTS: Record<ContentType, string> = {
   job_roundup: `You are a professional business journalist writing for a UK interim executive marketplace.
 
 Write a roundup article about the latest interim executive jobs provided. The article should:
-- Have an engaging, SEO-friendly title (include "Fractional" and the role category, e.g. "Interim CFO")
+- Have an engaging, SEO-friendly title (include "Interim" and the role category, e.g. "Interim CFO")
 - Open with a brief market observation
 - Highlight 3-5 key roles with company names and locations
 - Include salary insights where available
@@ -94,7 +94,7 @@ Target length: 300-500 words`,
 Write a spotlight article about a company hiring interim executives. The article should:
 - Have a compelling title featuring the company name
 - Briefly introduce the company (use provided info)
-- Explain why they're hiring fractional talent
+- Explain why they're hiring interim talent
 - Detail the specific role they're offering
 - Include location and compensation if available
 - Link to relevant services page for companies considering similar hires
@@ -105,7 +105,7 @@ Target length: 250-400 words`,
   market_trend: `You are a professional business journalist writing for a UK interim executive marketplace.
 
 Write a market trend article based on the job data provided. The article should:
-- Have an insight-driven title about the fractional market
+- Have an insight-driven title about the interim market
 - Identify a trend from the data (e.g., remote work, sector growth, salary trends)
 - Support with specific examples from the jobs
 - Provide context for UK businesses and executives

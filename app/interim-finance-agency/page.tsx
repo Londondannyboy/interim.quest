@@ -6,13 +6,13 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Finance Agency UK | Part-Time Finance Support',
-  description: 'Access fractional finance agency services. Part-time CFO support, FP&A, and financial strategy. Finance expertise without full-time overhead.',
-  keywords: 'fractional finance agency, part-time finance agency, fractional finance services, fractional cfo services uk',
+  title: 'Interim Finance Agency UK | Part-Time Finance Support',
+  description: 'Access interim finance agency services. Part-time CFO support, FP&A, and financial strategy. Finance expertise without full-time overhead.',
+  keywords: 'interim finance agency, part-time finance agency, interim finance services, interim cfo services uk',
   alternates: { canonical: 'https://interim.quest/interim-finance-agency' },
 }
 
-export default function FractionalFinanceAgencyPage() {
+export default function InterimFinanceAgencyPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
@@ -22,7 +22,7 @@ export default function FractionalFinanceAgencyPage() {
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
               <span className="inline-block bg-emerald-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Finance Agency</span>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Fractional<br /><span className="text-emerald-400">Finance Agency</span></h1>
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-emerald-400">Finance Agency</span></h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access finance expertise on an interim basis. Get CFO-level financial strategy, planning, and operations without the cost of a full-time finance team.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors">Get Started</Link>
@@ -35,7 +35,7 @@ export default function FractionalFinanceAgencyPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">What is a Fractional Finance Agency?</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-6">What is a Interim Finance Agency?</h2>
           <p className="text-xl text-gray-600 leading-relaxed mb-6">An interim finance agency provides comprehensive financial leadership and operations on a part-time basis. You get CFO-level expertise, financial planning, and operational support without the overhead of building a full finance team.</p>
           <p className="text-gray-600 mb-6">This model is ideal for growing businesses that need sophisticated financial capabilities but aren't ready for (or don't need) a full-time CFO and finance department.</p>
         </div>
@@ -64,13 +64,13 @@ export default function FractionalFinanceAgencyPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">Fractional vs Traditional Finance Options</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Interim vs Traditional Finance Options</h2>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-gray-100">
                   <th className="p-4 text-left font-bold">Aspect</th>
-                  <th className="p-4 text-left font-bold text-emerald-700">Fractional Finance</th>
+                  <th className="p-4 text-left font-bold text-emerald-700">Interim Finance</th>
                   <th className="p-4 text-left font-bold">Full-Time CFO + Team</th>
                 </tr>
               </thead>
@@ -88,8 +88,8 @@ export default function FractionalFinanceAgencyPage() {
 
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-black mb-6">Get Fractional Finance Support</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your financial needs and we'll match you with the right fractional finance expertise.</p>
+          <h2 className="text-4xl font-black mb-6">Get Interim Finance Support</h2>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your financial needs and we'll match you with the right interim finance expertise.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors">Get Started</Link>
             <Link href="/interim-finance" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Finance Leadership</Link>

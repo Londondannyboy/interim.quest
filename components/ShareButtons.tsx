@@ -11,7 +11,7 @@ interface ShareButtonsProps {
 export function ShareButtons({ title, company, slug }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false)
 
-  const jobUrl = `https://interim.quest/fractional-job/${slug}`
+  const jobUrl = `https://interim.quest/interim-job/${slug}`
   const shareText = `${title} at ${company} - Interim Quest`
 
   const shareLinkedIn = () => {

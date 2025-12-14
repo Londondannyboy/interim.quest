@@ -134,7 +134,7 @@ export default function CandidateContactPage() {
                     defaultChecked
                   />
                   <label htmlFor="newsletter" className="text-sm text-gray-600">
-                    I&apos;d like to receive job alerts and updates about new fractional opportunities
+                    I&apos;d like to receive job alerts and updates about new interim opportunities
                   </label>
                 </div>
 

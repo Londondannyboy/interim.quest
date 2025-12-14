@@ -63,7 +63,7 @@ const successStories = [
 const relatedSearches = [
   'Interim CFO Jobs Glasgow', 'Interim CMO Jobs Glasgow', 'Interim CTO Jobs Glasgow',
   'Part-Time CFO Glasgow', 'Interim Executive Glasgow', 'Portfolio Career Glasgow',
-  'Interim Jobs Scotland', 'Fractional Executive Salary Glasgow', 'Fractional Recruitment Agencies Glasgow'
+  'Interim Jobs Scotland', 'Interim Executive Salary Glasgow', 'Interim Recruitment Agencies Glasgow'
 ]
 
 async function getGlasgowStats() {
@@ -233,8 +233,8 @@ export default async function GlasgowPage() {
               { icon: '💻', title: 'Interim CTO Glasgow', rate: '£750-£1,200/day', role: 'CTO' },
               { icon: '📢', title: 'Interim CMO Glasgow', rate: '£600-£1,000/day', role: 'CMO' },
               { icon: '⚙️', title: 'Interim COO Glasgow', rate: '£650-£1,050/day', role: 'COO' },
-              { icon: '👥', title: 'Fractional HR Director Glasgow', rate: '£550-£900/day', role: 'HR' },
-              { icon: '📈', title: 'Fractional Sales Director Glasgow', rate: '£600-£1,000/day', role: 'Sales' },
+              { icon: '👥', title: 'Interim HR Director Glasgow', rate: '£550-£900/day', role: 'HR' },
+              { icon: '📈', title: 'Interim Sales Director Glasgow', rate: '£600-£1,000/day', role: 'Sales' },
             ].map((item) => {
               const roleCount = stats.roleStats.find(r => r.role_category === item.role)?.count || '0'
               return (
@@ -368,7 +368,7 @@ export default async function GlasgowPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Glasgow Success Stories</h2>
-            <p className="text-xl text-blue-200">Real fractional professionals thriving in Glasgow</p>
+            <p className="text-xl text-blue-200">Real interim professionals thriving in Glasgow</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -406,7 +406,7 @@ export default async function GlasgowPage() {
                 <span className="text-blue-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Glasgow is a part-time executive role where you work with Glasgow-based companies for 1-3 days per week. Glasgow has a growing fractional market, particularly in tech, life sciences, and financial services sectors.
+                An interim job in Glasgow is a part-time executive role where you work with Glasgow-based companies for 1-3 days per week. Glasgow has a growing interim market, particularly in tech, life sciences, and financial services sectors.
               </p>
             </details>
 
@@ -436,7 +436,7 @@ export default async function GlasgowPage() {
                 <span className="text-blue-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Yes, many Glasgow companies offer hybrid or fully remote fractional arrangements. The tech sector is particularly flexible. However, some roles may require occasional on-site presence, especially for strategic meetings and team sessions.
+                Yes, many Glasgow companies offer hybrid or fully remote interim arrangements. The tech sector is particularly flexible. However, some roles may require occasional on-site presence, especially for strategic meetings and team sessions.
               </p>
             </details>
 
@@ -456,7 +456,7 @@ export default async function GlasgowPage() {
                 <span className="text-blue-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Yes, several agencies serve the Scottish fractional market including Glasgow-based recruiters and national agencies with Scottish operations. Networking through tech meetups and business events is also highly effective for finding Glasgow fractional opportunities.
+                Yes, several agencies serve the Scottish interim market including Glasgow-based recruiters and national agencies with Scottish operations. Networking through tech meetups and business events is also highly effective for finding Glasgow interim opportunities.
               </p>
             </details>
           </div>
@@ -466,7 +466,7 @@ export default async function GlasgowPage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Glasgow Fractional Executive Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Glasgow Interim Executive Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -476,7 +476,7 @@ export default async function GlasgowPage() {
                 <li><Link href="/cmo" className="hover:text-blue-700 transition-colors">Interim CMO Jobs</Link></li>
                 <li><Link href="/cto" className="hover:text-blue-700 transition-colors">Interim CTO Jobs</Link></li>
                 <li><Link href="/coo" className="hover:text-blue-700 transition-colors">Interim COO Jobs</Link></li>
-                <li><Link href="/hr" className="hover:text-blue-700 transition-colors">Fractional HR Jobs</Link></li>
+                <li><Link href="/hr" className="hover:text-blue-700 transition-colors">Interim HR Jobs</Link></li>
               </ul>
             </div>
 
@@ -492,12 +492,12 @@ export default async function GlasgowPage() {
             </div>
 
             <div>
-              <h3 className="font-bold text-gray-900 mb-4">Fractional Career Guides</h3>
+              <h3 className="font-bold text-gray-900 mb-4">Interim Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/how-to-become-a-fractional-executive" className="hover:text-blue-700 transition-colors">How to Become a Fractional Executive</Link></li>
-                <li><Link href="/interim-executive-salary-uk" className="hover:text-blue-700 transition-colors">Fractional Executive Salary UK</Link></li>
-                <li><Link href="/interim-vs-interim" className="hover:text-blue-700 transition-colors">Fractional vs Interim Roles</Link></li>
-                <li><Link href="/guide" className="hover:text-blue-700 transition-colors">Fractional Work Guide</Link></li>
+                <li><Link href="/how-to-become-a-interim-executive" className="hover:text-blue-700 transition-colors">How to Become a Interim Executive</Link></li>
+                <li><Link href="/interim-executive-salary-uk" className="hover:text-blue-700 transition-colors">Interim Executive Salary UK</Link></li>
+                <li><Link href="/interim-vs-interim" className="hover:text-blue-700 transition-colors">Interim vs Interim Roles</Link></li>
+                <li><Link href="/guide" className="hover:text-blue-700 transition-colors">Interim Work Guide</Link></li>
                 <li><Link href="/articles" className="hover:text-blue-700 transition-colors">All Career Guides</Link></li>
               </ul>
             </div>

@@ -20,7 +20,7 @@
   <text x="600" y="250" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold">Interim.Quest</text>
 
   <!-- Tagline -->
-  <text x="600" y="340" text-anchor="middle" fill="#e9d5ff" font-family="system-ui, -apple-system, sans-serif" font-size="36">UK's #1 Fractional Executive Platform</text>
+  <text x="600" y="340" text-anchor="middle" fill="#e9d5ff" font-family="system-ui, -apple-system, sans-serif" font-size="36">UK's #1 Interim Executive Platform</text>
 
   <!-- Stats -->
   <text x="600" y="450" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="28">500+ Interim Jobs | CFO | CTO | CMO | COO</text>

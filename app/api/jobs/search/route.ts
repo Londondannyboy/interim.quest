@@ -12,8 +12,8 @@ export interface JobSearchResult {
   location: string
   isRemote: boolean
   is_remote?: boolean
-  isFractional: boolean
-  is_fractional?: boolean
+  isInterim: boolean
+  is_interim?: boolean
   workplace_type?: string
   salaryRange?: string
   compensation?: string
@@ -33,7 +33,7 @@ export interface JobSearchResponse {
     roleType?: string
     location?: string
     remote?: boolean
-    fractional?: boolean
+    interim?: boolean
   }
   summary: string
 }
@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
   const roleType = params.get('role') || params.get('roleType') || ''
   const location = params.get('location') || ''
   const remoteParam = params.get('remote') || ''
-  const fractionalOnly = params.get('fractional') !== 'false'
+  const interimOnly = params.get('interim') !== 'false'
   const query = params.get('q') || ''
 
   // Pagination parameters
@@ -84,9 +84,9 @@ export async function GET(request: NextRequest) {
       whereConditions.push(`(is_remote = false AND workplace_type IS DISTINCT FROM 'Remote' AND workplace_type IS DISTINCT FROM 'Hybrid')`)
     }
 
-    // Fractional filter
-    if (fractionalOnly) {
-      whereConditions.push(`(is_fractional = true OR LOWER(title) LIKE '%fractional%')`)
+    // Interim filter
+    if (interimOnly) {
+      whereConditions.push(`(is_interim = true OR LOWER(title) LIKE '%interim%')`)
     }
 
     // Query/search filter
@@ -107,7 +107,7 @@ export async function GET(request: NextRequest) {
     // Get paginated jobs
     const jobs = await sql`
       SELECT
-        id, slug, title, company_name, location, is_remote, is_fractional,
+        id, slug, title, company_name, location, is_remote, is_interim,
         workplace_type, salary_min, salary_max, salary_currency, compensation,
         posted_date, url, description_snippet, role_category, skills_required
       FROM jobs
@@ -126,8 +126,8 @@ export async function GET(request: NextRequest) {
       location: job.location || 'Location not specified',
       isRemote: job.is_remote || job.workplace_type === 'Remote' || false,
       is_remote: job.is_remote || false,
-      isFractional: job.is_fractional || false,
-      is_fractional: job.is_fractional || false,
+      isInterim: job.is_interim || false,
+      is_interim: job.is_interim || false,
       workplace_type: job.workplace_type,
       salaryRange: formatSalaryRange(job.salary_min, job.salary_max, job.salary_currency),
       compensation: job.compensation,
@@ -141,7 +141,7 @@ export async function GET(request: NextRequest) {
     }))
 
     // Voice-friendly summary
-    const summary = generateVoiceSummary(formattedJobs, { roleType, location, remote: remoteParam === 'remote' || remoteParam === 'true', fractional: fractionalOnly })
+    const summary = generateVoiceSummary(formattedJobs, { roleType, location, remote: remoteParam === 'remote' || remoteParam === 'true', interim: interimOnly })
 
     return NextResponse.json({
       jobs: formattedJobs,
@@ -149,7 +149,7 @@ export async function GET(request: NextRequest) {
       page,
       limit,
       totalPages: Math.ceil(total / limit),
-      query: { roleType: roleType || undefined, location: location || undefined, remote: remoteParam === 'remote' || remoteParam === 'true', fractional: fractionalOnly },
+      query: { roleType: roleType || undefined, location: location || undefined, remote: remoteParam === 'remote' || remoteParam === 'true', interim: interimOnly },
       summary
     })
   } catch (error) {
@@ -172,7 +172,7 @@ function formatSalaryRange(min?: number, max?: number, currency?: string): strin
 
 function generateVoiceSummary(
   jobs: JobSearchResult[],
-  filters: { roleType?: string; location?: string; remote?: boolean; fractional?: boolean }
+  filters: { roleType?: string; location?: string; remote?: boolean; interim?: boolean }
 ): string {
   if (jobs.length === 0) {
     const roleText = filters.roleType ? `${filters.roleType} ` : ''
@@ -180,7 +180,7 @@ function generateVoiceSummary(
     return `I couldn't find any ${roleText}roles${locationText} right now. Try broadening your search or check back soon.`
   }
 
-  const fractionalCount = jobs.filter(j => j.isFractional).length
+  const interimCount = jobs.filter(j => j.isInterim).length
   const remoteCount = jobs.filter(j => j.isRemote).length
 
   let summary = `I found ${jobs.length} role${jobs.length > 1 ? 's' : ''}`
@@ -188,8 +188,8 @@ function generateVoiceSummary(
   if (filters.location) summary += ` in ${filters.location}`
   summary += '.'
 
-  if (fractionalCount > 0) {
-    summary += ` ${fractionalCount} ${fractionalCount > 1 ? 'are' : 'is'} fractional.`
+  if (interimCount > 0) {
+    summary += ` ${interimCount} ${interimCount > 1 ? 'are' : 'is'} interim.`
   }
   if (remoteCount > 0 && !filters.remote) {
     summary += ` ${remoteCount} offer remote work.`

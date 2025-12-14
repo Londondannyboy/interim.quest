@@ -15,9 +15,9 @@ import { DesktopOnly } from "@/components/DesktopOnly";
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y";
 
 export const metadata: Metadata = {
-  title: "Interim Jobs UK | Fractional Executive Jobs & Services Platform",
-  description: "UK's marketplace for interim jobs and executive services. Find interim CFO, CMO, CTO roles or hire interim executives for your business. Browse interim executive jobs and fractional services.",
-  keywords: "interim jobs, interim jobs uk, interim executive jobs, fractional services, fractional cfo roles, interim roles uk, remote interim jobs, fractional c-suite recruitment",
+  title: "Interim Jobs UK | Interim Executive Jobs & Services Platform",
+  description: "UK's marketplace for interim jobs and executive services. Find interim CFO, CMO, CTO roles or hire interim executives for your business. Browse interim executive jobs and interim services.",
+  keywords: "interim jobs, interim jobs uk, interim executive jobs, interim services, interim cfo roles, interim roles uk, remote interim jobs, interim c-suite recruitment",
   alternates: {
     canonical: "https://interim.quest",
   },
@@ -86,7 +86,7 @@ async function getJobStats() {
     const sql = createDbQuery()
     // Only count actual interim jobs
     const result = await sql`
-      SELECT COUNT(*) as total FROM jobs WHERE is_active = true AND is_fractional = true
+      SELECT COUNT(*) as total FROM jobs WHERE is_active = true AND is_interim = true
     `
     return parseInt((result[0] as any)?.total || '0')
   } catch (error) {
@@ -113,7 +113,7 @@ async function getFeaturedJobs() {
         posted_date,
         description_snippet
       FROM jobs
-      WHERE is_active = true AND is_fractional = true
+      WHERE is_active = true AND is_interim = true
       ORDER BY posted_date DESC NULLS LAST
       LIMIT 6
     `
@@ -167,7 +167,7 @@ export default async function Home() {
         name: "What is an interim job?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "An interim job is a part-time executive role where you work 1-3 days per week providing strategic leadership without full-time commitment. Fractional executives typically work with 2-4 companies simultaneously, offering their expertise as a Interim CFO, CMO, CTO, COO, or HR Director."
+          text: "An interim job is a part-time executive role where you work 1-3 days per week providing strategic leadership without full-time commitment. Interim executives typically work with 2-4 companies simultaneously, offering their expertise as a Interim CFO, CMO, CTO, COO, or HR Director."
         }
       },
       {
@@ -175,7 +175,7 @@ export default async function Home() {
         name: "How much do interim executives earn in the UK?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: `Fractional executives in the UK typically earn £600-£1,500 per day depending on seniority and expertise. Many interim executives earn £150,000-£300,000+ annually by working with 2-4 clients. The average day rate is approximately £${detailedStats.avgDayRate}.`
+          text: `Interim executives in the UK typically earn £600-£1,500 per day depending on seniority and expertise. Many interim executives earn £150,000-£300,000+ annually by working with 2-4 clients. The average day rate is approximately £${detailedStats.avgDayRate}.`
         }
       },
       {
@@ -183,15 +183,15 @@ export default async function Home() {
         name: "Do I need to be based in London for interim work?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: `No, while London has the most fractional opportunities (${detailedStats.londonJobs}+ roles), many positions are remote or hybrid. Currently there are ${detailedStats.remoteJobs}+ remote fractional positions available across the UK.`
+          text: `No, while London has the most interim opportunities (${detailedStats.londonJobs}+ roles), many positions are remote or hybrid. Currently there are ${detailedStats.remoteJobs}+ remote interim positions available across the UK.`
         }
       },
       {
         "@type": "Question",
-        name: "What's the difference between fractional and interim roles?",
+        name: "What's the difference between interim and interim roles?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Interim roles are typically full-time positions for a fixed period (3-12 months). Fractional roles are ongoing part-time positions where you work 1-3 days per week indefinitely, allowing you to work with multiple clients."
+          text: "Interim roles are typically full-time positions for a fixed period (3-12 months). Interim roles are ongoing part-time positions where you work 1-3 days per week indefinitely, allowing you to work with multiple clients."
         }
       },
       {
@@ -209,8 +209,8 @@ export default async function Home() {
   const jobPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Interim Jobs UK - Fractional Executive Jobs & Services",
-    description: `Browse ${totalJobs}+ interim jobs in the UK. Find interim executive jobs including CFO, CTO, CMO, COO roles or access fractional services for your business.`,
+    name: "Interim Jobs UK - Interim Executive Jobs & Services",
+    description: `Browse ${totalJobs}+ interim jobs in the UK. Find interim executive jobs including CFO, CTO, CMO, COO roles or access interim services for your business.`,
     numberOfItems: totalJobs,
     itemListElement: featuredJobs.slice(0, 3).map((job: any, index: number) => ({
       "@type": "ListItem",
@@ -268,7 +268,7 @@ export default async function Home() {
                   </h1>
 
                   <p className="text-xl md:text-2xl text-emerald-400 font-semibold mb-4">
-                    Executive Jobs & Fractional Services Marketplace
+                    Executive Jobs & Interim Services Marketplace
                   </p>
 
                   {/* Hidden image for SEO - contains keyword in alt text */}
@@ -288,7 +288,7 @@ export default async function Home() {
                       href="/interim-services"
                       className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-lg bg-white/10 backdrop-blur border border-white/20 text-white hover:bg-white/20 transition-all duration-200"
                     >
-                      Hire Fractional Executives
+                      Hire Interim Executives
                     </Link>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ export default async function Home() {
       <section id="services" className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center mb-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Fractional Executive Services</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Interim Executive Services</h2>
             <p className="text-gray-600">Senior leadership for growing companies</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -354,7 +354,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Why Hire Fractional - Company Focused - with subdued video */}
+      {/* Why Hire Interim - Company Focused - with subdued video */}
       <section className="py-20 md:py-28 relative overflow-hidden">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
@@ -366,9 +366,9 @@ export default async function Home() {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-6">Why Hire Fractional Executives?</h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Why Hire Interim Executives?</h2>
             <p className="text-xl text-gray-300 leading-relaxed">
-              Get the strategic leadership your company needs without the cost and commitment of full-time executive hires. Fractional executives work 1-3 days per week, bringing senior expertise to growing businesses.
+              Get the strategic leadership your company needs without the cost and commitment of full-time executive hires. Interim executives work 1-3 days per week, bringing senior expertise to growing businesses.
             </p>
           </div>
 
@@ -389,7 +389,7 @@ export default async function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Start in Days</h3>
               <p className="text-gray-600">
-                Skip the 3-6 month recruitment process. Fractional executives can start within days, bringing immediate impact with proven playbooks.
+                Skip the 3-6 month recruitment process. Interim executives can start within days, bringing immediate impact with proven playbooks.
               </p>
             </div>
 
@@ -410,7 +410,7 @@ export default async function Home() {
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Hire Fractional Executives</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Hire Interim Executives</h2>
             <p className="text-xl text-gray-600">Senior leadership for every function</p>
           </div>
 
@@ -420,8 +420,8 @@ export default async function Home() {
               { icon: '📢', name: 'Interim CMO', description: 'Marketing strategy, growth leadership, brand building, and team management for scaling companies.', link: '/interim-cmo-services', color: 'amber' },
               { icon: '💻', name: 'Interim CTO', description: 'Technical leadership, architecture decisions, team building, and technical due diligence.', link: '/interim-cto-services', color: 'blue' },
               { icon: '⚙️', name: 'Interim COO', description: 'Operations excellence, process optimisation, and scaling infrastructure for growth.', link: '/interim-coo-services', color: 'orange' },
-              { icon: '👥', name: 'Fractional HR Director', description: 'People strategy, culture building, hiring systems, and organisational design.', link: '/interim-chro-services', color: 'pink' },
-              { icon: '📈', name: 'Fractional Sales Director', description: 'Sales strategy, team leadership, process development, and revenue acceleration.', link: '/interim-sales-director-services', color: 'purple' },
+              { icon: '👥', name: 'Interim HR Director', description: 'People strategy, culture building, hiring systems, and organisational design.', link: '/interim-chro-services', color: 'pink' },
+              { icon: '📈', name: 'Interim Sales Director', description: 'Sales strategy, team leadership, process development, and revenue acceleration.', link: '/interim-sales-director-services', color: 'purple' },
             ].map((role, i) => (
               <Link
                 key={i}
@@ -549,7 +549,7 @@ export default async function Home() {
               href="/handler/sign-up"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-lg bg-white text-gray-900 hover:bg-gray-100 transition-all duration-200"
             >
-              Find a Fractional Executive →
+              Find a Interim Executive →
             </Link>
           </div>
         </div>
@@ -653,7 +653,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job is a part-time executive role where you work 1-3 days per week providing strategic leadership without full-time commitment. Fractional executives typically work with 2-4 companies simultaneously, offering their expertise as a Interim CFO, CMO, CTO, COO, or HR Director. This model allows companies to access senior talent at a fraction of the cost of a full-time hire.
+                An interim job is a part-time executive role where you work 1-3 days per week providing strategic leadership without full-time commitment. Interim executives typically work with 2-4 companies simultaneously, offering their expertise as a Interim CFO, CMO, CTO, COO, or HR Director. This model allows companies to access senior talent at a fraction of the cost of a full-time hire.
               </p>
             </details>
 
@@ -663,7 +663,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Fractional executives in the UK typically earn £600-£1,500 per day depending on seniority and expertise. Many interim executives earn £150,000-£300,000+ annually by working with 2-4 clients. Interim CFOs and CTOs often command the highest rates, while the average day rate across all interim roles is approximately £{detailedStats.avgDayRate}.
+                Interim executives in the UK typically earn £600-£1,500 per day depending on seniority and expertise. Many interim executives earn £150,000-£300,000+ annually by working with 2-4 clients. Interim CFOs and CTOs often command the highest rates, while the average day rate across all interim roles is approximately £{detailedStats.avgDayRate}.
               </p>
             </details>
 
@@ -673,7 +673,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                No, while London has the most fractional opportunities ({detailedStats.londonJobs}+ roles currently), many fractional positions are remote or hybrid. Birmingham, Manchester, Edinburgh, and Bristol all have growing fractional markets. Currently, we have {detailedStats.remoteJobs}+ remote fractional positions available across the UK.
+                No, while London has the most interim opportunities ({detailedStats.londonJobs}+ roles currently), many interim positions are remote or hybrid. Birmingham, Manchester, Edinburgh, and Bristol all have growing interim markets. Currently, we have {detailedStats.remoteJobs}+ remote interim positions available across the UK.
               </p>
             </details>
 
@@ -689,11 +689,11 @@ export default async function Home() {
 
             <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                What's the difference between fractional and interim roles?
+                What's the difference between interim and interim roles?
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim roles are typically full-time positions for a fixed period (3-12 months) to cover gaps or manage transitions. Fractional roles are ongoing part-time positions where you work 1-3 days per week indefinitely. Fractional work offers more flexibility and the ability to work with multiple clients, while interim work provides deeper immersion in a single company.
+                Interim roles are typically full-time positions for a fixed period (3-12 months) to cover gaps or manage transitions. Interim roles are ongoing part-time positions where you work 1-3 days per week indefinitely. Interim work offers more flexibility and the ability to work with multiple clients, while interim work provides deeper immersion in a single company.
               </p>
             </details>
 
@@ -713,12 +713,12 @@ export default async function Home() {
       {/* Internal Links Section - SEO */}
       <section className="py-16 bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Fractional Executive Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Interim Executive Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Services - For Companies */}
             <div>
-              <h3 className="font-bold text-gray-900 mb-4">Hire Fractional Executives</h3>
+              <h3 className="font-bold text-gray-900 mb-4">Hire Interim Executives</h3>
               <ul className="space-y-2 text-gray-600">
                 <li><Link href="/interim-cfo-services" className="hover:text-black transition-colors">Interim CFO Services</Link></li>
                 <li><Link href="/interim-cmo-services" className="hover:text-black transition-colors">Interim CMO Services</Link></li>
@@ -755,7 +755,7 @@ export default async function Home() {
               <ul className="space-y-2 text-gray-600">
                 <li><Link href="/interim-cfo-salary" className="hover:text-black transition-colors">CFO Salary Guide</Link></li>
                 <li><Link href="/interim-cmo-salary" className="hover:text-black transition-colors">CMO Salary Guide</Link></li>
-                <li><Link href="/what-is-fractional-work" className="hover:text-black transition-colors">What is Fractional Work?</Link></li>
+                <li><Link href="/what-is-interim-work" className="hover:text-black transition-colors">What is Interim Work?</Link></li>
                 <li><Link href="/interim-jobs-articles" className="hover:text-black transition-colors">All Career Guides</Link></li>
               </ul>
             </div>
@@ -775,7 +775,7 @@ export default async function Home() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Hire a Fractional Executive?
+            Ready to Hire a Interim Executive?
           </h2>
           <p className="text-xl text-gray-300 mb-10">
             Tell us about your needs and we'll match you with pre-vetted<br />
@@ -787,7 +787,7 @@ export default async function Home() {
               href="/handler/sign-up"
               className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold rounded-lg bg-white text-black hover:bg-gray-100 transition-all duration-200"
             >
-              Find a Fractional Executive →
+              Find a Interim Executive →
             </Link>
           </div>
 
@@ -796,7 +796,7 @@ export default async function Home() {
               href="/interim-jobs"
               className="inline-flex items-center justify-center px-10 py-5 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all duration-200"
             >
-              I'm a Fractional Executive
+              I'm a Interim Executive
             </Link>
             <Link
               href="/interim-cfo-services"
@@ -814,10 +814,10 @@ export default async function Home() {
         <p>
           Interim Quest is the UK's marketplace for interim executive services.
           Companies can hire Interim CFO, CMO, CTO, COO, and HR Director executives
-          at a fraction of full-time cost. Fractional executives also use the platform
-          to find fractional opportunities.
+          at a fraction of full-time cost. Interim executives also use the platform
+          to find interim opportunities.
         </p>
-        <h3>Why Companies Hire Fractional Executives</h3>
+        <h3>Why Companies Hire Interim Executives</h3>
         <ul>
           <li>60% cost savings vs full-time executive hires</li>
           <li>Start within 7 days, not 3-6 months</li>

@@ -40,7 +40,7 @@ const successStories = [
     earnings: "£175k/year"
   },
   {
-    quote: "Biotech companies here need experienced CFOs who understand complex funding rounds and regulatory pathways. The demand for fractional finance leadership is extraordinary.",
+    quote: "Biotech companies here need experienced CFOs who understand complex funding rounds and regulatory pathways. The demand for interim finance leadership is extraordinary.",
     name: "Richard Chambers",
     role: "Interim CFO",
     area: "Biomedical Campus",
@@ -277,7 +277,7 @@ export default async function CambridgePage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Cambridge Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Cambridge Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -301,7 +301,7 @@ export default async function CambridgePage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/guide" className="hover:text-cyan-700">Fractional Work Guide</Link></li>
+                <li><Link href="/guide" className="hover:text-cyan-700">Interim Work Guide</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-cyan-700">Salary Guide</Link></li>
               </ul>
             </div>
@@ -316,7 +316,7 @@ export default async function CambridgePage() {
             Ready to Work in Cambridge?
           </h2>
           <p className="text-xl text-cyan-100 mb-10">
-            {stats.totalCambridge}+ fractional opportunities in the UK's innovation capital.
+            {stats.totalCambridge}+ interim opportunities in the UK's innovation capital.
           </p>
           <Link
             href="/interim-jobs?location=Cambridge"

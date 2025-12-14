@@ -42,9 +42,9 @@ export default function RateFinderCalculator() {
     const specializationAdjusted = experienceAdjusted * (1 + SPECIALIZATION_PREMIUMS[specialization])
     const locationAdjusted = specializationAdjusted * LOCATION_MODIFIERS[location]
 
-    // Fractional premium (20-30% premium for flexibility and expertise)
-    const fractionalPremium = 1.25
-    const recommendedRate = Math.round(locationAdjusted * fractionalPremium / 50) * 50
+    // Interim premium (20-30% premium for flexibility and expertise)
+    const interimPremium = 1.25
+    const recommendedRate = Math.round(locationAdjusted * interimPremium / 50) * 50
 
     // Range calculation
     const lowRate = Math.round((recommendedRate * 0.85) / 50) * 50
@@ -80,7 +80,7 @@ export default function RateFinderCalculator() {
   }
 
   const positioningLabels = {
-    below: 'Entry-level fractional rates',
+    below: 'Entry-level interim rates',
     at: 'Competitive market rates',
     above: 'Premium market positioning'
   }
@@ -289,7 +289,7 @@ export default function RateFinderCalculator() {
               {/* CTA */}
               <div className="bg-gradient-to-br from-purple-100 to-purple-50 rounded-2xl p-6 border border-purple-200">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">
-                  Ready to find fractional opportunities?
+                  Ready to find interim opportunities?
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Browse current interim roles and see what companies are offering.

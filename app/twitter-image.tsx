@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
 
-export const alt = 'Interim Quest - UK Fractional Executive Jobs Platform'
+export const alt = 'Interim Quest - UK Interim Executive Jobs Platform'
 export const size = {
   width: 1200,
   height: 630,
@@ -69,7 +69,7 @@ export default async function Image() {
               marginBottom: 48,
             }}
           >
-            UK&apos;s #1 Fractional Executive Platform
+            UK&apos;s #1 Interim Executive Platform
           </div>
 
           {/* Stats row */}
@@ -93,7 +93,7 @@ export default async function Image() {
                 }}
               >
                 <span style={{ color: '#ffffff', fontSize: 24, fontWeight: 600 }}>
-                  Fractional {role}
+                  Interim {role}
                 </span>
               </div>
             ))}

@@ -96,7 +96,7 @@ export function JobsSunburst({ height = '600px' }: JobsSunburstProps) {
           companyMap.get(company)!.push({
             name: job.label || 'Job',
             value: 1,
-            url: job.data?.slug ? `/fractional-job/${job.data.slug}` : undefined,
+            url: job.data?.slug ? `/interim-job/${job.data.slug}` : undefined,
             children: jobSkillsList.length > 0 ? jobSkillsList.map(s => ({ name: s, value: 1 })) : undefined
           })
         }

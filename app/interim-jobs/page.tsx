@@ -19,7 +19,7 @@ export const revalidate = 900
 export const metadata: Metadata = {
   title: 'Interim Jobs UK 2025 - Browse Executive & Part-Time C-Suite Roles',
   description: 'Browse interim jobs in the UK. Find interim CFO, CMO, CTO roles paying £600-£1,500/day. Part-time executive positions updated regularly.',
-  keywords: 'interim jobs, interim jobs uk, interim executive jobs, part time executive jobs, fractional cfo jobs, fractional cmo jobs',
+  keywords: 'interim jobs, interim jobs uk, interim executive jobs, part time executive jobs, interim cfo jobs, interim cmo jobs',
   openGraph: {
     title: 'Interim Jobs UK - Browse Executive & Part-Time C-Suite Roles',
     description: 'Browse interim jobs in the UK. Find interim CFO, CMO, CTO roles paying £600-£1,500/day.',
@@ -448,7 +448,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
               <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-4 block">By Function</span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Browse by Role</h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                Fractional jobs offer experienced executives the opportunity to work with multiple companies on a part-time basis.
+                Interim jobs offer experienced executives the opportunity to work with multiple companies on a part-time basis.
               </p>
             </div>
 
@@ -487,7 +487,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
               <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-4 block">By Location</span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Browse by City</h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                London dominates with 60% of roles, but Manchester, Birmingham, and Edinburgh have growing fractional communities.
+                London dominates with 60% of roles, but Manchester, Birmingham, and Edinburgh have growing interim communities.
               </p>
             </div>
 
@@ -520,7 +520,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
               Can't find the right job?
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Get notified when new fractional positions match your profile
+              Get notified when new interim positions match your profile
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Hire Cybersecurity Consultants UK | Fractional Security Experts',
+  title: 'Hire Cybersecurity Consultants UK | Interim Security Experts',
   description: 'Hire experienced cybersecurity consultants on an interim basis. Expert security professionals for compliance, risk assessment, and security programmes. Available part-time.',
-  keywords: 'cybersecurity consultants, hire cybersecurity consultant, fractional security expert, cybersecurity consultant uk, information security consultant',
+  keywords: 'cybersecurity consultants, hire cybersecurity consultant, interim security expert, cybersecurity consultant uk, information security consultant',
   alternates: { canonical: 'https://interim.quest/cybersecurity-consultants' },
 }
 
@@ -26,7 +26,7 @@ export default function CybersecurityConsultantsPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Hire experienced cybersecurity professionals on an interim basis. Get expert security guidance without the cost of a full-time security team.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-red-500 text-white font-bold uppercase tracking-wider hover:bg-red-400 transition-colors">Find a Consultant</Link>
-                <Link href="/interim-ciso-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Fractional CISO</Link>
+                <Link href="/interim-ciso-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CISO</Link>
               </div>
             </div>
           </div>

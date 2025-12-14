@@ -11,19 +11,19 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 export const metadata: Metadata = {
   title: 'Interim Jobs UK | Interim Jobs London - Executive Roles Nationwide',
-  description: 'Find interim jobs UK wide. Fractional jobs London, Manchester, Birmingham & more. CFO, CMO, CTO roles. £800-£1,500 daily rates. 200+ interim jobs UK opportunities.',
+  description: 'Find interim jobs UK wide. Interim jobs London, Manchester, Birmingham & more. CFO, CMO, CTO roles. £800-£1,500 daily rates. 200+ interim jobs UK opportunities.',
   keywords: 'interim jobs UK, interim jobs London, interim executive jobs UK, interim CFO jobs UK, interim CMO jobs UK, interim CTO jobs UK',
   openGraph: {
     title: 'Interim Jobs UK | Interim Jobs London - Executive Roles Nationwide',
-    description: 'Find interim jobs UK wide. Fractional jobs London, Manchester, Birmingham & more. CFO, CMO, CTO roles. £800-£1,500 daily rates.',
+    description: 'Find interim jobs UK wide. Interim jobs London, Manchester, Birmingham & more. CFO, CMO, CTO roles. £800-£1,500 daily rates.',
     type: 'website',
   },
 }
 
 // UK regions with London highlighted
 const ukRegions = [
-  { name: 'London', description: 'UK\'s largest fractional market - 60% of all UK roles', rateRange: '£900-£1,500/day', highlight: true },
-  { name: 'Manchester', description: 'Northern tech hub & growing fractional market', rateRange: '£700-£1,200/day', highlight: false },
+  { name: 'London', description: 'UK\'s largest interim market - 60% of all UK roles', rateRange: '£900-£1,500/day', highlight: true },
+  { name: 'Manchester', description: 'Northern tech hub & growing interim market', rateRange: '£700-£1,200/day', highlight: false },
   { name: 'Birmingham', description: 'Midlands business centre', rateRange: '£650-£1,100/day', highlight: false },
   { name: 'Edinburgh', description: 'Scottish finance & tech sector', rateRange: '£700-£1,150/day', highlight: false },
   { name: 'Bristol', description: 'South West tech corridor', rateRange: '£700-£1,200/day', highlight: false },
@@ -41,19 +41,19 @@ const londonAreas = [
 // Success stories
 const successStories = [
   {
-    quote: "Fractional jobs UK offer incredible flexibility. I work with clients in London and Manchester, combining the best of both markets.",
+    quote: "Interim jobs UK offer incredible flexibility. I work with clients in London and Manchester, combining the best of both markets.",
     name: "Rachel S.",
     role: "Interim CFO",
     area: "London & Manchester",
   },
   {
-    quote: "The UK fractional market has exploded. I started with interim jobs London but now work across the whole country remotely.",
+    quote: "The UK interim market has exploded. I started with interim jobs London but now work across the whole country remotely.",
     name: "Michael C.",
     role: "Interim CTO",
     area: "UK-wide",
   },
   {
-    quote: "Fractional jobs UK let me build a portfolio career. London rates with the flexibility to work from anywhere.",
+    quote: "Interim jobs UK let me build a portfolio career. London rates with the flexibility to work from anywhere.",
     name: "Sophie W.",
     role: "Interim CMO",
     area: "London",
@@ -107,7 +107,7 @@ async function getUKJobs() {
   }
 }
 
-export default async function FractionalJobsUKPage() {
+export default async function InterimJobsUKPage() {
   const [stats, ukJobs] = await Promise.all([
     getUKStats(),
     getUKJobs()
@@ -209,7 +209,7 @@ export default async function FractionalJobsUKPage() {
           </div>
           <div className="prose prose-xl prose-gray max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed text-center">
-              Fractional jobs UK are transforming how executives work. With London accounting for 60% of opportunities and growing markets in Manchester, Birmingham, and Edinburgh, the UK interim executive market offers unmatched flexibility and earning potential. Day rates range from £700-£1,500, with professionals earning £150,000-£300,000+ annually.
+              Interim jobs UK are transforming how executives work. With London accounting for 60% of opportunities and growing markets in Manchester, Birmingham, and Edinburgh, the UK interim executive market offers unmatched flexibility and earning potential. Day rates range from £700-£1,500, with professionals earning £150,000-£300,000+ annually.
             </p>
           </div>
         </div>
@@ -256,7 +256,7 @@ export default async function FractionalJobsUKPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">Interim Jobs London</span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">London Districts</h2>
-            <p className="text-xl text-gray-500">Fractional jobs London - the UK's largest market</p>
+            <p className="text-xl text-gray-500">Interim jobs London - the UK's largest market</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -284,8 +284,8 @@ export default async function FractionalJobsUKPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Function</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Fractional Executive Roles UK</h2>
-            <p className="text-xl text-gray-500">Fractional jobs UK across all executive functions</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Interim Executive Roles UK</h2>
+            <p className="text-xl text-gray-500">Interim jobs UK across all executive functions</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -294,8 +294,8 @@ export default async function FractionalJobsUKPage() {
               { icon: '&#128187;', title: 'Interim CTO Jobs UK', subtitle: 'Technology Leadership', rate: '£850-£1,500/day', link: '/interim-cto-jobs-uk', role: 'CTO' },
               { icon: '&#128226;', title: 'Interim CMO Jobs UK', subtitle: 'Marketing Leadership', rate: '£750-£1,200/day', link: '/interim-cmo-jobs-uk', role: 'CMO' },
               { icon: '&#9881;', title: 'Interim COO Jobs UK', subtitle: 'Operations Leadership', rate: '£800-£1,300/day', link: '/interim-coo-jobs-uk', role: 'COO' },
-              { icon: '&#128101;', title: 'Fractional HRD Jobs UK', subtitle: 'People Leadership', rate: '£700-£1,100/day', role: 'HR', link: '/interim-jobs?role=HR' },
-              { icon: '&#128200;', title: 'Fractional Sales Jobs UK', subtitle: 'Revenue Leadership', rate: '£750-£1,250/day', role: 'Sales', link: '/interim-jobs?role=Sales' },
+              { icon: '&#128101;', title: 'Interim HRD Jobs UK', subtitle: 'People Leadership', rate: '£700-£1,100/day', role: 'HR', link: '/interim-jobs?role=HR' },
+              { icon: '&#128200;', title: 'Interim Sales Jobs UK', subtitle: 'Revenue Leadership', rate: '£750-£1,250/day', role: 'Sales', link: '/interim-jobs?role=Sales' },
             ].map((item) => {
               const roleCount = stats.roleStats.find(r => r.role_category === item.role)?.count || '0'
               return (
@@ -414,19 +414,19 @@ export default async function FractionalJobsUKPage() {
             {[
               {
                 q: 'What are interim jobs UK?',
-                a: 'Fractional jobs UK are part-time executive roles where experienced professionals work with multiple companies simultaneously. Fractional jobs UK typically involve CFO, CMO, CTO, and COO positions, offering flexibility and high earning potential across the United Kingdom.'
+                a: 'Interim jobs UK are part-time executive roles where experienced professionals work with multiple companies simultaneously. Interim jobs UK typically involve CFO, CMO, CTO, and COO positions, offering flexibility and high earning potential across the United Kingdom.'
               },
               {
                 q: 'How much do interim jobs UK pay?',
-                a: 'Fractional jobs UK typically pay £700-£1,500 per day depending on role and location. Fractional jobs London command premium rates of £900-£1,500/day, while other UK cities offer £700-£1,200/day. Most professionals work with 2-4 clients, earning £150,000-£300,000+ annually.'
+                a: 'Interim jobs UK typically pay £700-£1,500 per day depending on role and location. Interim jobs London command premium rates of £900-£1,500/day, while other UK cities offer £700-£1,200/day. Most professionals work with 2-4 clients, earning £150,000-£300,000+ annually.'
               },
               {
                 q: 'Where are most interim jobs UK located?',
-                a: 'Fractional jobs London account for approximately 60% of the UK market. However, interim jobs UK are growing rapidly in Manchester, Birmingham, Edinburgh, Bristol, and Leeds. Many interim jobs UK also offer remote or hybrid working arrangements.'
+                a: 'Interim jobs London account for approximately 60% of the UK market. However, interim jobs UK are growing rapidly in Manchester, Birmingham, Edinburgh, Bristol, and Leeds. Many interim jobs UK also offer remote or hybrid working arrangements.'
               },
               {
                 q: 'How do I find interim jobs UK?',
-                a: 'Fractional.quest is a UK job board focused on interim jobs. Browse interim jobs London, Manchester, Birmingham and across the UK. Sign up for alerts to get notified of new interim jobs UK matching your skills.'
+                a: 'Interim.quest is a UK job board focused on interim jobs. Browse interim jobs London, Manchester, Birmingham and across the UK. Sign up for alerts to get notified of new interim jobs UK matching your skills.'
               },
             ].map((faq, i) => (
               <details key={i} className="group py-6">
@@ -467,7 +467,7 @@ export default async function FractionalJobsUKPage() {
               <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wider">Resources</h3>
               <ul className="space-y-3 text-gray-600">
                 <li><Link href="/interim-jobs" className="hover:text-purple-700 transition-colors">All Interim Jobs UK</Link></li>
-                <li><Link href="/how-to-become-a-fractional-executive" className="hover:text-purple-700 transition-colors">How to Go Fractional</Link></li>
+                <li><Link href="/how-to-become-a-interim-executive" className="hover:text-purple-700 transition-colors">How to Go Interim</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-purple-700 transition-colors">UK Salary Guide</Link></li>
                 <li><Link href="/interim-jobs-articles" className="hover:text-purple-700 transition-colors">All Articles</Link></li>
               </ul>

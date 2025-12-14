@@ -13,7 +13,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CFO Services UK | Hire a Part-Time CFO',
   description: 'Hire a Interim CFO for your business. Access senior financial leadership at a fraction of full-time cost. Expert CFOs for fundraising, financial strategy, and growth. Start within days.',
-  keywords: 'fractional cfo, fractional cfo services, hire fractional cfo, part time cfo, fractional chief financial officer, fractional cfo uk, fractional finance director',
+  keywords: 'interim cfo, interim cfo services, hire interim cfo, part time cfo, interim chief financial officer, interim cfo uk, interim finance director',
   alternates: {
     canonical: 'https://interim.quest/interim-cfo-services',
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function FractionalCFOServicesPage() {
+export default function InterimCFOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -242,7 +242,7 @@ export default function FractionalCFOServicesPage() {
               },
               {
                 scenario: 'Revenue £1M-£20M',
-                description: 'You\'ve outgrown a bookkeeper or part-time accountant but can\'t justify a £200k CFO. This is the sweet spot for fractional.',
+                description: 'You\'ve outgrown a bookkeeper or part-time accountant but can\'t justify a £200k CFO. This is the sweet spot for interim.',
                 timing: 'When complexity increases',
               },
               {
@@ -277,7 +277,7 @@ export default function FractionalCFOServicesPage() {
           <div className="mb-8 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim CFO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of fractional vs full-time CFO</p>
+            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time CFO</p>
           </div>
           <RoleCalculator role="cfo" />
           <div className="mt-8 prose prose-gray max-w-none">
@@ -300,7 +300,7 @@ export default function FractionalCFOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CFO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CFO</h2>
             <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
           </div>
           <ServiceComparisonTable role="CFO" accentColor="gray" />
@@ -323,7 +323,7 @@ export default function FractionalCFOServicesPage() {
               <li><strong>Specific Expertise:</strong> Do they have the skills you need most (fundraising, M&A, international expansion)?</li>
               <li><strong>Cultural Fit:</strong> Will they work well with your team and leadership style?</li>
               <li><strong>Availability:</strong> Can they commit to the time you need, when you need it?</li>
-              <li><strong>Track Record:</strong> Can they demonstrate results from previous fractional engagements?</li>
+              <li><strong>Track Record:</strong> Can they demonstrate results from previous interim engagements?</li>
             </ul>
           </div>
         </div>

@@ -11,7 +11,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CIO_SERVICE_FAQS = [
   {
-    question: 'What is a Fractional CIO?',
+    question: 'What is a Interim CIO?',
     answer: 'An Interim CIO (Chief Information Officer) is an experienced IT executive who works with your company part-time, typically 1-3 days per week. You get strategic IT leadership, digital transformation expertise, and technology governance without the cost of a full-time executive.',
   },
   {
@@ -19,39 +19,39 @@ const CIO_SERVICE_FAQS = [
     answer: 'A CTO focuses on product technology—the technology in your product that customers use. A CIO focuses on enterprise technology—the internal systems, infrastructure, and IT operations that run your business. Some companies need both; others need one or the other depending on their model.',
   },
   {
-    question: 'When should my company hire a Fractional CIO?',
+    question: 'When should my company hire a Interim CIO?',
     answer: 'Consider hiring an interim CIO when: your IT infrastructure is holding back growth; you need digital transformation leadership; you\'re scaling and need enterprise systems; you have compliance or security requirements; or IT costs are out of control.',
   },
   {
-    question: 'How much does a Fractional CIO cost?',
-    answer: 'Fractional CIOs typically charge £800-£1,400 per day in the UK. At 2 days per week, this translates to roughly £80,000-£140,000 annually—compared to £160,000-£250,000+ for a full-time CIO.',
+    question: 'How much does a Interim CIO cost?',
+    answer: 'Interim CIOs typically charge £800-£1,400 per day in the UK. At 2 days per week, this translates to roughly £80,000-£140,000 annually—compared to £160,000-£250,000+ for a full-time CIO.',
   },
   {
-    question: 'What does a Fractional CIO do?',
+    question: 'What does a Interim CIO do?',
     answer: 'An Interim CIO develops IT strategy, leads digital transformation, manages enterprise systems (ERP, CRM, etc.), oversees IT infrastructure and security, controls IT budgets, manages vendor relationships, and ensures technology enables business objectives.',
   },
   {
-    question: 'Can a Fractional CIO help with digital transformation?',
+    question: 'Can a Interim CIO help with digital transformation?',
     answer: 'Yes—digital transformation is a core CIO responsibility. An interim CIO can assess your current state, develop a transformation roadmap, select and implement new systems, manage change, and ensure the transformation delivers business value.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Fractional CIO Services UK | Hire a Part-Time Chief Information Officer',
-  description: 'Hire a Fractional CIO for your business. Access senior IT leadership at a fraction of full-time cost. Expert CIOs for digital transformation, IT strategy, and enterprise systems. Start within days.',
-  keywords: 'fractional cio, fractional cio services, hire fractional cio, part time cio, fractional chief information officer, fractional cio uk, fractional it director',
+  title: 'Interim CIO Services UK | Hire a Part-Time Chief Information Officer',
+  description: 'Hire a Interim CIO for your business. Access senior IT leadership at a fraction of full-time cost. Expert CIOs for digital transformation, IT strategy, and enterprise systems. Start within days.',
+  keywords: 'interim cio, interim cio services, hire interim cio, part time cio, interim chief information officer, interim cio uk, interim it director',
   alternates: {
     canonical: 'https://interim.quest/interim-cio-services',
   },
   openGraph: {
-    title: 'Fractional CIO Services UK | Hire a Part-Time Chief Information Officer',
-    description: 'Hire a Fractional CIO for your business. Senior IT leadership at a fraction of full-time cost.',
+    title: 'Interim CIO Services UK | Hire a Part-Time Chief Information Officer',
+    description: 'Hire a Interim CIO for your business. Senior IT leadership at a fraction of full-time cost.',
     images: ['/images/interim-cio-services.jpg'],
     url: 'https://interim.quest/interim-cio-services',
   },
 }
 
-export default function FractionalCIOServicesPage() {
+export default function InterimCIOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -67,11 +67,11 @@ export default function FractionalCIOServicesPage() {
                 IT Leadership
               </span>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9] tracking-tight">
-                Fractional CIO<br />
+                Interim CIO<br />
                 <span className="text-indigo-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Fractional CIO</strong> to transform your IT.
+                Hire a <strong className="text-white">Interim CIO</strong> to transform your IT.
                 Senior IT leadership, digital transformation expertise, and enterprise systems strategy—at a fraction of full-time cost.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
@@ -90,7 +90,7 @@ export default function FractionalCIOServicesPage() {
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">
-                  Hire a Fractional CIO
+                  Hire a Interim CIO
                 </Link>
                 <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
@@ -101,16 +101,16 @@ export default function FractionalCIOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Fractional CIO */}
+      {/* What is a Interim CIO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Fractional CIO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CIO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Fractional CIO</strong> (Chief Information Officer) is an experienced IT executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic IT leadership, digital transformation expertise, and enterprise systems management without the commitment and cost of a full-time hire.
+              A <strong className="font-semibold text-gray-900">Interim CIO</strong> (Chief Information Officer) is an experienced IT executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic IT leadership, digital transformation expertise, and enterprise systems management without the commitment and cost of a full-time hire.
             </p>
             <p>
               Unlike IT managers who focus on day-to-day operations, an interim CIO provides strategic leadership. They align technology with business objectives, lead digital transformation initiatives, and ensure your IT investments deliver value.
@@ -136,8 +136,8 @@ export default function FractionalCIOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Fractional CIO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your fractional CIO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CIO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CIO will own</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -192,7 +192,7 @@ export default function FractionalCIOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Fractional CIO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CIO?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -242,7 +242,7 @@ export default function FractionalCIOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CIO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CIO</h2>
           </div>
           <ServiceComparisonTable role="CIO" accentColor="purple" />
         </div>
@@ -253,7 +253,7 @@ export default function FractionalCIOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Fractional CIO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CIO</h2>
           </div>
           <HireProcessStepper accentColor="purple" />
         </div>
@@ -275,14 +275,14 @@ export default function FractionalCIOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-indigo-400">Fractional CIO?</span>
+            Ready to Hire a<br /><span className="text-indigo-400">Interim CIO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your IT challenges and we'll match you with pre-vetted fractional CIOs who have solved them before.
+            Tell us about your IT challenges and we'll match you with pre-vetted interim CIOs who have solved them before.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">
-              Find a Fractional CIO
+              Find a Interim CIO
             </Link>
             <Link href="/interim-cio-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CIO Looking for Roles
@@ -298,8 +298,8 @@ export default function FractionalCIOServicesPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-gray-400">Related Services</span>
             <div className="flex flex-wrap gap-4">
               <Link href="/interim-cto-services" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Interim CTO</Link>
-              <Link href="/interim-ciso-services" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Fractional CISO</Link>
-              <Link href="/interim-cdo-services" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Fractional CDO</Link>
+              <Link href="/interim-ciso-services" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Interim CISO</Link>
+              <Link href="/interim-cdo-services" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Interim CDO</Link>
             </div>
           </div>
         </div>

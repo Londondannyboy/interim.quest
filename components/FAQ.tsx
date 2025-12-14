@@ -177,7 +177,7 @@ export const LONDON_FAQS: FAQItem[] = [
   },
   {
     question: 'Which London areas have the most interim jobs?',
-    answer: 'The City of London has the most opportunities, followed by Shoreditch/Tech City. Canary Wharf, Kings Cross, and Westminster also have strong fractional markets. Each area tends to specialize: City for finance, Shoreditch for tech startups, Canary Wharf for corporate.',
+    answer: 'The City of London has the most opportunities, followed by Shoreditch/Tech City. Canary Wharf, Kings Cross, and Westminster also have strong interim markets. Each area tends to specialize: City for finance, Shoreditch for tech startups, Canary Wharf for corporate.',
   },
   {
     question: 'Do I need to commute to London for interim roles?',
@@ -185,11 +185,11 @@ export const LONDON_FAQS: FAQItem[] = [
   },
   {
     question: 'What industries hire interim executives in London?',
-    answer: 'FinTech, SaaS/Cloud, and HealthTech lead fractional hiring in London. E-commerce, PropTech, and EdTech are also growing rapidly. The City attracts finance-focused roles while Shoreditch dominates tech hiring.',
+    answer: 'FinTech, SaaS/Cloud, and HealthTech lead interim hiring in London. E-commerce, PropTech, and EdTech are also growing rapidly. The City attracts finance-focused roles while Shoreditch dominates tech hiring.',
   },
   {
     question: 'Is London competitive for interim roles?',
-    answer: 'Yes, but the market is large enough for experienced executives. London accounts for around 60% of UK fractional opportunities. Building a niche specialism (industry or function) and strong network are key to standing out.',
+    answer: 'Yes, but the market is large enough for experienced executives. London accounts for around 60% of UK interim opportunities. Building a niche specialism (industry or function) and strong network are key to standing out.',
   },
 ]
 
@@ -215,7 +215,7 @@ export const BIRMINGHAM_FAQS: FAQItem[] = [
   },
   {
     question: 'What sectors hire interim executives in Birmingham?',
-    answer: 'Birmingham has strong demand in manufacturing, automotive, logistics, and professional services. The city is also seeing growth in FinTech and tech startups, creating new opportunities for fractional leaders.',
+    answer: 'Birmingham has strong demand in manufacturing, automotive, logistics, and professional services. The city is also seeing growth in FinTech and tech startups, creating new opportunities for interim leaders.',
   },
 ]
 
@@ -226,12 +226,12 @@ export const TECH_FAQS: FAQItem[] = [
     answer: 'Interim CTOs in the UK typically earn £1,000-£1,500 per day. Those with expertise in AI/ML, cloud architecture, or cybersecurity command the highest rates. Working 2-3 days per week across 2-3 clients, annual earnings of £200,000-£350,000 are achievable.',
   },
   {
-    question: 'What experience do I need for fractional tech roles?',
-    answer: 'Most fractional tech leadership roles require 15+ years of experience with at least 5 years in senior positions (CTO, VP Engineering, Tech Director). Startup or scale-up experience is highly valued, as is experience with technical due diligence and team scaling.',
+    question: 'What experience do I need for interim tech roles?',
+    answer: 'Most interim tech leadership roles require 15+ years of experience with at least 5 years in senior positions (CTO, VP Engineering, Tech Director). Startup or scale-up experience is highly valued, as is experience with technical due diligence and team scaling.',
   },
   {
-    question: 'Are fractional tech roles mostly remote?',
-    answer: 'Yes - approximately 65% of fractional tech roles offer remote or hybrid working. Tech leadership is well-suited to remote work, though most clients prefer some in-person time for team building and strategic sessions.',
+    question: 'Are interim tech roles mostly remote?',
+    answer: 'Yes - approximately 65% of interim tech roles offer remote or hybrid working. Tech leadership is well-suited to remote work, though most clients prefer some in-person time for team building and strategic sessions.',
   },
   {
     question: 'What tech skills are most in demand for interim roles?',
@@ -242,7 +242,7 @@ export const TECH_FAQS: FAQItem[] = [
 export const SAAS_FAQS: FAQItem[] = [
   {
     question: 'Why do SaaS companies hire interim executives?',
-    answer: 'SaaS companies often need specialized expertise at different growth stages. Fractional executives provide experienced leadership for challenges like scaling ARR, building teams, preparing for fundraising, or expanding into new markets - without full-time costs.',
+    answer: 'SaaS companies often need specialized expertise at different growth stages. Interim executives provide experienced leadership for challenges like scaling ARR, building teams, preparing for fundraising, or expanding into new markets - without full-time costs.',
   },
   {
     question: 'What interim roles are most common in SaaS?',
@@ -267,7 +267,7 @@ export const FINANCE_FAQS: FAQItem[] = [
 
 export const HEALTHCARE_FAQS: FAQItem[] = [
   {
-    question: 'What fractional opportunities exist in healthcare?',
+    question: 'What interim opportunities exist in healthcare?',
     answer: 'Healthcare and HealthTech companies hire interim executives in technology, commercial, operations, and clinical leadership. Interim CTOs, CMOs, and COOs are common, along with specialist roles like Chief Medical Officers.',
   },
   {
@@ -294,11 +294,11 @@ export const STARTUPS_FAQS: FAQItem[] = [
   },
   {
     question: 'What do interim executives cost vs full-time hires?',
-    answer: 'Fractional executives typically cost 30-50% less than equivalent full-time hires when factoring in salary, equity, benefits, and overhead. A interim CFO at £1,000/day for 2 days/week costs around £100k/year vs £150-180k for a full-time CFO.',
+    answer: 'Interim executives typically cost 30-50% less than equivalent full-time hires when factoring in salary, equity, benefits, and overhead. A interim CFO at £1,000/day for 2 days/week costs around £100k/year vs £150-180k for a full-time CFO.',
   },
   {
-    question: 'How do startups structure fractional engagements?',
-    answer: 'Most startup fractional engagements are 1-2 days per week on retainer, with flexibility to scale up during critical periods (fundraising, launches). Typical engagement lengths are 6-12 months, though many become ongoing relationships.',
+    question: 'How do startups structure interim engagements?',
+    answer: 'Most startup interim engagements are 1-2 days per week on retainer, with flexibility to scale up during critical periods (fundraising, launches). Typical engagement lengths are 6-12 months, though many become ongoing relationships.',
   },
 ]
 

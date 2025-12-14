@@ -13,7 +13,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim COO Services UK | Hire a Part-Time COO',
   description: 'Hire a Interim COO for your business. Access senior operations leadership at a fraction of full-time cost. Expert COOs for scaling, process optimisation, and operational excellence. Start within days.',
-  keywords: 'fractional coo, fractional coo services, hire fractional coo, part time coo, fractional chief operating officer, fractional coo uk, fractional operations director',
+  keywords: 'interim coo, interim coo services, hire interim coo, part time coo, interim chief operating officer, interim coo uk, interim operations director',
   alternates: {
     canonical: 'https://interim.quest/interim-coo-services',
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function FractionalCOOServicesPage() {
+export default function InterimCOOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -277,7 +277,7 @@ export default function FractionalCOOServicesPage() {
           <div className="mb-8 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim COO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of fractional vs full-time COO</p>
+            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time COO</p>
           </div>
           <RoleCalculator role="coo" />
           <div className="mt-8 prose prose-gray max-w-none">
@@ -296,7 +296,7 @@ export default function FractionalCOOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time COO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time COO</h2>
             <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
           </div>
           <ServiceComparisonTable role="COO" accentColor="orange" />

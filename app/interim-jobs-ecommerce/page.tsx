@@ -32,14 +32,14 @@ const ecommerceRoles = [
   { icon: '💰', title: 'Interim CFO', rate: '£750-£1,150/day', desc: 'Unit economics, cash flow, fundraising' },
   { icon: '💻', title: 'Interim CTO', rate: '£800-£1,200/day', desc: 'Platform scaling, technology strategy' },
   { icon: '⚙️', title: 'Interim COO', rate: '£700-£1,100/day', desc: 'Operations, fulfilment, supply chain' },
-  { icon: '📈', title: 'Fractional VP Growth', rate: '£650-£1,000/day', desc: 'Conversion, retention, monetization' },
-  { icon: '🎯', title: 'Fractional VP Product', rate: '£700-£1,100/day', desc: 'Roadmap, UX, marketplace strategy' },
+  { icon: '📈', title: 'Interim VP Growth', rate: '£650-£1,000/day', desc: 'Conversion, retention, monetization' },
+  { icon: '🎯', title: 'Interim VP Product', rate: '£700-£1,100/day', desc: 'Roadmap, UX, marketplace strategy' },
 ]
 
 const relatedSearches = [
   'Interim CMO E-commerce', 'DTC Brand CFO', 'E-commerce CTO Jobs',
-  'Fractional Growth Marketing', 'Shopify Interim CTO', 'Amazon Marketplace Executive',
-  'DTC Fractional Executive', 'E-commerce Operations Director', 'Retail Interim CFO'
+  'Interim Growth Marketing', 'Shopify Interim CTO', 'Amazon Marketplace Executive',
+  'DTC Interim Executive', 'E-commerce Operations Director', 'Retail Interim CFO'
 ]
 
 // Same video as homepage
@@ -184,7 +184,7 @@ export default async function EcommercePage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Top E-commerce Roles</h2>
-            <p className="text-xl text-gray-500">Most in-demand fractional positions</p>
+            <p className="text-xl text-gray-500">Most in-demand interim positions</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {ecommerceRoles.map((role) => (
@@ -255,7 +255,7 @@ export default async function EcommercePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">E-commerce Fractional FAQs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">E-commerce Interim FAQs</h2>
             <p className="text-xl text-gray-500">Common questions about interim work in e-commerce</p>
           </div>
           <FAQ items={ECOMMERCE_FAQS} title="" />
@@ -288,7 +288,7 @@ export default async function EcommercePage() {
             Ready for E-commerce Leadership?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
-            {stats.totalEcommerce}+ fractional opportunities in online retail and DTC brands
+            {stats.totalEcommerce}+ interim opportunities in online retail and DTC brands
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

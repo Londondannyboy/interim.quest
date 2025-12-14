@@ -31,15 +31,15 @@ const saasRoles = [
   { icon: '💰', title: 'Interim CFO', rate: '£800-£1,300/day', desc: 'ARR modeling, fundraising, unit economics' },
   { icon: '📢', title: 'Interim CMO', rate: '£750-£1,200/day', desc: 'PLG, demand gen, category creation' },
   { icon: '💻', title: 'Interim CTO', rate: '£850-£1,350/day', desc: 'Architecture, scaling, technical debt' },
-  { icon: '🎯', title: 'Fractional CRO', rate: '£750-£1,200/day', desc: 'Sales strategy, GTM, expansion' },
-  { icon: '📈', title: 'Fractional VP Growth', rate: '£700-£1,100/day', desc: 'Activation, retention, monetization' },
-  { icon: '🛠️', title: 'Fractional VP Product', rate: '£750-£1,200/day', desc: 'Roadmap, prioritization, PLG strategy' },
+  { icon: '🎯', title: 'Interim CRO', rate: '£750-£1,200/day', desc: 'Sales strategy, GTM, expansion' },
+  { icon: '📈', title: 'Interim VP Growth', rate: '£700-£1,100/day', desc: 'Activation, retention, monetization' },
+  { icon: '🛠️', title: 'Interim VP Product', rate: '£750-£1,200/day', desc: 'Roadmap, prioritization, PLG strategy' },
 ]
 
 const relatedSearches = [
   'Interim CFO SaaS', 'Interim CMO B2B', 'Interim CTO Startup',
   'SaaS VP Growth Jobs', 'PLG Interim CMO', 'Series A CFO',
-  'B2B SaaS Fractional', 'SaaS Marketing Leadership', 'Fractional CRO UK'
+  'B2B SaaS Interim', 'SaaS Marketing Leadership', 'Interim CRO UK'
 ]
 
 // Same video as homepage
@@ -184,7 +184,7 @@ export default async function SaasPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Top SaaS Roles</h2>
-            <p className="text-xl text-gray-500">Most in-demand fractional positions</p>
+            <p className="text-xl text-gray-500">Most in-demand interim positions</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {saasRoles.map((role) => (
@@ -222,7 +222,7 @@ export default async function SaasPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Growth Stages</h3>
               <p className="text-gray-600">
-                SaaS has well-defined phases - PMF, scale, expansion, efficiency. Fractional executives can provide targeted expertise for each stage without long-term commitment.
+                SaaS has well-defined phases - PMF, scale, expansion, efficiency. Interim executives can provide targeted expertise for each stage without long-term commitment.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
@@ -231,7 +231,7 @@ export default async function SaasPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Well-Funded</h3>
               <p className="text-gray-600">
-                VC-backed SaaS companies have capital to invest in growth but need to manage burn. Fractional executives provide senior leadership cost-effectively.
+                VC-backed SaaS companies have capital to invest in growth but need to manage burn. Interim executives provide senior leadership cost-effectively.
               </p>
             </div>
           </div>
@@ -255,7 +255,7 @@ export default async function SaasPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">SaaS Fractional FAQs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">SaaS Interim FAQs</h2>
             <p className="text-xl text-gray-500">Common questions about interim work in SaaS</p>
           </div>
           <FAQ items={SAAS_FAQS} title="" />
@@ -288,7 +288,7 @@ export default async function SaasPage() {
             Ready for SaaS Leadership?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
-            {stats.totalSaas}+ fractional opportunities in B2B software and subscription businesses
+            {stats.totalSaas}+ interim opportunities in B2B software and subscription businesses
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

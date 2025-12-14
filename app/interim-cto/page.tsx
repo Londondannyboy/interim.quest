@@ -39,7 +39,7 @@ export default function InterimCTOPage() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-blue-500 text-white font-bold uppercase tracking-wider hover:bg-blue-400 transition-colors">Hire an Interim CTO</Link>
-                <Link href="/interim-cto-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-cto-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function InterimCTOPage() {
           </div>
           <div className="mt-8 p-6 bg-blue-50 border border-blue-200 rounded-lg">
             <p className="text-blue-800 font-medium mb-2">Not sure which is right for you?</p>
-            <p className="text-blue-700 text-sm mb-4">If you need full-time focus for a specific technical project, choose interim. If you need ongoing technical leadership at lower cost, choose fractional.</p>
+            <p className="text-blue-700 text-sm mb-4">If you need full-time focus for a specific technical project, choose interim. If you need ongoing technical leadership at lower cost, choose interim.</p>
             <Link href="/interim-cto-services" className="text-blue-700 font-bold hover:text-blue-900">Learn about Interim CTO Services →</Link>
           </div>
         </div>

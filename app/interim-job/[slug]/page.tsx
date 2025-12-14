@@ -112,7 +112,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const job = jobs[0] as any
     return {
       title: `${job.title} at ${job.company_name} | Interim Quest`,
-      description: `Fractional ${job.title} position at ${job.company_name} in ${job.location}. Browse and apply on Interim Quest - a UK interim executive job board.`,
+      description: `Interim ${job.title} position at ${job.company_name} in ${job.location}. Browse and apply on Interim Quest - a UK interim executive job board.`,
     }
   } catch {
     return { title: 'Job | Interim Quest' }
@@ -664,7 +664,7 @@ export default async function JobDetailPage({ params }: PageProps) {
                       Related Jobs Network
                     </h3>
                     <p className="text-gray-300 text-sm mb-3">
-                      Explore similar {job.role_category || 'fractional'} roles in 3D
+                      Explore similar {job.role_category || 'interim'} roles in 3D
                     </p>
                     <a
                       href="#jobs-graph"

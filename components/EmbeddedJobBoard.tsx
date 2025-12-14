@@ -27,7 +27,7 @@ interface EmbeddedJobBoardProps {
   defaultDepartment?: string
   defaultLocation?: string
   defaultWorkType?: string
-  pageSlug?: string // e.g., 'fractional-cmo-jobs-uk' - used to build proper URLs. Optional, defaults to 'fractional-jobs'
+  pageSlug?: string // e.g., 'interim-cmo-jobs-uk' - used to build proper URLs. Optional, defaults to 'interim-jobs'
   jobsPerPage?: number
   showAllJobsLink?: boolean
   allJobsLinkText?: string
@@ -131,7 +131,7 @@ export function EmbeddedJobBoard({
     if (department) params.set('role', department)
     if (location) params.set('location', location)
     if (workType) params.set('remote', workType)
-    return `/fractional-jobs${params.toString() ? `?${params.toString()}` : ''}`
+    return `/interim-jobs${params.toString() ? `?${params.toString()}` : ''}`
   }
 
   return (
@@ -294,7 +294,7 @@ export function EmbeddedJobBoard({
                   : undefined
 
                 return (
-                  <Link key={job.id} href={`/fractional-job/${job.slug}`}>
+                  <Link key={job.id} href={`/interim-job/${job.slug}`}>
                     <JobCard
                       title={job.title}
                       company={job.company_name}

@@ -13,7 +13,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CMO Services UK | Hire a Part-Time CMO',
   description: 'Hire a Interim CMO for your business. Access senior marketing leadership at a fraction of full-time cost. Expert CMOs for growth strategy, brand building, and team leadership. Start within days.',
-  keywords: 'fractional cmo, fractional cmo services, hire fractional cmo, part time cmo, fractional chief marketing officer, fractional cmo uk, fractional marketing director',
+  keywords: 'interim cmo, interim cmo services, hire interim cmo, part time cmo, interim chief marketing officer, interim cmo uk, interim marketing director',
   alternates: {
     canonical: 'https://interim.quest/interim-cmo-services',
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function FractionalCMOServicesPage() {
+export default function InterimCMOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -277,7 +277,7 @@ export default function FractionalCMOServicesPage() {
           <div className="mb-8 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim CMO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of fractional vs full-time CMO</p>
+            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time CMO</p>
           </div>
           <RoleCalculator role="cmo" />
           <div className="mt-8 prose prose-gray max-w-none">
@@ -300,7 +300,7 @@ export default function FractionalCMOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CMO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CMO</h2>
             <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
           </div>
           <ServiceComparisonTable role="CMO" accentColor="amber" />

@@ -19,7 +19,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CMO Jobs UK | Part-Time CMO Roles',
   description: 'Interim CMO jobs UK - Find part-time Chief Marketing Officer positions paying £700-£1,400/day. Browse live CMO roles for experienced marketing leaders.',
-  keywords: 'fractional cmo jobs uk, fractional cmo jobs, part time cmo jobs, fractional cmo uk, cmo jobs uk, part time chief marketing officer',
+  keywords: 'interim cmo jobs uk, interim cmo jobs, part time cmo jobs, interim cmo uk, cmo jobs uk, part time chief marketing officer',
   openGraph: {
     title: 'Interim CMO Jobs UK | Part-Time CMO Roles',
     description: 'Interim CMO jobs UK - Find part-time CMO positions paying £700-£1,400/day.',
@@ -61,7 +61,7 @@ async function getFeaturedCompanies() {
   }
 }
 
-export default async function FractionalCmoJobsUkPage() {
+export default async function InterimCmoJobsUkPage() {
   const [stats, companies] = await Promise.all([getMarketingStats(), getFeaturedCompanies()])
 
   return (
@@ -175,7 +175,7 @@ export default async function FractionalCmoJobsUkPage() {
           }>
             <EmbeddedJobBoard
               defaultDepartment="Marketing"
-              pageSlug="fractional-cmo-jobs-uk"
+              pageSlug="interim-cmo-jobs-uk"
               jobsPerPage={10}
               title="Latest Marketing & CMO Jobs"
               allJobsLinkText="View All Marketing Jobs"
@@ -353,7 +353,7 @@ export default async function FractionalCmoJobsUkPage() {
             <span className="text-amber-400">Interim CMO Role</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Create your profile and get matched with companies seeking fractional marketing leadership.
+            Create your profile and get matched with companies seeking interim marketing leadership.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link

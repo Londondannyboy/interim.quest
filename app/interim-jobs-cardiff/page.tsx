@@ -40,7 +40,7 @@ const successStories = [
     earnings: "£110k/year"
   },
   {
-    quote: "The BBC and S4C presence in Cardiff Bay has created a thriving creative sector. Perfect for fractional marketing and digital leadership.",
+    quote: "The BBC and S4C presence in Cardiff Bay has created a thriving creative sector. Perfect for interim marketing and digital leadership.",
     name: "Rhian Williams",
     role: "Interim CMO",
     area: "Cardiff Bay",
@@ -277,7 +277,7 @@ export default async function CardiffPage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Cardiff Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Cardiff Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -301,7 +301,7 @@ export default async function CardiffPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/guide" className="hover:text-green-700">Fractional Work Guide</Link></li>
+                <li><Link href="/guide" className="hover:text-green-700">Interim Work Guide</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-green-700">Salary Guide</Link></li>
               </ul>
             </div>
@@ -316,7 +316,7 @@ export default async function CardiffPage() {
             Ready to Work in Cardiff?
           </h2>
           <p className="text-xl text-green-100 mb-10">
-            {stats.totalCardiff}+ fractional opportunities in Wales' thriving capital.
+            {stats.totalCardiff}+ interim opportunities in Wales' thriving capital.
           </p>
           <Link
             href="/interim-jobs?location=Cardiff"

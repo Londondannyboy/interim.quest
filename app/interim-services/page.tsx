@@ -6,13 +6,13 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Services UK | Part-Time Executive Leadership',
+  title: 'Interim Services UK | Part-Time Executive Leadership',
   description: 'Access interim executive services for your business. Part-time CFOs, CMOs, CTOs and more. Get senior leadership without full-time commitment or cost.',
-  keywords: 'fractional services, interim executive services, part-time executive, interim leadership, fractional services uk',
+  keywords: 'interim services, interim executive services, part-time executive, interim leadership, interim services uk',
   alternates: { canonical: 'https://interim.quest/interim-services' },
 }
 
-export default function FractionalServicesPage() {
+export default function InterimServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
@@ -22,7 +22,7 @@ export default function FractionalServicesPage() {
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
               <span className="inline-block bg-emerald-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Executive Services</span>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Fractional<br /><span className="text-emerald-400">Services</span></h1>
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-emerald-400">Services</span></h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior executive talent on a part-time basis. Get the leadership expertise your business needs without the full-time cost or commitment.</p>
               <Link href="#services" className="px-8 py-4 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors inline-block">Explore Services</Link>
             </div>
@@ -32,9 +32,9 @@ export default function FractionalServicesPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">What Are Fractional Services?</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Fractional services provide businesses access to experienced executives who work part-time—typically 1-3 days per week. Instead of hiring a full-time executive, you get senior expertise at a fraction of the cost.</p>
-          <p className="text-gray-600 mb-6">This model is ideal for growing businesses that need strategic leadership but aren't ready for (or don't need) full-time executive hires. Fractional executives bring experience from multiple companies and industries, offering perspective that full-time hires often lack.</p>
+          <h2 className="text-3xl font-black text-gray-900 mb-6">What Are Interim Services?</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim services provide businesses access to experienced executives who work part-time—typically 1-3 days per week. Instead of hiring a full-time executive, you get senior expertise at a fraction of the cost.</p>
+          <p className="text-gray-600 mb-6">This model is ideal for growing businesses that need strategic leadership but aren't ready for (or don't need) full-time executive hires. Interim executives bring experience from multiple companies and industries, offering perspective that full-time hires often lack.</p>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             <div className="p-6 bg-gray-50 text-center">
               <div className="text-4xl font-black text-emerald-500 mb-2">60%</div>
@@ -54,18 +54,18 @@ export default function FractionalServicesPage() {
 
       <section id="services" className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">Available Fractional Services</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Available Interim Services</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Interim CFO', description: 'Financial strategy, fundraising, and FP&A leadership.', link: '/interim-cfo-services', color: 'emerald' },
               { title: 'Interim CMO', description: 'Marketing strategy, brand, and growth leadership.', link: '/interim-cmo-services', color: 'amber' },
               { title: 'Interim CTO', description: 'Technical strategy, architecture, and engineering leadership.', link: '/interim-cto-services', color: 'blue' },
               { title: 'Interim COO', description: 'Operations, scaling, and process leadership.', link: '/interim-coo-services', color: 'orange' },
-              { title: 'Fractional CPO', description: 'Product strategy, roadmap, and team leadership.', link: '/interim-cpo-services', color: 'purple' },
-              { title: 'Fractional CHRO', description: 'People strategy, culture, and HR leadership.', link: '/interim-chro-services', color: 'pink' },
-              { title: 'Fractional CRO', description: 'Revenue strategy, sales, and GTM leadership.', link: '/interim-cro-services', color: 'green' },
-              { title: 'Fractional CISO', description: 'Security strategy, compliance, and risk leadership.', link: '/interim-ciso-services', color: 'red' },
-              { title: 'Fractional CDO', description: 'Data strategy, analytics, and AI leadership.', link: '/interim-cdo-services', color: 'cyan' },
+              { title: 'Interim CPO', description: 'Product strategy, roadmap, and team leadership.', link: '/interim-cpo-services', color: 'purple' },
+              { title: 'Interim CHRO', description: 'People strategy, culture, and HR leadership.', link: '/interim-chro-services', color: 'pink' },
+              { title: 'Interim CRO', description: 'Revenue strategy, sales, and GTM leadership.', link: '/interim-cro-services', color: 'green' },
+              { title: 'Interim CISO', description: 'Security strategy, compliance, and risk leadership.', link: '/interim-ciso-services', color: 'red' },
+              { title: 'Interim CDO', description: 'Data strategy, analytics, and AI leadership.', link: '/interim-cdo-services', color: 'cyan' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-white border border-gray-200 hover:border-emerald-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -78,7 +78,7 @@ export default function FractionalServicesPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">Who Uses Fractional Services?</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Who Uses Interim Services?</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title: 'Startups & Scale-ups', description: 'Need senior expertise but can\'t justify full-time executive salaries.' },
@@ -97,7 +97,7 @@ export default function FractionalServicesPage() {
 
       <section className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-black mb-6">Find Fractional Executive Services</h2>
+          <h2 className="text-4xl font-black mb-6">Find Interim Executive Services</h2>
           <p className="text-xl text-gray-400 mb-10">Tell us what leadership expertise you need and we'll match you with experienced interim executives.</p>
           <Link href="/handler/sign-up" className="px-10 py-5 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors inline-block">Get Started</Link>
         </div>

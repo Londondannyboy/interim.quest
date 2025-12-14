@@ -7,13 +7,13 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Product Leadership UK | Hire Part-Time Product Executives',
-  description: 'Hire fractional product leaders for your business. Part-time CPOs, VPs of Product, and Product Directors. Expert product leadership without full-time cost.',
-  keywords: 'fractional product, fractional product director, part-time product executive, fractional vp product, hire product leader',
+  title: 'Interim Product Leadership UK | Hire Part-Time Product Executives',
+  description: 'Hire interim product leaders for your business. Part-time CPOs, VPs of Product, and Product Directors. Expert product leadership without full-time cost.',
+  keywords: 'interim product, interim product director, part-time product executive, interim vp product, hire product leader',
   alternates: { canonical: 'https://interim.quest/interim-product' },
 }
 
-export default function FractionalProductPage() {
+export default function InterimProductPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
@@ -23,11 +23,11 @@ export default function FractionalProductPage() {
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
               <span className="inline-block bg-purple-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Fractional<br /><span className="text-purple-400">Product</span></h1>
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-purple-400">Product</span></h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior product leadership without the full-time commitment. From CPOs to Product Directors, find the right level of expertise for your growth stage.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-purple-500 text-white font-bold uppercase tracking-wider hover:bg-purple-400 transition-colors">Find Product Leadership</Link>
-                <Link href="/interim-cpo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Fractional CPO Services</Link>
+                <Link href="/interim-cpo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CPO Services</Link>
               </div>
             </div>
           </div>
@@ -36,11 +36,11 @@ export default function FractionalProductPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Fractional Product Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Product-led companies need strong product leadership to succeed. Fractional product leaders bring strategic product thinking, team leadership, and execution experience—without requiring a full-time hire.</p>
+          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Product Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Product-led companies need strong product leadership to succeed. Interim product leaders bring strategic product thinking, team leadership, and execution experience—without requiring a full-time hire.</p>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             {[
-              { title: 'Fractional CPO', description: 'C-level product leadership for strategy and vision.', link: '/interim-cpo-services' },
+              { title: 'Interim CPO', description: 'C-level product leadership for strategy and vision.', link: '/interim-cpo-services' },
               { title: 'VP of Product', description: 'Senior product leadership for roadmap and team management.', link: '#contact' },
               { title: 'Product Director', description: 'Hands-on product leadership for growing product teams.', link: '#contact' },
             ].map((item, i) => (
@@ -55,7 +55,7 @@ export default function FractionalProductPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Fractional Product Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Product Leaders Do</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title: 'Product Strategy', description: 'Define product vision, strategy, and positioning in the market.' },
@@ -83,10 +83,10 @@ export default function FractionalProductPage() {
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-black mb-6">Find Product Leadership</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your product challenges and we'll match you with the right fractional product executive.</p>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your product challenges and we'll match you with the right interim product executive.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-purple-500 text-white font-bold uppercase tracking-wider hover:bg-purple-400 transition-colors">Get Started</Link>
-            <Link href="/interim-cpo-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Learn About Fractional CPOs</Link>
+            <Link href="/interim-cpo-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Learn About Interim CPOs</Link>
           </div>
         </div>
       </section>

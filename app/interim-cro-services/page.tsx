@@ -11,19 +11,19 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CRO_SERVICE_FAQS = [
   {
-    question: 'What is a Fractional CRO?',
+    question: 'What is a Interim CRO?',
     answer: 'An Interim CRO (Chief Revenue Officer) is an experienced revenue leader who works with your company part-time, typically 1-3 days per week. You get strategic revenue leadership across sales, marketing, and customer success without the cost of a full-time executive.',
   },
   {
-    question: 'When should my company hire a Fractional CRO?',
+    question: 'When should my company hire a Interim CRO?',
     answer: 'Consider hiring an interim CRO when: sales and marketing are misaligned; you\'re struggling to scale revenue predictably; you need to professionalise your go-to-market; you\'re preparing for fundraising and need revenue credibility; or you\'re transitioning to a new revenue model.',
   },
   {
-    question: 'How much does a Fractional CRO cost?',
-    answer: 'Fractional CROs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £200,000-£300,000+ for a full-time CRO.',
+    question: 'How much does a Interim CRO cost?',
+    answer: 'Interim CROs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £200,000-£300,000+ for a full-time CRO.',
   },
   {
-    question: 'What does a Fractional CRO do?',
+    question: 'What does a Interim CRO do?',
     answer: 'An Interim CRO aligns sales, marketing, and customer success; develops revenue strategy; builds go-to-market playbooks; implements revenue operations; manages pipeline and forecasting; and drives predictable revenue growth.',
   },
   {
@@ -31,27 +31,27 @@ const CRO_SERVICE_FAQS = [
     answer: 'A VP of Sales focuses on the sales team and closing deals. A CRO has broader responsibility across the entire revenue engine—sales, marketing, customer success, and revenue operations. They optimise the full customer journey, not just the sales process.',
   },
   {
-    question: 'Can a Fractional CRO help with sales and marketing alignment?',
+    question: 'Can a Interim CRO help with sales and marketing alignment?',
     answer: 'Yes—alignment is one of the primary reasons to hire an interim CRO. They create shared metrics, unified processes, and collaborative structures that ensure sales and marketing work together effectively to drive revenue.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Fractional CRO Services UK | Hire a Part-Time Chief Revenue Officer',
-  description: 'Hire a Fractional CRO for your business. Access senior revenue leadership at a fraction of full-time cost. Expert CROs for go-to-market strategy, sales leadership, and revenue growth. Start within days.',
-  keywords: 'fractional cro, fractional cro services, hire fractional cro, part time cro, fractional chief revenue officer, fractional cro uk, fractional revenue director',
+  title: 'Interim CRO Services UK | Hire a Part-Time Chief Revenue Officer',
+  description: 'Hire a Interim CRO for your business. Access senior revenue leadership at a fraction of full-time cost. Expert CROs for go-to-market strategy, sales leadership, and revenue growth. Start within days.',
+  keywords: 'interim cro, interim cro services, hire interim cro, part time cro, interim chief revenue officer, interim cro uk, interim revenue director',
   alternates: {
     canonical: 'https://interim.quest/interim-cro-services',
   },
   openGraph: {
-    title: 'Fractional CRO Services UK | Hire a Part-Time Chief Revenue Officer',
-    description: 'Hire a Fractional CRO for your business. Senior revenue leadership at a fraction of full-time cost.',
+    title: 'Interim CRO Services UK | Hire a Part-Time Chief Revenue Officer',
+    description: 'Hire a Interim CRO for your business. Senior revenue leadership at a fraction of full-time cost.',
     images: ['/images/interim-cro-services.jpg'],
     url: 'https://interim.quest/interim-cro-services',
   },
 }
 
-export default function FractionalCROServicesPage() {
+export default function InterimCROServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -67,11 +67,11 @@ export default function FractionalCROServicesPage() {
                 Revenue Leadership
               </span>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9] tracking-tight">
-                Fractional CRO<br />
+                Interim CRO<br />
                 <span className="text-green-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Fractional CRO</strong> to accelerate your revenue.
+                Hire a <strong className="text-white">Interim CRO</strong> to accelerate your revenue.
                 Senior revenue leadership across sales, marketing, and customer success—at a fraction of full-time cost.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
@@ -90,7 +90,7 @@ export default function FractionalCROServicesPage() {
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-green-500 text-black font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">
-                  Hire a Fractional CRO
+                  Hire a Interim CRO
                 </Link>
                 <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
@@ -101,16 +101,16 @@ export default function FractionalCROServicesPage() {
         </div>
       </section>
 
-      {/* What is a Fractional CRO */}
+      {/* What is a Interim CRO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Fractional CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CRO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Fractional CRO</strong> (Chief Revenue Officer) is an experienced revenue executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic leadership across your entire revenue engine—sales, marketing, and customer success—without the commitment and cost of a full-time hire.
+              A <strong className="font-semibold text-gray-900">Interim CRO</strong> (Chief Revenue Officer) is an experienced revenue executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic leadership across your entire revenue engine—sales, marketing, and customer success—without the commitment and cost of a full-time hire.
             </p>
             <p>
               Unlike a VP of Sales who focuses only on selling, an interim CRO takes a holistic view of revenue. They align all customer-facing functions, optimise the full buyer journey, and build the systems for predictable, scalable revenue growth.
@@ -133,8 +133,8 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Fractional CRO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your fractional CRO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CRO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CRO will own</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -189,7 +189,7 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Benefits</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire a Fractional CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire a Interim CRO?</h2>
           </div>
           <div className="space-y-8">
             {[
@@ -207,7 +207,7 @@ export default function FractionalCROServicesPage() {
               },
               {
                 title: 'Faster Revenue Growth',
-                description: 'Fractional CROs have scaled revenue before. They know what works, can avoid common mistakes, and accelerate your path to targets.',
+                description: 'Interim CROs have scaled revenue before. They know what works, can avoid common mistakes, and accelerate your path to targets.',
                 stat: '2x',
                 statLabel: 'Revenue Growth',
               },
@@ -219,7 +219,7 @@ export default function FractionalCROServicesPage() {
               },
               {
                 title: 'Proven Playbooks',
-                description: 'Fractional CROs bring playbooks from multiple companies. They know what GTM motions work for businesses like yours.',
+                description: 'Interim CROs bring playbooks from multiple companies. They know what GTM motions work for businesses like yours.',
                 stat: '10+',
                 statLabel: 'GTM Playbooks',
               },
@@ -244,7 +244,7 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Fractional CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CRO?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -294,7 +294,7 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CRO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CRO</h2>
           </div>
           <ServiceComparisonTable role="CRO" accentColor="emerald" />
         </div>
@@ -305,7 +305,7 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Fractional CRO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CRO</h2>
           </div>
           <HireProcessStepper accentColor="emerald" />
         </div>
@@ -327,14 +327,14 @@ export default function FractionalCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-green-400">Fractional CRO?</span>
+            Ready to Hire a<br /><span className="text-green-400">Interim CRO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your revenue challenges and we'll match you with pre-vetted fractional CROs who have solved them before.
+            Tell us about your revenue challenges and we'll match you with pre-vetted interim CROs who have solved them before.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-green-500 text-black font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">
-              Find a Fractional CRO
+              Find a Interim CRO
             </Link>
             <Link href="/interim-cro-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CRO Looking for Roles

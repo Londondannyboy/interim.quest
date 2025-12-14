@@ -222,7 +222,7 @@ async function searchJobs(params: {
         salary_min, salary_max, salary_currency
       FROM jobs
       WHERE is_active = true
-        AND (is_fractional = true OR LOWER(title) LIKE '%fractional%')
+        AND (is_interim = true OR LOWER(title) LIKE '%interim%')
         AND LOWER(title) LIKE LOWER(${rolePattern})
         AND LOWER(COALESCE(location, '')) LIKE LOWER(${locationPattern})
       ORDER BY posted_date DESC NULLS LAST

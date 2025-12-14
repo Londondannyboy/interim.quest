@@ -36,13 +36,13 @@ export default function CompanySavingsCalculator() {
     const pension = salary * (pensionPercent / 100)
     const fullTimeTotalCost = salary + employerNI + pension + benefits + overheads
 
-    // Fractional costs
+    // Interim costs
     const daysPerWeek = hoursNeeded / 8 // Assuming 8-hour days
     const weeksPerYear = 48 // Accounting for holidays
-    const fractionalAnnualCost = dayRate * daysPerWeek * weeksPerYear
+    const interimAnnualCost = dayRate * daysPerWeek * weeksPerYear
 
     // Savings
-    const annualSavings = fullTimeTotalCost - fractionalAnnualCost
+    const annualSavings = fullTimeTotalCost - interimAnnualCost
     const savingsPercentage = Math.round((annualSavings / fullTimeTotalCost) * 100)
 
     return {
@@ -54,11 +54,11 @@ export default function CompanySavingsCalculator() {
         overheads,
         total: Math.round(fullTimeTotalCost)
       },
-      fractional: {
+      interim: {
         dayRate,
         daysPerWeek: Math.round(daysPerWeek * 10) / 10,
         weeksPerYear,
-        total: Math.round(fractionalAnnualCost)
+        total: Math.round(interimAnnualCost)
       },
       savings: {
         annual: Math.round(annualSavings),
@@ -102,7 +102,7 @@ export default function CompanySavingsCalculator() {
             {/* Inputs */}
             <CalculatorCard
               title="Calculate Your Savings"
-              subtitle="Compare full-time vs fractional costs"
+              subtitle="Compare full-time vs interim costs"
               icon="🏢"
             >
               <div className="space-y-8">
@@ -176,7 +176,7 @@ export default function CompanySavingsCalculator() {
                 <div className="pt-4 border-t border-gray-200">
                   <h4 className="text-sm font-semibold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="w-6 h-6 bg-purple-100 text-purple-800 rounded-full flex items-center justify-center text-xs">2</span>
-                    Fractional Requirements
+                    Interim Requirements
                   </h4>
 
                   <div className="space-y-6">
@@ -192,7 +192,7 @@ export default function CompanySavingsCalculator() {
                     />
 
                     <SliderInput
-                      label="Fractional Day Rate"
+                      label="Interim Day Rate"
                       value={dayRate}
                       onChange={setDayRate}
                       min={600}
@@ -225,13 +225,13 @@ export default function CompanySavingsCalculator() {
                     ]
                   },
                   {
-                    label: 'Fractional Executive',
-                    value: calculations.fractional.total,
+                    label: 'Interim Executive',
+                    value: calculations.interim.total,
                     color: 'purple',
                     details: [
-                      { label: 'Day Rate', value: `£${calculations.fractional.dayRate.toLocaleString()}` },
-                      { label: 'Days/Week', value: `${calculations.fractional.daysPerWeek}` },
-                      { label: 'Weeks/Year', value: `${calculations.fractional.weeksPerYear}` },
+                      { label: 'Day Rate', value: `£${calculations.interim.dayRate.toLocaleString()}` },
+                      { label: 'Days/Week', value: `${calculations.interim.daysPerWeek}` },
+                      { label: 'Weeks/Year', value: `${calculations.interim.weeksPerYear}` },
                       { label: 'No Employer NI', value: '£0' },
                       { label: 'No Benefits/Pension', value: '£0' }
                     ]
@@ -284,7 +284,7 @@ export default function CompanySavingsCalculator() {
                   href="/interim-jobs"
                   className="btn-gradient inline-flex items-center gap-2"
                 >
-                  Browse Fractional Executives
+                  Browse Interim Executives
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>

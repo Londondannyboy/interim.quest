@@ -67,7 +67,7 @@ export default function ContactPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Questions?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">What is a Fractional Executive?</h3>
+              <h3 className="font-bold text-gray-900 mb-2">What is a Interim Executive?</h3>
               <p className="text-gray-600">
                 A interim executive is a senior-level professional who works part-time or on a project basis, typically 1-3 days per week, providing specialized expertise without the cost of a full-time hire.
               </p>

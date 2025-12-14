@@ -91,7 +91,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
           {/* Category Badge */}
           <div className="mb-6">
             <Badge variant="primary" size="md" className="bg-purple-600/50 text-white border border-purple-400/30">
-              Fractional Executive Guide
+              Interim Executive Guide
             </Badge>
           </div>
 
@@ -162,7 +162,7 @@ export default async function ArticleDetailPage({ params }: PageProps) {
         <div className="mt-12 bg-gradient-to-r from-purple-600 to-purple-700 rounded-2xl p-8 md:p-10 text-white">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
-              <h3 className="text-2xl font-bold mb-2">Ready to find fractional talent?</h3>
+              <h3 className="text-2xl font-bold mb-2">Ready to find interim talent?</h3>
               <p className="text-purple-100">Browse our curated list of interim executive opportunities.</p>
             </div>
             <Link href="/interim-jobs">

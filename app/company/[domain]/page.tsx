@@ -55,10 +55,10 @@ export async function generateMetadata({ params }: CompanyPageProps): Promise<Me
 
   return {
     title: `${company.company_name} Jobs | Interim Quest`,
-    description: `Browse fractional and part-time jobs at ${company.company_name}. Find executive roles, day rates, and flexible opportunities.`,
+    description: `Browse interim and part-time jobs at ${company.company_name}. Find executive roles, day rates, and flexible opportunities.`,
     openGraph: {
       title: `${company.company_name} - Interim Jobs`,
-      description: `Browse fractional and part-time jobs at ${company.company_name}`,
+      description: `Browse interim and part-time jobs at ${company.company_name}`,
       type: 'website',
     },
   }

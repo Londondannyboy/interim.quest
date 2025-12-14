@@ -6,7 +6,7 @@ import { RateDistribution } from '@/components/RateDistribution'
 export const metadata: Metadata = {
   title: 'Interim CFO Salary UK 2025 - Day Rates, Annual Earnings & Pay Guide',
   description: 'Interim CFO salary guide for 2025. UK day rates £800-£1,500. Annual earnings £120k-£250k. Compare rates by location, industry and experience level.',
-  keywords: 'fractional cfo salary, fractional cfo day rate, fractional cfo pay, part time cfo salary, fractional cfo earnings uk',
+  keywords: 'interim cfo salary, interim cfo day rate, interim cfo pay, part time cfo salary, interim cfo earnings uk',
   openGraph: {
     title: 'Interim CFO Salary UK 2025 - Complete Pay Guide',
     description: 'Interim CFO salary guide. UK day rates £800-£1,500. Annual earnings £120k-£250k.',
@@ -39,7 +39,7 @@ const salaryData = {
   ],
 }
 
-export default function FractionalCfoSalaryPage() {
+export default function InterimCfoSalaryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}

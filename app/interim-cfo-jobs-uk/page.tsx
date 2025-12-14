@@ -18,7 +18,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CFO Jobs UK | Part-Time CFO Roles 2025',
   description: 'Interim CFO jobs UK - Find part-time Chief Financial Officer positions paying £800-£1,500/day. Browse live CFO roles for experienced finance leaders. Remote & hybrid available.',
-  keywords: 'fractional cfo jobs, fractional cfo jobs uk, part time cfo, part-time cfo, cfo part time, fractional cfo opportunities, fractional cfo uk, part time chief financial officer, fractional cfo remote',
+  keywords: 'interim cfo jobs, interim cfo jobs uk, part time cfo, part-time cfo, cfo part time, interim cfo opportunities, interim cfo uk, part time chief financial officer, interim cfo remote',
   alternates: {
     canonical: 'https://interim.quest/interim-cfo-jobs-uk',
   },
@@ -62,7 +62,7 @@ async function getFeaturedCompanies() {
   }
 }
 
-export default async function FractionalCfoJobsUkPage() {
+export default async function InterimCfoJobsUkPage() {
   const [stats, companies] = await Promise.all([getFinanceStats(), getFeaturedCompanies()])
 
   return (
@@ -136,7 +136,7 @@ export default async function FractionalCfoJobsUkPage() {
             <p className="text-gray-500">Pre-filtered to Finance. Change filters to explore.</p>
           </div>
           <Suspense fallback={<div className="bg-white rounded-2xl border border-gray-200 p-8"><div className="animate-pulse space-y-4"><div className="h-10 bg-gray-200 rounded w-1/3"></div><div className="grid grid-cols-2 gap-4"><div className="h-48 bg-gray-200 rounded"></div><div className="h-48 bg-gray-200 rounded"></div></div></div></div>}>
-            <EmbeddedJobBoard defaultDepartment="Finance" pageSlug="fractional-cfo-jobs-uk" jobsPerPage={10} title="Latest Finance & CFO Jobs" allJobsLinkText="View All Finance Jobs" />
+            <EmbeddedJobBoard defaultDepartment="Finance" pageSlug="interim-cfo-jobs-uk" jobsPerPage={10} title="Latest Finance & CFO Jobs" allJobsLinkText="View All Finance Jobs" />
           </Suspense>
         </div>
       </section>
@@ -392,7 +392,7 @@ export default async function FractionalCfoJobsUkPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Ready?</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">Find Your Next<br /><span className="text-emerald-400">Interim CFO Role</span></h2>
-          <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Create your profile and get matched with companies seeking fractional finance leadership.</p>
+          <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">Create your profile and get matched with companies seeking interim finance leadership.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-emerald-500 text-black font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors">Create Profile</Link>
             <Link href="/interim-cfo-salary" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Salary Guide</Link>

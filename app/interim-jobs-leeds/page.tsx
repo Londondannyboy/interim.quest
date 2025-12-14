@@ -36,7 +36,7 @@ const yorkshireIndustries = [
 const relatedSearches = [
   'Interim CFO Jobs Leeds', 'Interim CTO Jobs Yorkshire', 'Interim CMO Jobs Leeds',
   'Part-Time CFO Leeds', 'Interim Executive Yorkshire', 'Portfolio Career Leeds',
-  'Interim Jobs Sheffield', 'Interim Jobs York', 'Fractional Executive Salary Leeds'
+  'Interim Jobs Sheffield', 'Interim Jobs York', 'Interim Executive Salary Leeds'
 ]
 
 async function getLeedsStats() {
@@ -104,7 +104,7 @@ export default async function LeedsPage() {
           <img src="/logo.svg" alt="Interim Jobs Leeds - Executive roles in Yorkshire" className="hidden" width={1} height={1} />
           
           <p className="max-w-2xl text-xl text-purple-100 mb-10 leading-relaxed">
-            {stats.total}+ interim executive opportunities across Leeds and Yorkshire. £600-£1,000 daily rates. The North's fastest-growing fractional market.
+            {stats.total}+ interim executive opportunities across Leeds and Yorkshire. £600-£1,000 daily rates. The North's fastest-growing interim market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -201,7 +201,7 @@ export default async function LeedsPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Digital Growth</h3>
               <p className="text-gray-600">
-                Leeds Digital Hub is one of the UK's fastest-growing tech clusters, with 20% YoY growth in fractional tech roles.
+                Leeds Digital Hub is one of the UK's fastest-growing tech clusters, with 20% YoY growth in interim tech roles.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-sm">
@@ -265,11 +265,11 @@ export default async function LeedsPage() {
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                Is Leeds good for fractional tech roles?
+                Is Leeds good for interim tech roles?
                 <span className="text-purple-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Yes - Leeds Digital Hub is thriving with 20% YoY growth in fractional tech positions. Companies like Sky Betting, NHS Digital, and numerous scale-ups hire interim CTOs and tech leaders.
+                Yes - Leeds Digital Hub is thriving with 20% YoY growth in interim tech positions. Companies like Sky Betting, NHS Digital, and numerous scale-ups hire interim CTOs and tech leaders.
               </p>
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
@@ -310,7 +310,7 @@ export default async function LeedsPage() {
             Ready to Work in Yorkshire?
           </h2>
           <p className="text-xl text-purple-100 mb-10">
-            {stats.total}+ fractional opportunities across Leeds, Sheffield, and York
+            {stats.total}+ interim opportunities across Leeds, Sheffield, and York
           </p>
           <Link
             href="/interim-jobs?location=Leeds"

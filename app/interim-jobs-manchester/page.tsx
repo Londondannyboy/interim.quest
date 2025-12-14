@@ -39,7 +39,7 @@ const manchesterIndustries = [
 const relatedSearches = [
   'Interim CFO Jobs Manchester', 'Interim CTO Jobs Manchester', 'Interim CMO Jobs North West',
   'Part-Time CFO Manchester', 'Interim Executive Manchester', 'Portfolio Career Manchester',
-  'Interim Jobs MediaCity', 'Interim Jobs Liverpool', 'Fractional Executive Salary Manchester'
+  'Interim Jobs MediaCity', 'Interim Jobs Liverpool', 'Interim Executive Salary Manchester'
 ]
 
 async function getManchesterStats() {
@@ -213,7 +213,7 @@ export default async function ManchesterPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Tech Powerhouse</h3>
               <p className="text-gray-600">
-                Manchester has the UK's largest tech ecosystem outside London. 25% YoY growth in fractional tech roles.
+                Manchester has the UK's largest tech ecosystem outside London. 25% YoY growth in interim tech roles.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-sm">
@@ -287,7 +287,7 @@ export default async function ManchesterPage() {
             Ready to Work in Manchester?
           </h2>
           <p className="text-xl text-purple-100 mb-10">
-            {stats.total}+ fractional opportunities across Manchester, MediaCity, and Liverpool
+            {stats.total}+ interim opportunities across Manchester, MediaCity, and Liverpool
           </p>
           <Link
             href="/interim-jobs?location=Manchester"

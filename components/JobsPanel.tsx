@@ -9,7 +9,7 @@ interface Job {
   company: string
   location: string
   isRemote: boolean
-  isFractional: boolean
+  isInterim: boolean
   salaryRange?: string
   postedDate?: string
   url: string
@@ -50,7 +50,7 @@ export function JobsPanel({ searchQuery, roleFilter, locationFilter, onJobSelect
       if (role) params.set('role', role)
       if (locationFilter) params.set('location', locationFilter)
       if (searchQuery) params.set('q', searchQuery)
-      params.set('fractional', 'true')
+      params.set('interim', 'true')
 
       const response = await fetch(`/api/jobs/search?${params.toString()}`)
       if (response.ok) {
@@ -133,7 +133,7 @@ export function JobsPanel({ searchQuery, roleFilter, locationFilter, onJobSelect
       {/* Footer */}
       <div className="p-4 border-t border-gray-200 bg-gray-50">
         <Link
-          href="/fractional-jobs"
+          href="/interim-jobs"
           className="block w-full text-center py-2 px-4 bg-purple-600 text-white text-sm font-medium rounded-lg hover:bg-purple-700 transition-colors"
         >
           View All Jobs →
@@ -158,9 +158,9 @@ function JobCard({ job, onClick }: { job: Job; onClick?: () => void }) {
             {job.company}
           </p>
         </div>
-        {job.isFractional && (
+        {job.isInterim && (
           <span className="flex-shrink-0 px-2 py-0.5 bg-purple-100 text-purple-700 text-xs font-medium rounded-full">
-            Fractional
+            Interim
           </span>
         )}
       </div>

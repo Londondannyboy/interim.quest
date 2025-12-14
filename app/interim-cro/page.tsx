@@ -27,7 +27,7 @@ export default function InterimCROPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary revenue leadership for sales transformations, go-to-market pivots, and revenue crises. Expert revenue executives available immediately.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-green-500 text-white font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">Hire an Interim CRO</Link>
-                <Link href="/interim-cro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-cro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function InterimCROPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">What is an Interim CRO?</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CRO</strong> is a temporary Chief Revenue Officer who works full-time for a defined period—typically 3-12 months. Unlike fractional CROs who work part-time, interim CROs focus exclusively on one organisation during critical revenue periods.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CRO</strong> is a temporary Chief Revenue Officer who works full-time for a defined period—typically 3-12 months. Unlike interim CROs who work part-time, interim CROs focus exclusively on one organisation during critical revenue periods.</p>
           <p className="text-gray-600">Interim CROs are typically hired to lead sales transformations, rebuild underperforming revenue teams, or manage go-to-market pivots requiring intensive daily leadership.</p>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function InterimCROPage() {
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-black mb-6">Need an Interim CRO?</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your revenue challenges and we'll help you find the right interim or fractional CRO.</p>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your revenue challenges and we'll help you find the right interim or interim CRO.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-green-500 text-white font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">Find an Interim CRO</Link>
-            <Link href="/interim-cro-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CRO</Link>
+            <Link href="/interim-cro-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Interim CRO</Link>
           </div>
         </div>
       </section>

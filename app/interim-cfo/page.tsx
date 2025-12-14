@@ -45,7 +45,7 @@ export default function InterimCFOPage() {
                   Hire an Interim CFO
                 </Link>
                 <Link href="/interim-cfo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-                  Consider Fractional Instead?
+                  Consider Interim Instead?
                 </Link>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function InterimCFOPage() {
         </div>
       </section>
 
-      {/* Interim vs Fractional */}
+      {/* Interim vs Interim */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-8">Interim CFO vs Interim CFO</h2>
@@ -114,7 +114,7 @@ export default function InterimCFOPage() {
           </div>
           <div className="mt-8 p-6 bg-emerald-50 border border-emerald-200 rounded-lg">
             <p className="text-emerald-800 font-medium mb-2">Not sure which is right for you?</p>
-            <p className="text-emerald-700 text-sm mb-4">If you need full-time focus for a specific project or transition, choose interim. If you need ongoing strategic CFO leadership at lower cost, choose fractional.</p>
+            <p className="text-emerald-700 text-sm mb-4">If you need full-time focus for a specific project or transition, choose interim. If you need ongoing strategic CFO leadership at lower cost, choose interim.</p>
             <Link href="/interim-cfo-services" className="text-emerald-700 font-bold hover:text-emerald-900">Learn about Interim CFO Services →</Link>
           </div>
         </div>

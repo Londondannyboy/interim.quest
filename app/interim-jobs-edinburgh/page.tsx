@@ -7,7 +7,7 @@ export const revalidate = 3600
 
 export const metadata: Metadata = {
   title: 'Interim Jobs Edinburgh - Executive Roles in Scotland',
-  description: 'Find interim executive jobs in Edinburgh and Scotland. CFO, CMO, CTO roles. £700-£1,200 daily rates. Scotland\'s leading fractional market.',
+  description: 'Find interim executive jobs in Edinburgh and Scotland. CFO, CMO, CTO roles. £700-£1,200 daily rates. Scotland\'s leading interim market.',
   openGraph: {
     title: 'Interim Jobs Edinburgh - Executive Roles in Scotland',
     description: 'Find interim executive jobs in Edinburgh and across Scotland.',
@@ -36,7 +36,7 @@ const scottishIndustries = [
 const relatedSearches = [
   'Interim CFO Jobs Edinburgh', 'Interim CTO Jobs Scotland', 'Interim CMO Jobs Glasgow',
   'Part-Time CFO Edinburgh', 'Interim Executive Scotland', 'Portfolio Career Edinburgh',
-  'Interim Jobs Glasgow', 'Interim Jobs Aberdeen', 'Fractional Executive Salary Scotland'
+  'Interim Jobs Glasgow', 'Interim Jobs Aberdeen', 'Interim Executive Salary Scotland'
 ]
 
 async function getEdinburghStats() {
@@ -201,7 +201,7 @@ export default async function EdinburghPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Energy Sector</h3>
               <p className="text-gray-600">
-                Aberdeen's oil & gas and Scotland's renewables sector offer premium fractional rates for energy expertise.
+                Aberdeen's oil & gas and Scotland's renewables sector offer premium interim rates for energy expertise.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8 shadow-sm">
@@ -310,7 +310,7 @@ export default async function EdinburghPage() {
             Ready to Work in Scotland?
           </h2>
           <p className="text-xl text-purple-100 mb-10">
-            {stats.total}+ fractional opportunities across Edinburgh, Glasgow, and Aberdeen
+            {stats.total}+ interim opportunities across Edinburgh, Glasgow, and Aberdeen
           </p>
           <Link
             href="/interim-jobs?location=Edinburgh"

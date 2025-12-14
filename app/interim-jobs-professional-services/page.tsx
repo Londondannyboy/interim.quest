@@ -33,7 +33,7 @@ const successStories = [
     earnings: "£140k/year"
   },
   {
-    quote: "Consulting firms are excellent fractional clients. They understand the value of expertise and have complex financial models. I help boutique consultancies scale from £5m to £20m.",
+    quote: "Consulting firms are excellent interim clients. They understand the value of expertise and have complex financial models. I help boutique consultancies scale from £5m to £20m.",
     name: "Jennifer Walsh",
     role: "Interim CFO",
     sector: "Consulting",
@@ -163,7 +163,7 @@ export default async function ProfessionalServicesPage() {
               <span className="text-3xl mb-4 block">🤝</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Partnership Model</h3>
               <p className="text-gray-600">
-                PS firms understand the value of expertise - it's their business model. They're willing to pay for senior fractional talent who can drive operational excellence.
+                PS firms understand the value of expertise - it's their business model. They're willing to pay for senior interim talent who can drive operational excellence.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
@@ -190,8 +190,8 @@ export default async function ProfessionalServicesPage() {
               { icon: '⚙️', title: 'Interim COO', rate: '£600-£1,000/day', desc: 'Operations, resource management, process' },
               { icon: '💻', title: 'Interim CTO', rate: '£700-£1,100/day', desc: 'Digital transformation, practice technology' },
               { icon: '📢', title: 'Interim CMO', rate: '£600-£1,000/day', desc: 'BD, thought leadership, brand building' },
-              { icon: '👥', title: 'Fractional CHRO', rate: '£600-£950/day', desc: 'Talent strategy, partner development' },
-              { icon: '🎯', title: 'Fractional BD Director', rate: '£550-£900/day', desc: 'Pipeline, key accounts, proposals' },
+              { icon: '👥', title: 'Interim CHRO', rate: '£600-£950/day', desc: 'Talent strategy, partner development' },
+              { icon: '🎯', title: 'Interim BD Director', rate: '£550-£900/day', desc: 'Pipeline, key accounts, proposals' },
             ].map((item) => (
               <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm">
                 <span className="text-4xl mb-4 block">{item.icon}</span>
@@ -315,7 +315,7 @@ export default async function ProfessionalServicesPage() {
             Ready for Professional Services Leadership?
           </h2>
           <p className="text-xl text-gray-100 mb-10">
-            {stats.totalPS}+ fractional opportunities in consulting and advisory firms.
+            {stats.totalPS}+ interim opportunities in consulting and advisory firms.
           </p>
           <Link
             href="/interim-jobs?industry=Professional%20Services"

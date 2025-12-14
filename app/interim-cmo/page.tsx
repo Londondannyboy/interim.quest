@@ -39,7 +39,7 @@ export default function InterimCMOPage() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-amber-500 text-black font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">Hire an Interim CMO</Link>
-                <Link href="/interim-cmo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-cmo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function InterimCMOPage() {
           </div>
           <div className="mt-8 p-6 bg-amber-50 border border-amber-200 rounded-lg">
             <p className="text-amber-800 font-medium mb-2">Not sure which is right for you?</p>
-            <p className="text-amber-700 text-sm mb-4">If you need full-time focus for a specific project, choose interim. If you need ongoing marketing leadership at lower cost, choose fractional.</p>
+            <p className="text-amber-700 text-sm mb-4">If you need full-time focus for a specific project, choose interim. If you need ongoing marketing leadership at lower cost, choose interim.</p>
             <Link href="/interim-cmo-services" className="text-amber-700 font-bold hover:text-amber-900">Learn about Interim CMO Services →</Link>
           </div>
         </div>

@@ -32,8 +32,8 @@ const startupRoles = [
   { name: 'Interim CTO', icon: '💻', description: 'Tech strategy, team building, architecture' },
   { name: 'Interim CMO', icon: '📢', description: 'Growth marketing, brand, demand gen' },
   { name: 'Interim COO', icon: '⚙️', description: 'Operations, scaling, process design' },
-  { name: 'Fractional CPO', icon: '🎯', description: 'Product strategy, roadmap, user research' },
-  { name: 'Fractional CHRO', icon: '👥', description: 'People ops, culture, hiring strategy' },
+  { name: 'Interim CPO', icon: '🎯', description: 'Product strategy, roadmap, user research' },
+  { name: 'Interim CHRO', icon: '👥', description: 'People ops, culture, hiring strategy' },
 ]
 
 const startupSectors = [
@@ -47,8 +47,8 @@ const startupSectors = [
 
 const relatedSearches = [
   'Interim CFO Startups', 'Interim CTO Scale-up', 'Startup CMO Jobs',
-  'Series An Interim Executive', 'PE Backed Interim CFO', 'VC Portfolio Fractional',
-  'Fractional Executive Equity', 'Part-Time CTO Startup', 'Scale-up CFO Jobs'
+  'Series An Interim Executive', 'PE Backed Interim CFO', 'VC Portfolio Interim',
+  'Interim Executive Equity', 'Part-Time CTO Startup', 'Scale-up CFO Jobs'
 ]
 
 // Same video as homepage
@@ -189,7 +189,7 @@ export default async function StartupJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fractional Roles at Startups</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Roles at Startups</h2>
             <p className="text-xl text-gray-500">Executive positions startups need</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
@@ -280,7 +280,7 @@ export default async function StartupJobsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Startup Fractional FAQs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Startup Interim FAQs</h2>
             <p className="text-xl text-gray-500">Common questions about interim work at startups</p>
           </div>
           <FAQ items={STARTUPS_FAQS} title="" />
@@ -313,7 +313,7 @@ export default async function StartupJobsPage() {
             Ready to Join a Startup?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
-            {stats.total}+ fractional opportunities at startups and scale-ups
+            {stats.total}+ interim opportunities at startups and scale-ups
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

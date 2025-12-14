@@ -114,7 +114,7 @@ export function RepoDisplay({ userId, refreshTrigger }: RepoDisplayProps) {
   })
 
   // Role type options
-  const ROLE_TYPES = ['full-time', 'fractional', 'consulting', 'contract', 'part-time']
+  const ROLE_TYPES = ['full-time', 'interim', 'consulting', 'contract', 'part-time']
   const currentYear = new Date().getFullYear()
   const years = Array.from({ length: 50 }, (_, i) => currentYear - i)
 
@@ -689,7 +689,7 @@ export function RepoDisplay({ userId, refreshTrigger }: RepoDisplayProps) {
                       <div className="flex items-center gap-2">
                         {exp.role_type && (
                           <span className={`px-2 py-1 text-xs font-medium rounded-full ${
-                            exp.role_type === 'fractional' ? 'bg-purple-100 text-purple-700' :
+                            exp.role_type === 'interim' ? 'bg-purple-100 text-purple-700' :
                             exp.role_type === 'consulting' ? 'bg-blue-100 text-blue-700' :
                             'bg-gray-100 text-gray-600'
                           }`}>

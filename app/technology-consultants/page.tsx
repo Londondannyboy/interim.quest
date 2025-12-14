@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Hire Technology Consultants UK | Fractional Tech Experts',
+  title: 'Hire Technology Consultants UK | Interim Tech Experts',
   description: 'Hire experienced technology consultants on an interim basis. Expert tech professionals for architecture, engineering leadership, and digital transformation. Available part-time.',
-  keywords: 'technology consultants, hire tech consultant, fractional technology expert, it consultant uk, technical strategy consultant',
+  keywords: 'technology consultants, hire tech consultant, interim technology expert, it consultant uk, technical strategy consultant',
   alternates: { canonical: 'https://interim.quest/technology-consultants' },
 }
 

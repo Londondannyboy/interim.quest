@@ -33,8 +33,8 @@ const ROLE_OPTIONS = [
   'Interim CMO',
   'Interim CTO',
   'Interim COO',
-  'Fractional CHRO',
-  'Fractional CPO',
+  'Interim CHRO',
+  'Interim CPO',
   'Board Advisor',
   'Consultant',
 ]
@@ -107,7 +107,7 @@ export default function OnboardingPage() {
     // Add role preferences
     formData.interests.forEach((role, i) => {
       const id = `pref-role-${i}`
-      nodes.push({ id, type: 'preference', label: role.replace('Fractional ', '') })
+      nodes.push({ id, type: 'preference', label: role.replace('Interim ', '') })
       edges.push({ source: 'user-you', target: id, type: 'seeks' })
     })
 

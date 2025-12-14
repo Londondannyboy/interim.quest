@@ -277,7 +277,7 @@ export default async function BelfastPage() {
       {/* Internal Links */}
       <section className="py-16 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Belfast Fractional Resources</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">Belfast Interim Resources</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -301,7 +301,7 @@ export default async function BelfastPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4">Career Guides</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/guide" className="hover:text-emerald-700">Fractional Work Guide</Link></li>
+                <li><Link href="/guide" className="hover:text-emerald-700">Interim Work Guide</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-emerald-700">Salary Guide</Link></li>
               </ul>
             </div>
@@ -316,7 +316,7 @@ export default async function BelfastPage() {
             Ready to Work in Belfast?
           </h2>
           <p className="text-xl text-emerald-100 mb-10">
-            {stats.totalBelfast}+ fractional opportunities in Northern Ireland's tech capital.
+            {stats.totalBelfast}+ interim opportunities in Northern Ireland's tech capital.
           </p>
           <Link
             href="/interim-jobs?location=Belfast"

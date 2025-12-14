@@ -9,10 +9,10 @@ const nextConfig: NextConfig = {
         destination: '/:slug',
         permanent: true, // 301 redirect for SEO
       },
-      // Redirect /fractional-jobs-london to new SEO-optimized URL for "interim jobs UK"
+      // Redirect /interim-jobs-london to new SEO-optimized URL for "interim jobs UK"
       {
-        source: '/fractional-jobs-london',
-        destination: '/uk-fractional-jobs-uk-london-fractional-jobs-london',
+        source: '/interim-jobs-london',
+        destination: '/uk-interim-jobs-uk-london-interim-jobs-london',
         permanent: true, // 301 redirect for SEO
       },
       // Redirect part-time pages to new SEO-optimized URLs with "jobs-uk" suffix
@@ -57,7 +57,7 @@ const nextConfig: NextConfig = {
           // Enable Link prefetching for better performance
           {
             key: "Link",
-            value: "</fractional-jobs>; rel=prefetch, </fractional-jobs-articles>; rel=prefetch",
+            value: "</interim-jobs>; rel=prefetch, </interim-jobs-articles>; rel=prefetch",
           },
         ],
       },

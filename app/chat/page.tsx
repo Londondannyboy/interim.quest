@@ -6,7 +6,7 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 
 const MAX_FREE_MESSAGES = 3
-const STORAGE_KEY = 'fractional_chat_uses'
+const STORAGE_KEY = 'interim_chat_uses'
 
 function getChatUsageCount(): number {
   if (typeof window === 'undefined') return 0
@@ -139,7 +139,7 @@ export default function ChatPage() {
     "What is a interim executive?",
     "Show me articles about CFO jobs",
     "What are typical day rates for interim work?",
-    "How do I transition to fractional consulting?",
+    "How do I transition to interim consulting?",
   ]
 
   return (

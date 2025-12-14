@@ -1,6 +1,6 @@
-# Clone Checklist: fractional.Quest → [new-domain].Quest
+# Clone Checklist: interim.Quest → [new-domain].Quest
 
-## Pre-Clone (in fractional.Quest)
+## Pre-Clone (in interim.Quest)
 - [ ] Delete cruft files (legacy .md docs, one-time scripts)
 - [ ] Ensure all features working
 - [ ] Commit any pending changes
@@ -8,7 +8,7 @@
 ## Clone Process
 
 ### Step 1: Duplicate Directory
-In Finder: Right-click `fractional.Quest` → Duplicate → Rename to `[new-domain].Quest`
+In Finder: Right-click `interim.Quest` → Duplicate → Rename to `[new-domain].Quest`
 
 ### Step 2: Delete Before Find-Replace
 Delete these from the new clone:
@@ -36,14 +36,14 @@ node_modules/
 
 For **interim.Quest**:
 - Keep: `interim-cfo`, `interim-cmo`, etc. (already exist)
-- Rename: `fractional-cfo-jobs-uk` → `interim-cfo-jobs-uk`
-- Rename: `fractional-jobs` → `interim-jobs`
+- Rename: `interim-cfo-jobs-uk` → `interim-cfo-jobs-uk`
+- Rename: `interim-jobs` → `interim-jobs`
 - Delete: `part-time-*` pages (not relevant)
 
 For **part-time.Quest**:
 - Keep: `part-time-cfo-jobs-uk`, `part-time-cmo-jobs-uk`
-- Rename: `fractional-cfo-jobs-uk` → `part-time-cfo-jobs-uk`
-- Rename: `fractional-jobs` → `part-time-jobs`
+- Rename: `interim-cfo-jobs-uk` → `part-time-cfo-jobs-uk`
+- Rename: `interim-jobs` → `part-time-jobs`
 - Delete: `interim-*` pages (not relevant)
 
 ### Step 5: Update Key Files Manually
@@ -92,7 +92,7 @@ STACK_SECRET_SERVER_KEY=<new Stack Auth secret>
 ### Step 8: Database
 
 The shared Neon database uses `site` column to filter:
-- `fractional` - interim.quest data
+- `interim` - interim.quest data
 - `interim` - interim.quest data
 - `part-time` - part-time.quest data
 
@@ -121,6 +121,6 @@ Deploy to Vercel and verify:
 
 | Domain | Site Filter | Email | Hume Config |
 |--------|-------------|-------|-------------|
-| interim.quest | `fractional` | @interim.quest | (existing) |
+| interim.quest | `interim` | @interim.quest | (existing) |
 | interim.quest | `interim` | @interim.quest | (create new) |
 | part-time.quest | `part-time` | @part-time.quest | (create new) |

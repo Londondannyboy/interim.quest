@@ -11,19 +11,19 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CDO_SERVICE_FAQS = [
   {
-    question: 'What is a Fractional CDO?',
+    question: 'What is a Interim CDO?',
     answer: 'An Interim CDO (Chief Data Officer) is an experienced data executive who works with your company part-time, typically 1-3 days per week. You get strategic data leadership, analytics expertise, and data governance without the cost of a full-time executive.',
   },
   {
-    question: 'When should my company hire a Fractional CDO?',
+    question: 'When should my company hire a Interim CDO?',
     answer: 'Consider hiring an interim CDO when: you\'re not getting value from your data; you need to build data infrastructure; you\'re preparing for AI/ML initiatives; you have data quality or governance issues; or you need to monetise or productise your data.',
   },
   {
-    question: 'How much does a Fractional CDO cost?',
-    answer: 'Fractional CDOs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £180,000-£280,000+ for a full-time CDO.',
+    question: 'How much does a Interim CDO cost?',
+    answer: 'Interim CDOs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £180,000-£280,000+ for a full-time CDO.',
   },
   {
-    question: 'What does a Fractional CDO do?',
+    question: 'What does a Interim CDO do?',
     answer: 'An Interim CDO develops data strategy, builds analytics capabilities, ensures data quality and governance, leads AI/ML initiatives, creates data products, manages data teams, and ensures the organisation becomes truly data-driven.',
   },
   {
@@ -31,27 +31,27 @@ const CDO_SERVICE_FAQS = [
     answer: 'A Head of Analytics focuses on analysis and reporting—answering questions with data. A CDO has broader responsibility for the entire data function: strategy, infrastructure, governance, quality, and ensuring data drives business value. They operate at the executive level.',
   },
   {
-    question: 'Can a Fractional CDO help prepare for AI initiatives?',
+    question: 'Can a Interim CDO help prepare for AI initiatives?',
     answer: 'Yes—AI readiness is a key CDO responsibility. An interim CDO can assess your data maturity, build the data infrastructure needed for AI, establish data quality practices, and develop the governance frameworks that AI requires.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Fractional CDO Services UK | Hire a Part-Time Chief Data Officer',
-  description: 'Hire a Fractional CDO for your business. Access senior data leadership at a fraction of full-time cost. Expert CDOs for data strategy, analytics, AI readiness, and data governance. Start within days.',
-  keywords: 'fractional cdo, fractional cdo services, hire fractional cdo, part time cdo, fractional chief data officer, fractional cdo uk, fractional data director',
+  title: 'Interim CDO Services UK | Hire a Part-Time Chief Data Officer',
+  description: 'Hire a Interim CDO for your business. Access senior data leadership at a fraction of full-time cost. Expert CDOs for data strategy, analytics, AI readiness, and data governance. Start within days.',
+  keywords: 'interim cdo, interim cdo services, hire interim cdo, part time cdo, interim chief data officer, interim cdo uk, interim data director',
   alternates: {
     canonical: 'https://interim.quest/interim-cdo-services',
   },
   openGraph: {
-    title: 'Fractional CDO Services UK | Hire a Part-Time Chief Data Officer',
-    description: 'Hire a Fractional CDO for your business. Senior data leadership at a fraction of full-time cost.',
+    title: 'Interim CDO Services UK | Hire a Part-Time Chief Data Officer',
+    description: 'Hire a Interim CDO for your business. Senior data leadership at a fraction of full-time cost.',
     images: ['/images/interim-cdo-services.jpg'],
     url: 'https://interim.quest/interim-cdo-services',
   },
 }
 
-export default function FractionalCDOServicesPage() {
+export default function InterimCDOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -67,11 +67,11 @@ export default function FractionalCDOServicesPage() {
                 Data Leadership
               </span>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-[0.9] tracking-tight">
-                Fractional CDO<br />
+                Interim CDO<br />
                 <span className="text-cyan-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Fractional CDO</strong> to unlock your data.
+                Hire a <strong className="text-white">Interim CDO</strong> to unlock your data.
                 Senior data leadership, analytics strategy, and AI readiness—at a fraction of full-time cost.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
@@ -90,7 +90,7 @@ export default function FractionalCDOServicesPage() {
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-cyan-500 text-black font-bold uppercase tracking-wider hover:bg-cyan-400 transition-colors">
-                  Hire a Fractional CDO
+                  Hire a Interim CDO
                 </Link>
                 <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
@@ -101,16 +101,16 @@ export default function FractionalCDOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Fractional CDO */}
+      {/* What is a Interim CDO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Fractional CDO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CDO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Fractional CDO</strong> (Chief Data Officer) is an experienced data executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic data leadership, analytics expertise, and data governance without the commitment and cost of a full-time hire.
+              A <strong className="font-semibold text-gray-900">Interim CDO</strong> (Chief Data Officer) is an experienced data executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic data leadership, analytics expertise, and data governance without the commitment and cost of a full-time hire.
             </p>
             <p>
               Unlike data analysts who answer specific questions, an interim CDO builds the entire data function. They create data strategy, build infrastructure, establish governance, and transform the organisation into one that uses data to drive decisions.
@@ -136,8 +136,8 @@ export default function FractionalCDOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Fractional CDO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your fractional CDO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CDO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CDO will own</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -192,7 +192,7 @@ export default function FractionalCDOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Fractional CDO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CDO?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -242,7 +242,7 @@ export default function FractionalCDOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CDO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CDO</h2>
           </div>
           <ServiceComparisonTable role="CDO" accentColor="blue" />
         </div>
@@ -253,7 +253,7 @@ export default function FractionalCDOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Fractional CDO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CDO</h2>
           </div>
           <HireProcessStepper accentColor="blue" />
         </div>
@@ -275,14 +275,14 @@ export default function FractionalCDOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-cyan-400">Fractional CDO?</span>
+            Ready to Hire a<br /><span className="text-cyan-400">Interim CDO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your data challenges and we'll match you with pre-vetted fractional CDOs who have solved them before.
+            Tell us about your data challenges and we'll match you with pre-vetted interim CDOs who have solved them before.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-cyan-500 text-black font-bold uppercase tracking-wider hover:bg-cyan-400 transition-colors">
-              Find a Fractional CDO
+              Find a Interim CDO
             </Link>
             <Link href="/interim-cdo-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CDO Looking for Roles
@@ -298,8 +298,8 @@ export default function FractionalCDOServicesPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-gray-400">Related Services</span>
             <div className="flex flex-wrap gap-4">
               <Link href="/interim-cto-services" className="text-gray-600 hover:text-cyan-600 font-medium transition-colors">Interim CTO</Link>
-              <Link href="/interim-cio-services" className="text-gray-600 hover:text-cyan-600 font-medium transition-colors">Fractional CIO</Link>
-              <Link href="/interim-ciso-services" className="text-gray-600 hover:text-cyan-600 font-medium transition-colors">Fractional CISO</Link>
+              <Link href="/interim-cio-services" className="text-gray-600 hover:text-cyan-600 font-medium transition-colors">Interim CIO</Link>
+              <Link href="/interim-ciso-services" className="text-gray-600 hover:text-cyan-600 font-medium transition-colors">Interim CISO</Link>
             </div>
           </div>
         </div>

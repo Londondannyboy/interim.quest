@@ -36,7 +36,7 @@ const bristolIndustries = [
 const relatedSearches = [
   'Interim CFO Jobs Bristol', 'Interim CTO Jobs Bristol', 'Interim CMO Jobs South West',
   'Part-Time CFO Bristol', 'Interim Executive Bristol', 'Portfolio Career Bristol',
-  'Interim Jobs Bath', 'Interim Jobs Swindon', 'Fractional Executive Salary Bristol'
+  'Interim Jobs Bath', 'Interim Jobs Swindon', 'Interim Executive Salary Bristol'
 ]
 
 async function getBristolStats() {
@@ -265,7 +265,7 @@ export default async function BristolPage() {
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                Is Bristol good for fractional tech roles?
+                Is Bristol good for interim tech roles?
                 <span className="text-purple-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
@@ -310,7 +310,7 @@ export default async function BristolPage() {
             Ready to Work in Bristol?
           </h2>
           <p className="text-xl text-purple-100 mb-10">
-            {stats.total}+ fractional opportunities across Bristol, Bath, and the South West
+            {stats.total}+ interim opportunities across Bristol, Bath, and the South West
           </p>
           <Link
             href="/interim-jobs?location=Bristol"

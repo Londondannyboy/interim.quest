@@ -53,7 +53,7 @@ export interface ZepEdge {
 // Singleton Zep client
 let zepClient: ZepClient | null = null
 
-const JOBS_GRAPH_ID = 'fractional-jobs-graph'
+const JOBS_GRAPH_ID = 'interim-jobs-graph'
 
 export function getZepClient(): ZepClient | null {
   const apiKey = process.env.ZEP_API_KEY
@@ -320,7 +320,7 @@ export async function ensureJobsGraph(): Promise<boolean> {
       await client.graph.create({
         graphId: JOBS_GRAPH_ID,
         name: 'Interim Jobs Knowledge Graph',
-        description: 'Shared graph containing all fractional job opportunities, their required skills, and company relationships',
+        description: 'Shared graph containing all interim job opportunities, their required skills, and company relationships',
       })
       console.log(`Created jobs graph: ${JOBS_GRAPH_ID}`)
       return true
@@ -351,7 +351,7 @@ export async function syncJobToZep(job: {
     await ensureJobsGraph()
 
     const jobData = {
-      type: 'fractional_job',
+      type: 'interim_job',
       job_id: job.id,
       title: job.title,
       company_name: job.company,
@@ -645,7 +645,7 @@ export async function buildJobsGraph(
       id: `job-${job.id}`,
       type: 'job',
       label: job.title,
-      url: job.slug ? `/fractional-job/${job.slug}` : undefined,
+      url: job.slug ? `/interim-job/${job.slug}` : undefined,
       data: { company: job.company, location: job.location },
     }
     nodes.push(jobNode)

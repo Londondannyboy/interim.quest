@@ -82,7 +82,7 @@ export async function getUncoveredJobs(
              j.posted_date::text, j.description_snippet
       FROM jobs j
       WHERE j.is_active = true
-        AND j.is_fractional = true
+        AND j.is_interim = true
         AND NOT EXISTS (
           SELECT 1 FROM job_news_coverage jnc
           WHERE jnc.job_id = j.id::text
@@ -103,7 +103,7 @@ export async function getUncoveredJobs(
              j.posted_date::text, j.description_snippet
       FROM jobs j
       WHERE j.is_active = true
-        AND j.is_fractional = true
+        AND j.is_interim = true
         AND j.role_category = ${roleCategory}
         AND NOT EXISTS (
           SELECT 1 FROM job_news_coverage jnc
@@ -124,7 +124,7 @@ export async function getUncoveredJobs(
            j.posted_date::text, j.description_snippet
     FROM jobs j
     WHERE j.is_active = true
-      AND j.is_fractional = true
+      AND j.is_interim = true
     ORDER BY j.posted_date DESC NULLS LAST
     LIMIT ${limit * 2}
   `

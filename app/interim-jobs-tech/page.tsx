@@ -9,22 +9,22 @@ import { FAQ, TECH_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Fractional Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
-  description: 'Find fractional tech jobs in the UK. Interim CTO, VP Engineering, Tech Director roles. £900-£1,500 daily rates. SaaS, FinTech, HealthTech opportunities.',
+  title: 'Interim Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
+  description: 'Find interim tech jobs in the UK. Interim CTO, VP Engineering, Tech Director roles. £900-£1,500 daily rates. SaaS, FinTech, HealthTech opportunities.',
   openGraph: {
-    title: 'Fractional Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
-    description: 'Find fractional technology leadership roles across the UK.',
+    title: 'Interim Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
+    description: 'Find interim technology leadership roles across the UK.',
     type: 'website',
   },
 }
 
 const techRoles = [
   { name: 'Interim CTO', description: 'Strategic technology leadership', rateRange: '£1,000-£1,500/day', demand: 'Very High' },
-  { name: 'Fractional VP Engineering', description: 'Engineering team leadership', rateRange: '£900-£1,300/day', demand: 'High' },
-  { name: 'Fractional Tech Director', description: 'Technical strategy & delivery', rateRange: '£850-£1,200/day', demand: 'High' },
-  { name: 'Fractional Head of Product', description: 'Product strategy & roadmap', rateRange: '£800-£1,200/day', demand: 'High' },
-  { name: 'Fractional CISO', description: 'Security & compliance leadership', rateRange: '£950-£1,400/day', demand: 'Growing' },
-  { name: 'Fractional Data Lead', description: 'Data strategy & analytics', rateRange: '£850-£1,250/day', demand: 'Growing' },
+  { name: 'Interim VP Engineering', description: 'Engineering team leadership', rateRange: '£900-£1,300/day', demand: 'High' },
+  { name: 'Interim Tech Director', description: 'Technical strategy & delivery', rateRange: '£850-£1,200/day', demand: 'High' },
+  { name: 'Interim Head of Product', description: 'Product strategy & roadmap', rateRange: '£800-£1,200/day', demand: 'High' },
+  { name: 'Interim CISO', description: 'Security & compliance leadership', rateRange: '£950-£1,400/day', demand: 'Growing' },
+  { name: 'Interim Data Lead', description: 'Data strategy & analytics', rateRange: '£850-£1,250/day', demand: 'Growing' },
 ]
 
 const techSectors = [
@@ -43,9 +43,9 @@ const techSkills = [
 ]
 
 const relatedSearches = [
-  'Interim CTO Jobs UK', 'Fractional VP Engineering', 'Part-Time CTO London',
-  'Fractional Tech Director', 'Fractional CISO Jobs', 'Startup CTO Jobs',
-  'SaaS Interim CTO', 'FinTech Interim CTO', 'Fractional Head of Engineering'
+  'Interim CTO Jobs UK', 'Interim VP Engineering', 'Part-Time CTO London',
+  'Interim Tech Director', 'Interim CISO Jobs', 'Startup CTO Jobs',
+  'SaaS Interim CTO', 'FinTech Interim CTO', 'Interim Head of Engineering'
 ]
 
 // Same video as homepage
@@ -95,7 +95,7 @@ export default async function TechJobsPage() {
                   </span>
 
                   <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 leading-[0.95] tracking-tight">
-                    Fractional<br />
+                    Interim<br />
                     <span className="text-blue-300">Tech</span> Jobs UK
                   </h1>
 
@@ -153,7 +153,7 @@ export default async function TechJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">Opportunities</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fractional Tech Jobs</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Tech Jobs</h2>
             <p className="text-xl text-gray-500">Browse {stats.total}+ tech leadership opportunities</p>
           </div>
           <EmbeddedJobBoard defaultDepartment="Engineering" />
@@ -165,7 +165,7 @@ export default async function TechJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Role</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Fractional Tech Roles</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Tech Roles</h2>
             <p className="text-xl text-gray-500">Technology leadership positions available</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -187,7 +187,7 @@ export default async function TechJobsPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Sector</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Tech Sectors Hiring</h2>
-            <p className="text-xl text-gray-500">Industries with highest demand for fractional tech leaders</p>
+            <p className="text-xl text-gray-500">Industries with highest demand for interim tech leaders</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {techSectors.map((sector) => (
@@ -208,7 +208,7 @@ export default async function TechJobsPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">Skills</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">In-Demand Tech Skills</h2>
-            <p className="text-xl text-gray-500">Skills that command premium fractional rates</p>
+            <p className="text-xl text-gray-500">Skills that command premium interim rates</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
             {techSkills.map((skill) => (
@@ -225,7 +225,7 @@ export default async function TechJobsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">The Opportunity</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Fractional Tech Leadership?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Interim Tech Leadership?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8">
@@ -234,7 +234,7 @@ export default async function TechJobsPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Startup-Ready</h3>
               <p className="text-gray-600">
-                Startups and scale-ups can't always afford a £200k+ full-time CTO. Fractional tech leaders provide senior expertise at a fraction of the cost.
+                Startups and scale-ups can't always afford a £200k+ full-time CTO. Interim tech leaders provide senior expertise at a fraction of the cost.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
@@ -243,7 +243,7 @@ export default async function TechJobsPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Premium Rates</h3>
               <p className="text-gray-600">
-                Tech leadership commands the highest fractional rates. CTOs with cloud, AI, or security expertise can earn £1,200-£1,500/day.
+                Tech leadership commands the highest interim rates. CTOs with cloud, AI, or security expertise can earn £1,200-£1,500/day.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
@@ -252,7 +252,7 @@ export default async function TechJobsPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Remote-First</h3>
               <p className="text-gray-600">
-                65% of fractional tech roles are fully remote or hybrid. Work with clients across the UK and Europe from anywhere.
+                65% of interim tech roles are fully remote or hybrid. Work with clients across the UK and Europe from anywhere.
               </p>
             </div>
           </div>
@@ -276,8 +276,8 @@ export default async function TechJobsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">FAQ</span>
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Tech Fractional FAQs</h2>
-            <p className="text-xl text-gray-500">Common questions about fractional tech roles</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Tech Interim FAQs</h2>
+            <p className="text-xl text-gray-500">Common questions about interim tech roles</p>
           </div>
           <FAQ items={TECH_FAQS} title="" />
         </div>
@@ -306,7 +306,7 @@ export default async function TechJobsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-6 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready for Fractional Tech Leadership?
+            Ready for Interim Tech Leadership?
           </h2>
           <p className="text-xl text-gray-400 mb-10">
             {stats.total}+ CTO, VP Engineering, and Tech Director opportunities

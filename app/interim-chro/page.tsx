@@ -27,7 +27,7 @@ export default function InterimCHROPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary HR leadership for transformations, restructuring, and critical people challenges. Expert HR executives available immediately.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-pink-500 text-white font-bold uppercase tracking-wider hover:bg-pink-400 transition-colors">Hire an Interim CHRO</Link>
-                <Link href="/interim-chro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-chro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function InterimCHROPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">What is an Interim CHRO?</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CHRO</strong> (or Interim HR Director) is a temporary Chief Human Resources Officer who works full-time for a defined period—typically 3-12 months. Unlike fractional CHROs who work part-time, interim CHROs focus exclusively on one organisation.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">An <strong>Interim CHRO</strong> (or Interim HR Director) is a temporary Chief Human Resources Officer who works full-time for a defined period—typically 3-12 months. Unlike interim CHROs who work part-time, interim CHROs focus exclusively on one organisation.</p>
           <p className="text-gray-600">Interim CHROs are typically hired to lead HR transformations, manage restructuring with people implications, or fill leadership gaps during sensitive periods.</p>
         </div>
       </section>
@@ -72,10 +72,10 @@ export default function InterimCHROPage() {
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-black mb-6">Need an Interim CHRO?</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your situation and we'll help you find the right interim or fractional CHRO.</p>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your situation and we'll help you find the right interim or interim CHRO.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-pink-500 text-white font-bold uppercase tracking-wider hover:bg-pink-400 transition-colors">Find an Interim CHRO</Link>
-            <Link href="/interim-chro-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CHRO</Link>
+            <Link href="/interim-chro-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Interim CHRO</Link>
           </div>
         </div>
       </section>

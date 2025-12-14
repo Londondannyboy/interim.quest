@@ -139,7 +139,7 @@ export function JobsGraph3D({
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-|-$/g, '')
-      window.location.href = `/fractional-job/${slug}`
+      window.location.href = `/interim-job/${slug}`
     }
   }, [])
 

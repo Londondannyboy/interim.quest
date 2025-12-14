@@ -40,7 +40,7 @@ const successStories = [
     area: "City of London",
   },
   {
-    quote: "Shoreditch has become the epicenter for fractional tech leadership. I work with startups that need strategic guidance.",
+    quote: "Shoreditch has become the epicenter for interim tech leadership. I work with startups that need strategic guidance.",
     name: "Michael C.",
     role: "Interim CTO",
     area: "Shoreditch",
@@ -184,7 +184,7 @@ export default async function LondonPage() {
           </div>
           <div className="prose prose-xl prose-gray max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed text-center">
-              Accounting for 60% of all fractional opportunities nationwide, London offers unmatched access to startups, scale-ups, and established companies seeking flexible leadership. Day rates range from £800-£1,500, with professionals earning £150,000-£300,000+ annually across 2-4 clients.
+              Accounting for 60% of all interim opportunities nationwide, London offers unmatched access to startups, scale-ups, and established companies seeking flexible leadership. Day rates range from £800-£1,500, with professionals earning £150,000-£300,000+ annually across 2-4 clients.
             </p>
           </div>
         </div>
@@ -230,7 +230,7 @@ export default async function LondonPage() {
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">By Function</span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Executive Roles</h2>
-            <p className="text-xl text-gray-500">Fractional leadership positions in London</p>
+            <p className="text-xl text-gray-500">Interim leadership positions in London</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -239,8 +239,8 @@ export default async function LondonPage() {
               { icon: '💻', title: 'Interim CTO', subtitle: 'Technology Leadership', rate: '£950-£1,500/day', role: 'CTO' },
               { icon: '📢', title: 'Interim CMO', subtitle: 'Marketing Leadership', rate: '£800-£1,200/day', role: 'CMO' },
               { icon: '⚙️', title: 'Interim COO', subtitle: 'Operations Leadership', rate: '£850-£1,300/day', role: 'COO' },
-              { icon: '👥', title: 'Fractional HRD', subtitle: 'People Leadership', rate: '£750-£1,100/day', role: 'HR' },
-              { icon: '📈', title: 'Fractional Sales', subtitle: 'Revenue Leadership', rate: '£800-£1,250/day', role: 'Sales' },
+              { icon: '👥', title: 'Interim HRD', subtitle: 'People Leadership', rate: '£750-£1,100/day', role: 'HR' },
+              { icon: '📈', title: 'Interim Sales', subtitle: 'Revenue Leadership', rate: '£800-£1,250/day', role: 'Sales' },
             ].map((item) => {
               const roleCount = stats.roleStats.find(r => r.role_category === item.role)?.count || '0'
               return (
@@ -284,7 +284,7 @@ export default async function LondonPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-4 block">Perspectives</span>
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">From London's Fractional Leaders</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">From London's Interim Leaders</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -357,7 +357,7 @@ export default async function LondonPage() {
             <div>
               <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wider">Resources</h3>
               <ul className="space-y-3 text-gray-600">
-                <li><Link href="/how-to-become-a-fractional-executive" className="hover:text-purple-700 transition-colors">How to Go Fractional</Link></li>
+                <li><Link href="/how-to-become-a-interim-executive" className="hover:text-purple-700 transition-colors">How to Go Interim</Link></li>
                 <li><Link href="/interim-executive-salary-uk" className="hover:text-purple-700 transition-colors">Salary Guide</Link></li>
                 <li><Link href="/interim-jobs-articles" className="hover:text-purple-700 transition-colors">All Articles</Link></li>
               </ul>

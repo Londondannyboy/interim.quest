@@ -13,7 +13,7 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const metadata: Metadata = {
   title: 'Interim CTO Services UK | Hire a Part-Time CTO',
   description: 'Hire a Interim CTO for your business. Access senior technical leadership at a fraction of full-time cost. Expert CTOs for architecture, team building, and technical strategy. Start within days.',
-  keywords: 'fractional cto, fractional cto services, hire fractional cto, part time cto, fractional chief technology officer, fractional cto uk, fractional tech lead',
+  keywords: 'interim cto, interim cto services, hire interim cto, part time cto, interim chief technology officer, interim cto uk, interim tech lead',
   alternates: {
     canonical: 'https://interim.quest/interim-cto-services',
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function FractionalCTOServicesPage() {
+export default function InterimCTOServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -277,7 +277,7 @@ export default function FractionalCTOServicesPage() {
           <div className="mb-8 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim CTO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of fractional vs full-time CTO</p>
+            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time CTO</p>
           </div>
           <RoleCalculator role="cto" />
           <div className="mt-8 prose prose-gray max-w-none">
@@ -300,7 +300,7 @@ export default function FractionalCTOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CTO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CTO</h2>
             <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
           </div>
           <ServiceComparisonTable role="CTO" accentColor="blue" />

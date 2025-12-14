@@ -11,7 +11,7 @@ export async function GET() {
     const stats = await sql`
       SELECT
         COUNT(*) FILTER (WHERE is_active = true) as total_active,
-        COUNT(*) FILTER (WHERE is_active = true AND is_fractional = true) as fractional_count,
+        COUNT(*) FILTER (WHERE is_active = true AND is_interim = true) as interim_count,
         COUNT(*) FILTER (WHERE is_active = true AND is_remote = true) as remote_count,
         COUNT(*) FILTER (WHERE is_active = true AND LOWER(title) LIKE '%cfo%') as cfo_count,
         COUNT(*) FILTER (WHERE is_active = true AND LOWER(title) LIKE '%cmo%') as cmo_count,
@@ -28,7 +28,7 @@ export async function GET() {
     const featured = await sql`
       SELECT title, company_name, location
       FROM jobs
-      WHERE is_active = true AND is_fractional = true
+      WHERE is_active = true AND is_interim = true
       ORDER BY posted_date DESC NULLS LAST
       LIMIT 5
     ` as Array<{ title: string; company_name: string; location: string }>
@@ -39,7 +39,7 @@ export async function GET() {
     return NextResponse.json({
       stats: {
         total: parseInt(s.total_active),
-        fractional: parseInt(s.fractional_count),
+        interim: parseInt(s.interim_count),
         remote: parseInt(s.remote_count),
         byRole: {
           cfo: parseInt(s.cfo_count),
@@ -71,7 +71,7 @@ export async function GET() {
 
 function buildVoiceSummary(stats: Record<string, string>, featured: Array<{ title: string; company_name: string; location: string }>): string {
   const total = parseInt(stats.total_active)
-  const fractional = parseInt(stats.fractional_count)
+  const interim = parseInt(stats.interim_count)
   const remote = parseInt(stats.remote_count)
 
   if (total === 0) {
@@ -80,8 +80,8 @@ function buildVoiceSummary(stats: Record<string, string>, featured: Array<{ titl
 
   let summary = `We currently have ${total} active role${total > 1 ? 's' : ''}`
 
-  if (fractional > 0) {
-    summary += `, including ${fractional} fractional position${fractional > 1 ? 's' : ''}`
+  if (interim > 0) {
+    summary += `, including ${interim} interim position${interim > 1 ? 's' : ''}`
   }
 
   summary += '.'

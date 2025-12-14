@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Hire Operations Consultants UK | Fractional Operations Experts',
+  title: 'Hire Operations Consultants UK | Interim Operations Experts',
   description: 'Hire experienced operations consultants on an interim basis. Expert operations professionals for scaling, process improvement, and efficiency. Available part-time.',
-  keywords: 'operations consultants, hire operations consultant, fractional operations expert, operations consultant uk, business operations consultant',
+  keywords: 'operations consultants, hire operations consultant, interim operations expert, operations consultant uk, business operations consultant',
   alternates: { canonical: 'https://interim.quest/operations-consultants' },
 }
 

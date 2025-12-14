@@ -820,7 +820,7 @@ export default function RepoPage() {
             </div>
             {sidebarOpen && (
               <div>
-                <span className="text-gray-900 font-bold">Fractional</span>
+                <span className="text-gray-900 font-bold">Interim</span>
                 <span className="text-purple-600">.Quest</span>
               </div>
             )}

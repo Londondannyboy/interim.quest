@@ -7,13 +7,13 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Fractional Operations Leadership UK | Hire Part-Time Operations Executives',
-  description: 'Hire fractional operations leaders for your business. Part-time COOs, VPs of Operations, and Ops Directors. Expert operations leadership without full-time cost.',
-  keywords: 'fractional operations, fractional ops director, part-time operations executive, fractional vp operations, hire operations leader',
+  title: 'Interim Operations Leadership UK | Hire Part-Time Operations Executives',
+  description: 'Hire interim operations leaders for your business. Part-time COOs, VPs of Operations, and Ops Directors. Expert operations leadership without full-time cost.',
+  keywords: 'interim operations, interim ops director, part-time operations executive, interim vp operations, hire operations leader',
   alternates: { canonical: 'https://interim.quest/interim-operations' },
 }
 
-export default function FractionalOperationsPage() {
+export default function InterimOperationsPage() {
   return (
     <div className="min-h-screen bg-white">
       <section className="relative min-h-[60vh] flex items-center overflow-hidden">
@@ -23,7 +23,7 @@ export default function FractionalOperationsPage() {
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
               <span className="inline-block bg-orange-500 text-black px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
-              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Fractional<br /><span className="text-orange-400">Operations</span></h1>
+              <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-orange-400">Operations</span></h1>
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior operations leadership without the full-time commitment. From COOs to Operations Directors, find the right level of expertise for your growth stage.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-orange-500 text-black font-bold uppercase tracking-wider hover:bg-orange-400 transition-colors">Find Operations Leadership</Link>
@@ -36,8 +36,8 @@ export default function FractionalOperationsPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Fractional Operations Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">As companies scale, operational complexity grows exponentially. Fractional operations leaders bring the experience to build scalable systems, processes, and teams—without the cost of a full-time executive.</p>
+          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Operations Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">As companies scale, operational complexity grows exponentially. Interim operations leaders bring the experience to build scalable systems, processes, and teams—without the cost of a full-time executive.</p>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             {[
               { title: 'Interim COO', description: 'C-level operations leadership for scaling and transformation.', link: '/interim-coo-services' },
@@ -55,7 +55,7 @@ export default function FractionalOperationsPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Fractional Operations Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Operations Leaders Do</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title: 'Process Design', description: 'Design and implement efficient, scalable operational processes.' },
@@ -83,7 +83,7 @@ export default function FractionalOperationsPage() {
       <section id="contact" className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-black mb-6">Find Operations Leadership</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us about your operational challenges and we'll match you with the right fractional operations executive.</p>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your operational challenges and we'll match you with the right interim operations executive.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-orange-500 text-black font-bold uppercase tracking-wider hover:bg-orange-400 transition-colors">Get Started</Link>
             <Link href="/interim-coo-services" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Learn About Interim COOs</Link>

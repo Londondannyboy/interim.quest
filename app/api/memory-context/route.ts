@@ -15,7 +15,7 @@ export async function GET() {
 
     console.log('[Memory Context] Fetching for user:', user.id)
 
-    // Get context relevant to fractional job discussions
+    // Get context relevant to interim job discussions
     const context = await getConversationContext(
       user.id,
       'interim jobs career skills experience preferences'

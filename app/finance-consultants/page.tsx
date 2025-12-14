@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Hire Finance Consultants UK | Fractional Finance Experts',
+  title: 'Hire Finance Consultants UK | Interim Finance Experts',
   description: 'Hire experienced finance consultants on an interim basis. Expert financial professionals for FP&A, fundraising, and financial strategy. Available part-time.',
-  keywords: 'finance consultants, hire finance consultant, fractional finance expert, finance consultant uk, financial strategy consultant',
+  keywords: 'finance consultants, hire finance consultant, interim finance expert, finance consultant uk, financial strategy consultant',
   alternates: { canonical: 'https://interim.quest/finance-consultants' },
 }
 

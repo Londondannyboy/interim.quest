@@ -27,7 +27,7 @@ export default function InterimCOOPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary COO leadership for operational transformations, restructuring, and scaling challenges. Expert operations executives available immediately.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-orange-500 text-black font-bold uppercase tracking-wider hover:bg-orange-400 transition-colors">Hire an Interim COO</Link>
-                <Link href="/interim-coo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Fractional Instead?</Link>
+                <Link href="/interim-coo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Consider Interim Instead?</Link>
               </div>
             </div>
           </div>

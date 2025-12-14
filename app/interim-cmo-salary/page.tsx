@@ -6,7 +6,7 @@ import { RateDistribution } from '@/components/RateDistribution'
 export const metadata: Metadata = {
   title: 'Interim CMO Salary UK 2025 - Day Rates, Annual Earnings & Pay Guide',
   description: 'Interim CMO salary guide for 2025. UK day rates £700-£1,400. Annual earnings £110k-£220k. Compare rates by location, industry and experience.',
-  keywords: 'fractional cmo salary, fractional cmo day rate, fractional cmo pay, part time cmo salary, fractional cmo uk salary',
+  keywords: 'interim cmo salary, interim cmo day rate, interim cmo pay, part time cmo salary, interim cmo uk salary',
   openGraph: {
     title: 'Interim CMO Salary UK 2025 - Complete Pay Guide',
     description: 'Interim CMO salary guide. UK day rates £700-£1,400. Annual earnings £110k-£220k.',
@@ -39,7 +39,7 @@ const salaryData = {
   ],
 }
 
-export default function FractionalCmoSalaryPage() {
+export default function InterimCmoSalaryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
@@ -195,7 +195,7 @@ export default function FractionalCmoSalaryPage() {
 
             <h2>Interim CMO vs Full-Time CMO Salary</h2>
             <p>
-              A full-time CMO at a Series A/B startup typically earns £120,000-£160,000 plus equity. A <strong>interim CMO</strong> earning £1,000/day for 150 days achieves £150,000—comparable cash with more flexibility. The trade-off is equity: full-time roles often include meaningful stock options that fractional arrangements typically don't.
+              A full-time CMO at a Series A/B startup typically earns £120,000-£160,000 plus equity. A <strong>interim CMO</strong> earning £1,000/day for 150 days achieves £150,000—comparable cash with more flexibility. The trade-off is equity: full-time roles often include meaningful stock options that interim arrangements typically don't.
             </p>
             <p>
               However, interim CMOs can mitigate this by negotiating advisory equity or working with multiple companies, diversifying their portfolio exposure while maintaining higher cash compensation.

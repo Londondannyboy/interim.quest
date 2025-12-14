@@ -269,7 +269,7 @@ export default async function InterimCfoJobsUkPage() {
             </div>
 
             <p>
-              This page focuses on <strong>interim CFO jobs</strong>—full-time temporary assignments. If you're looking for part-time ongoing CFO work across multiple clients, that's fractional/portfolio CFO work.
+              This page focuses on <strong>interim CFO jobs</strong>—full-time temporary assignments. If you are looking for part-time ongoing CFO work across multiple clients, that is fractional/portfolio CFO work.
             </p>
 
             <div className="bg-emerald-50 p-6 border border-emerald-200 rounded-lg my-8 not-prose">

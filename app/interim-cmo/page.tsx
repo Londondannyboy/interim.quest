@@ -57,7 +57,7 @@ export default function InterimCMOPage() {
               Interim CMOs are brought in to handle specific situations: covering a vacancy while recruiting a permanent CMO, leading a major rebrand, driving digital transformation, managing a crisis, or integrating marketing teams post-merger. They hit the ground running with deep expertise and the authority to make decisions and drive change quickly.
             </p>
             <p className="text-gray-700 mb-4">
-              <strong>This is not a part-time role.</strong> Interim CMOs work full-time (5 days per week) with complete focus on the organisation's marketing challenges. They're embedded in the business, leading teams, making strategic decisions, and delivering results within a defined timeframe.
+              <strong>This is not a part-time role.</strong> Interim CMOs work full-time (5 days per week) with complete focus on the organisation's marketing challenges. They are embedded in the business, leading teams, making strategic decisions, and delivering results within a defined timeframe.
             </p>
           </div>
         </div>
@@ -211,7 +211,7 @@ export default function InterimCMOPage() {
                 <div className="flex-shrink-0 w-12 h-12 bg-amber-500 text-white font-black text-xl flex items-center justify-center rounded">4</div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Set Up as a Contractor</h3>
-                  <p className="text-gray-600">Register as a limited company or umbrella company contractor. Get professional indemnity insurance, set up accounting, and ensure you're IR35-compliant.</p>
+                  <p className="text-gray-600">Register as a limited company or umbrella company contractor. Get professional indemnity insurance, set up accounting, and ensure you are IR35-compliant.</p>
                 </div>
               </div>
             </div>

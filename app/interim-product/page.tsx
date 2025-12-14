@@ -37,7 +37,7 @@ export default function InterimProductPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Product Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim product leaders provide full-time, experienced product leadership during critical periods. When your CPO departs, you're launching major products, entering new markets, or transforming product strategy—interim leaders step in immediately to maintain momentum.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim product leaders provide full-time, experienced product leadership during critical periods. When your CPO departs, you are launching major products, entering new markets, or transforming product strategy—interim leaders step in immediately to maintain momentum.</p>
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Product Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim product leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead major launches, or drive transformation.</p>

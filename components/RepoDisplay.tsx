@@ -756,7 +756,7 @@ export function RepoDisplay({ userId, refreshTrigger }: RepoDisplayProps) {
               </div>
               <p className="text-gray-600 font-medium">No preferences set</p>
               <p className="text-gray-600 text-sm mt-1">
-                Tell Quest what you're looking for
+                Tell Quest what you are looking for
               </p>
             </div>
           ) : (

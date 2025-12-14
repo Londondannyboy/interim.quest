@@ -24,7 +24,7 @@ export default function InterimCOOPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-orange-500 text-black px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Interim Role Guide</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">What is an<br /><span className="text-orange-400">Interim COO?</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time operational leadership for 3-12 months. Leading turnarounds, restructuring, and covering critical leadership gaps when permanent solutions aren't viable yet.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time operational leadership for 3-12 months. Leading turnarounds, restructuring, and covering critical leadership gaps when permanent solutions are not viable yet.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#what-is-interim-coo" className="px-8 py-4 bg-orange-500 text-black font-bold uppercase tracking-wider hover:bg-orange-400 transition-colors">Learn About the Role</Link>
                 <Link href="#day-rates" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">View Day Rates</Link>
@@ -44,7 +44,7 @@ export default function InterimCOOPage() {
 
             <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-8">
               <h3 className="text-lg font-bold text-gray-900 mb-2">Key Distinction: INTERIM = Full-time</h3>
-              <p className="text-gray-700 mb-0">Interim COO roles are full-time, temporary positions. These executives work exclusively for your organisation during critical periods like operational turnarounds, restructuring programs, or while you search for a permanent COO. They're not part-time consultants—they're fully committed operational leaders.</p>
+              <p className="text-gray-700 mb-0">Interim COO roles are full-time, temporary positions. These executives work exclusively for your organisation during critical periods like operational turnarounds, restructuring programs, or while you search for a permanent COO. They are not part-time consultants—they are fully committed operational leaders.</p>
             </div>
 
             <p className="text-gray-600">Interim COOs typically step in when organisations face operational challenges too complex for consultants, too urgent for part-time support, or too risky to leave vacant while recruiting permanently.</p>
@@ -263,7 +263,7 @@ export default function InterimCOOPage() {
 
             <div className="bg-orange-50 border border-orange-200 p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-2">Who Shouldn't Pursue Interim COO Work?</h3>
-              <p className="text-gray-700">This path isn't suitable if you need employment security, want deep organisational relationships, prefer building long-term strategy over fixing immediate problems, or lack the resilience for constant change and political complexity.</p>
+              <p className="text-gray-700">This path is not suitable if you need employment security, want deep organisational relationships, prefer building long-term strategy over fixing immediate problems, or lack the resilience for constant change and political complexity.</p>
             </div>
           </div>
         </div>

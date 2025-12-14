@@ -154,7 +154,7 @@ export default function InterimCIOPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-8">Career Path to Becoming an Interim CIO</h2>
           <div className="space-y-6">
-            <p className="text-gray-600">Most Interim CIOs have 20-30 years of IT experience. You don't start your career as an interim—you transition into it after building deep expertise across multiple organizations and technologies.</p>
+            <p className="text-gray-600">Most Interim CIOs have 20-30 years of IT experience. You do not start your career as an interim—you transition into it after building deep expertise across multiple organizations and technologies.</p>
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-gray-900 mb-4">Typical Path:</h3>
@@ -185,7 +185,7 @@ export default function InterimCIOPage() {
                 <li>• Delivered major transformations or implementations</li>
                 <li>• Comfortable with legacy technology and technical debt</li>
                 <li>• Can assess IT estates rapidly (infrastructure, apps, team)</li>
-                <li>• Don't need long relationship-building to be effective</li>
+                <li>• Do not need long relationship-building to be effective</li>
                 <li>• Happy to hand over to permanent successor</li>
                 <li>• Financial runway for gaps between assignments</li>
               </ul>

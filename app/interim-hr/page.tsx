@@ -37,7 +37,7 @@ export default function InterimHRPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim HR Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim HR leaders provide full-time, experienced people leadership during critical periods. When your CHRO departs, you're managing restructuring, facing complex employee relations issues, or transforming culture—interim leaders step in immediately to provide stability and expertise.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim HR leaders provide full-time, experienced people leadership during critical periods. When your CHRO departs, you are managing restructuring, facing complex employee relations issues, or transforming culture—interim leaders step in immediately to provide stability and expertise.</p>
           <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional HR Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim HR leaders work full-time for a defined period (typically 3-12 months) to cover departures, manage restructuring, or handle crisis situations.</p>

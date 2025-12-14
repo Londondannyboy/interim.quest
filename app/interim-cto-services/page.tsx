@@ -87,7 +87,7 @@ export default function InterimCTOServicesPage() {
               An <strong className="font-semibold text-gray-900">Interim CTO</strong> is an experienced Chief Technology Officer who joins your company full-time on a temporary basis—typically for 3-12 months. They provide immediate senior technology leadership during critical periods: CTO vacancy, digital transformation, tech crisis, or major system migration.
             </p>
             <p>
-              Unlike fractional CTOs who work 1-3 days per week across multiple companies, an interim CTO is dedicated to your business five days a week. They're not advisors—they're your CTO. They make decisions, take accountability, lead your team, and drive results through a defined transformation period.
+              Unlike fractional CTOs who work 1-3 days per week across multiple companies, an interim CTO is dedicated to your business five days a week. They are not advisors—they are your CTO. They make decisions, take accountability, lead your team, and drive results through a defined transformation period.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-blue-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
@@ -96,10 +96,10 @@ export default function InterimCTOServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim vs Fractional CTO</h3>
             <p>
-              A fractional CTO works part-time (1-3 days per week) across multiple companies. They're ideal for ongoing strategic guidance and architecture oversight when you don't need full-time leadership.
+              A fractional CTO works part-time (1-3 days per week) across multiple companies. They are ideal for ongoing strategic guidance and architecture oversight when you do not need full-time leadership.
             </p>
             <p>
-              An interim CTO is full-time and temporary. They're brought in for urgent situations: sudden CTO departure, failing technology programmes, digital transformations, or when you need to stabilise before hiring permanent leadership. They're hands-on, accountable, and focused on delivering specific outcomes within a defined timeframe.
+              An interim CTO is full-time and temporary. They are brought in for urgent situations: sudden CTO departure, failing technology programmes, digital transformations, or when you need to stabilise before hiring permanent leadership. They are hands-on, accountable, and focused on delivering specific outcomes within a defined timeframe.
             </p>
           </div>
         </div>

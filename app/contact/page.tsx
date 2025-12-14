@@ -36,7 +36,7 @@ export default function ContactPage() {
                 </div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">Job Seekers</h2>
                 <p className="text-gray-600 mb-6">
-                  Are you a interim executive or specialist looking for your next opportunity? Tell us about yourself and what you're looking for.
+                  Are you a interim executive or specialist looking for your next opportunity? Tell us about yourself and what you are looking for.
                 </p>
                 <div className="text-gray-900 font-semibold">Get Started →</div>
               </div>

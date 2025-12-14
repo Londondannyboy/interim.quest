@@ -122,10 +122,10 @@ export default function InterimCDOServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When You Need Full-Time Leadership, Not Part-Time Advice</h3>
             <p>
-              Some situations demand full-time executive attention. Your CDO has left suddenly. You're facing a GDPR audit in 6 months. Your data transformation can't wait. Your board demands AI strategy now.
+              Some situations demand full-time executive attention. Your CDO has left suddenly. You are facing a GDPR audit in 6 months. Your data transformation cannot wait. Your board demands AI strategy now.
             </p>
             <p>
-              An Interim CDO provides hands-on leadership during these critical windows. They don't just advise—they execute. They run teams, make decisions, drive delivery, and solve crises. When the engagement ends, your organisation has measurable results and sustainable systems in place.
+              An Interim CDO provides hands-on leadership during these critical windows. They do not just advise—they execute. They run teams, make decisions, drive delivery, and solve crises. When the engagement ends, your organisation has measurable results and sustainable systems in place.
             </p>
           </div>
         </div>
@@ -208,7 +208,7 @@ export default function InterimCDOServicesPage() {
             {[
               {
                 scenario: 'CDO Vacancy or Departure',
-                description: "Your CDO has left suddenly, is on extended leave, or you're recruiting for a permanent hire. Need immediate leadership to maintain momentum and prevent data initiatives stalling.",
+                description: "Your CDO has left suddenly, is on extended leave, or you are recruiting for a permanent hire. Need immediate leadership to maintain momentum and prevent data initiatives stalling.",
                 timing: '3-12 months',
               },
               {
@@ -228,7 +228,7 @@ export default function InterimCDOServicesPage() {
               },
               {
                 scenario: 'AI/ML Strategy Implementation',
-                description: "Board demands AI capability but your data foundations aren't ready. Need to assess readiness, build infrastructure, and deliver first AI use cases.",
+                description: "Board demands AI capability but your data foundations are not ready. Need to assess readiness, build infrastructure, and deliver first AI use cases.",
                 timing: '6-9 months',
               },
               {

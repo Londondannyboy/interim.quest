@@ -96,10 +96,10 @@ export default function InterimCMOServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CMO vs Fractional CMO</h3>
             <p>
-              A fractional CMO works part-time (1-3 days per week) across multiple clients. They're ideal for ongoing strategic guidance when you don't need full-time leadership.
+              A fractional CMO works part-time (1-3 days per week) across multiple clients. They are ideal for ongoing strategic guidance when you do not need full-time leadership.
             </p>
             <p>
-              An interim CMO works full-time (5 days per week) exclusively for your business for a defined period. They're the solution for urgent situations: filling a leadership gap, driving a major transformation, leading a rebrand, or navigating a crisis. When the situation demands a senior marketing executive on-site, in meetings, making decisions daily—you need an interim, not a fractional.
+              An interim CMO works full-time (5 days per week) exclusively for your business for a defined period. They are the solution for urgent situations: filling a leadership gap, driving a major transformation, leading a rebrand, or navigating a crisis. When the situation demands a senior marketing executive on-site, in meetings, making decisions daily—you need an interim, not a fractional.
             </p>
           </div>
         </div>

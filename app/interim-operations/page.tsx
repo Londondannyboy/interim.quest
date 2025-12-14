@@ -37,7 +37,7 @@ export default function InterimOperationsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Operations Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim operations leaders provide full-time, experienced leadership during critical periods. When your COO departs, you're scaling rapidly, implementing new systems, or transforming operations—interim leaders step in immediately to maintain operational excellence.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim operations leaders provide full-time, experienced leadership during critical periods. When your COO departs, you are scaling rapidly, implementing new systems, or transforming operations—interim leaders step in immediately to maintain operational excellence.</p>
           <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Operations Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim operations leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead scaling efforts, or manage transformation projects.</p>

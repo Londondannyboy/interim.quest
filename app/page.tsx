@@ -90,7 +90,7 @@ async function getJobStats() {
     `
     return parseInt((result[0] as any)?.total || '0')
   } catch (error) {
-    return 0 // Honest fallback - don't inflate
+    return 0 // Honest fallback - do not inflate
   }
 }
 
@@ -653,7 +653,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim executive is a full-time temporary senior leader hired for 3-12 months to fill critical leadership gaps, manage transformations, or navigate crises. Unlike consultants or fractional executives, interim executives take complete operational responsibility as acting CFO, CEO, CTO, or other C-suite roles. They're battle-tested professionals who can start within 48 hours and deliver immediate impact.
+                An interim executive is a full-time temporary senior leader hired for 3-12 months to fill critical leadership gaps, manage transformations, or navigate crises. Unlike consultants or fractional executives, interim executives take complete operational responsibility as acting CFO, CEO, CTO, or other C-suite roles. They are battle-tested professionals who can start within 48 hours and deliver immediate impact.
               </p>
             </details>
 
@@ -663,7 +663,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim executives in the UK typically earn £1,200-£2,500 per day depending on seniority and expertise. Senior interim CFOs and CEOs can command £2,000-£3,000+ per day for complex turnaround or transformation assignments. For a 6-month engagement at £2,000/day, that's approximately £260,000. The average day rate across all interim executive roles is approximately £{detailedStats.avgDayRate}.
+                Interim executives in the UK typically earn £1,200-£2,500 per day depending on seniority and expertise. Senior interim CFOs and CEOs can command £2,000-£3,000+ per day for complex turnaround or transformation assignments. For a 6-month engagement at £2,000/day, that is approximately £260,000. The average day rate across all interim executive roles is approximately £{detailedStats.avgDayRate}.
               </p>
             </details>
 
@@ -693,7 +693,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim executives work full-time for 3-12 months on temporary assignments, taking complete operational responsibility as acting CFO, CEO, etc. Fractional executives work part-time (1-3 days/week) on an ongoing basis with multiple clients simultaneously. Interim is for urgent, full-time leadership needs (crisis, gap, transformation). Fractional is for ongoing strategic advisory when you don't need full-time leadership.
+                Interim executives work full-time for 3-12 months on temporary assignments, taking complete operational responsibility as acting CFO, CEO, etc. Fractional executives work part-time (1-3 days/week) on an ongoing basis with multiple clients simultaneously. Interim is for urgent, full-time leadership needs (crisis, gap, transformation). Fractional is for ongoing strategic advisory when you do not need full-time leadership.
               </p>
             </details>
 
@@ -703,7 +703,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim executives typically have 15-25+ years of senior leadership experience with proven track records in complex situations. They've navigated multiple turnarounds, transformations, crises, or high-growth periods. Many are former CFOs, CEOs, or CTOs from public companies, PE-backed firms, or major corporates. They've solved your exact problem before—that's why they can deliver immediate impact.
+                Interim executives typically have 15-25+ years of senior leadership experience with proven track records in complex situations. They've navigated multiple turnarounds, transformations, crises, or high-growth periods. Many are former CFOs, CEOs, or CTOs from public companies, PE-backed firms, or major corporates. They've solved your exact problem before—that is why they can deliver immediate impact.
               </p>
             </details>
           </div>

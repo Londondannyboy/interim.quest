@@ -33,7 +33,7 @@ export default function InterimConsultingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">The Fundamental Difference</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim management and consulting are often confused, but they serve fundamentally different purposes. Interim executives are temporary full-time leaders who run operations and are accountable for results. Consultants provide advice and recommendations but don't typically have operational accountability.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim management and consulting are often confused, but they serve fundamentally different purposes. Interim executives are temporary full-time leaders who run operations and are accountable for results. Consultants provide advice and recommendations but do not typically have operational accountability.</p>
           <div className="grid md:grid-cols-2 gap-8 mt-10">
             <div className="p-6 bg-indigo-50 border-l-4 border-indigo-500">
               <h3 className="font-bold text-gray-900 mb-3">Interim Management</h3>
@@ -42,7 +42,7 @@ export default function InterimConsultingPage() {
             </div>
             <div className="p-6 bg-gray-50 border-l-4 border-gray-400">
               <h3 className="font-bold text-gray-900 mb-3">Management Consulting</h3>
-              <p className="text-gray-600 text-sm mb-3">Project-based advisory engagements where consultants analyze problems, develop recommendations, and may support implementation. They advise leadership but don't typically have line authority.</p>
+              <p className="text-gray-600 text-sm mb-3">Project-based advisory engagements where consultants analyze problems, develop recommendations, and may support implementation. They advise leadership but do not typically have line authority.</p>
               <p className="text-gray-600 text-sm font-medium">Think: Strategy consultants developing 3-year growth plan</p>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function InterimConsultingPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-indigo-500 mr-2">✓</span>
-                  <span className="text-gray-600 text-sm">You're covering executive absence (maternity, sick leave)</span>
+                  <span className="text-gray-600 text-sm">You are covering executive absence (maternity, sick leave)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-indigo-500 mr-2">✓</span>
@@ -97,7 +97,7 @@ export default function InterimConsultingPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-indigo-500 mr-2">✓</span>
-                  <span className="text-gray-600 text-sm">You're executing transformation or managing a crisis</span>
+                  <span className="text-gray-600 text-sm">You are executing transformation or managing a crisis</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-indigo-500 mr-2">✓</span>

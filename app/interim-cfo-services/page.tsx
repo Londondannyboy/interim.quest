@@ -86,7 +86,7 @@ export default function InterimCFOServicesPage() {
               An <strong className="font-semibold text-gray-900">Interim CFO</strong> is a senior finance executive who steps into your organisation on a full-time basis for a defined period—typically 3-12 months. They provide immediate, hands-on leadership during critical transitions, turnarounds, or transformation programmes.
             </p>
             <p>
-              Unlike fractional CFOs who work part-time across multiple clients, an interim CFO is fully dedicated to your business. They're embedded in your team, attending every meeting, driving day-to-day decisions, and taking complete ownership of your finance function.
+              Unlike fractional CFOs who work part-time across multiple clients, an interim CFO is fully dedicated to your business. They are embedded in your team, attending every meeting, driving day-to-day decisions, and taking complete ownership of your finance function.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-gray-900">
               <p className="text-xl font-semibold text-gray-900 mb-0">
@@ -95,10 +95,10 @@ export default function InterimCFOServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CFO vs Fractional CFO</h3>
             <p>
-              A fractional CFO works 1-3 days per week, providing strategic oversight while you handle day-to-day operations. An interim CFO works full-time—they're in the trenches every day, managing your team, handling operational finance, and driving transformation at pace.
+              A fractional CFO works 1-3 days per week, providing strategic oversight while you handle day-to-day operations. An interim CFO works full-time—they are in the trenches every day, managing your team, handling operational finance, and driving transformation at pace.
             </p>
             <p>
-              Choose <strong>interim</strong> when you need someone to fully own the role (vacancy, crisis, transformation). Choose <strong>fractional</strong> when you need strategic guidance but don't have full-time work to justify the cost.
+              Choose <strong>interim</strong> when you need someone to fully own the role (vacancy, crisis, transformation). Choose <strong>fractional</strong> when you need strategic guidance but do not have full-time work to justify the cost.
             </p>
           </div>
         </div>
@@ -171,19 +171,19 @@ export default function InterimCFOServicesPage() {
             {[
               {
                 title: 'Immediate Availability',
-                description: 'Interim CFOs can start within days, not months. When your CFO resigns or you face a crisis, you can't wait 3-6 months for a permanent hire.',
+                description: 'Interim CFOs can start within days, not months. When your CFO resigns or you face a crisis, you cannot wait 3-6 months for a permanent hire.',
                 stat: '48h',
                 statLabel: 'To Start',
               },
               {
                 title: 'Full-Time Dedication',
-                description: 'Unlike fractional or consulting arrangements, an interim CFO is 100% focused on your business. They're in the office, managing your team, and driving results every day.',
+                description: 'Unlike fractional or consulting arrangements, an interim CFO is 100% focused on your business. They are in the office, managing your team, and driving results every day.',
                 stat: '100%',
                 statLabel: 'Dedicated',
               },
               {
                 title: 'No Long-Term Commitment',
-                description: 'Engage for exactly as long as you need—whether that's 3 months to cover a gap or 12 months to lead a transformation. No permanent hire obligations.',
+                description: 'Engage for exactly as long as you need—whether that is 3 months to cover a gap or 12 months to lead a transformation. No permanent hire obligations.',
                 stat: '3-12',
                 statLabel: 'Months Typical',
               },
@@ -241,12 +241,12 @@ export default function InterimCFOServicesPage() {
               },
               {
                 scenario: 'M&A Transaction',
-                description: 'You're acquiring a business, being acquired, or executing a carve-out. You need dedicated CFO leadership to drive the financial workstream.',
+                description: 'You are acquiring a business, being acquired, or executing a carve-out. You need dedicated CFO leadership to drive the financial workstream.',
                 timing: '3-6 months before close',
               },
               {
                 scenario: 'IPO or Major Fundraise',
-                description: 'You're preparing for IPO or a significant funding round and need CFO-level leadership to prepare the business for scrutiny.',
+                description: 'You are preparing for IPO or a significant funding round and need CFO-level leadership to prepare the business for scrutiny.',
                 timing: '6-12 months before',
               },
               {
@@ -256,7 +256,7 @@ export default function InterimCFOServicesPage() {
               },
               {
                 scenario: 'Finance Transformation',
-                description: 'You're implementing a new ERP, restructuring your finance function, or driving a major change programme requiring dedicated leadership.',
+                description: 'You are implementing a new ERP, restructuring your finance function, or driving a major change programme requiring dedicated leadership.',
                 timing: 'Project duration',
               },
             ].map((item, index) => (

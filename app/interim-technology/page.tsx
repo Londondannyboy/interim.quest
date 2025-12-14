@@ -37,7 +37,7 @@ export default function InterimTechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Technology Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim technology leaders provide full-time, experienced technical leadership during critical periods. When your CTO departs, you're migrating platforms, scaling engineering teams, or facing technical crisis—interim leaders step in immediately to provide stability and direction.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim technology leaders provide full-time, experienced technical leadership during critical periods. When your CTO departs, you are migrating platforms, scaling engineering teams, or facing technical crisis—interim leaders step in immediately to provide stability and direction.</p>
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Technology Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim technology leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead migrations, or manage crisis situations.</p>

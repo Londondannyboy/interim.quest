@@ -211,7 +211,7 @@ export default function CalculatorsHub() {
             Ready to Take the Next Step?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Whether you're an executive looking for your next opportunity or a
+            Whether you are an executive looking for your next opportunity or a
             company seeking interim talent, we can help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

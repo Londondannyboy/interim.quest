@@ -120,7 +120,7 @@ export default function CandidateContactPage() {
                 <Textarea
                   name="message"
                   label="Message"
-                  placeholder="Tell us about your experience, what kind of roles you're interested in, or any questions you have..."
+                  placeholder="Tell us about your experience, what kind of roles you are interested in, or any questions you have..."
                   rows={6}
                   required
                 />

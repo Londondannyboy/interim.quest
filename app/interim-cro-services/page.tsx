@@ -113,7 +113,7 @@ export default function InterimCROServicesPage() {
               An <strong className="font-semibold text-gray-900">Interim CRO</strong> (Chief Revenue Officer) is a senior revenue executive who joins your company <strong className="font-semibold text-gray-900">full-time for 3-12 months</strong> to provide temporary leadership during critical periods. They step into the role immediately—leading sales teams, driving revenue operations, and executing strategic initiatives while you search for permanent leadership or navigate transformation.
             </p>
             <p>
-              This is not part-time consulting or advisory work. Interim CROs are hands-on operational leaders who take full accountability for revenue performance. They're in the office daily, leading team meetings, making tough decisions, and driving results just like a permanent CRO—but with a defined exit timeline.
+              This is not part-time consulting or advisory work. Interim CROs are hands-on operational leaders who take full accountability for revenue performance. They are in the office daily, leading team meetings, making tough decisions, and driving results just like a permanent CRO—but with a defined exit timeline.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-green-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
@@ -122,7 +122,7 @@ export default function InterimCROServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Full-Time Leadership, Fixed Duration</h3>
             <p>
-              When your CRO leaves unexpectedly, your sales organization is underperforming, or you're executing a major revenue transformation, you can't afford a leadership vacuum. An interim CRO fills that gap immediately—providing experienced leadership while you navigate change, search for the right permanent hire, or complete your transformation programme.
+              When your CRO leaves unexpectedly, your sales organization is underperforming, or you are executing a major revenue transformation, you cannot afford a leadership vacuum. An interim CRO fills that gap immediately—providing experienced leadership while you navigate change, search for the right permanent hire, or complete your transformation programme.
             </p>
           </div>
         </div>

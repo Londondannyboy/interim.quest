@@ -37,7 +37,7 @@ export default function InterimMarketingPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Marketing Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim marketing leaders provide full-time, experienced leadership during critical periods. When your CMO departs, you're scaling rapidly, launching new products, or undergoing transformation—interim leaders step in immediately to maintain momentum and deliver results.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim marketing leaders provide full-time, experienced leadership during critical periods. When your CMO departs, you are scaling rapidly, launching new products, or undergoing transformation—interim leaders step in immediately to maintain momentum and deliver results.</p>
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Marketing Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim marketing leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead transformations, or manage crisis situations.</p>

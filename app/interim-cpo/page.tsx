@@ -78,7 +78,7 @@ export default function InterimCPOPage() {
           <div className="space-y-6">
             <div className="border-l-4 border-purple-500 pl-6">
               <h3 className="font-bold text-gray-900 mb-2">Leadership Gap Coverage (40% of assignments)</h3>
-              <p className="text-gray-600">Your CPO departed. You need immediate product leadership while recruiting. Interim keeps product moving, maintains team morale, doesn't disrupt roadmap. Typical duration: 3-6 months.</p>
+              <p className="text-gray-600">Your CPO departed. You need immediate product leadership while recruiting. Interim keeps product moving, maintains team morale, does not disrupt roadmap. Typical duration: 3-6 months.</p>
             </div>
             <div className="border-l-4 border-purple-500 pl-6">
               <h3 className="font-bold text-gray-900 mb-2">Product Transformation (30%)</h3>
@@ -86,7 +86,7 @@ export default function InterimCPOPage() {
             </div>
             <div className="border-l-4 border-purple-500 pl-6">
               <h3 className="font-bold text-gray-900 mb-2">Major Launch/Pivot (20%)</h3>
-              <p className="text-gray-600">Launching flagship product, entering new market, or pivoting business model. Needs dedicated executive focus. Can't be done part-time. 4-9 months.</p>
+              <p className="text-gray-600">Launching flagship product, entering new market, or pivoting business model. Needs dedicated executive focus. Cannot be done part-time. 4-9 months.</p>
             </div>
             <div className="border-l-4 border-purple-500 pl-6">
               <h3 className="font-bold text-gray-900 mb-2">Product Turnaround (10%)</h3>
@@ -148,7 +148,7 @@ export default function InterimCPOPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-8">Career Path to Becoming an Interim CPO</h2>
           <div className="space-y-6">
-            <p className="text-gray-600">Most Interim CPOs have 15-25 years of product experience. You don't start your career as an interim—you transition into it after building deep expertise.</p>
+            <p className="text-gray-600">Most Interim CPOs have 15-25 years of product experience. You do not start your career as an interim—you transition into it after building deep expertise.</p>
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-gray-900 mb-4">Typical Path:</h3>
@@ -178,7 +178,7 @@ export default function InterimCPOPage() {
                 <li>• Led product at 3+ companies (seen different contexts)</li>
                 <li>• Comfortable with intense scrutiny and pressure</li>
                 <li>• Can assess situations rapidly (weeks, not months)</li>
-                <li>• Don't need consensus to make decisions</li>
+                <li>• Do not need consensus to make decisions</li>
                 <li>• Happy to leave when the job is done (no empire-building)</li>
                 <li>• Financial runway to handle gaps between assignments</li>
               </ul>

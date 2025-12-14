@@ -163,7 +163,7 @@ export default function LondonPage() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Full-Time Engagements</h3>
               <p className="text-lg text-gray-600 leading-relaxed">
-                London interim roles are typically full-time, project-based engagements lasting 3-18 months. This is distinct from fractional or part-time executive work - you're leading critical transformation projects, turnarounds, or growth initiatives that demand full executive focus.
+                London interim roles are typically full-time, project-based engagements lasting 3-18 months. This is distinct from fractional or part-time executive work - you are leading critical transformation projects, turnarounds, or growth initiatives that demand full executive focus.
               </p>
             </div>
           </div>

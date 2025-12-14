@@ -87,7 +87,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
               {/* Right: Contact Form */}
               <div id="contact-form" className="bg-white rounded-2xl p-8 shadow-2xl">
                 <h2 className="text-2xl font-black text-gray-900 mb-2">Get Early Access</h2>
-                <p className="text-gray-600 mb-6">Tell us what you're looking for. We'll be in touch as we launch.</p>
+                <p className="text-gray-600 mb-6">Tell us what you are looking for. We'll be in touch as we launch.</p>
 
                 <form className="space-y-4" action="/contact/companies" method="GET">
                   <div className="grid grid-cols-2 gap-4">
@@ -156,7 +156,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
                 </form>
 
                 <div className="mt-6 pt-6 border-t border-gray-200">
-                  <p className="text-center text-gray-600 mb-3">Want to chat about what we're building?</p>
+                  <p className="text-center text-gray-600 mb-3">Want to chat about what we are building?</p>
                   <Link
                     href="/contact"
                     className="flex items-center justify-center gap-2 w-full py-3 border-2 border-gray-900 text-gray-900 font-bold rounded-lg hover:bg-gray-900 hover:text-white transition-colors"
@@ -358,7 +358,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
               <li><strong>Quality over Volume:</strong> Vetted executives with proven interim experience across multiple engagements</li>
               <li><strong>Transparent Fees:</strong> Clear pricing (typically 15-20% of total contract value) without hidden costs</li>
               <li><strong>Understanding of Interim Work:</strong> Knowledge of crisis management, transformation, and fixed-term delivery</li>
-              <li><strong>Replacement Guarantee:</strong> Commitment to replace executives if initial placement doesn't work</li>
+              <li><strong>Replacement Guarantee:</strong> Commitment to replace executives if initial placement does not work</li>
             </ul>
 
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When to Use Interim Recruitment Agencies</h3>

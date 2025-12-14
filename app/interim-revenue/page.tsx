@@ -37,7 +37,7 @@ export default function InterimRevenuePage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Revenue Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim revenue leaders provide full-time, experienced sales leadership during critical periods. When your CRO departs, you're scaling sales rapidly, pivoting go-to-market, or facing revenue challenges—interim leaders step in immediately to drive results.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim revenue leaders provide full-time, experienced sales leadership during critical periods. When your CRO departs, you are scaling sales rapidly, pivoting go-to-market, or facing revenue challenges—interim leaders step in immediately to drive results.</p>
           <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Revenue Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim revenue leaders work full-time for a defined period (typically 3-12 months) to cover departures, scale teams, or pivot strategy.</p>

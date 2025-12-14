@@ -211,7 +211,7 @@ export default function InterimCEOPage() {
               <h3 className="font-bold text-gray-900 mb-2">Succession Planning Parallel Path</h3>
               <p className="text-gray-600 text-sm mb-3">Unless the interim CEO is auditioning for the permanent role, the board must run a parallel CEO search:</p>
               <ul className="text-sm text-gray-600 space-y-1 ml-4">
-                <li>• Engage executive search firm early (don't wait)</li>
+                <li>• Engage executive search firm early (do not wait)</li>
                 <li>• Define CEO spec with interim's input on organisational needs</li>
                 <li>• Maintain interim's credibility during search process</li>
                 <li>• Plan handover period (typically 4-6 weeks overlap ideal)</li>

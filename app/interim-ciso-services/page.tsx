@@ -118,7 +118,7 @@ export default function InterimCISOServicesPage() {
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-red-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "When your CISO leaves unexpectedly or you're recovering from a breach, you can't afford a 6-month leadership vacuum. An interim CISO provides expert leadership within days, not months."
+                "When your CISO leaves unexpectedly or you are recovering from a breach, you cannot afford a 6-month leadership vacuum. An interim CISO provides expert leadership within days, not months."
               </p>
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Full-Time Leadership, Temporary Tenure</h3>
@@ -379,7 +379,7 @@ export default function InterimCISOServicesPage() {
                 <tr>
                   <td className="px-6 py-4 font-semibold text-gray-900">Use Case</td>
                   <td className="px-6 py-4 text-red-600">CISO vacancy, crisis, transformation</td>
-                  <td className="px-6 py-4">Don't need full-time CISO</td>
+                  <td className="px-6 py-4">Do not need full-time CISO</td>
                   <td className="px-6 py-4">Long-term leadership need</td>
                 </tr>
                 <tr>
@@ -479,7 +479,7 @@ export default function InterimCISOServicesPage() {
             Need an Interim CISO<br /><span className="text-red-400">Immediately?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Whether you're facing a CISO vacancy, post-breach crisis, or urgent transformation, we can deploy expert interim security leadership within 1-2 weeks.
+            Whether you are facing a CISO vacancy, post-breach crisis, or urgent transformation, we can deploy expert interim security leadership within 1-2 weeks.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-red-500 text-white font-bold uppercase tracking-wider hover:bg-red-400 transition-colors">

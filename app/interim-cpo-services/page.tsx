@@ -123,7 +123,7 @@ export default function InterimCPOServicesPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When Full-Time Leadership is Non-Negotiable</h3>
             <p>
-              Some situations demand full-time attention: your CPO just left and the team needs direction; you're pivoting the entire product strategy; you're restructuring the product organisation; or you're managing a crisis that requires immediate, sustained leadership.
+              Some situations demand full-time attention: your CPO just left and the team needs direction; you are pivoting the entire product strategy; you are restructuring the product organisation; or you are managing a crisis that requires immediate, sustained leadership.
             </p>
             <p>
               An Interim CPO provides the same leadership intensity as a permanent CPO—but with the flexibility to step in fast, drive transformation, and hand over to permanent leadership when the time is right.

@@ -37,7 +37,7 @@ export default function InterimFinancePage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Finance Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim finance leaders provide full-time, experienced financial leadership during critical periods. When your CFO departs, you're raising capital, preparing for sale, or managing restructuring—interim leaders step in immediately to maintain financial control and credibility.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim finance leaders provide full-time, experienced financial leadership during critical periods. When your CFO departs, you are raising capital, preparing for sale, or managing restructuring—interim leaders step in immediately to maintain financial control and credibility.</p>
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Finance Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim finance leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead fundraising, or manage crisis situations.</p>

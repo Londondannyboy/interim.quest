@@ -178,7 +178,7 @@ export default function InterimManagementGuidePage() {
             <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. During the Engagement</h3>
             <ul className="space-y-3">
               <li><strong>Full Authority:</strong> Interim executives typically have full decision-making authority in their domain</li>
-              <li><strong>Execution Focus:</strong> They don't just advise—they implement and deliver results</li>
+              <li><strong>Execution Focus:</strong> They do not just advise—they implement and deliver results</li>
               <li><strong>Knowledge Transfer:</strong> Train permanent staff and build sustainable processes</li>
               <li><strong>Regular Reviews:</strong> Monthly or quarterly check-ins against agreed deliverables</li>
             </ul>
@@ -427,7 +427,7 @@ export default function InterimManagementGuidePage() {
             Ready to Explore Interim Management?
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Whether you're hiring interim executives or considering an interim career, we can help.
+            Whether you are hiring interim executives or considering an interim career, we can help.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

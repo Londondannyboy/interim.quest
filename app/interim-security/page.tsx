@@ -37,7 +37,7 @@ export default function InterimSecurityPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Security Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim security leaders provide full-time, experienced security leadership during critical periods. When your CISO departs, you're pursuing compliance certification, responding to incidents, or building security from scratch—interim leaders step in immediately to protect the business.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim security leaders provide full-time, experienced security leadership during critical periods. When your CISO departs, you are pursuing compliance certification, responding to incidents, or building security from scratch—interim leaders step in immediately to protect the business.</p>
           <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Security Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim security leaders work full-time for a defined period (typically 3-12 months) to cover departures, achieve compliance, or respond to incidents.</p>

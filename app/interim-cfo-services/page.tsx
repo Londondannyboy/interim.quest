@@ -408,11 +408,11 @@ export default function InterimCFOServicesPage() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <span className="text-sm font-bold uppercase tracking-wider text-gray-400">Related Services</span>
             <div className="flex flex-wrap gap-4">
-              <Link href="/interim-cmo-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CMO</Link>
-              <Link href="/interim-cto-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CTO</Link>
-              <Link href="/interim-coo-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim COO</Link>
-              <Link href="/interim-cfo-jobs-uk" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">CFO Jobs</Link>
-              <Link href="/interim-cfo-salary" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">CFO Day Rates</Link>
+              <Link href="/interim-cmo-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CMO Services</Link>
+              <Link href="/interim-cto-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CTO Services</Link>
+              <Link href="/interim-coo-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim COO Services</Link>
+              <Link href="/interim-cfo-jobs-uk" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CFO Jobs UK</Link>
+              <Link href="/interim-cfo-salary" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CFO Salary Guide</Link>
             </div>
           </div>
         </div>

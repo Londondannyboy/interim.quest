@@ -10,7 +10,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-gray-600 to-gray-800 rounded-xl flex items-center justify-center">
-                <span className="text-white font-black text-2xl">F</span>
+                <span className="text-white font-black text-2xl">I</span>
               </div>
               <div>
                 <span className="font-bold text-white text-xl">Interim</span>
@@ -84,69 +84,69 @@ export function Footer() {
                 </ul>
               </div>
 
-              {/* For Companies */}
+              {/* Interim Services */}
               <div>
                 <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
-                  For Companies
+                  Interim Services
                 </h4>
                 <ul className="space-y-3">
                   <li>
-                    <Link href="/calculators/company-savings" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Savings Calculator
+                    <Link href="/interim-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      All Interim Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cfo" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim CFO
+                    <Link href="/interim-cfo-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CFO Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cto" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim CTO
+                    <Link href="/interim-cto-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CTO Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cmo" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Interim CMO
+                    <Link href="/interim-cmo-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CMO Services
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Contact Us
+                    <Link href="/interim-coo-services" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim COO Services
                     </Link>
                   </li>
                 </ul>
               </div>
 
-              {/* Locations */}
+              {/* Interim Jobs by Location */}
               <div>
                 <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wide">
-                  Locations
+                  Interim Jobs UK
                 </h4>
                 <ul className="space-y-3">
                   <li>
                     <Link href="/interim-jobs-london" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      London
+                      Interim Jobs London
                     </Link>
                   </li>
                   <li>
                     <Link href="/interim-jobs-manchester" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Manchester
+                      Interim Jobs Manchester
                     </Link>
                   </li>
                   <li>
                     <Link href="/interim-jobs-birmingham" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Birmingham
+                      Interim Jobs Birmingham
                     </Link>
                   </li>
                   <li>
                     <Link href="/interim-jobs-edinburgh" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Edinburgh
+                      Interim Jobs Edinburgh
                     </Link>
                   </li>
                   <li>
-                    <Link href="/remote" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Remote Jobs
+                    <Link href="/interim-jobs" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      All Interim Jobs UK
                     </Link>
                   </li>
                 </ul>
@@ -159,28 +159,28 @@ export function Footer() {
                 </h4>
                 <ul className="space-y-3">
                   <li>
-                    <Link href="/articles" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Articles
+                    <Link href="/interim-jobs-articles" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim Career Articles
                     </Link>
                   </li>
                   <li>
-                    <Link href="/calculators" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      All Calculators
+                    <Link href="/interim-cfo-salary" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim CFO Salary Guide
                     </Link>
                   </li>
                   <li>
-                    <Link href="/voice" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      AI Assistant
+                    <Link href="/guide" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Interim Management Guide
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">
+                      Contact Us
                     </Link>
                   </li>
                   <li>
                     <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
                       Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
-                      Terms of Service
                     </Link>
                   </li>
                 </ul>

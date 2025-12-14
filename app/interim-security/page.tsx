@@ -41,7 +41,7 @@ export default function InterimSecurityPage() {
           <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Security Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim security leaders work full-time for a defined period (typically 3-12 months) to cover departures, achieve compliance, or respond to incidents.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time security support (1-3 days per week), explore <Link href="/fractional-security" className="text-red-600 hover:text-red-700 underline">fractional security leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time security support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-security" className="text-red-600 hover:text-red-700 underline">fractional security leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

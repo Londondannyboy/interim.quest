@@ -41,7 +41,7 @@ export default function InterimProductPage() {
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Product Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim product leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead major launches, or drive transformation.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time product support (1-3 days per week), explore <Link href="/fractional-product" className="text-purple-600 hover:text-purple-700 underline">fractional product leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time product support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-product" className="text-purple-600 hover:text-purple-700 underline">fractional product leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

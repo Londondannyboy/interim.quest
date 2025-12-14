@@ -519,10 +519,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const sql = createDbQuery()
 
-    // Fetch all active jobs
+    // Fetch all active interim jobs
     const jobs = await sql`
       SELECT slug, updated_date FROM jobs
       WHERE is_active = true
+        AND (is_interim = true OR 'interim' = ANY(site_tags))
       ORDER BY updated_date DESC
       LIMIT 500
     `

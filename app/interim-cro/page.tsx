@@ -27,7 +27,7 @@ export default function InterimCROPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time, on-site revenue leadership for 3-12 month assignments. Cover leadership gaps, drive sales transformations, rebuild revenue engines. Not part-time consulting.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-green-500 text-white font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">Hire an Interim CRO</Link>
-                <Link href="/fractional-cro" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
+                <Link href="https://fractional.quest/fractional-cro" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@ export default function InterimCROPage() {
           <p className="text-xl text-gray-400 mb-10">Tell us about your situation. We'll help you determine if you need a full-time interim or part-time fractional CRO—and connect you with the right person.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-green-500 text-white font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">Find an Interim CRO</Link>
-            <Link href="/fractional-cro" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CRO</Link>
+            <Link href="https://fractional.quest/fractional-cro" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CRO</Link>
           </div>
         </div>
       </section>

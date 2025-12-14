@@ -41,7 +41,7 @@ export default function InterimDataPage() {
           <div className="bg-cyan-50 border-l-4 border-cyan-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Data Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim data leaders work full-time for a defined period (typically 3-12 months) to cover departures, build platforms, or lead major initiatives.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time data support (1-3 days per week), explore <Link href="/fractional-data" className="text-cyan-600 hover:text-cyan-700 underline">fractional data leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time data support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-data" className="text-cyan-600 hover:text-cyan-700 underline">fractional data leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

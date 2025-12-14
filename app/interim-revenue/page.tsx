@@ -41,7 +41,7 @@ export default function InterimRevenuePage() {
           <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Revenue Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim revenue leaders work full-time for a defined period (typically 3-12 months) to cover departures, scale teams, or pivot strategy.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time revenue support (1-3 days per week), explore <Link href="/fractional-revenue" className="text-green-600 hover:text-green-700 underline">fractional revenue leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time revenue support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-revenue" className="text-green-600 hover:text-green-700 underline">fractional revenue leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

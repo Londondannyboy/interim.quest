@@ -41,7 +41,7 @@ export default function InterimFinancePage() {
           <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Finance Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim finance leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead fundraising, or manage crisis situations.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time finance support (1-3 days per week), explore <Link href="/fractional-finance" className="text-emerald-600 hover:text-emerald-700 underline">fractional finance leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time finance support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-finance" className="text-emerald-600 hover:text-emerald-700 underline">fractional finance leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

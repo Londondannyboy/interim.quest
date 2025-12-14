@@ -41,7 +41,7 @@ export default function InterimOperationsPage() {
           <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Operations Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim operations leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead scaling efforts, or manage transformation projects.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time operations support (1-3 days per week), explore <Link href="/fractional-operations" className="text-orange-600 hover:text-orange-700 underline">fractional operations leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time operations support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-operations" className="text-orange-600 hover:text-orange-700 underline">fractional operations leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

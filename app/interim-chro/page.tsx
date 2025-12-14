@@ -27,7 +27,7 @@ export default function InterimCHROPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time, on-site HR leadership for 3-12 month assignments. Cover leadership gaps, drive transformations, manage restructuring. Not part-time consulting.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-pink-500 text-white font-bold uppercase tracking-wider hover:bg-pink-400 transition-colors">Hire an Interim CHRO</Link>
-                <Link href="/fractional-chro" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
+                <Link href="https://fractional.quest/fractional-chro" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@ export default function InterimCHROPage() {
           <p className="text-xl text-gray-400 mb-10">Tell us about your situation. We'll help you determine if you need a full-time interim or part-time fractional CHRO—and connect you with the right person.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-pink-500 text-white font-bold uppercase tracking-wider hover:bg-pink-400 transition-colors">Find an Interim CHRO</Link>
-            <Link href="/fractional-chro" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CHRO</Link>
+            <Link href="https://fractional.quest/fractional-chro" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CHRO</Link>
           </div>
         </div>
       </section>

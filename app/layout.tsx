@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: "%s | Interim Quest"
   },
   description: "Discover the best interim jobs in the UK. Browse interim CFO, CMO, CTO and executive roles in London. Connect with leading interim recruitment agencies and find flexible leadership opportunities.",
-  keywords: ["interim jobs", "interim jobs UK", "interim CFO", "interim CTO", "interim CMO", "interim COO", "interim executive", "part-time executive", "interim recruitment agencies", "London interim jobs"],
+  keywords: ["interim jobs", "interim jobs UK", "interim CFO", "interim CTO", "interim CMO", "interim COO", "interim executive", "interim management", "interim recruitment agencies", "London interim jobs", "temporary executive"],
   authors: [{ name: "Interim Quest" }],
   creator: "Interim Quest",
   publisher: "Interim Quest",

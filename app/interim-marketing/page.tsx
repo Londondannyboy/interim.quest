@@ -41,7 +41,7 @@ export default function InterimMarketingPage() {
           <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Marketing Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim marketing leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead transformations, or manage crisis situations.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time marketing support (1-3 days per week), explore <Link href="/fractional-marketing" className="text-amber-600 hover:text-amber-700 underline">fractional marketing leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time marketing support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-marketing" className="text-amber-600 hover:text-amber-700 underline">fractional marketing leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

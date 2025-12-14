@@ -27,7 +27,7 @@ export default function InterimCPOPage() {
               <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time, on-site product leadership for 3-12 month assignments. Cover leadership gaps, drive transformations, launch new products. Not part-time consulting.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-purple-500 text-white font-bold uppercase tracking-wider hover:bg-purple-400 transition-colors">Hire an Interim CPO</Link>
-                <Link href="/fractional-cpo" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
+                <Link href="https://fractional.quest/fractional-cpo" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Need Part-Time? See Fractional</Link>
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function InterimCPOPage() {
           <p className="text-xl text-gray-400 mb-10">Tell us about your situation. We'll help you determine if you need a full-time interim or part-time fractional CPO—and connect you with the right person.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-purple-500 text-white font-bold uppercase tracking-wider hover:bg-purple-400 transition-colors">Find an Interim CPO</Link>
-            <Link href="/fractional-cpo" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CPO</Link>
+            <Link href="https://fractional.quest/fractional-cpo" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Explore Fractional CPO</Link>
           </div>
         </div>
       </section>

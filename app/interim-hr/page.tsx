@@ -41,7 +41,7 @@ export default function InterimHRPage() {
           <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8">
             <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional HR Leadership</h3>
             <p className="text-gray-700 text-sm mb-2">Interim HR leaders work full-time for a defined period (typically 3-12 months) to cover departures, manage restructuring, or handle crisis situations.</p>
-            <p className="text-gray-700 text-sm">For ongoing part-time HR support (1-3 days per week), explore <Link href="/fractional-hr" className="text-pink-600 hover:text-pink-700 underline">fractional HR leadership</Link>.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time HR support (1-3 days per week), explore <Link href="https://fractional.quest/fractional-hr" className="text-pink-600 hover:text-pink-700 underline">fractional HR leadership</Link>.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[

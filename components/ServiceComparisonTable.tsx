@@ -3,7 +3,7 @@
 interface ComparisonItem {
   feature: string
   interim: string
-  interim: string
+  fractional: string
   fullTime: string
 }
 
@@ -21,38 +21,38 @@ export function ServiceComparisonTable({
   const comparisons: ComparisonItem[] = [
     {
       feature: 'Commitment',
-      interim: '1-3 days/week',
       interim: 'Full-time (temporary)',
+      fractional: '1-3 days/week',
       fullTime: 'Full-time (permanent)',
     },
     {
       feature: 'Duration',
-      interim: 'Ongoing (6+ months typical)',
       interim: '3-12 months',
+      fractional: 'Ongoing (6+ months typical)',
       fullTime: 'Permanent',
     },
     {
       feature: 'Cost',
-      interim: '£3,000-£6,000/week',
       interim: '£8,000-£12,000/week',
+      fractional: '£3,000-£6,000/week',
       fullTime: '£150,000-£250,000/year + benefits',
     },
     {
       feature: 'Focus',
-      interim: 'Strategic + operational',
       interim: 'Gap-fill or transformation',
+      fractional: 'Strategic + operational',
       fullTime: 'All responsibilities',
     },
     {
       feature: 'Flexibility',
-      interim: 'Scale up/down as needed',
       interim: 'Fixed term contract',
+      fractional: 'Scale up/down as needed',
       fullTime: 'Limited flexibility',
     },
     {
       feature: 'Best For',
-      interim: 'Growing companies, specific expertise needs',
       interim: 'Leadership gaps, major transitions',
+      fractional: 'Growing companies, specific expertise needs',
       fullTime: 'Large orgs with full-time need',
     },
   ]
@@ -80,7 +80,7 @@ export function ServiceComparisonTable({
               Interim {role}
             </th>
             <th className="p-4 text-left text-sm font-bold uppercase tracking-wider text-gray-700 bg-gray-100 border-b border-gray-200">
-              Interim {role}
+              Fractional {role}
             </th>
             <th className="p-4 text-left text-sm font-bold uppercase tracking-wider text-gray-700 bg-gray-100 border-b border-gray-200">
               Full-Time {role}
@@ -97,7 +97,7 @@ export function ServiceComparisonTable({
                 {item.interim}
               </td>
               <td className="p-4 text-sm text-gray-600 border-b border-gray-200">
-                {item.interim}
+                {item.fractional}
               </td>
               <td className="p-4 text-sm text-gray-600 border-b border-gray-200">
                 {item.fullTime}

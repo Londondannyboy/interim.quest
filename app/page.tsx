@@ -201,6 +201,22 @@ export default async function Home() {
           "@type": "Answer",
           text: "Interim executives work full-time for 3-12 months on temporary assignments, taking complete operational responsibility. Fractional executives work part-time (1-3 days/week) on an ongoing basis with multiple clients. Interim is for urgent, full-time leadership needs; fractional is for ongoing strategic advisory."
         }
+      },
+      {
+        "@type": "Question",
+        name: "What interim management jobs are available in the UK?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Interim management jobs in the UK span all executive functions and industries. Common interim manager jobs include Interim CFO, CEO, CTO, COO, HR Director, and CMO. Sector-specific roles include NHS interim management jobs, interim procurement jobs, and finance interim roles across London, Manchester, Birmingham, and throughout the UK."
+        }
+      },
+      {
+        "@type": "Question",
+        name: "Are there interim jobs in the NHS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes, NHS interim jobs are significant in the UK market. NHS Trusts hire interim executives for turnaround programmes, CQC improvement, digital transformation, and leadership cover. Common roles include Interim Director of Operations, Finance Director, and Turnaround Director with day rates of £600-£1,200."
+        }
       }
     ]
   };
@@ -716,6 +732,26 @@ export default async function Home() {
                 Interim executives typically have 15-25+ years of senior leadership experience with proven track records in complex situations. They have navigated multiple turnarounds, transformations, crises, or high-growth periods. Many are former CFOs, CEOs, or CTOs from public companies, PE-backed firms, or major corporates. They have solved your exact problem before—that is why they can deliver immediate impact.
               </p>
             </details>
+
+            <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+              <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
+                What interim management jobs are available in the UK?
+                <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Interim management jobs in the UK span all executive functions and industries. The most common interim manager jobs include: Interim CFO, Interim CEO, Interim CTO, Interim COO, Interim HR Director, and Interim CMO. Sector-specific roles include NHS interim management jobs, interim procurement jobs, and finance interim roles. Interim management positions are available across London, Manchester, Birmingham, and throughout the UK, with many offering hybrid or remote options.
+              </p>
+            </details>
+
+            <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+              <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
+                Are there interim jobs in the NHS?
+                <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Yes, NHS interim jobs are a significant part of the UK interim market. NHS Trusts regularly hire interim executives for turnaround programmes, CQC improvement initiatives, digital transformation (EPR implementations), and leadership vacancy cover. Common NHS interim roles include Interim Director of Operations, Interim Director of Finance, Interim Turnaround Director, and Interim Chief Executive. Day rates for NHS interim management typically range from £600-£1,200 depending on seniority and Trust type.
+              </p>
+            </details>
           </div>
         </div>
       </section>
@@ -748,14 +784,14 @@ export default async function Home() {
               </ul>
             </div>
 
-            {/* By Situation */}
+            {/* By Sector */}
             <div>
-              <h3 className="font-bold text-gray-900 mb-4">Interim by Situation</h3>
+              <h3 className="font-bold text-gray-900 mb-4">Interim Jobs by Sector</h3>
               <ul className="space-y-2 text-gray-600">
-                <li><Link href="/interim-jobs" className="hover:text-black transition-colors">Leadership Gap Coverage</Link></li>
-                <li><Link href="/interim-jobs" className="hover:text-black transition-colors">Turnaround Management</Link></li>
-                <li><Link href="/interim-jobs" className="hover:text-black transition-colors">M&A Integration</Link></li>
-                <li><Link href="/interim-jobs" className="hover:text-black transition-colors">Crisis Leadership</Link></li>
+                <li><Link href="/interim-jobs-nhs" className="hover:text-black transition-colors">NHS Interim Jobs</Link></li>
+                <li><Link href="/interim-jobs-procurement" className="hover:text-black transition-colors">Interim Procurement Jobs</Link></li>
+                <li><Link href="/interim-jobs-healthcare" className="hover:text-black transition-colors">Healthcare Interim Jobs</Link></li>
+                <li><Link href="/interim-jobs-finance" className="hover:text-black transition-colors">Finance Interim Jobs</Link></li>
               </ul>
             </div>
 

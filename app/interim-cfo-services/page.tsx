@@ -4,6 +4,7 @@ import { FAQ, CFO_SERVICE_FAQS } from '@/components/FAQ'
 import { VideoHeroBackground } from '@/components/VideoHeroBackground'
 import { HireProcessStepper } from '@/components/HireProcessStepper'
 import { ServiceComparisonTable } from '@/components/ServiceComparisonTable'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const revalidate = 3600
 
@@ -77,6 +78,11 @@ export default function InterimCFOServicesPage() {
       {/* What is an Interim CFO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <Breadcrumb items={[
+            { label: 'Home', href: '/' },
+            { label: 'Interim Services', href: '/interim-services' },
+            { label: 'Interim CFO Services' }
+          ]} />
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CFO?</h2>

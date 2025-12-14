@@ -5,6 +5,7 @@ import { VideoHeroBackground } from '@/components/VideoHeroBackground'
 import { EmbeddedJobBoard } from '@/components/EmbeddedJobBoard'
 import { IR35Calculator } from '@/components/IR35Calculator'
 import { FAQ } from '@/components/FAQ'
+import { Breadcrumb } from '@/components/Breadcrumb'
 
 export const revalidate = 3600
 
@@ -171,6 +172,11 @@ export default async function ProcurementJobsPage() {
       {/* Jobs Board - Moved up after hero */}
       <section className="py-24 md:py-32 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <Breadcrumb items={[
+            { label: 'Home', href: '/' },
+            { label: 'Interim Jobs', href: '/interim-jobs' },
+            { label: 'Interim Procurement Jobs' }
+          ]} />
           <div className="text-center mb-12">
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-400 mb-4 block">Opportunities</span>
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Procurement Jobs</h2>

@@ -11,15 +11,15 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim CTO Services UK | Hire a Part-Time CTO',
-  description: 'Hire a Interim CTO for your business. Access senior technical leadership at a fraction of full-time cost. Expert CTOs for architecture, team building, and technical strategy. Start within days.',
-  keywords: 'interim cto, interim cto services, hire interim cto, part time cto, interim chief technology officer, interim cto uk, interim tech lead',
+  title: 'Interim CTO Services UK | Hire a Temporary CTO',
+  description: 'Hire an Interim CTO for full-time temporary technology leadership. 3-12 month engagements for CTO vacancy, digital transformation, tech turnaround, and system migration. Day rates from £1,200-£2,000.',
+  keywords: 'interim cto, interim cto services, hire interim cto, temporary cto, interim chief technology officer, interim cto uk, interim tech leadership',
   alternates: {
     canonical: 'https://interim.quest/interim-cto-services',
   },
   openGraph: {
-    title: 'Interim CTO Services UK | Hire a Part-Time CTO',
-    description: 'Hire a Interim CTO for your business. Senior technical leadership at a fraction of full-time cost.',
+    title: 'Interim CTO Services UK | Hire a Temporary CTO',
+    description: 'Full-time temporary CTO for leadership gaps, transformations, and tech turnarounds. 3-12 month engagements.',
     images: ['/images/interim-cto-services.jpg'],
     url: 'https://interim.quest/interim-cto-services',
   },
@@ -45,29 +45,29 @@ export default function InterimCTOServicesPage() {
                 <span className="text-blue-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim CTO</strong> to lead your technology.
-                Senior technical leadership, architecture expertise, and engineering strategy—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim CTO</strong> for full-time temporary technology leadership.
+                Close leadership gaps, drive transformations, and turn around struggling tech teams—fast.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-blue-400">55%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-blue-400">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Months</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">Full-Time</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">5 Days/Week</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">15+ Yrs</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Experience</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1.2k-2k</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Day Rate</div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-blue-500 text-white font-bold uppercase tracking-wider hover:bg-blue-400 transition-colors">
-                  Hire a Interim CTO
+                  Hire an Interim CTO
                 </Link>
                 <Link href="#calculator" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-                  Calculate Savings
+                  View Pricing
                 </Link>
               </div>
             </div>
@@ -75,31 +75,31 @@ export default function InterimCTOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Interim CTO */}
+      {/* What is an Interim CTO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CTO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CTO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim CTO</strong> is an experienced Chief Technology Officer who works with your company on a part-time basis—typically 1-3 days per week. You get the technical leadership, architecture expertise, and engineering strategy of a senior CTO without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim CTO</strong> is an experienced Chief Technology Officer who joins your company full-time on a temporary basis—typically for 3-12 months. They provide immediate senior technology leadership during critical periods: CTO vacancy, digital transformation, tech crisis, or major system migration.
             </p>
             <p>
-              Unlike technical consultants who advise on specific problems, a interim CTO becomes your technology leader. They make architecture decisions, lead your engineering team, set technical strategy, and take ownership of your technology—just not five days a week.
+              Unlike fractional CTOs who work 1-3 days per week across multiple companies, an interim CTO is dedicated to your business five days a week. They're not advisors—they're your CTO. They make decisions, take accountability, lead your team, and drive results through a defined transformation period.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-blue-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "Companies access CTO expertise for £3,500-£6,500 per week instead of £15,000+ monthly for a full-time CTO."
+                "Interim CTOs step into full leadership immediately—closing critical gaps, stabilising teams, and delivering transformations in 3-12 months."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CTO vs Technical Consultant</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim vs Fractional CTO</h3>
             <p>
-              A technical consultant gives advice on specific problems—they might review your architecture, assess technical debt, or recommend a technology stack. But they don't take ongoing ownership or lead your team.
+              A fractional CTO works part-time (1-3 days per week) across multiple companies. They're ideal for ongoing strategic guidance and architecture oversight when you don't need full-time leadership.
             </p>
             <p>
-              A interim CTO is an embedded leader. They're accountable for technical outcomes, make decisions (not just recommendations), mentor your engineers, and represent technology to your board and investors. They're part of your leadership team.
+              An interim CTO is full-time and temporary. They're brought in for urgent situations: sudden CTO departure, failing technology programmes, digital transformations, or when you need to stabilise before hiring permanent leadership. They're hands-on, accountable, and focused on delivering specific outcomes within a defined timeframe.
             </p>
           </div>
         </div>
@@ -110,45 +110,45 @@ export default function InterimCTOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CTO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CTO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does an Interim CTO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Full-time leadership responsibilities during critical periods</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Technical Strategy',
-                description: 'Define technical vision and roadmap aligned with business goals. Make build vs buy decisions, choose technology stack, and plan for scale.',
-                icon: '🎯',
+                title: 'Crisis Stabilisation',
+                description: 'Assess situation, stabilise teams, fix critical issues. Take immediate control of failing technology programmes and restore confidence.',
+                icon: '🚨',
               },
               {
-                title: 'Architecture & Design',
-                description: 'Design scalable, secure, maintainable architecture. Review technical decisions, address technical debt, and ensure systems can handle growth.',
-                icon: '🏗️',
+                title: 'Transformation Leadership',
+                description: 'Lead digital transformations, system migrations, and platform rebuilds. Define roadmap, manage delivery, and ensure successful outcomes.',
+                icon: '🔄',
               },
               {
-                title: 'Engineering Leadership',
-                description: 'Lead and mentor your engineering team. Set standards, improve processes, conduct code reviews, and build engineering culture.',
+                title: 'Team Restructuring',
+                description: 'Reorganise underperforming teams, establish processes, improve delivery velocity. Make difficult personnel decisions quickly.',
                 icon: '👥',
               },
               {
-                title: 'Technical Hiring',
-                description: 'Hire key engineering roles. Define job specs, conduct technical interviews, assess candidates, and build the team you need.',
+                title: 'Architecture Recovery',
+                description: 'Fix technical debt, redesign failing systems, implement scalable architecture. Address years of accumulated technical problems.',
+                icon: '🏗️',
+              },
+              {
+                title: 'Strategic Execution',
+                description: 'Define and execute critical technology initiatives. M&A integration, cloud migration, security overhaul, or platform modernisation.',
+                icon: '🎯',
+              },
+              {
+                title: 'Permanent CTO Search',
+                description: 'Stabilise technology, define CTO requirements, support recruitment. Hand over to permanent leader with systems in good shape.',
                 icon: '🔍',
               },
               {
-                title: 'Security & Compliance',
-                description: 'Ensure systems are secure and compliant. Implement security best practices, manage risks, and prepare for audits.',
-                icon: '🔒',
-              },
-              {
-                title: 'Technical Due Diligence',
-                description: 'Represent technology to investors and acquirers. Prepare for technical DD, address concerns, and provide credibility.',
+                title: 'Investor Relations',
+                description: 'Provide technical credibility during fundraising or acquisition. Address investor concerns and demonstrate technology value.',
                 icon: '📋',
-              },
-              {
-                title: 'Vendor & Tools',
-                description: 'Select and manage technology vendors. Evaluate tools, negotiate contracts, and ensure you\'re getting value from tech spend.',
-                icon: '🛠️',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200 hover:border-blue-300 transition-colors">
@@ -166,39 +166,39 @@ export default function InterimCTOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Benefits</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire a Interim CTO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire an Interim CTO?</h2>
           </div>
           <div className="space-y-8">
             {[
               {
-                title: 'Cost Efficiency',
-                description: 'Access CTO-level expertise at 40-60% less than a full-time hire. Pay only for the time you need—typically £85,000-£160,000 per year versus £250,000+ for full-time.',
-                stat: '55%',
-                statLabel: 'Cost Savings',
+                title: 'Immediate Impact',
+                description: 'Start within 1-2 weeks. Interim CTOs hit the ground running—no onboarding needed. They assess, decide, and act immediately on critical issues.',
+                stat: '1-2',
+                statLabel: 'Weeks to Start',
               },
               {
-                title: 'Experienced Leadership',
-                description: 'Get a CTO with 15-20+ years of experience who has built and scaled systems before. No learning on the job—they\'ve seen your challenges already.',
-                stat: '15+',
+                title: 'Crisis-Tested Experience',
+                description: 'Get leaders who have handled your exact situation before: CTO departures, failing projects, team chaos, tech debt disasters. They know how to stabilise and recover.',
+                stat: '20+',
                 statLabel: 'Years Experience',
               },
               {
-                title: 'Investor Credibility',
-                description: 'Investors want to see experienced technical leadership. A interim CTO provides the credibility and can handle technical due diligence.',
+                title: 'Defined Outcomes',
+                description: 'Clear scope and timeline. Interim CTOs deliver specific results: complete migration, stabilise team, implement security, prepare for sale. Then hand over cleanly.',
+                stat: '3-12',
+                statLabel: 'Month Duration',
+              },
+              {
+                title: 'No Permanent Commitment',
+                description: 'Full leadership without permanent hire risk. If your permanent CTO leaves or you need to pause after transformation, the engagement ends cleanly.',
                 stat: '100%',
-                statLabel: 'DD Ready',
+                statLabel: 'Flexible Exit',
               },
               {
-                title: 'Flexibility',
-                description: 'Scale up for major releases or architecture work, scale down during steady periods. Engagements flex with your needs.',
-                stat: '1-5',
-                statLabel: 'Days/Week Flex',
-              },
-              {
-                title: 'Broad Expertise',
-                description: 'Interim CTOs work across multiple companies and tech stacks. They bring diverse experience and modern best practices.',
-                stat: '5+',
-                statLabel: 'Companies Seen',
+                title: 'Objective Decisions',
+                description: 'No politics, no legacy attachments. Interim CTOs make hard decisions quickly: restructure teams, sunset products, replace vendors. They do what needs doing.',
+                stat: '0',
+                statLabel: 'Internal Politics',
               },
             ].map((benefit, index) => (
               <div key={index} className="flex gap-6 p-6 bg-gray-50 border-l-4 border-blue-500">
@@ -220,45 +220,45 @@ export default function InterimCTOServicesPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CTO?</h2>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Use Cases</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire an Interim CTO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none mb-8">
             <p>
-              The right time to hire a interim CTO depends on your technical needs and company stage. Here are the most common scenarios:
+              Interim CTOs are brought in for urgent, high-stakes situations requiring immediate full-time leadership. These are the most common scenarios:
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'Building First Product',
-                description: 'You\'re a non-technical founder building your first product. You need someone to set the technical direction and oversee development.',
-                timing: 'Before development starts',
+                scenario: 'CTO Vacancy',
+                description: 'Your CTO has left suddenly or been dismissed. You need immediate senior leadership while you search for a permanent replacement.',
+                timing: 'Immediate (1-2 weeks)',
               },
               {
-                scenario: 'Preparing for Fundraising',
-                description: 'Investors will want to talk to your technical leader. A interim CTO provides credibility and handles technical due diligence.',
-                timing: '3-6 months before raise',
+                scenario: 'Digital Transformation',
+                description: 'Major technology transformation: cloud migration, platform modernisation, or system consolidation. Needs dedicated full-time leadership.',
+                timing: '6-12 month programme',
               },
               {
-                scenario: 'Scaling Engineering Team',
-                description: 'You\'re growing from 2-3 developers to 10+. You need senior leadership to structure the team, set processes, and maintain quality.',
-                timing: 'When team exceeds 5',
+                scenario: 'Technology Crisis',
+                description: 'Systems failing, team in chaos, security breach, or technical debt disaster. Need crisis management and rapid stabilisation.',
+                timing: 'Emergency (days)',
               },
               {
-                scenario: 'Technical Debt Crisis',
-                description: 'Your system is struggling under its own weight. You need experienced leadership to diagnose problems and plan the path forward.',
-                timing: 'Before it\'s too late',
+                scenario: 'M&A Technology Integration',
+                description: 'Post-acquisition technology integration. Consolidate platforms, merge teams, standardise systems. Needs full-time focus.',
+                timing: 'Post-deal (3-9 months)',
               },
               {
-                scenario: 'Architecture Evolution',
-                description: 'You need to re-architect for scale, migrate to cloud, or modernise legacy systems. These decisions need senior technical leadership.',
-                timing: 'At project inception',
+                scenario: 'Platform Rebuild',
+                description: 'Complete platform rebuild or major architecture overhaul. Too critical to manage part-time—needs full-time technical leadership.',
+                timing: '6-18 month project',
               },
               {
-                scenario: 'Security & Compliance',
-                description: 'You need to achieve SOC 2, ISO 27001, or other certifications. A interim CTO can lead the security programme.',
-                timing: '6 months before audit',
+                scenario: 'Pre-Exit Technology Fix',
+                description: 'Preparing for sale or IPO but technology is a liability. Need to rapidly improve systems, team, and processes to pass due diligence.',
+                timing: '6-12 months pre-exit',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
@@ -275,21 +275,23 @@ export default function InterimCTOServicesPage() {
       <section id="calculator" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-8 text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim CTO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time CTO</p>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Pricing</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does an Interim CTO Cost?</h2>
+            <p className="text-gray-600 mt-4">Full-time temporary CTO day rates and total engagement costs</p>
           </div>
           <RoleCalculator role="cto" />
           <div className="mt-8 prose prose-gray max-w-none">
             <h3 className="text-xl font-bold text-gray-900">Typical Interim CTO Pricing</h3>
             <ul className="text-gray-600">
-              <li><strong>Day Rate:</strong> £850-£1,600 per day (depending on experience and specialisation)</li>
-              <li><strong>Monthly Retainer:</strong> £3,500-£6,500 for 1-2 days per week</li>
-              <li><strong>Annual Cost:</strong> £85,000-£160,000 (vs £250,000+ for full-time)</li>
+              <li><strong>Day Rate:</strong> £1,200-£2,000 per day (5 days per week, full-time)</li>
+              <li><strong>Monthly Cost:</strong> £24,000-£40,000 (approx. 20 working days per month)</li>
+              <li><strong>3-Month Engagement:</strong> £72,000-£120,000</li>
+              <li><strong>6-Month Engagement:</strong> £144,000-£240,000</li>
+              <li><strong>12-Month Engagement:</strong> £288,000-£480,000</li>
             </ul>
             <p className="text-sm text-gray-500">
-              Pricing varies based on the CTO's experience, your technology stack, and complexity.
-              Specialist expertise (AI/ML, security, specific languages) may command premium rates.
+              Day rates vary based on urgency, engagement length, complexity, and specialist expertise (security, AI/ML, fintech).
+              Crisis situations and emergency placements may command premium rates. Most engagements are 3-6 months.
             </p>
           </div>
         </div>
@@ -312,18 +314,18 @@ export default function InterimCTOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CTO</h2>
-            <p className="text-gray-600 mt-4">From first conversation to start date in as little as 2 weeks</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim CTO</h2>
+            <p className="text-gray-600 mt-4">From first conversation to start date in 1-2 weeks</p>
           </div>
           <HireProcessStepper accentColor="blue" />
           <div className="mt-12 prose prose-gray max-w-none">
             <h3 className="text-xl font-bold text-gray-900">What to Look For</h3>
             <ul className="text-gray-600">
-              <li><strong>Relevant Stack:</strong> Have they built systems with your technology stack?</li>
-              <li><strong>Scale Experience:</strong> Have they scaled systems and teams at companies like yours?</li>
-              <li><strong>Leadership Skills:</strong> Can they lead engineers, not just write code?</li>
-              <li><strong>Communication:</strong> Can they translate technical concepts for non-technical stakeholders?</li>
-              <li><strong>Strategic Thinking:</strong> Do they think about technology in terms of business outcomes?</li>
+              <li><strong>Crisis Experience:</strong> Have they handled your exact situation? CTO departures, failing projects, transformations?</li>
+              <li><strong>Immediate Availability:</strong> Can they start within 1-2 weeks? Full-time commitment for 3-12 months?</li>
+              <li><strong>Decisive Leadership:</strong> Do they make hard decisions quickly? Restructure teams, kill projects, replace vendors?</li>
+              <li><strong>Turnaround Track Record:</strong> Have they stabilised chaos and delivered defined outcomes before?</li>
+              <li><strong>Clean Handover:</strong> Do they plan for knowledge transfer and smooth transition to permanent leadership?</li>
             </ul>
           </div>
         </div>
@@ -334,17 +336,17 @@ export default function InterimCTOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Specialisations</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CTOs by Expertise</h2>
-            <p className="text-gray-600 mt-4">Specialists with deep technical experience</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CTOs by Transformation Type</h2>
+            <p className="text-gray-600 mt-4">Crisis-tested leaders with specific transformation expertise</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { name: 'AI & Machine Learning', description: 'MLOps, model deployment, AI product development, data infrastructure', link: '/interim-jobs-tech' },
-              { name: 'Cloud & DevOps', description: 'AWS/GCP/Azure, infrastructure as code, CI/CD, platform engineering', link: '/interim-jobs-tech' },
-              { name: 'Security & Compliance', description: 'SOC 2, ISO 27001, penetration testing, security architecture', link: '/interim-jobs-tech' },
-              { name: 'FinTech', description: 'Payment systems, FCA compliance, financial APIs, security requirements', link: '/interim-jobs-finance' },
-              { name: 'B2B SaaS', description: 'Multi-tenant architecture, API design, integration platforms, enterprise features', link: '/interim-jobs-saas' },
-              { name: 'HealthTech', description: 'HIPAA compliance, NHS integration, clinical systems, health data', link: '/interim-jobs-healthcare' },
+              { name: 'Digital Transformation', description: 'Legacy modernisation, cloud migration, platform consolidation, API-first architecture', link: '/interim-jobs-tech' },
+              { name: 'Security & Compliance', description: 'Post-breach recovery, SOC 2/ISO implementation, security architecture overhaul', link: '/interim-jobs-tech' },
+              { name: 'M&A Integration', description: 'Post-acquisition tech integration, platform consolidation, team merger, system rationalisation', link: '/interim-jobs-tech' },
+              { name: 'FinTech Turnaround', description: 'Payment platform stability, FCA compliance, fraud prevention, financial system recovery', link: '/interim-jobs-finance' },
+              { name: 'SaaS Scale Crisis', description: 'Performance issues, multi-tenancy fixes, infrastructure collapse, scaling emergencies', link: '/interim-jobs-saas' },
+              { name: 'HealthTech Compliance', description: 'HIPAA/GDPR remediation, NHS integration, clinical system certification, data governance', link: '/interim-jobs-healthcare' },
             ].map((specialisation, index) => (
               <Link key={index} href={specialisation.link} className="block bg-white p-6 border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all">
                 <h3 className="font-bold text-gray-900 mb-2">{specialisation.name}</h3>
@@ -371,17 +373,17 @@ export default function InterimCTOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-blue-400">Interim CTO?</span>
+            Need an Interim CTO<br /><span className="text-blue-400">Immediately?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your technical challenges and we'll match you with pre-vetted interim CTOs who have solved them before. Start conversations within 48 hours.
+            We specialise in urgent placements. Crisis management, CTO vacancy, transformation leadership—match with experienced interim CTOs available to start within 1-2 weeks.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-blue-500 text-white font-bold uppercase tracking-wider hover:bg-blue-400 transition-colors">
-              Find a Interim CTO
+              Find an Interim CTO
             </Link>
             <Link href="/interim-cto-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-              I'm a CTO Looking for Roles
+              I'm a CTO Looking for Interim Roles
             </Link>
           </div>
         </div>

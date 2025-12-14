@@ -9,11 +9,11 @@ import { FAQ, MANCHESTER_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Manchester - Executive Roles in the North West',
-  description: 'Find interim executive jobs in Manchester. CFO, CMO, CTO roles across Greater Manchester. £700-£1,200 daily rates. Tech, media, and finance hub.',
+  title: 'Interim Jobs Manchester | Interim Quest',
+  description: 'Find interim executive jobs in Manchester. Full-time temporary CFO, CMO, CTO roles across Greater Manchester. £700-£1,200 daily rates. Tech, media, and finance hub.',
   openGraph: {
-    title: 'Interim Jobs Manchester - Executive Roles in the North West',
-    description: 'Find interim executive jobs in Manchester and Greater Manchester.',
+    title: 'Interim Jobs Manchester | Interim Quest',
+    description: 'Find interim executive jobs in Manchester. Full-time temporary CFO, CMO, CTO roles across Greater Manchester.',
     type: 'website',
   },
 }
@@ -102,7 +102,7 @@ export default async function ManchesterPage() {
                   />
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles across Greater Manchester. £700-£1,200 daily rates. The UK's fastest-growing tech hub outside London.
+                    Full-time temporary executive roles across Greater Manchester. Interim CFO, CMO, CTO positions. £700-£1,200 daily rates. The UK's fastest-growing interim management market outside London.
                   </p>
 
                   <div className="flex flex-wrap gap-4">

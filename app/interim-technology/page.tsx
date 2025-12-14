@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Technology Leadership UK | Hire Part-Time Tech Executives',
-  description: 'Hire interim technology leaders for your business. Part-time CTOs, CIOs, VPs of Engineering. Expert tech leadership without full-time cost.',
-  keywords: 'interim technology, interim tech director, part-time technology executive, interim vp engineering, hire tech leader',
+  title: 'Interim Technology Leadership UK | Full-Time Temporary CTOs & VPs of Engineering',
+  description: 'Hire full-time interim technology leaders (3-12 months). Experienced CTOs and VPs of Engineering to cover departures, lead migrations, or scale engineering teams.',
+  keywords: 'interim technology, interim cto, interim cio, temporary technology executive, interim vp engineering, hire tech leader',
   alternates: { canonical: 'https://interim.quest/interim-technology' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimTechnologyPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-blue-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-blue-400">Technology</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior technology leadership without the full-time commitment. From CTOs to VPs of Engineering, find the right level of technical expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary technology leadership for 3-12 months. Experienced CTOs and VPs of Engineering to cover departures, lead migrations, scale engineering teams, or manage technical debt.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-blue-500 text-white font-bold uppercase tracking-wider hover:bg-blue-400 transition-colors">Find Tech Leadership</Link>
                 <Link href="/interim-cto-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CTO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimTechnologyPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Technology Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Technology decisions shape your company's future. Interim technology leaders bring deep technical expertise and leadership experience—helping you make the right architectural decisions, build great teams, and ship quality products.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Technology Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim technology leaders provide full-time, experienced technical leadership during critical periods. When your CTO departs, you're migrating platforms, scaling engineering teams, or facing technical crisis—interim leaders step in immediately to provide stability and direction.</p>
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Technology Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim technology leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead migrations, or manage crisis situations.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time technology support (1-3 days per week), explore <Link href="/fractional-technology" className="text-blue-600 hover:text-blue-700 underline">fractional technology leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CTO', description: 'C-level technical leadership for strategy and architecture.', link: '/interim-cto-services' },
-              { title: 'Interim CIO', description: 'IT leadership for enterprise systems and digital transformation.', link: '/interim-cio-services' },
-              { title: 'VP of Engineering', description: 'Engineering leadership for team scaling and delivery.', link: '#contact' },
+              { title: 'Interim CTO', description: 'Full-time C-level technical leadership for major architecture and strategy decisions.', link: '/interim-cto-services' },
+              { title: 'Interim CIO', description: 'Full-time IT leadership for enterprise systems and digital transformation.', link: '/interim-cio-services' },
+              { title: 'Interim VP Engineering', description: 'Full-time engineering leadership for team scaling and delivery excellence.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-blue-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimTechnologyPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Technology Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Technology Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Technical Strategy', description: 'Define technology vision, architecture, and build vs buy decisions.' },
-              { title: 'Team Building', description: 'Recruit, develop, and lead high-performing engineering teams.' },
-              { title: 'Architecture Review', description: 'Evaluate and improve system architecture, scalability, and security.' },
-              { title: 'Vendor Selection', description: 'Select technology partners, tools, and platforms.' },
-              { title: 'Engineering Process', description: 'Implement development methodologies, CI/CD, and quality practices.' },
-              { title: 'Technical Due Diligence', description: 'Support M&A and investment processes with technical evaluation.' },
+              { title: 'Leadership Departure', description: 'CTO or VP Engineering has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Platform Migration', description: 'Migrating to new platform or cloud infrastructure requiring dedicated technical leadership.' },
+              { title: 'Engineering Scaling', description: 'Rapidly growing engineering team and need leadership to build structure and processes.' },
+              { title: 'Technical Debt', description: 'Accumulated technical debt requiring experienced leadership to assess and remediate.' },
+              { title: 'Architecture Redesign', description: 'Re-platforming or re-architecting systems requiring senior technical oversight.' },
+              { title: 'Technical Due Diligence', description: 'M&A transaction requiring technical assessment and integration leadership.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-blue-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

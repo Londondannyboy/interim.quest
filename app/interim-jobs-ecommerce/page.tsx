@@ -9,11 +9,11 @@ import { FAQ, ECOMMERCE_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs E-commerce - Executive Roles in Online Retail & DTC',
-  description: 'Find interim executive jobs in e-commerce. CFO, CMO, CTO roles in online retail, DTC brands, and marketplaces. £600-£1,100 daily rates.',
+  title: 'Interim Jobs in E-commerce | Interim Quest',
+  description: 'Full-time temporary executive roles in e-commerce and DTC brands. £600-£1,100 daily rates. Scale operations, fix unit economics, and prepare for acquisition.',
   openGraph: {
-    title: 'Interim Jobs E-commerce - Executive Roles in Online Retail',
-    description: 'Find interim executive jobs in e-commerce and DTC brands.',
+    title: 'Interim Jobs in E-commerce | Interim Quest',
+    description: 'Full-time temporary e-commerce leadership for growth and turnarounds.',
     type: 'website',
   },
 }
@@ -97,7 +97,7 @@ export default async function EcommercePage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles in online retail, DTC brands, and marketplaces. £600-£1,100 daily rates. Help brands scale to £50m+ revenue.
+                    Full-time temporary executive roles for e-commerce companies in transition. Fix unit economics, scale operations, and prepare for acquisition. £600-£1,100 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -209,29 +209,29 @@ export default async function EcommercePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">📈</span>
+                <span className="text-3xl">💰</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Massive Market</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Unit Economics Rescue</h3>
               <p className="text-gray-600">
-                UK e-commerce is a £150bn market representing 30% of retail. Thousands of DTC brands and marketplaces need experienced leadership to scale.
+                DTC brands hire interim CFOs when CAC exceeds LTV or cash runway is critical. Full-time, 4-8 month engagements to restructure finances and restore profitability.
+              </p>
+            </div>
+            <div className="bg-gray-50 rounded-2xl p-8">
+              <div className="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center mb-6">
+                <span className="text-3xl">📦</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Operations Scale-Up</h3>
+              <p className="text-gray-600">
+                E-commerce companies need interim COOs during rapid growth phases or fulfillment crises. Temporary, full-time leadership to establish scalable operations infrastructure.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center mb-6">
                 <span className="text-3xl">🎯</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Impact</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Acquisition Readiness</h3>
               <p className="text-gray-600">
-                E-commerce metrics are transparent. CMOs can show CAC/LTV improvements. CFOs can demonstrate cash flow optimization. Impact is immediate and measurable.
-              </p>
-            </div>
-            <div className="bg-gray-50 rounded-2xl p-8">
-              <div className="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🏠</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Remote-First</h3>
-              <p className="text-gray-600">
-                E-commerce companies are digital-native and remote-friendly. Most interim roles offer flexible working arrangements with minimal travel requirements.
+                Brands hire interim executives for 6-12 months pre-acquisition to professionalize operations, clean up financials, and maximize exit value for strategic buyers or PE.
               </p>
             </div>
           </div>

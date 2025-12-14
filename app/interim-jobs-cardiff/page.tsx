@@ -32,20 +32,20 @@ const cardiffIndustries = [
 
 const successStories = [
   {
-    quote: "Cardiff's fintech cluster is Europe's best-kept secret. I work with 3 scaling companies and the Welsh Government's support for the sector is exceptional.",
+    quote: "Led a 10-month transformation for a Cardiff fintech scaling to European markets. The Welsh Government support and Development Bank funding make this an exceptional market.",
     name: "Gareth Davies",
     role: "Interim CFO",
     area: "Central Square",
     clients: 3,
-    earnings: "£110k/year"
+    earnings: "£700/day"
   },
   {
-    quote: "The BBC and S4C presence in Cardiff Bay has created a thriving creative sector. Perfect for interim marketing and digital leadership.",
+    quote: "Took a Cardiff Bay creative agency through digital transformation and international expansion. The BBC and S4C ecosystem creates fantastic opportunities.",
     name: "Rhian Williams",
     role: "Interim CMO",
     area: "Cardiff Bay",
     clients: 4,
-    earnings: "£105k/year"
+    earnings: "£650/day"
   },
 ]
 
@@ -85,7 +85,7 @@ export default async function CardiffPage() {
             Interim Jobs Cardiff
           </h1>
           <p className="max-w-2xl text-xl text-green-100 mb-10 leading-relaxed">
-            {stats.totalCardiff}+ interim executive opportunities in the Welsh capital. £500-£900 daily rates. Work with Europe's fastest-growing fintech cluster.
+            {stats.totalCardiff}+ full-time temporary executive roles in the Welsh capital. £500-£900 daily rates. Lead transformations and growth initiatives with Europe's fastest-growing fintech cluster.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -166,14 +166,14 @@ export default async function CardiffPage() {
               <span className="text-3xl mb-4 block">💳</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">FinTech Capital</h3>
               <p className="text-gray-600">
-                Cardiff is Europe's fastest-growing fintech cluster. Companies like Wealthify, Delio, and Moneybox have created a thriving ecosystem for interim CFOs.
+                Cardiff is Europe's fastest-growing fintech cluster with 30+ companies including Wealthify and Delio. These scale-ups regularly need interim CFOs for fundraising, regulatory compliance, and international expansion projects.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🎬</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Creative Hub</h3>
               <p className="text-gray-600">
-                BBC Wales, S4C, and a vibrant production sector make Cardiff Bay ideal for interim CMOs and digital leaders in media and entertainment.
+                BBC Wales, S4C, and a vibrant production sector make Cardiff Bay ideal for interim CMOs leading digital transformations, audience growth initiatives, and content commercialization projects.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
@@ -224,7 +224,7 @@ export default async function CardiffPage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-green-200 text-sm">{story.role}</p>
-                    <p className="text-green-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-green-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default async function CardiffPage() {
                 <span className="text-green-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Cardiff is a part-time executive role working 1-3 days per week. Cardiff's fintech cluster and creative sector make it ideal for interim CFOs and CMOs.
+                An interim job in Cardiff is a full-time temporary executive role, typically lasting 3-18 months. You lead specific initiatives like digital transformations, international expansion, or regulatory projects. Cardiff's fintech cluster and creative sector create strong demand for interim CFOs and CMOs.
               </p>
             </details>
 
@@ -257,7 +257,7 @@ export default async function CardiffPage() {
                 <span className="text-green-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Cardiff interim executives earn £500-£900 per day. With 45% lower cost of living than London, take-home value is excellent. Most earn £95,000-£150,000+ annually.
+                Cardiff interim executives earn £500-£900 per day on 3-12 month contracts. With 45% lower cost of living than London, take-home value is excellent. Annual earnings range from £95,000-£180,000+ for full-time interim engagements.
               </p>
             </details>
 
@@ -313,10 +313,10 @@ export default async function CardiffPage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-green-900 via-green-800 to-green-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Cardiff?
+            Ready for Interim Work in Cardiff?
           </h2>
           <p className="text-xl text-green-100 mb-10">
-            {stats.totalCardiff}+ interim opportunities in Wales' thriving capital.
+            {stats.totalCardiff}+ full-time temporary executive roles in Wales' thriving capital.
           </p>
           <Link
             href="/interim-jobs?location=Cardiff"

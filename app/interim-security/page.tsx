@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Security Leadership UK | Hire Part-Time Security Executives',
-  description: 'Hire interim security leaders for your business. Part-time CISOs, Security Directors, and InfoSec Managers. Expert security leadership without full-time cost.',
-  keywords: 'interim security, interim security director, part-time security executive, interim ciso, hire security leader',
+  title: 'Interim Security Leadership UK | Full-Time Temporary CISOs & Security Directors',
+  description: 'Hire full-time interim security leaders (3-12 months). Experienced CISOs and security directors to cover departures, achieve compliance, or respond to security incidents.',
+  keywords: 'interim security, interim security director, interim ciso, temporary security executive, hire security leader',
   alternates: { canonical: 'https://interim.quest/interim-security' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimSecurityPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-red-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-red-400">Security</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior security leadership without the full-time commitment. From CISOs to Security Directors, find the right level of security expertise for your risk profile.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary security leadership for 3-12 months. Experienced CISOs and security directors to cover departures, achieve compliance certifications, respond to incidents, or build security programmes.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-red-500 text-white font-bold uppercase tracking-wider hover:bg-red-400 transition-colors">Find Security Leadership</Link>
                 <Link href="/interim-ciso-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CISO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimSecurityPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Security Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Cyber security is a board-level concern, but not every company can afford a full-time CISO. Interim security leaders provide the expertise to build security programmes, achieve compliance, and manage risk—on a part-time basis.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Security Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim security leaders provide full-time, experienced security leadership during critical periods. When your CISO departs, you're pursuing compliance certification, responding to incidents, or building security from scratch—interim leaders step in immediately to protect the business.</p>
+          <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Security Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim security leaders work full-time for a defined period (typically 3-12 months) to cover departures, achieve compliance, or respond to incidents.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time security support (1-3 days per week), explore <Link href="/fractional-security" className="text-red-600 hover:text-red-700 underline">fractional security leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CISO', description: 'C-level security leadership for strategy and governance.', link: '/interim-ciso-services' },
-              { title: 'Security Director', description: 'Senior security leadership for operations and compliance.', link: '#contact' },
-              { title: 'InfoSec Manager', description: 'Hands-on security operations and team leadership.', link: '#contact' },
+              { title: 'Interim CISO', description: 'Full-time C-level security leadership for compliance, governance, and incidents.', link: '/interim-ciso-services' },
+              { title: 'Interim Security Director', description: 'Full-time senior security leadership for operations, compliance, and risk.', link: '#contact' },
+              { title: 'Interim InfoSec Manager', description: 'Full-time hands-on security operations and technical security management.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-red-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimSecurityPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Security Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Security Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Security Strategy', description: 'Develop security programmes aligned with business risk and goals.' },
-              { title: 'Compliance', description: 'Achieve and maintain SOC 2, ISO 27001, PCI-DSS, GDPR compliance.' },
-              { title: 'Risk Management', description: 'Assess, prioritise, and mitigate security risks.' },
-              { title: 'Incident Response', description: 'Build and test incident response plans and capabilities.' },
-              { title: 'Security Operations', description: 'Implement security tools, monitoring, and vulnerability management.' },
-              { title: 'Vendor Assessment', description: 'Evaluate third-party security and manage supply chain risk.' },
+              { title: 'Leadership Departure', description: 'CISO or security leader has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Compliance Certification', description: 'Pursuing SOC 2, ISO 27001, or other certification requiring dedicated security leadership.' },
+              { title: 'Security Incident', description: 'Breach or major incident requiring experienced security leadership to respond and recover.' },
+              { title: 'Security Programme Build', description: 'Building security function from scratch and need leadership to establish foundations.' },
+              { title: 'Customer Requirements', description: 'Enterprise customers requiring security leadership and compliance for deals to close.' },
+              { title: 'Regulatory Audit', description: 'Facing regulatory audit or investigation requiring security leadership to manage response.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-red-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

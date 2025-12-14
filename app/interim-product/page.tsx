@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Product Leadership UK | Hire Part-Time Product Executives',
-  description: 'Hire interim product leaders for your business. Part-time CPOs, VPs of Product, and Product Directors. Expert product leadership without full-time cost.',
-  keywords: 'interim product, interim product director, part-time product executive, interim vp product, hire product leader',
+  title: 'Interim Product Leadership UK | Full-Time Temporary CPOs & Product Directors',
+  description: 'Hire full-time interim product leaders (3-12 months). Experienced CPOs and product directors to cover departures, launch products, or transform product organisations.',
+  keywords: 'interim product, interim product director, interim cpo, temporary product executive, interim vp product, hire product leader',
   alternates: { canonical: 'https://interim.quest/interim-product' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimProductPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-purple-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-purple-400">Product</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior product leadership without the full-time commitment. From CPOs to Product Directors, find the right level of expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary product leadership for 3-12 months. Experienced CPOs and product directors to cover departures, launch major products, or transform product organisations.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-purple-500 text-white font-bold uppercase tracking-wider hover:bg-purple-400 transition-colors">Find Product Leadership</Link>
                 <Link href="/interim-cpo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CPO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimProductPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Product Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Product-led companies need strong product leadership to succeed. Interim product leaders bring strategic product thinking, team leadership, and execution experience—without requiring a full-time hire.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Product Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim product leaders provide full-time, experienced product leadership during critical periods. When your CPO departs, you're launching major products, entering new markets, or transforming product strategy—interim leaders step in immediately to maintain momentum.</p>
+          <div className="bg-purple-50 border-l-4 border-purple-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Product Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim product leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead major launches, or drive transformation.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time product support (1-3 days per week), explore <Link href="/fractional-product" className="text-purple-600 hover:text-purple-700 underline">fractional product leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CPO', description: 'C-level product leadership for strategy and vision.', link: '/interim-cpo-services' },
-              { title: 'VP of Product', description: 'Senior product leadership for roadmap and team management.', link: '#contact' },
-              { title: 'Product Director', description: 'Hands-on product leadership for growing product teams.', link: '#contact' },
+              { title: 'Interim CPO', description: 'Full-time C-level product leadership for major strategy pivots and transformation.', link: '/interim-cpo-services' },
+              { title: 'Interim VP Product', description: 'Full-time senior product leadership for roadmap execution and team scaling.', link: '#contact' },
+              { title: 'Interim Product Director', description: 'Full-time hands-on product leadership to drive delivery and build capabilities.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-purple-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimProductPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Product Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Product Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Product Strategy', description: 'Define product vision, strategy, and positioning in the market.' },
-              { title: 'Roadmap Planning', description: 'Build and prioritise product roadmaps aligned with business goals.' },
-              { title: 'Team Leadership', description: 'Lead, mentor, and develop product managers and designers.' },
-              { title: 'Customer Discovery', description: 'Run customer research to validate problems and solutions.' },
-              { title: 'Product Operations', description: 'Implement product processes, tools, and measurement frameworks.' },
-              { title: 'Stakeholder Management', description: 'Align product decisions with engineering, sales, and leadership.' },
+              { title: 'Leadership Departure', description: 'CPO or product leader has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Major Product Launch', description: 'Launching significant new product or platform requiring dedicated product leadership.' },
+              { title: 'Product-Market Fit', description: 'Searching for product-market fit and need experienced leadership to drive discovery.' },
+              { title: 'Product Transformation', description: 'Pivoting product strategy or transforming product organisation and processes.' },
+              { title: 'Market Expansion', description: 'Entering new markets or verticals requiring product leadership to adapt offering.' },
+              { title: 'Team Building', description: 'Building product function from scratch and need leadership to establish foundations.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-purple-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

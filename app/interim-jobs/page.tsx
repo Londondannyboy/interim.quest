@@ -17,12 +17,12 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 export const revalidate = 900
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs UK 2025 - Browse Executive & Part-Time C-Suite Roles',
-  description: 'Browse interim jobs in the UK. Find interim CFO, CMO, CTO roles paying £600-£1,500/day. Part-time executive positions updated regularly.',
-  keywords: 'interim jobs, interim jobs uk, interim executive jobs, part time executive jobs, interim cfo jobs, interim cmo jobs',
+  title: 'Interim Jobs UK 2025 - Full-Time Temporary Executive Roles',
+  description: 'Browse interim jobs in the UK. Find full-time temporary CFO, CMO, CTO roles paying £800-£2,000/day. 3-12 month executive positions updated every 15 minutes.',
+  keywords: 'interim jobs, interim jobs uk, interim executive jobs, temporary executive jobs, interim cfo jobs, interim cmo jobs, interim cto jobs',
   openGraph: {
-    title: 'Interim Jobs UK - Browse Executive & Part-Time C-Suite Roles',
-    description: 'Browse interim jobs in the UK. Find interim CFO, CMO, CTO roles paying £600-£1,500/day.',
+    title: 'Interim Jobs UK - Full-Time Temporary Executive Roles',
+    description: 'Browse interim jobs in the UK. Find full-time temporary CFO, CMO, CTO roles paying £800-£2,000/day.',
     type: 'website',
   },
 }
@@ -248,14 +248,14 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
 
                 <img
                   src="/logo.svg"
-                  alt="Interim Jobs UK - Browse executive and part-time C-suite positions"
+                  alt="Interim Jobs UK - Browse full-time temporary executive positions"
                   className="hidden"
                   width={1}
                   height={1}
                 />
 
                 <p className="text-lg text-white/70 leading-relaxed">
-                  CFO, CMO, CTO & specialist roles • £600-£1,500/day • Updated every 15 minutes
+                  CFO, CMO, CTO & specialist roles • £800-£2,000/day • 3-12 month placements • Updated every 15 minutes
                 </p>
               </div>
             </div>
@@ -448,7 +448,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
               <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-4 block">By Function</span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Browse by Role</h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                Interim jobs offer experienced executives the opportunity to work with multiple companies on a part-time basis.
+                Interim jobs offer experienced executives the opportunity to lead transformation projects, crisis management, and growth initiatives on a full-time temporary basis.
               </p>
             </div>
 
@@ -487,7 +487,7 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
               <span className="text-xs font-medium uppercase tracking-[0.3em] text-gray-500 mb-4 block">By Location</span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Browse by City</h2>
               <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                London dominates with 60% of roles, but Manchester, Birmingham, and Edinburgh have growing interim communities.
+                London dominates with 60% of roles, but Manchester, Birmingham, and Edinburgh have growing interim management markets.
               </p>
             </div>
 

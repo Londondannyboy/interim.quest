@@ -9,11 +9,11 @@ import { FAQ, BIRMINGHAM_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Birmingham - Executive Roles in the West Midlands',
-  description: 'Find interim executive jobs in Birmingham. CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. Growing interim market.',
+  title: 'Interim Jobs Birmingham | Interim Quest',
+  description: 'Find interim executive jobs in Birmingham. Full-time temporary CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. Growing interim management market.',
   openGraph: {
-    title: 'Interim Jobs Birmingham - Executive Roles in the West Midlands',
-    description: 'Find interim executive jobs in Birmingham and the West Midlands region.',
+    title: 'Interim Jobs Birmingham | Interim Quest',
+    description: 'Find interim executive jobs in Birmingham. Full-time temporary CFO, CMO, CTO roles across the West Midlands region.',
     type: 'website',
   },
 }
@@ -102,7 +102,7 @@ export default async function BirminghamPage() {
                   />
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles across the West Midlands. £650-£1,100 daily rates. The UK's second city for interim careers.
+                    Full-time temporary executive roles across the West Midlands. Interim CFO, CMO, CTO positions. £650-£1,100 daily rates. The UK's second city for interim management opportunities.
                   </p>
 
                   <div className="flex flex-wrap gap-4">

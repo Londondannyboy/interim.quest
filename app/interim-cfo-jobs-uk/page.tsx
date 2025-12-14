@@ -16,15 +16,15 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim CFO Jobs UK | Part-Time CFO Roles 2025',
-  description: 'Interim CFO jobs UK - Find part-time Chief Financial Officer positions paying £800-£1,500/day. Browse live CFO roles for experienced finance leaders. Remote & hybrid available.',
-  keywords: 'interim cfo jobs, interim cfo jobs uk, part time cfo, part-time cfo, cfo part time, interim cfo opportunities, interim cfo uk, part time chief financial officer, interim cfo remote',
+  title: 'Interim CFO Jobs UK | Interim Quest',
+  description: 'Interim CFO jobs UK - Full-time temporary Chief Financial Officer assignments (3-12 months) paying £1,200-£2,000/day. Leadership gaps, turnarounds, transformations. Remote & hybrid available.',
+  keywords: 'interim cfo jobs, interim cfo jobs uk, interim cfo opportunities, interim cfo uk, interim chief financial officer, cfo interim roles, temporary cfo jobs',
   alternates: {
     canonical: 'https://interim.quest/interim-cfo-jobs-uk',
   },
   openGraph: {
-    title: 'Interim CFO Jobs UK | Part-Time CFO Roles 2025',
-    description: 'Interim CFO jobs UK - Find part-time CFO positions paying £800-£1,500/day. Remote & hybrid available.',
+    title: 'Interim CFO Jobs UK | Interim Quest',
+    description: 'Interim CFO jobs UK - Full-time temporary CFO assignments (3-12 months) paying £1,200-£2,000/day.',
     images: ['/images/interim-cfo-jobs-uk.jpg'],
     url: 'https://interim.quest/interim-cfo-jobs-uk',
   },
@@ -85,7 +85,7 @@ export default async function InterimCfoJobsUkPage() {
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
                 <strong className="text-white">Interim CFO jobs UK</strong> for experienced finance leaders.
-                Part-time Chief Financial Officer roles paying £800-£1,500/day.
+                Full-time temporary assignments (3-12 months) paying £1,200-£2,000/day.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
@@ -93,7 +93,7 @@ export default async function InterimCfoJobsUkPage() {
                   <div className="text-white/60 text-sm uppercase tracking-wider">Live Roles</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">£1,050</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1,500</div>
                   <div className="text-white/60 text-sm uppercase tracking-wider">Avg Day Rate</div>
                 </div>
                 <div>
@@ -188,28 +188,28 @@ export default async function InterimCfoJobsUkPage() {
           </figure>
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              <strong className="font-semibold text-gray-900">Interim CFO jobs</strong> represent the new frontier of finance leadership. Part-time Chief Financial Officer positions where experienced leaders provide strategic financial guidance to multiple companies simultaneously—delivering world-class expertise at a fraction of the cost.
+              <strong className="font-semibold text-gray-900">Interim CFO jobs</strong> are full-time temporary assignments where experienced finance leaders step into critical roles for 3-12 months. These are NOT part-time or fractional positions—interim CFOs work full-time hours (typically 5 days/week) on defined assignments such as leadership gaps, turnarounds, or major transformations.
             </p>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">The Rise of Interim CFO Jobs UK</h3>
-            <p>The UK market for <strong>interim CFO jobs UK</strong> has grown by over 180% in the past three years. This surge reflects a fundamental shift in how companies access senior finance talent, particularly among startups, scale-ups, and SMEs that need experienced financial leadership but cannot justify a full-time CFO salary of £150,000-£300,000.</p>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What Are Interim CFO Jobs?</h3>
+            <p>The UK market for <strong>interim CFO jobs UK</strong> has grown substantially as companies need senior finance leadership for temporary, high-impact assignments. Typical interim CFO roles last 3-12 months and pay £1,200-£2,000 per day. These are full-time, temporary positions—not fractional or part-time roles.</p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-emerald-500">
-              <p className="text-xl font-semibold text-gray-900 mb-0">"Companies access CFO expertise for £2,000-£5,000/week instead of £12,500+ monthly for full-time."</p>
+              <p className="text-xl font-semibold text-gray-900 mb-0">"Interim CFOs provide full-time leadership during transitions, turnarounds, or transformation projects—not ongoing part-time support."</p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Interim CFO Jobs Are Booming</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Companies Hire Interim CFOs</h3>
             <ul className="space-y-3">
-              <li><strong>Cost efficiency:</strong> Senior expertise at a fraction of the cost</li>
-              <li><strong>Flexibility:</strong> Scale finance leadership based on current needs</li>
-              <li><strong>Quality talent:</strong> Access CFOs with diverse, multi-industry experience</li>
-              <li><strong>Speed to impact:</strong> No lengthy recruitment—start adding value within days</li>
-              <li><strong>PE/VC influence:</strong> Investors mandate interim CFOs across portfolios</li>
+              <li><strong>Leadership gaps:</strong> Cover CFO departures or extended leave while recruiting permanent replacement</li>
+              <li><strong>Turnarounds:</strong> Bring in crisis management expertise to stabilize finances</li>
+              <li><strong>Transformations:</strong> Lead major finance change programs (ERP, restructuring, IPO prep)</li>
+              <li><strong>Rapid scaling:</strong> Provide experienced leadership during high-growth phases</li>
+              <li><strong>Due diligence:</strong> Support M&A transactions and post-acquisition integration</li>
             </ul>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CFO Jobs</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CFO Assignments</h3>
             <div className="grid md:grid-cols-2 gap-6 not-prose my-8">
               {[
-                { title: 'Startup CFO', desc: 'Series A-C fundraising & investor relations', rate: '£1,000-£1,400/day' },
-                { title: 'PE Portfolio CFO', desc: 'Financial transformation & value creation', rate: '£1,100-£1,500/day' },
-                { title: 'Scale-up CFO', desc: 'Professionalising finance function', rate: '£950-£1,300/day' },
-                { title: 'Exit-ready CFO', desc: 'Due diligence & IPO preparation', rate: '£1,100-£1,500/day' },
+                { title: 'Leadership Gap CFO', desc: 'Cover departures during permanent recruitment', rate: '£1,200-£1,800/day' },
+                { title: 'Turnaround CFO', desc: 'Stabilize finances and restore investor confidence', rate: '£1,400-£2,000/day' },
+                { title: 'Transformation CFO', desc: 'Lead major finance change programs', rate: '£1,300-£1,900/day' },
+                { title: 'IPO/Exit CFO', desc: 'Prepare company for public listing or sale', rate: '£1,500-£2,000/day' },
               ].map((type, i) => (
                 <div key={i} className="bg-gray-50 p-6 border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-1">{type.title}</h4>
@@ -220,58 +220,60 @@ export default async function InterimCfoJobsUkPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Requirements for Interim CFO Jobs</h3>
             <ul className="space-y-2">
-              <li>15+ years finance experience, 5+ in CFO or Finance Director roles</li>
-              <li>Professional qualifications (ACA, ACCA, CIMA)</li>
-              <li>Fundraising experience (Series A-C, debt facilities)</li>
-              <li>M&A and due diligence expertise</li>
-              <li>Board-level communication skills</li>
+              <li>20+ years finance experience, including 5+ years as CFO or Finance Director</li>
+              <li>Professional qualifications (ACA, ACCA, CIMA, CPA)</li>
+              <li>Track record delivering results in temporary, high-pressure assignments</li>
+              <li>Experience with crisis management, restructuring, or major transformations</li>
+              <li>Strong stakeholder management and board-level communication skills</li>
             </ul>
           </article>
         </div>
       </section>
 
-      {/* Part-Time CFO Section - SEO for "part time cfo" */}
+      {/* Interim vs Part-Time CFO Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Alternative Term</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Part-Time CFO Jobs UK</h2>
-            <p className="text-xl text-gray-600 mt-4">The terms "part-time CFO" and "interim CFO" are often used interchangeably</p>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Important Distinction</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CFO vs Part-Time CFO</h2>
+            <p className="text-xl text-gray-600 mt-4">These are fundamentally different types of roles</p>
           </div>
 
           <div className="prose prose-lg prose-gray max-w-none">
             <p>
-              <strong>Part-time CFO</strong> roles are identical to <strong>interim CFO jobs</strong>—both describe Chief Financial Officers who work with companies on a non-full-time basis. Whether you search for "part time CFO", "CFO part time", or "part time Chief Financial Officer", you're looking for the same opportunity: senior finance leadership without the full-time commitment.
+              Many people confuse <strong>interim CFO</strong> with <strong>part-time CFO</strong>, but they are very different. Interim CFOs work full-time on temporary assignments (3-12 months), while part-time/fractional CFOs work ongoing reduced hours (1-3 days/week) across multiple clients.
             </p>
 
-            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Part-Time CFO vs Interim CFO</h3>
+            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Interim CFO vs Part-Time CFO</h3>
             <div className="grid md:grid-cols-2 gap-6 not-prose my-6">
               <div className="bg-white p-6 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2">Part-Time CFO</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Interim CFO (This Page)</h4>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Often implies working with one company</li>
-                  <li>• Fixed days per week (e.g., Tues & Thurs)</li>
-                  <li>• May suggest employment relationship</li>
-                  <li>• Common search term in UK market</li>
+                  <li>• Full-time hours (5 days/week)</li>
+                  <li>• Temporary assignments (3-12 months)</li>
+                  <li>• Single client at a time</li>
+                  <li>• £1,200-£2,000/day rate</li>
+                  <li>• Crisis, transformation, leadership gap</li>
                 </ul>
               </div>
               <div className="bg-white p-6 border border-gray-200">
-                <h4 className="font-bold text-gray-900 mb-2">Interim CFO</h4>
+                <h4 className="font-bold text-gray-900 mb-2">Part-Time/Fractional CFO</h4>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Typically multiple clients simultaneously</li>
-                  <li>• Flexible hours based on client needs</li>
-                  <li>• Usually contractor/limited company</li>
-                  <li>• Industry-preferred terminology</li>
+                  <li>• Part-time hours (1-3 days/week)</li>
+                  <li>• Ongoing relationship (6+ months)</li>
+                  <li>• Multiple clients simultaneously</li>
+                  <li>• £800-£1,500/day rate</li>
+                  <li>• Strategic guidance, board support</li>
                 </ul>
               </div>
             </div>
 
             <p>
-              In practice, most <strong>part-time CFO jobs</strong> and interim CFO jobs are the same roles. Companies may use either term in job postings. The key is that you're providing senior financial leadership on a part-time, ongoing basis—typically 1-3 days per week.
+              This page focuses on <strong>interim CFO jobs</strong>—full-time temporary assignments. If you're looking for part-time ongoing CFO work across multiple clients, that's fractional/portfolio CFO work.
             </p>
 
             <div className="bg-emerald-50 p-6 border border-emerald-200 rounded-lg my-8 not-prose">
-              <p className="text-emerald-800 font-medium mb-3">Looking specifically for part-time CFO opportunities?</p>
+              <p className="text-emerald-800 font-medium mb-3">Looking for part-time/fractional CFO opportunities instead?</p>
               <Link href="/part-time-cfo" className="inline-flex items-center text-emerald-700 font-bold hover:text-emerald-900">
                 Read our Part-Time CFO Guide →
               </Link>
@@ -280,41 +282,41 @@ export default async function InterimCfoJobsUkPage() {
         </div>
       </section>
 
-      {/* Interim CFO Job Description Section */}
+      {/* Interim CFO Assignment Structure Section */}
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Role Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CFO Job Description</h2>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Assignment Structure</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Typical Interim CFO Assignment</h2>
           </div>
 
           <div className="prose prose-lg prose-gray max-w-none">
             <p>
-              A typical <strong>interim CFO job description</strong> outlines the responsibilities of a part-time Chief Financial Officer. While specific duties vary by company stage and industry, most interim CFO opportunities include these core responsibilities:
+              A typical <strong>interim CFO assignment</strong> is a full-time temporary role lasting 3-12 months. You work exclusively for one client during this period, providing full CFO leadership to address a specific business need such as covering a leadership gap, managing a turnaround, or leading a transformation.
             </p>
 
             <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Core Responsibilities</h3>
             <ul className="space-y-2">
-              <li><strong>Financial Strategy:</strong> Develop and implement financial strategies aligned with business objectives</li>
-              <li><strong>Cash Flow Management:</strong> Oversee cash flow forecasting, working capital optimisation, and treasury functions</li>
-              <li><strong>Financial Reporting:</strong> Produce management accounts, board packs, and investor reports</li>
-              <li><strong>Fundraising Support:</strong> Lead equity raises, debt facilities, and investor relations</li>
-              <li><strong>Team Leadership:</strong> Mentor finance team, implement processes, and drive improvements</li>
-              <li><strong>Compliance & Controls:</strong> Ensure regulatory compliance and strengthen internal controls</li>
+              <li><strong>Financial Leadership:</strong> Full CFO accountability including strategy, planning, and execution</li>
+              <li><strong>Crisis Management:</strong> Stabilize finances during turnarounds or challenging periods</li>
+              <li><strong>Change Management:</strong> Lead transformations such as ERP implementations or restructuring</li>
+              <li><strong>Team Leadership:</strong> Manage and develop finance team during the assignment</li>
+              <li><strong>Stakeholder Management:</strong> Report to board, investors, banks during critical periods</li>
+              <li><strong>Exit Planning:</strong> Ensure smooth handover to permanent CFO or successor</li>
             </ul>
 
-            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Typical Engagement Structure</h3>
+            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Typical Assignment Structure</h3>
             <div className="grid md:grid-cols-3 gap-4 not-prose my-6">
               <div className="bg-gray-50 p-5 text-center">
-                <div className="text-2xl font-black text-emerald-600">1-3 days</div>
-                <div className="text-sm text-gray-600">Per week</div>
+                <div className="text-2xl font-black text-emerald-600">5 days/week</div>
+                <div className="text-sm text-gray-600">Full-time hours</div>
               </div>
               <div className="bg-gray-50 p-5 text-center">
-                <div className="text-2xl font-black text-emerald-600">6-12 months</div>
-                <div className="text-sm text-gray-600">Initial commitment</div>
+                <div className="text-2xl font-black text-emerald-600">3-12 months</div>
+                <div className="text-sm text-gray-600">Assignment duration</div>
               </div>
               <div className="bg-gray-50 p-5 text-center">
-                <div className="text-2xl font-black text-emerald-600">£800-£1,500</div>
+                <div className="text-2xl font-black text-emerald-600">£1,200-£2,000</div>
                 <div className="text-sm text-gray-600">Day rate</div>
               </div>
             </div>
@@ -322,33 +324,33 @@ export default async function InterimCfoJobsUkPage() {
         </div>
       </section>
 
-      {/* Remote Interim CFO Section */}
+      {/* Remote & Hybrid Interim CFO Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Remote Work</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Remote Interim CFO Opportunities</h2>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Work Arrangements</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Remote & Hybrid Interim CFO Assignments</h2>
           </div>
 
           <div className="prose prose-lg prose-gray max-w-none">
             <p>
-              <strong>Remote interim CFO</strong> roles have grown significantly since 2020. Many companies now offer fully remote or hybrid interim CFO positions, allowing experienced finance leaders to work with businesses across the UK (and internationally) without geographical constraints.
+              Many <strong>interim CFO assignments</strong> now offer remote or hybrid working arrangements. While some roles require on-site presence (especially during crisis situations or major transformations), many companies are open to experienced interim CFOs working remotely for part of the week.
             </p>
 
-            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Benefits of Remote Interim CFO Work</h3>
+            <h3 className="text-xl font-black text-gray-900 mt-8 mb-4">Remote/Hybrid Considerations for Interim CFOs</h3>
             <ul className="space-y-2">
-              <li><strong>Wider client base:</strong> Work with companies anywhere in the UK, not limited by commute</li>
-              <li><strong>Multiple clients:</strong> Remote work makes managing 2-3 clients more practical</li>
-              <li><strong>Flexibility:</strong> Structure your week around client needs and personal commitments</li>
-              <li><strong>Cost efficiency:</strong> No commuting costs; companies may pay premium rates for remote CFOs</li>
+              <li><strong>Assignment type:</strong> Turnarounds often require more on-site presence than steady-state coverage</li>
+              <li><strong>Critical periods:</strong> Month-end, board meetings, and audits may require office attendance</li>
+              <li><strong>Team management:</strong> Leading finance teams often works better with regular in-person time</li>
+              <li><strong>Geography:</strong> UK-wide opportunities available with 1-2 days/week on-site</li>
             </ul>
 
             <p>
-              Currently, approximately <strong>{stats.remoteCount} of our {stats.total} finance roles</strong> offer remote or hybrid working arrangements. Filter by "Remote" in our job board to see all available remote interim CFO opportunities.
+              Currently, approximately <strong>{stats.remoteCount} of our {stats.total} finance roles</strong> offer remote or hybrid working arrangements. Filter by "Remote" or "Hybrid" in our job board to see available options.
             </p>
 
             <div className="bg-black text-white p-6 rounded-lg my-8 not-prose">
-              <p className="text-gray-300 mb-3">Browse remote CFO positions:</p>
+              <p className="text-gray-300 mb-3">Browse remote CFO assignments:</p>
               <Link href="/remote" className="inline-flex items-center text-emerald-400 font-bold hover:text-emerald-300">
                 View Remote Jobs →
               </Link>
@@ -363,9 +365,9 @@ export default async function InterimCfoJobsUkPage() {
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">UK Tax</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">IR35: Inside vs Outside</h2>
-            <p className="text-gray-600 mt-4">As a interim CFO, your IR35 status significantly impacts your take-home pay</p>
+            <p className="text-gray-600 mt-4">As an interim CFO, your IR35 status significantly impacts your take-home pay</p>
           </div>
-          <IR35Calculator defaultDayRate={1050} />
+          <IR35Calculator defaultDayRate={1500} />
         </div>
       </section>
 

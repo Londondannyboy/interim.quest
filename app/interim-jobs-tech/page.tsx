@@ -9,11 +9,11 @@ import { FAQ, TECH_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
-  description: 'Find interim tech jobs in the UK. Interim CTO, VP Engineering, Tech Director roles. £900-£1,500 daily rates. SaaS, FinTech, HealthTech opportunities.',
+  title: 'Interim Jobs in Tech | Interim Quest',
+  description: 'Full-time temporary CTO, VP Engineering, and Tech Director roles. £900-£1,500 daily rates. Help tech companies through turnarounds, product launches, and critical transitions.',
   openGraph: {
-    title: 'Interim Tech Jobs UK - CTO, VP Engineering, Tech Director Roles',
-    description: 'Find interim technology leadership roles across the UK.',
+    title: 'Interim Jobs in Tech | Interim Quest',
+    description: 'Full-time temporary technology leadership roles for critical transitions.',
     type: 'website',
   },
 }
@@ -100,7 +100,7 @@ export default async function TechJobsPage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    Interim CTO, VP Engineering, Tech Director positions. £900-£1,500 daily rates across SaaS, FinTech, and HealthTech.
+                    Full-time temporary executive roles for tech companies in transition. Lead turnarounds, product launches, and team rebuilds. £900-£1,500 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -230,29 +230,29 @@ export default async function TechJobsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🚀</span>
+                <span className="text-3xl">🔧</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Startup-Ready</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Tech Turnarounds</h3>
               <p className="text-gray-600">
-                Startups and scale-ups can't always afford a £200k+ full-time CTO. Interim tech leaders provide senior expertise at a fraction of the cost.
+                Tech companies need interim CTOs for critical transitions: failed product launches, technical debt crises, team departures, or pre-acquisition technology audits.
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl p-8">
+              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
+                <span className="text-3xl">⚡</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Full-Time Commitment</h3>
+              <p className="text-gray-600">
+                These are not part-time or fractional roles. Interim tech executives work full-time for 3-18 months to stabilize technology operations and deliver specific outcomes.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                 <span className="text-3xl">💰</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Premium Rates</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Premium Crisis Rates</h3>
               <p className="text-gray-600">
-                Tech leadership commands the highest interim rates. CTOs with cloud, AI, or security expertise can earn £1,200-£1,500/day.
-              </p>
-            </div>
-            <div className="bg-white rounded-2xl p-8">
-              <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🌍</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Remote-First</h3>
-              <p className="text-gray-600">
-                65% of interim tech roles are fully remote or hybrid. Work with clients across the UK and Europe from anywhere.
+                Interim tech leaders command £900-£1,500/day for their ability to parachute into high-pressure situations and deliver results fast.
               </p>
             </div>
           </div>

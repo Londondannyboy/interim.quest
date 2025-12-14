@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim HR Leadership UK | Hire Part-Time HR Executives',
-  description: 'Hire interim HR leaders for your business. Part-time CHROs, HR Directors, and People Leaders. Expert HR leadership without full-time cost.',
-  keywords: 'interim hr, interim hr director, part-time hr executive, interim people leader, hire hr leader',
+  title: 'Interim HR Leadership UK | Full-Time Temporary CHROs & HR Directors',
+  description: 'Hire full-time interim HR leaders (3-12 months). Experienced CHROs and HR directors to cover departures, manage restructuring, or lead culture transformations.',
+  keywords: 'interim hr, interim hr director, interim chro, temporary hr executive, interim people leader, hire hr leader',
   alternates: { canonical: 'https://interim.quest/interim-hr' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimHRPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-pink-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-pink-400">HR</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior HR leadership without the full-time commitment. From CHROs to HR Directors, find the right level of expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary HR leadership for 3-12 months. Experienced CHROs and HR directors to cover departures, manage restructuring, lead culture transformations, or navigate complex employee relations.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-pink-500 text-white font-bold uppercase tracking-wider hover:bg-pink-400 transition-colors">Find HR Leadership</Link>
                 <Link href="/interim-chro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CHRO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimHRPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim HR Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">People challenges don't wait for you to hire a full-time HR leader. Interim HR executives bring the expertise to build culture, hire great people, and navigate complex people issues—on a part-time basis.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim HR Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim HR leaders provide full-time, experienced people leadership during critical periods. When your CHRO departs, you're managing restructuring, facing complex employee relations issues, or transforming culture—interim leaders step in immediately to provide stability and expertise.</p>
+          <div className="bg-pink-50 border-l-4 border-pink-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional HR Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim HR leaders work full-time for a defined period (typically 3-12 months) to cover departures, manage restructuring, or handle crisis situations.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time HR support (1-3 days per week), explore <Link href="/fractional-hr" className="text-pink-600 hover:text-pink-700 underline">fractional HR leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CHRO', description: 'C-level HR leadership for strategy and culture transformation.', link: '/interim-chro-services' },
-              { title: 'HR Director', description: 'Senior HR leadership for policy, compliance, and team building.', link: '#contact' },
-              { title: 'People Partner', description: 'Hands-on HR support for growing teams.', link: '#contact' },
+              { title: 'Interim CHRO', description: 'Full-time C-level HR leadership for major culture transformations and restructuring.', link: '/interim-chro-services' },
+              { title: 'Interim HR Director', description: 'Full-time senior HR leadership for policy, compliance, and team building.', link: '#contact' },
+              { title: 'Interim People Leader', description: 'Full-time hands-on HR leadership to manage employee relations and development.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-pink-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimHRPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim HR Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim HR Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'People Strategy', description: 'Develop HR strategies aligned with business goals and growth plans.' },
-              { title: 'Talent Acquisition', description: 'Build recruiting processes and employer brand to attract top talent.' },
-              { title: 'Culture Development', description: 'Shape company culture, values, and employee engagement programmes.' },
-              { title: 'Performance Management', description: 'Implement performance reviews, feedback, and development frameworks.' },
-              { title: 'HR Operations', description: 'Set up HR systems, policies, and compliance programmes.' },
-              { title: 'Employee Relations', description: 'Navigate complex people issues, restructuring, and legal matters.' },
+              { title: 'Leadership Departure', description: 'CHRO or HR director has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Restructuring', description: 'Redundancies or reorganisation requiring experienced HR leadership to manage process.' },
+              { title: 'Employee Relations Crisis', description: 'Complex disciplinaries, grievances, or tribunal cases needing expert HR management.' },
+              { title: 'Culture Transformation', description: 'Culture change programme requiring dedicated HR leadership to drive transformation.' },
+              { title: 'Rapid Growth', description: 'Scaling quickly and need HR leadership to build people infrastructure and processes.' },
+              { title: 'M&A Integration', description: 'Post-merger integration requiring HR leadership to harmonise people policies and culture.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-pink-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

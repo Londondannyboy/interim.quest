@@ -9,11 +9,11 @@ import { FAQ, HEALTHCARE_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Healthcare - Executive Roles in HealthTech & Life Sciences',
-  description: 'Find interim executive jobs in healthcare. CFO, CMO, CTO roles in HealthTech, MedTech, and Life Sciences. £700-£1,300 daily rates. UK\'s fastest-growing sector.',
+  title: 'Interim Jobs in Healthcare | Interim Quest',
+  description: 'Full-time temporary executive roles in HealthTech and Life Sciences. £700-£1,300 daily rates. Navigate regulatory approvals, clinical trials, and commercial launches.',
   openGraph: {
-    title: 'Interim Jobs Healthcare - Executive Roles in HealthTech & Life Sciences',
-    description: 'Find interim executive jobs in healthcare and life sciences UK.',
+    title: 'Interim Jobs in Healthcare | Interim Quest',
+    description: 'Full-time temporary healthcare leadership roles for critical milestones.',
     type: 'website',
   },
 }
@@ -104,7 +104,7 @@ export default async function HealthcarePage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles in HealthTech, MedTech, and Life Sciences. £700-£1,300 daily rates. The UK's fastest-growing sector.
+                    Full-time temporary executive roles in HealthTech and Life Sciences. Navigate regulatory approvals, clinical trials, and commercial launches. £700-£1,300 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -240,29 +240,29 @@ export default async function HealthcarePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
+                <span className="text-3xl">⚕️</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Regulatory Navigation</h3>
+              <p className="text-gray-600">
+                Healthcare companies hire interim executives for FDA/MHRA submissions and clinical trial oversight. Full-time, 6-18 month engagements to navigate complex regulatory pathways.
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl p-8">
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
+                <span className="text-3xl">🔬</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Clinical Milestones</h3>
+              <p className="text-gray-600">
+                BioTech and MedTech firms need interim CSOs and COOs for specific clinical phases. These are temporary, full-time roles tied to trial completion or product development milestones.
+              </p>
+            </div>
+            <div className="bg-white rounded-2xl p-8">
+              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
                 <span className="text-3xl">🚀</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Massive Growth</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Commercial Launch</h3>
               <p className="text-gray-600">
-                UK life sciences has seen record investment of £8bn+ annually. HealthTech alone has grown 35% YoY, creating exceptional demand for experienced leadership.
-              </p>
-            </div>
-            <div className="bg-white rounded-2xl p-8">
-              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">💷</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Premium Rates</h3>
-              <p className="text-gray-600">
-                Healthcare interim roles command premium rates of £700-£1,400/day due to specialist knowledge requirements in regulatory, clinical, and technical domains.
-              </p>
-            </div>
-            <div className="bg-white rounded-2xl p-8">
-              <div className="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🎯</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Perfect Fit</h3>
-              <p className="text-gray-600">
-                Healthcare companies often need senior expertise for specific phases - fundraising, regulatory approval, commercial launch - making interim arrangements ideal.
+                HealthTech companies hire interim CMOs for 9-15 month commercial launches. Full-time commitment required to establish go-to-market strategy and initial sales infrastructure.
               </p>
             </div>
           </div>

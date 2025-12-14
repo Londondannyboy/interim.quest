@@ -35,28 +35,28 @@ const newcastleIndustries = [
 
 const successStories = [
   {
-    quote: "Newcastle's tech scene is massively underrated. I work with 4 scale-ups and the quality of companies here rivals anywhere. The lifestyle is unbeatable.",
+    quote: "Led a 12-month tech transformation for a Newcastle gaming studio. The tech scene here is seriously underrated - world-class companies at a fraction of London costs.",
     name: "Tom Anderson",
     role: "Interim CTO",
     area: "Quayside",
     clients: 4,
-    earnings: "£125k/year"
+    earnings: "£750/day"
   },
   {
-    quote: "Newcastle Helix is transforming the region. The innovation happening in data science and ageing & health is creating incredible interim opportunities.",
+    quote: "Took a Newcastle Helix healthtech startup through regulatory approval and Series A. The innovation in ageing and data science here is world-class.",
     name: "Emma Richardson",
     role: "Interim CFO",
     area: "Newcastle Helix",
     clients: 3,
-    earnings: "£115k/year"
+    earnings: "£700/day"
   },
   {
-    quote: "I moved from London and couldn't be happier. Same quality work, better clients, and a cost of living that means I can actually enjoy life.",
+    quote: "Moved from London for a 9-month interim CMO role. The quality of life is incredible and the interim market is growing fast.",
     name: "David Wright",
     role: "Interim CMO",
     area: "City Centre",
     clients: 3,
-    earnings: "£105k/year"
+    earnings: "£650/day"
   },
 ]
 
@@ -104,7 +104,7 @@ export default async function NewcastlePage() {
             Interim Jobs Newcastle
           </h1>
           <p className="max-w-2xl text-xl text-slate-100 mb-10 leading-relaxed">
-            {stats.totalNewcastle}+ interim executive opportunities in the North East. £500-£950 daily rates. Work with innovative tech, gaming, and life sciences companies.
+            {stats.totalNewcastle}+ full-time temporary executive roles in the North East. £500-£950 daily rates. Lead critical transformations and growth initiatives with innovative tech, gaming, and life sciences companies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -185,14 +185,14 @@ export default async function NewcastlePage() {
               <span className="text-3xl mb-4 block">🎮</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Gaming Hub</h3>
               <p className="text-gray-600">
-                Newcastle is home to Ubisoft, Sumo Digital, and 50+ game studios. Interim CTOs and CMOs are in high demand in this growing sector.
+                Newcastle is home to Ubisoft, Sumo Digital, and 50+ game studios. These companies regularly need interim CTOs and CMOs for product launches, studio expansions, and digital transformations.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🏗️</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Newcastle Helix</h3>
               <p className="text-gray-600">
-                £350m innovation district focused on urban science, data, and ageing. World-class research creating interim leadership opportunities.
+                £350m innovation district focused on urban science, data, and ageing. University spin-outs and research commercialization projects create consistent demand for interim CFOs and CTOs.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
@@ -245,7 +245,7 @@ export default async function NewcastlePage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-slate-200 text-sm">{story.role}</p>
-                    <p className="text-slate-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-slate-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -268,7 +268,7 @@ export default async function NewcastlePage() {
                 <span className="text-slate-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Newcastle is a part-time executive role working 1-3 days per week. Newcastle's growing tech and gaming sectors make it ideal for interim CTOs and CMOs.
+                An interim job in Newcastle is a full-time temporary executive role, typically lasting 3-18 months. You lead specific initiatives like digital transformations, turnarounds, or growth projects. Newcastle's growing tech and gaming sectors create strong demand for interim CTOs and CMOs.
               </p>
             </details>
 
@@ -278,7 +278,7 @@ export default async function NewcastlePage() {
                 <span className="text-slate-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Newcastle interim executives earn £500-£950 per day. With 50% lower cost of living than London, take-home value is excellent. Most earn £100,000-£160,000+ annually.
+                Newcastle interim executives earn £500-£950 per day on 3-12 month contracts. With 50% lower cost of living than London, take-home value is excellent. Annual earnings range from £100,000-£190,000+ for full-time interim engagements.
               </p>
             </details>
 
@@ -334,10 +334,10 @@ export default async function NewcastlePage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Newcastle?
+            Ready for Interim Work in Newcastle?
           </h2>
           <p className="text-xl text-slate-100 mb-10">
-            {stats.totalNewcastle}+ interim opportunities in the North East's tech capital.
+            {stats.totalNewcastle}+ full-time temporary executive roles in the North East's tech capital.
           </p>
           <Link
             href="/interim-jobs?location=Newcastle"

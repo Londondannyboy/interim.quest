@@ -11,41 +11,41 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CIO_SERVICE_FAQS = [
   {
-    question: 'What is a Interim CIO?',
-    answer: 'An Interim CIO (Chief Information Officer) is an experienced IT executive who works with your company part-time, typically 1-3 days per week. You get strategic IT leadership, digital transformation expertise, and technology governance without the cost of a full-time executive.',
+    question: 'What is an Interim CIO?',
+    answer: 'An Interim CIO is a seasoned IT executive who steps into your organisation full-time on a temporary basis—typically 3-12 months. They provide immediate senior IT leadership to fill a vacancy, lead a critical transformation, or stabilise IT operations during crisis or change.',
   },
   {
     question: 'How is a CIO different from a CTO?',
     answer: 'A CTO focuses on product technology—the technology in your product that customers use. A CIO focuses on enterprise technology—the internal systems, infrastructure, and IT operations that run your business. Some companies need both; others need one or the other depending on their model.',
   },
   {
-    question: 'When should my company hire a Interim CIO?',
-    answer: 'Consider hiring an interim CIO when: your IT infrastructure is holding back growth; you need digital transformation leadership; you\'re scaling and need enterprise systems; you have compliance or security requirements; or IT costs are out of control.',
+    question: 'When should we hire an Interim CIO?',
+    answer: 'Hire an interim CIO when you need immediate senior IT leadership: CIO vacancy or departure, major system migration or transformation, IT crisis or cyber incident, M&A IT integration, cloud transformation, or regulatory compliance programme. They provide experienced leadership when you can\'t wait months to recruit.',
   },
   {
-    question: 'How much does a Interim CIO cost?',
-    answer: 'Interim CIOs typically charge £800-£1,400 per day in the UK. At 2 days per week, this translates to roughly £80,000-£140,000 annually—compared to £160,000-£250,000+ for a full-time CIO.',
+    question: 'How much does an Interim CIO cost?',
+    answer: 'Interim CIOs typically charge £1,200-£2,000 per day in the UK. For a 3-month engagement (65 days), expect £78,000-£130,000. For a 6-month engagement (130 days), expect £156,000-£260,000. No benefits, pension, or notice period costs.',
   },
   {
-    question: 'What does a Interim CIO do?',
-    answer: 'An Interim CIO develops IT strategy, leads digital transformation, manages enterprise systems (ERP, CRM, etc.), oversees IT infrastructure and security, controls IT budgets, manages vendor relationships, and ensures technology enables business objectives.',
+    question: 'What does an Interim CIO do?',
+    answer: 'An interim CIO provides full-time IT leadership: develops IT strategy, leads digital transformation, manages enterprise systems and infrastructure, oversees IT teams, controls budgets, manages vendors, ensures security and compliance, and delivers critical projects. They hit the ground running and deliver results within their tenure.',
   },
   {
-    question: 'Can a Interim CIO help with digital transformation?',
-    answer: 'Yes—digital transformation is a core CIO responsibility. An interim CIO can assess your current state, develop a transformation roadmap, select and implement new systems, manage change, and ensure the transformation delivers business value.',
+    question: 'How long does an interim CIO engagement last?',
+    answer: 'Typical engagements run 3-12 months depending on the challenge. Leadership gap fills may be 3-6 months while you recruit. Transformations typically need 6-12 months to plan, execute, and stabilise. Crisis stabilisation can be as short as 3 months. Engagements are flexible and can be extended if needed.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Interim CIO Services UK | Hire a Part-Time Chief Information Officer',
-  description: 'Hire a Interim CIO for your business. Access senior IT leadership at a fraction of full-time cost. Expert CIOs for digital transformation, IT strategy, and enterprise systems. Start within days.',
-  keywords: 'interim cio, interim cio services, hire interim cio, part time cio, interim chief information officer, interim cio uk, interim it director',
+  title: 'Interim CIO Services UK | Hire a Temporary CIO',
+  description: 'Hire an interim CIO for full-time temporary IT leadership. Expert CIOs for leadership gaps, IT transformation, system migrations, and crisis response. £1,200-£2,000/day. Start within days.',
+  keywords: 'interim cio, interim cio services, hire interim cio, temporary cio, interim chief information officer, interim cio uk, interim it director',
   alternates: {
     canonical: 'https://interim.quest/interim-cio-services',
   },
   openGraph: {
-    title: 'Interim CIO Services UK | Hire a Part-Time Chief Information Officer',
-    description: 'Hire a Interim CIO for your business. Senior IT leadership at a fraction of full-time cost.',
+    title: 'Interim CIO Services UK | Hire a Temporary CIO',
+    description: 'Hire an interim CIO for full-time temporary IT leadership. Expert CIOs for transformations, leadership gaps, and crisis response.',
     images: ['/images/interim-cio-services.jpg'],
     url: 'https://interim.quest/interim-cio-services',
   },
@@ -71,17 +71,17 @@ export default function InterimCIOServicesPage() {
                 <span className="text-indigo-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim CIO</strong> to transform your IT.
-                Senior IT leadership, digital transformation expertise, and enterprise systems strategy—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim CIO</strong> for full-time temporary IT leadership.
+                Expert CIOs for leadership gaps, IT transformation, system migrations, and crisis response.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-indigo-400">50%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-indigo-400">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Months</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1.2-2k</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Day Rate</div>
                 </div>
                 <div>
                   <div className="text-4xl md:text-5xl font-black text-white">15+ Yrs</div>
@@ -90,9 +90,9 @@ export default function InterimCIOServicesPage() {
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">
-                  Hire a Interim CIO
+                  Hire an Interim CIO
                 </Link>
-                <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
+                <Link href="#when-to-hire" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
                 </Link>
               </div>
@@ -101,31 +101,35 @@ export default function InterimCIOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Interim CIO */}
+      {/* What is an Interim CIO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CIO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CIO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim CIO</strong> (Chief Information Officer) is an experienced IT executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic IT leadership, digital transformation expertise, and enterprise systems management without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim CIO</strong> (Chief Information Officer) is a seasoned IT executive who steps into your organisation full-time on a temporary basis—typically 3-12 months. They provide immediate senior IT leadership to fill a vacancy, lead a critical transformation, or stabilise IT operations during crisis or change.
             </p>
             <p>
-              Unlike IT managers who focus on day-to-day operations, an interim CIO provides strategic leadership. They align technology with business objectives, lead digital transformation initiatives, and ensure your IT investments deliver value.
+              Unlike consultants who advise from the sidelines, an interim CIO takes full executive accountability. They lead your IT team, manage budgets, make critical decisions, and deliver results. Unlike permanent hires that take months to recruit, an interim CIO can start within days.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-indigo-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "An interim CIO ensures technology enables your business rather than constraining it."
+                "An interim CIO provides executive-level IT leadership exactly when you need it—without the 6-month recruitment cycle."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">CIO vs CTO: Understanding the Difference</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim vs Fractional vs Permanent</h3>
             <p>
-              Many companies confuse the CIO and CTO roles. A <strong>CTO</strong> focuses on product technology—the technology that your customers interact with. A <strong>CIO</strong> focuses on enterprise technology—the internal systems, infrastructure, and IT operations that run your business.
+              An <strong>interim CIO</strong> works full-time for 3-12 months during a specific challenge or transition. A <strong>fractional CIO</strong> works part-time (1-3 days/week) on an ongoing basis. A <strong>permanent CIO</strong> is a full-time employee with no defined end date.
             </p>
             <p>
-              SaaS companies typically need a CTO for their product and may also need a CIO as they scale their internal operations. Traditional businesses often need a CIO but not a CTO.
+              Choose interim for leadership gaps, transformations, or crises. Choose fractional for ongoing strategic guidance. Choose permanent when you need full-time leadership indefinitely.
+            </p>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">CIO vs CTO: Understanding the Difference</h3>
+            <p>
+              A <strong>CTO</strong> focuses on product technology—the technology that your customers interact with. A <strong>CIO</strong> focuses on enterprise technology—the internal systems, infrastructure, and IT operations that run your business. SaaS companies typically need a CTO for their product and may also need a CIO as they scale. Traditional businesses often need a CIO but not a CTO.
             </p>
           </div>
         </div>
@@ -136,45 +140,50 @@ export default function InterimCIOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CIO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CIO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does an Interim CIO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Full executive accountability across all IT functions</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'IT Strategy',
-                description: 'Develop IT strategy aligned with business objectives. Create technology roadmaps that support growth and efficiency.',
+                title: 'IT Leadership',
+                description: 'Lead IT teams and set direction. Make critical decisions, manage performance, and drive a culture of delivery and excellence.',
                 icon: '🎯',
               },
               {
-                title: 'Digital Transformation',
-                description: 'Lead digital transformation initiatives. Modernise legacy systems, implement new technologies, and drive digital adoption.',
+                title: 'Transformation Delivery',
+                description: 'Lead major IT transformations from planning through execution. Deliver cloud migrations, system implementations, and digital initiatives on time and budget.',
                 icon: '🔄',
               },
               {
                 title: 'Enterprise Systems',
-                description: 'Oversee enterprise systems—ERP, CRM, HRIS, and business applications. Ensure systems work together and serve the business.',
+                description: 'Oversee ERP, CRM, HRIS, and business applications. Select systems, manage implementations, and ensure they deliver business value.',
                 icon: '🏢',
               },
               {
                 title: 'IT Infrastructure',
-                description: 'Manage IT infrastructure—cloud, networks, hardware, and end-user computing. Ensure reliability, performance, and security.',
+                description: 'Manage IT infrastructure—cloud, networks, data centres, and end-user computing. Ensure reliability, performance, and scalability.',
                 icon: '☁️',
               },
               {
-                title: 'IT Governance',
-                description: 'Establish IT governance frameworks. Define policies, standards, and processes that ensure IT operates effectively.',
-                icon: '📋',
+                title: 'Security & Compliance',
+                description: 'Ensure IT security and regulatory compliance. Manage cyber risk, implement controls, and respond to security incidents.',
+                icon: '🔒',
               },
               {
                 title: 'Vendor Management',
-                description: 'Manage technology vendors and contracts. Negotiate deals, oversee implementations, and ensure vendor accountability.',
+                description: 'Manage technology vendors and contracts. Negotiate deals, oversee SLAs, and ensure vendor accountability and value.',
                 icon: '🤝',
               },
               {
-                title: 'IT Budget & ROI',
-                description: 'Control IT spending and demonstrate ROI. Ensure technology investments deliver business value.',
+                title: 'Budget Control',
+                description: 'Own the IT budget. Control spending, demonstrate ROI, and ensure technology investments align with business priorities.',
                 icon: '💰',
+              },
+              {
+                title: 'Stakeholder Management',
+                description: 'Report to the board and CEO. Communicate IT performance, manage expectations, and align IT with business strategy.',
+                icon: '📊',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200 hover:border-indigo-300 transition-colors">
@@ -188,43 +197,44 @@ export default function InterimCIOServicesPage() {
       </section>
 
       {/* When to Hire */}
-      <section className="py-20 bg-white">
+      <section id="when-to-hire" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CIO?</h2>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Use Cases</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When to Hire an Interim CIO</h2>
+            <p className="text-xl text-gray-600 mt-4">Common scenarios where interim CIO leadership delivers immediate value</p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'IT Holding Back Growth',
-                description: 'Systems can\'t scale, processes are manual, and IT is a bottleneck rather than an enabler. Time for strategic IT leadership.',
-                timing: 'Before crisis',
+                scenario: 'CIO Vacancy or Departure',
+                description: 'Your CIO has left or is leaving. You need immediate IT leadership while you search for a permanent replacement. An interim CIO fills the gap and keeps IT running.',
+                timing: '3-6 months typically',
               },
               {
-                scenario: 'Digital Transformation',
-                description: 'Need to modernise legacy systems, move to cloud, or implement new digital capabilities. Requires experienced leadership.',
-                timing: 'At project inception',
+                scenario: 'Major System Migration',
+                description: 'Migrating to a new ERP, moving to cloud, or replacing core systems. Need an experienced CIO to plan, execute, and deliver the programme successfully.',
+                timing: '6-12 months typically',
               },
               {
-                scenario: 'Scaling Operations',
-                description: 'Growing rapidly and need enterprise systems—ERP, CRM, HRIS. Need someone to select, implement, and integrate them.',
-                timing: 'Before implementation',
+                scenario: 'IT Transformation',
+                description: 'Modernising legacy IT, restructuring IT operations, or implementing new IT operating models. Requires senior leadership to drive change and deliver results.',
+                timing: '6-12 months typically',
               },
               {
-                scenario: 'IT Costs Out of Control',
-                description: 'Spending too much on IT with unclear ROI. Need strategic oversight to optimise spend and demonstrate value.',
-                timing: 'ASAP',
+                scenario: 'IT Crisis or Turnaround',
+                description: 'IT performance is poor, costs are spiralling, or systems are failing. Need immediate senior leadership to stabilise operations and restore performance.',
+                timing: '3-6 months typically',
               },
               {
-                scenario: 'Security & Compliance',
-                description: 'Need to meet compliance requirements or improve security posture. Requires senior leadership to drive programmes.',
-                timing: '6+ months before deadlines',
+                scenario: 'Cyber Incident Response',
+                description: 'Major security breach or cyber incident. Need a crisis leader to manage response, remediation, and recovery while strengthening security posture.',
+                timing: '3-6 months typically',
               },
               {
-                scenario: 'M&A Integration',
-                description: 'Acquiring or merging with companies. Need IT leadership to assess, plan, and execute technology integration.',
-                timing: 'During due diligence',
+                scenario: 'M&A IT Integration',
+                description: 'Acquiring or merging with another company. Need IT leadership to assess systems, plan integration, and execute the technology merger successfully.',
+                timing: '6-12 months typically',
               },
             ].map((item, index) => (
               <div key={index} className="bg-gray-50 p-6 border border-gray-200">
@@ -237,30 +247,88 @@ export default function InterimCIOServicesPage() {
         </div>
       </section>
 
-      {/* Comparison Table */}
+      {/* Pricing */}
       <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="mb-12">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Pricing</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CIO Day Rates & Costs</h2>
+            <p className="text-xl text-gray-600 mt-4">Transparent pricing for interim CIO services</p>
+          </div>
+          <div className="bg-white p-8 border border-gray-200 mb-8">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div>
+                <div className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Day Rate</div>
+                <div className="text-3xl font-black text-gray-900">£1,200-£2,000</div>
+                <div className="text-sm text-gray-600 mt-1">per day</div>
+              </div>
+              <div>
+                <div className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Typical Duration</div>
+                <div className="text-3xl font-black text-gray-900">3-12</div>
+                <div className="text-sm text-gray-600 mt-1">months</div>
+              </div>
+              <div>
+                <div className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Start Time</div>
+                <div className="text-3xl font-black text-gray-900">1-2</div>
+                <div className="text-sm text-gray-600 mt-1">weeks</div>
+              </div>
+            </div>
+            <div className="border-t border-gray-200 pt-6">
+              <h4 className="font-bold text-gray-900 mb-4">Example Engagement Costs</h4>
+              <div className="space-y-3 text-sm">
+                <div className="flex justify-between">
+                  <span className="text-gray-600">3-month leadership gap (65 days)</span>
+                  <span className="font-bold text-gray-900">£78,000 - £130,000</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">6-month transformation (130 days)</span>
+                  <span className="font-bold text-gray-900">£156,000 - £260,000</span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-gray-600">12-month major programme (260 days)</span>
+                  <span className="font-bold text-gray-900">£312,000 - £520,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-indigo-50 p-6 border border-indigo-200">
+            <h4 className="font-bold text-gray-900 mb-2">What&apos;s Included</h4>
+            <ul className="space-y-2 text-sm text-gray-700">
+              <li>• Full-time executive leadership (5 days/week)</li>
+              <li>• Immediate start (typically 1-2 weeks)</li>
+              <li>• No recruitment fees or lengthy hiring process</li>
+              <li>• No benefits, pension, or equity costs</li>
+              <li>• No notice period or redundancy costs</li>
+              <li>• Flexible engagement length</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Comparison Table */}
+      <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CIO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Fractional vs Permanent CIO</h2>
           </div>
           <ServiceComparisonTable role="CIO" accentColor="purple" />
         </div>
       </section>
 
       {/* How to Hire */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CIO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim CIO</h2>
           </div>
           <HireProcessStepper accentColor="purple" />
         </div>
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">FAQ</span>
@@ -275,17 +343,17 @@ export default function InterimCIOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-indigo-400">Interim CIO?</span>
+            Ready to Hire an<br /><span className="text-indigo-400">Interim CIO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your IT challenges and we'll match you with pre-vetted interim CIOs who have solved them before.
+            Tell us about your IT leadership needs and we&apos;ll match you with experienced interim CIOs who can start within days.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-indigo-500 text-white font-bold uppercase tracking-wider hover:bg-indigo-400 transition-colors">
-              Find a Interim CIO
+              Find an Interim CIO
             </Link>
             <Link href="/interim-cio-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-              I'm a CIO Looking for Roles
+              I&apos;m a CIO Looking for Roles
             </Link>
           </div>
         </div>

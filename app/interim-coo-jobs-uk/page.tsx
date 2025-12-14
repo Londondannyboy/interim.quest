@@ -15,12 +15,12 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim COO Jobs UK | Part-Time COO Roles',
-  description: 'Interim COO jobs UK - Find part-time Chief Operating Officer positions paying £750-£1,400/day. Browse live COO roles for experienced operations leaders.',
-  keywords: 'interim coo jobs uk, interim coo jobs, part time coo jobs, interim coo uk, coo jobs uk, part time chief operating officer',
+  title: 'Interim COO Jobs UK | Interim Quest',
+  description: 'Interim COO jobs UK - Full-time temporary Chief Operating Officer assignments (3-12 months) paying £1,200-£1,800/day. Leadership gaps, turnarounds, transformations.',
+  keywords: 'interim coo jobs uk, interim coo jobs, interim coo opportunities, interim coo uk, interim chief operating officer, coo interim roles, temporary coo jobs',
   openGraph: {
-    title: 'Interim COO Jobs UK | Part-Time COO Roles',
-    description: 'Interim COO jobs UK - Find part-time COO positions paying £750-£1,400/day.',
+    title: 'Interim COO Jobs UK | Interim Quest',
+    description: 'Interim COO jobs UK - Full-time temporary COO assignments (3-12 months) paying £1,200-£1,800/day.',
     images: ['/images/interim-coo-jobs-uk.jpg'],
   },
 }
@@ -80,7 +80,7 @@ export default async function InterimCooJobsUkPage() {
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
                 <strong className="text-white">Interim COO jobs UK</strong> for experienced operations leaders.
-                Part-time Chief Operating Officer roles paying £750-£1,400/day.
+                Full-time temporary assignments (3-12 months) paying £1,200-£1,800/day.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
@@ -88,7 +88,7 @@ export default async function InterimCooJobsUkPage() {
                   <div className="text-white/60 text-sm uppercase tracking-wider">Live Roles</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">£950</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1,400</div>
                   <div className="text-white/60 text-sm uppercase tracking-wider">Avg Day Rate</div>
                 </div>
                 <div>
@@ -183,28 +183,28 @@ export default async function InterimCooJobsUkPage() {
           </figure>
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              <strong className="font-semibold text-gray-900">Interim COO jobs</strong> represent the new frontier of operations leadership. Part-time Chief Operating Officer positions where experienced leaders provide strategic operational guidance to multiple companies simultaneously—delivering world-class expertise at a fraction of the cost.
+              <strong className="font-semibold text-gray-900">Interim COO jobs</strong> are full-time temporary assignments where experienced operations leaders step into critical roles for 3-12 months. These are NOT part-time or fractional positions—interim COOs work full-time hours (typically 5 days/week) on defined assignments such as leadership gaps, turnarounds, or major transformations.
             </p>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">The Rise of Interim COO Jobs UK</h3>
-            <p>The demand for <strong>interim COO jobs UK</strong> has grown substantially as companies recognise that world-class operations leadership doesn't require a full-time commitment. Startups scaling from founder-led to operationally mature, PE portfolio companies, and SMEs professionalising their operations all increasingly turn to interim COOs.</p>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What Are Interim COO Jobs?</h3>
+            <p>The demand for <strong>interim COO jobs UK</strong> has grown substantially as companies need senior operations leadership for temporary, high-impact assignments. Typical interim COO roles last 3-12 months and pay £1,200-£1,800 per day. These are full-time, temporary positions—not fractional or part-time roles.</p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-orange-500">
-              <p className="text-xl font-semibold text-gray-900 mb-0">"Founders access operational expertise for £2,000-£4,000/week vs £150,000+ annually for full-time."</p>
+              <p className="text-xl font-semibold text-gray-900 mb-0">"Interim COOs provide full-time leadership during transitions, turnarounds, or transformation projects—not ongoing part-time support."</p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Interim COO Jobs Are Booming</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Companies Hire Interim COOs</h3>
             <ul className="space-y-3">
-              <li><strong>Founder relief:</strong> CEO/founders need operational leadership without permanent overhead</li>
-              <li><strong>PE requirements:</strong> Private equity mandates operational excellence</li>
-              <li><strong>Cost efficiency:</strong> Access COO expertise at a fraction of full-time cost</li>
-              <li><strong>Operational maturity:</strong> Companies need to professionalise as they scale</li>
-              <li><strong>Diverse experience:</strong> Interim COOs bring multi-company best practices</li>
+              <li><strong>Leadership gaps:</strong> Cover COO departures or extended leave while recruiting permanent replacement</li>
+              <li><strong>Turnarounds:</strong> Bring in crisis operations expertise to stabilize and restructure</li>
+              <li><strong>Transformations:</strong> Lead major operational change programs (process overhaul, system implementations)</li>
+              <li><strong>Rapid scaling:</strong> Provide experienced leadership during high-growth phases requiring operational maturity</li>
+              <li><strong>PE value creation:</strong> Drive operational improvements in portfolio companies post-acquisition</li>
             </ul>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim COO Jobs</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim COO Assignments</h3>
             <div className="grid md:grid-cols-2 gap-6 not-prose my-8">
               {[
-                { title: 'Scale-up COO', desc: 'Building operational infrastructure for growth', rate: '£900-£1,300/day' },
-                { title: 'PE Portfolio COO', desc: 'Driving value creation for PE investments', rate: '£1,000-£1,400/day' },
-                { title: 'Turnaround COO', desc: 'Restructuring and optimising businesses', rate: '£950-£1,350/day' },
-                { title: 'Process COO', desc: 'Implementing systems and efficiency', rate: '£800-£1,150/day' },
+                { title: 'Leadership Gap COO', desc: 'Cover departures during permanent recruitment', rate: '£1,200-£1,600/day' },
+                { title: 'Turnaround COO', desc: 'Restructure and stabilize operations', rate: '£1,300-£1,800/day' },
+                { title: 'Transformation COO', desc: 'Lead operational change programs', rate: '£1,300-£1,700/day' },
+                { title: 'PE Value Creation COO', desc: 'Drive improvements in portfolio companies', rate: '£1,400-£1,800/day' },
               ].map((type, i) => (
                 <div key={i} className="bg-gray-50 p-6 border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-1">{type.title}</h4>
@@ -215,11 +215,11 @@ export default async function InterimCooJobsUkPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Requirements for Interim COO Jobs</h3>
             <ul className="space-y-2">
-              <li>15+ years operations and general management experience</li>
-              <li>5+ years in COO, VP Operations, or Operations Director roles</li>
-              <li>Experience scaling operations from startup to mature business</li>
-              <li>Strong process design and systems thinking</li>
-              <li>Track record building and leading teams</li>
+              <li>20+ years operations and general management experience, including 5+ years as COO or VP Operations</li>
+              <li>Track record delivering results in temporary, high-pressure assignments</li>
+              <li>Experience scaling operations and managing complex organizational transformations</li>
+              <li>Strong crisis management, restructuring, or major transformation experience</li>
+              <li>Excellent stakeholder management and board-level communication skills</li>
             </ul>
           </article>
         </div>
@@ -231,9 +231,9 @@ export default async function InterimCooJobsUkPage() {
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">UK Tax</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">IR35: Inside vs Outside</h2>
-            <p className="text-gray-600 mt-4">As a interim COO, your IR35 status significantly impacts your take-home pay</p>
+            <p className="text-gray-600 mt-4">As an interim COO, your IR35 status significantly impacts your take-home pay</p>
           </div>
-          <IR35Calculator defaultDayRate={950} />
+          <IR35Calculator defaultDayRate={1400} />
         </div>
       </section>
 

@@ -12,11 +12,11 @@ export const revalidate = 14400 // Revalidate every 4 hours
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Executive Articles & Guides | Interim Quest',
-  description: 'Expert guides and articles about interim executive roles, career tips, salary guides, and hiring strategies for CFO, CTO, CMO roles.',
+  title: 'Interim Management Articles & Guides | Interim Quest',
+  description: 'Expert guides about interim management: full-time temporary executive roles (3-12 months), career tips, salary guides, and hiring strategies for CFO, CTO, CMO roles.',
   openGraph: {
-    title: 'Interim Executive Articles & Guides | Interim Quest',
-    description: 'Expert guides and articles about interim executive roles, career tips, and hiring strategies.',
+    title: 'Interim Management Articles & Guides | Interim Quest',
+    description: 'Expert guides about interim management, temporary executive placements, career tips, and hiring strategies.',
     type: 'website',
   },
 }
@@ -101,7 +101,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    Expert guides, case studies, and career tips for interim executives. Learn how to build a successful portfolio career.
+                    Expert guides, case studies, and career tips for interim executives. Learn how to succeed in full-time temporary executive roles.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -293,12 +293,12 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { icon: '💰', title: 'Interim CFO Guides', desc: 'Finance leadership, fundraising, and financial strategy', link: '/interim-cfo-jobs-uk' },
-                { icon: '💻', title: 'Interim CTO Guides', desc: 'Technology leadership, architecture, and team building', link: '/interim-cto-jobs-uk' },
-                { icon: '📢', title: 'Interim CMO Guides', desc: 'Marketing strategy, brand building, and growth', link: '/interim-cmo-jobs-uk' },
-                { icon: '📊', title: 'Salary Guides', desc: 'Day rates, annual earnings, and market benchmarks', link: '/interim-executive-salary-uk' },
-                { icon: '🚀', title: 'Career Transition', desc: 'How to go from full-time to interim executive', link: '/how-to-become-a-interim-executive' },
-                { icon: '🤝', title: 'Hiring Guides', desc: 'How companies hire interim executives', link: '/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter' },
+                { icon: '💰', title: 'Interim CFO Guides', desc: 'Financial transformation, restructuring, and IPO preparation', link: '/interim-cfo-jobs-uk' },
+                { icon: '💻', title: 'Interim CTO Guides', desc: 'Technology transformation, platform rebuilds, and digital change', link: '/interim-cto-jobs-uk' },
+                { icon: '📢', title: 'Interim CMO Guides', desc: 'Marketing transformation, brand repositioning, and growth', link: '/interim-cmo-jobs-uk' },
+                { icon: '📊', title: 'Salary Guides', desc: 'Day rates, engagement costs, and market benchmarks', link: '/interim-executive-salary-uk' },
+                { icon: '🚀', title: 'Career Transition', desc: 'How to go from permanent to interim executive', link: '/how-to-become-a-interim-executive' },
+                { icon: '🤝', title: 'Hiring Guides', desc: 'How companies hire interim executives for transformation', link: '/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter' },
               ].map((topic) => (
                 <Link key={topic.title} href={topic.link} className="group">
                   <article className="bg-white rounded-xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-gray-200">
@@ -322,7 +322,7 @@ export default async function ArticlesPage({ searchParams }: ArticlesPageProps) 
               Get the latest guides<br />in your inbox
             </h2>
             <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-              Join interim executives who receive our weekly career insights and job alerts.
+              Join interim executives who receive our weekly insights on transformation projects, crisis management, and temporary executive opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

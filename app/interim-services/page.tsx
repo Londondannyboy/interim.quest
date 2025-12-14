@@ -6,9 +6,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Services UK | Part-Time Executive Leadership',
-  description: 'Access interim executive services for your business. Part-time CFOs, CMOs, CTOs and more. Get senior leadership without full-time commitment or cost.',
-  keywords: 'interim services, interim executive services, part-time executive, interim leadership, interim services uk',
+  title: 'Interim Services UK | Temporary Executive Leadership',
+  description: 'Access interim executive services for your business. Full-time temporary CFOs, CMOs, CTOs and more for 3-12 months. Senior leadership for transformation, crisis, and transitions.',
+  keywords: 'interim services, interim executive services, temporary executive, interim leadership, interim management uk',
   alternates: { canonical: 'https://interim.quest/interim-services' },
 }
 
@@ -21,9 +21,9 @@ export default function InterimServicesPage() {
           <div className="max-w-6xl mx-auto px-6 lg:px-8">
             <Link href="/" className="inline-flex items-center text-white/60 hover:text-white mb-8 transition-colors text-sm"><span className="mr-2">←</span> Back to Home</Link>
             <div className="max-w-4xl">
-              <span className="inline-block bg-emerald-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Executive Services</span>
+              <span className="inline-block bg-emerald-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Interim Management</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-emerald-400">Services</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior executive talent on a part-time basis. Get the leadership expertise your business needs without the full-time cost or commitment.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary executives for 3-12 months. Get experienced leadership for transformation, crisis management, maternity cover, and critical transitions.</p>
               <Link href="#services" className="px-8 py-4 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors inline-block">Explore Services</Link>
             </div>
           </div>
@@ -33,16 +33,16 @@ export default function InterimServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-black text-gray-900 mb-6">What Are Interim Services?</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim services provide businesses access to experienced executives who work part-time—typically 1-3 days per week. Instead of hiring a full-time executive, you get senior expertise at a fraction of the cost.</p>
-          <p className="text-gray-600 mb-6">This model is ideal for growing businesses that need strategic leadership but aren't ready for (or don't need) full-time executive hires. Interim executives bring experience from multiple companies and industries, offering perspective that full-time hires often lack.</p>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim services provide businesses with experienced executives who work full-time on temporary assignments, typically lasting 3-12 months. These are senior leaders who step in during critical periods—transformations, crises, maternity cover, or strategic transitions.</p>
+          <p className="text-gray-600 mb-6">Unlike permanent hires or part-time consultants, interim executives are fully embedded in your business with complete operational accountability. They bring deep expertise from multiple companies and can hit the ground running, delivering results from day one. When the assignment ends, they move on—no redundancy, no long-term commitment.</p>
           <div className="grid md:grid-cols-3 gap-6 mt-10">
             <div className="p-6 bg-gray-50 text-center">
-              <div className="text-4xl font-black text-emerald-500 mb-2">60%</div>
-              <p className="text-gray-600 text-sm">Cost savings vs full-time</p>
+              <div className="text-4xl font-black text-emerald-500 mb-2">3-12</div>
+              <p className="text-gray-600 text-sm">Months typical assignment</p>
             </div>
             <div className="p-6 bg-gray-50 text-center">
-              <div className="text-4xl font-black text-emerald-500 mb-2">1-3</div>
-              <p className="text-gray-600 text-sm">Days per week typical</p>
+              <div className="text-4xl font-black text-emerald-500 mb-2">100%</div>
+              <p className="text-gray-600 text-sm">Full-time commitment</p>
             </div>
             <div className="p-6 bg-gray-50 text-center">
               <div className="text-4xl font-black text-emerald-500 mb-2">2 wks</div>
@@ -78,13 +78,15 @@ export default function InterimServicesPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">Who Uses Interim Services?</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">When to Use Interim Services</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Startups & Scale-ups', description: 'Need senior expertise but can\'t justify full-time executive salaries.' },
-              { title: 'SMEs', description: 'Want strategic leadership in specific functions without full-time overhead.' },
-              { title: 'PE Portfolio Companies', description: 'Need rapid value creation with experienced operators.' },
-              { title: 'Companies in Transition', description: 'Facing strategic challenges that need expert guidance.' },
+              { title: 'Transformation & Change', description: 'Major business transformation, restructuring, or turnaround requiring experienced change leadership.' },
+              { title: 'Crisis Management', description: 'Urgent situations requiring immediate senior expertise—financial distress, regulatory issues, major incidents.' },
+              { title: 'Maternity & Sick Leave', description: 'Covering executive absence with full operational continuity and accountability.' },
+              { title: 'Pre-Permanent Hire', description: 'Bridge leadership while recruiting permanent executives, or test-before-you-buy for critical roles.' },
+              { title: 'M&A Integration', description: 'Post-acquisition integration requiring hands-on leadership to merge operations and deliver synergies.' },
+              { title: 'Project Delivery', description: 'Specific initiatives like system implementations, market entry, or major product launches requiring dedicated leadership.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-gray-50 border-l-4 border-emerald-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -97,8 +99,8 @@ export default function InterimServicesPage() {
 
       <section className="py-20 bg-black text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-black mb-6">Find Interim Executive Services</h2>
-          <p className="text-xl text-gray-400 mb-10">Tell us what leadership expertise you need and we'll match you with experienced interim executives.</p>
+          <h2 className="text-4xl font-black mb-6">Find Interim Executives</h2>
+          <p className="text-xl text-gray-400 mb-10">Tell us about your situation and we'll match you with experienced interim executives who can start within 2 weeks.</p>
           <Link href="/handler/sign-up" className="px-10 py-5 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors inline-block">Get Started</Link>
         </div>
       </section>

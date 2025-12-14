@@ -19,7 +19,7 @@ export function Footer() {
             </Link>
             <p className="text-gray-400 leading-relaxed mb-6">
               The UK's emerging platform connecting companies with interim executives.
-              Find your next CFO, CTO, CMO, or COO on a part-time basis.
+              Find your next CFO, CTO, CMO, or COO for full-time temporary assignments (3-12 months).
             </p>
             <div className="flex gap-4">
               <a

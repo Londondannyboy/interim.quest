@@ -17,12 +17,12 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim CMO Jobs UK | Part-Time CMO Roles',
-  description: 'Interim CMO jobs UK - Find part-time Chief Marketing Officer positions paying £700-£1,400/day. Browse live CMO roles for experienced marketing leaders.',
-  keywords: 'interim cmo jobs uk, interim cmo jobs, part time cmo jobs, interim cmo uk, cmo jobs uk, part time chief marketing officer',
+  title: 'Interim CMO Jobs UK | Interim Quest',
+  description: 'Interim CMO jobs UK - Full-time temporary Chief Marketing Officer assignments (3-12 months) paying £1,200-£1,800/day. Leadership gaps, turnarounds, transformations.',
+  keywords: 'interim cmo jobs uk, interim cmo jobs, interim cmo opportunities, interim cmo uk, interim chief marketing officer, cmo interim roles, temporary cmo jobs',
   openGraph: {
-    title: 'Interim CMO Jobs UK | Part-Time CMO Roles',
-    description: 'Interim CMO jobs UK - Find part-time CMO positions paying £700-£1,400/day.',
+    title: 'Interim CMO Jobs UK | Interim Quest',
+    description: 'Interim CMO jobs UK - Full-time temporary CMO assignments (3-12 months) paying £1,200-£1,800/day.',
     images: ['/images/interim-cmo-jobs-uk.jpg'],
   },
 }
@@ -94,7 +94,7 @@ export default async function InterimCmoJobsUkPage() {
 
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
                 <strong className="text-white">Interim CMO jobs UK</strong> for experienced marketing leaders.
-                Part-time Chief Marketing Officer roles paying £700-£1,400/day.
+                Full-time temporary assignments (3-12 months) paying £1,200-£1,800/day.
               </p>
 
               {/* Stats Row */}
@@ -104,7 +104,7 @@ export default async function InterimCmoJobsUkPage() {
                   <div className="text-white/60 text-sm uppercase tracking-wider">Live Roles</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">£{stats.avgRate}</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1,400</div>
                   <div className="text-white/60 text-sm uppercase tracking-wider">Avg Day Rate</div>
                 </div>
                 <div>
@@ -248,36 +248,36 @@ export default async function InterimCmoJobsUkPage() {
           {/* Article Content - Editorial Typography */}
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              <strong className="font-semibold text-gray-900">Interim CMO jobs</strong> represent the new frontier of marketing leadership. Part-time Chief Marketing Officer positions where experienced leaders provide strategic guidance to multiple companies simultaneously—delivering world-class expertise at a fraction of the cost.
+              <strong className="font-semibold text-gray-900">Interim CMO jobs</strong> are full-time temporary assignments where experienced marketing leaders step into critical roles for 3-12 months. These are NOT part-time or fractional positions—interim CMOs work full-time hours (typically 5 days/week) on defined assignments such as leadership gaps, turnarounds, or major transformations.
             </p>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">The Rise of Interim CMO Jobs UK</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What Are Interim CMO Jobs?</h3>
             <p>
-              The UK market for <strong>interim CMO jobs UK</strong> has exploded, with a 200% year-on-year increase in searches. Startups, scale-ups, and SMEs are accessing senior marketing talent without the £120,000-£200,000 annual cost of a full-time Chief Marketing Officer.
+              The UK market for <strong>interim CMO jobs UK</strong> has grown substantially as companies need senior marketing leadership for temporary, high-impact assignments. Typical interim CMO roles last 3-12 months and pay £1,200-£1,800 per day. These are full-time, temporary positions—not fractional or part-time roles.
             </p>
 
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-amber-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "Companies access CMO expertise for £1,500-£4,000/week instead of £10,000+ monthly for full-time."
+                "Interim CMOs provide full-time leadership during transitions, turnarounds, or transformation projects—not ongoing part-time support."
               </p>
             </div>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Interim CMO Jobs Are Booming</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Companies Hire Interim CMOs</h3>
             <ul className="space-y-3">
-              <li><strong>Cost efficiency:</strong> Senior expertise at a fraction of the cost</li>
-              <li><strong>Diverse experience:</strong> CMOs bringing insights from multiple industries</li>
-              <li><strong>Immediate impact:</strong> No lengthy onboarding—strategy from day one</li>
-              <li><strong>Scalability:</strong> Flex engagement based on business needs</li>
-              <li><strong>VC expectations:</strong> Professional marketing leadership post-Series A</li>
+              <li><strong>Leadership gaps:</strong> Cover CMO departures or extended leave while recruiting permanent replacement</li>
+              <li><strong>Turnarounds:</strong> Bring in crisis marketing expertise to rebuild brand and pipeline</li>
+              <li><strong>Transformations:</strong> Lead major marketing change programs (rebrands, digital transformation)</li>
+              <li><strong>Product launches:</strong> Provide experienced leadership for critical market entry or new product launches</li>
+              <li><strong>Growth acceleration:</strong> Drive rapid scaling of marketing function during high-growth phases</li>
             </ul>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CMO Jobs</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CMO Assignments</h3>
             <div className="grid md:grid-cols-2 gap-6 not-prose my-8">
               {[
-                { title: 'B2B SaaS CMO', desc: 'Demand generation & pipeline acceleration', rate: '£1,000-£1,400/day' },
-                { title: 'DTC/E-commerce CMO', desc: 'Customer acquisition & brand building', rate: '£900-£1,300/day' },
-                { title: 'Startup CMO', desc: 'Building marketing foundations Series A-C', rate: '£850-£1,200/day' },
-                { title: 'Growth Marketing CMO', desc: 'Performance-focused CAC/LTV optimisation', rate: '£900-£1,300/day' },
+                { title: 'Leadership Gap CMO', desc: 'Cover departures during permanent recruitment', rate: '£1,200-£1,600/day' },
+                { title: 'Turnaround CMO', desc: 'Rebuild marketing effectiveness and pipeline', rate: '£1,300-£1,800/day' },
+                { title: 'Transformation CMO', desc: 'Lead rebrands or digital transformations', rate: '£1,300-£1,700/day' },
+                { title: 'Launch CMO', desc: 'Drive product launches or market entry', rate: '£1,200-£1,700/day' },
               ].map((type, i) => (
                 <div key={i} className="bg-gray-50 p-6 border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-1">{type.title}</h4>
@@ -287,22 +287,13 @@ export default async function InterimCmoJobsUkPage() {
               ))}
             </div>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CMO Jobs by Location</h3>
-            <p>London leads with 55% of roles, but opportunities exist nationwide:</p>
-            <ul className="space-y-2">
-              <li><strong>London Tech City:</strong> £900-£1,400/day</li>
-              <li><strong>Manchester:</strong> £700-£1,000/day</li>
-              <li><strong>Bristol & Edinburgh:</strong> £700-£1,000/day</li>
-              <li><strong>Remote UK:</strong> £650-£950/day</li>
-            </ul>
-
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Requirements for Interim CMO Jobs</h3>
             <ul className="space-y-2">
-              <li>12-15+ years marketing experience, 5+ in senior leadership</li>
-              <li>Proven track record of revenue/pipeline growth</li>
-              <li>Deep channel expertise (performance, brand, PLG, ABM)</li>
-              <li>Team building and management experience</li>
-              <li>Board-level communication skills</li>
+              <li>15-20+ years marketing experience, including 5+ years as CMO or VP Marketing</li>
+              <li>Track record delivering results in temporary, high-pressure assignments</li>
+              <li>Deep expertise in relevant channels (B2B, B2C, digital, brand)</li>
+              <li>Experience with crisis management, restructuring, or major transformations</li>
+              <li>Strong stakeholder management and board-level communication skills</li>
             </ul>
           </article>
         </div>
@@ -317,10 +308,10 @@ export default async function InterimCmoJobsUkPage() {
               IR35: Inside vs Outside
             </h2>
             <p className="text-gray-600 mt-4">
-              As a interim CMO, your IR35 status significantly impacts your take-home pay
+              As an interim CMO, your IR35 status significantly impacts your take-home pay
             </p>
           </div>
-          <IR35Calculator defaultDayRate={950} />
+          <IR35Calculator defaultDayRate={1400} />
         </div>
       </section>
 

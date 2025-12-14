@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Revenue Leadership UK | Hire Part-Time Sales Executives',
-  description: 'Hire interim revenue leaders for your business. Part-time CROs, VPs of Sales, and Sales Directors. Expert revenue leadership without full-time cost.',
-  keywords: 'interim revenue, interim sales director, part-time sales executive, interim vp sales, hire revenue leader, interim cro',
+  title: 'Interim Revenue Leadership UK | Full-Time Temporary CROs & Sales Directors',
+  description: 'Hire full-time interim revenue leaders (3-12 months). Experienced CROs and sales directors to cover departures, scale sales teams, or pivot go-to-market strategy.',
+  keywords: 'interim revenue, interim sales director, interim cro, temporary sales executive, interim vp sales, hire revenue leader',
   alternates: { canonical: 'https://interim.quest/interim-revenue' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimRevenuePage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-green-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-green-400">Revenue</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior revenue leadership without the full-time commitment. From CROs to VPs of Sales, find the right level of sales expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary revenue leadership for 3-12 months. Experienced CROs and sales directors to cover departures, scale sales teams, pivot go-to-market strategy, or drive revenue turnaround.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-green-500 text-white font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">Find Revenue Leadership</Link>
                 <Link href="/interim-cro-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CRO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimRevenuePage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Revenue Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Revenue growth requires experienced leadership. Interim revenue leaders bring proven sales methodologies, GTM expertise, and team-building experience—helping you accelerate growth without the commitment of a full-time hire.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Revenue Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim revenue leaders provide full-time, experienced sales leadership during critical periods. When your CRO departs, you're scaling sales rapidly, pivoting go-to-market, or facing revenue challenges—interim leaders step in immediately to drive results.</p>
+          <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Revenue Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim revenue leaders work full-time for a defined period (typically 3-12 months) to cover departures, scale teams, or pivot strategy.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time revenue support (1-3 days per week), explore <Link href="/fractional-revenue" className="text-green-600 hover:text-green-700 underline">fractional revenue leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CRO', description: 'C-level revenue leadership for GTM strategy and growth.', link: '/interim-cro-services' },
-              { title: 'VP of Sales', description: 'Senior sales leadership for team scaling and process.', link: '#contact' },
-              { title: 'Sales Director', description: 'Hands-on sales leadership and pipeline management.', link: '#contact' },
+              { title: 'Interim CRO', description: 'Full-time C-level revenue leadership for GTM transformation and growth acceleration.', link: '/interim-cro-services' },
+              { title: 'Interim VP Sales', description: 'Full-time senior sales leadership for team scaling and process implementation.', link: '#contact' },
+              { title: 'Interim Sales Director', description: 'Full-time hands-on sales leadership for pipeline building and deal execution.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-green-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimRevenuePage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Revenue Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Revenue Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'GTM Strategy', description: 'Develop go-to-market strategies for new products, markets, and segments.' },
-              { title: 'Sales Process', description: 'Implement sales methodologies, stages, and qualification frameworks.' },
-              { title: 'Team Building', description: 'Recruit, train, and develop high-performing sales teams.' },
-              { title: 'Pipeline Management', description: 'Build forecasting, pipeline reviews, and deal coaching programmes.' },
-              { title: 'Revenue Operations', description: 'Implement CRM, sales tools, and revenue analytics.' },
-              { title: 'Partnership Strategy', description: 'Develop channel partnerships and alliance programmes.' },
+              { title: 'Leadership Departure', description: 'CRO or sales leader has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Sales Team Scaling', description: 'Rapidly growing sales organisation and need leadership to build structure and process.' },
+              { title: 'GTM Pivot', description: 'Changing go-to-market strategy or entering new segments requiring sales leadership.' },
+              { title: 'Revenue Turnaround', description: 'Sales underperforming and need experienced leadership to diagnose and fix issues.' },
+              { title: 'New Market Entry', description: 'Expanding to new geographic or vertical markets requiring GTM expertise.' },
+              { title: 'Sales Process Implementation', description: 'Implementing sales methodology, RevOps, or CRM requiring dedicated leadership.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-green-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

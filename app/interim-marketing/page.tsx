@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Marketing Leadership UK | Hire Part-Time Marketing Executives',
-  description: 'Hire interim marketing leaders for your business. Part-time CMOs, VPs of Marketing, and marketing directors. Expert marketing leadership without full-time cost.',
-  keywords: 'interim marketing, interim marketing director, part-time marketing executive, interim vp marketing, hire marketing leader',
+  title: 'Interim Marketing Leadership UK | Full-Time Temporary CMOs & Marketing Directors',
+  description: 'Hire full-time interim marketing leaders (3-12 months). Experienced CMOs, VPs of Marketing, and marketing directors to cover departures, transformations, and critical growth periods.',
+  keywords: 'interim marketing, interim marketing director, interim cmo, temporary marketing executive, interim vp marketing, hire marketing leader',
   alternates: { canonical: 'https://interim.quest/interim-marketing' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimMarketingPage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-amber-500 text-black px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-amber-400">Marketing</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior marketing leadership without the full-time commitment. From CMOs to VPs of Marketing, find the right level of expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary marketing leadership for 3-12 months. Experienced CMOs and marketing directors to cover departures, lead transformations, or drive critical growth initiatives.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-amber-500 text-black font-bold uppercase tracking-wider hover:bg-amber-400 transition-colors">Find Marketing Leadership</Link>
                 <Link href="/interim-cmo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CMO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimMarketingPage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Marketing Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Not every company needs a full-time marketing executive, but most need strategic marketing leadership. Interim marketing leaders work part-time (typically 1-3 days per week) providing the strategic direction, team leadership, and marketing expertise your business needs.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Marketing Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim marketing leaders provide full-time, experienced leadership during critical periods. When your CMO departs, you're scaling rapidly, launching new products, or undergoing transformation—interim leaders step in immediately to maintain momentum and deliver results.</p>
+          <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Marketing Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim marketing leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead transformations, or manage crisis situations.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time marketing support (1-3 days per week), explore <Link href="/fractional-marketing" className="text-amber-600 hover:text-amber-700 underline">fractional marketing leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CMO', description: 'C-level marketing leadership for strategy, brand, and growth.', link: '/interim-cmo-services' },
-              { title: 'VP of Marketing', description: 'Senior marketing leadership focused on execution and team building.', link: '#contact' },
-              { title: 'Marketing Director', description: 'Hands-on marketing leadership for growing teams.', link: '#contact' },
+              { title: 'Interim CMO', description: 'Full-time C-level marketing leadership for major transitions and transformations.', link: '/interim-cmo-services' },
+              { title: 'Interim VP Marketing', description: 'Full-time senior marketing leadership to execute strategy and build teams.', link: '#contact' },
+              { title: 'Interim Marketing Director', description: 'Full-time hands-on marketing leadership to drive campaigns and manage teams.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-amber-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimMarketingPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Marketing Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Marketing Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Marketing Strategy', description: 'Develop comprehensive marketing strategies aligned with business goals.' },
-              { title: 'Brand Development', description: 'Build and refine brand positioning, messaging, and visual identity.' },
-              { title: 'Team Leadership', description: 'Lead, mentor, and develop your marketing team and agency relationships.' },
-              { title: 'Demand Generation', description: 'Create and optimise lead generation and customer acquisition programmes.' },
-              { title: 'Marketing Operations', description: 'Implement marketing technology, processes, and measurement frameworks.' },
-              { title: 'Budget Management', description: 'Allocate and optimise marketing spend for maximum ROI.' },
+              { title: 'Leadership Departure', description: 'CMO or marketing leader has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Transformation Projects', description: 'Rebranding, repositioning, or major marketing transformation requiring dedicated leadership.' },
+              { title: 'Product Launches', description: 'New product or market launch needs focused, experienced marketing leadership.' },
+              { title: 'Rapid Growth', description: 'Scaling quickly and need marketing leadership before committing to a permanent hire.' },
+              { title: 'Performance Turnaround', description: 'Marketing underperforming and needs experienced leadership to diagnose and fix issues.' },
+              { title: 'Team Building', description: 'Building or rebuilding marketing function and need leadership to establish foundations.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-amber-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

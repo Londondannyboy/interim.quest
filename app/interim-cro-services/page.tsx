@@ -11,41 +11,41 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CRO_SERVICE_FAQS = [
   {
-    question: 'What is a Interim CRO?',
-    answer: 'An Interim CRO (Chief Revenue Officer) is an experienced revenue leader who works with your company part-time, typically 1-3 days per week. You get strategic revenue leadership across sales, marketing, and customer success without the cost of a full-time executive.',
+    question: 'What is an Interim CRO?',
+    answer: 'An Interim CRO (Chief Revenue Officer) is a senior revenue executive who joins your company full-time for 3-12 months to fill a leadership gap, drive transformation, or navigate crisis. Unlike fractional or part-time leaders, interim CROs are on-site daily, providing hands-on leadership across sales, marketing, and revenue operations.',
   },
   {
-    question: 'When should my company hire a Interim CRO?',
-    answer: 'Consider hiring an interim CRO when: sales and marketing are misaligned; you\'re struggling to scale revenue predictably; you need to professionalise your go-to-market; you\'re preparing for fundraising and need revenue credibility; or you\'re transitioning to a new revenue model.',
+    question: 'When should my company hire an Interim CRO?',
+    answer: 'Hire an interim CRO when you have a CRO vacancy and need immediate leadership; your sales organization is underperforming and needs a turnaround; you\'re executing a go-to-market transformation; restructuring sales channels; overhauling revenue operations; or integrating revenue teams post-acquisition.',
   },
   {
-    question: 'How much does a Interim CRO cost?',
-    answer: 'Interim CROs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £200,000-£300,000+ for a full-time CRO.',
+    question: 'How much does an Interim CRO cost?',
+    answer: 'Interim CROs in the UK typically charge £1,200-£2,000 per day. For a 6-month engagement (approximately 120 working days), total investment ranges from £144,000-£240,000. This includes immediate availability, proven expertise, and no long-term employment commitment.',
   },
   {
-    question: 'What does a Interim CRO do?',
-    answer: 'An Interim CRO aligns sales, marketing, and customer success; develops revenue strategy; builds go-to-market playbooks; implements revenue operations; manages pipeline and forecasting; and drives predictable revenue growth.',
+    question: 'What does an Interim CRO do?',
+    answer: 'An Interim CRO provides full-time leadership across the revenue organization. They stabilize underperforming sales teams, implement new go-to-market strategies, restructure revenue operations, build pipeline discipline, align sales and marketing, develop revenue playbooks, and prepare the organization for permanent leadership.',
   },
   {
-    question: 'How is a CRO different from a VP of Sales?',
-    answer: 'A VP of Sales focuses on the sales team and closing deals. A CRO has broader responsibility across the entire revenue engine—sales, marketing, customer success, and revenue operations. They optimise the full customer journey, not just the sales process.',
+    question: 'How long does an Interim CRO engagement last?',
+    answer: 'Most interim CRO engagements run 3-12 months. Short engagements (3-6 months) focus on crisis stabilization or filling gaps. Longer engagements (6-12 months) tackle transformation programmes or build new revenue capabilities while searching for permanent leadership.',
   },
   {
-    question: 'Can a Interim CRO help with sales and marketing alignment?',
-    answer: 'Yes—alignment is one of the primary reasons to hire an interim CRO. They create shared metrics, unified processes, and collaborative structures that ensure sales and marketing work together effectively to drive revenue.',
+    question: 'Can an Interim CRO help with M&A revenue integration?',
+    answer: 'Yes—interim CROs are particularly valuable during M&A. They integrate sales teams, unify revenue processes, rationalize go-to-market approaches, merge customer success functions, and establish combined revenue operations while permanent leadership is determined.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Interim CRO Services UK | Hire a Part-Time Chief Revenue Officer',
-  description: 'Hire a Interim CRO for your business. Access senior revenue leadership at a fraction of full-time cost. Expert CROs for go-to-market strategy, sales leadership, and revenue growth. Start within days.',
-  keywords: 'interim cro, interim cro services, hire interim cro, part time cro, interim chief revenue officer, interim cro uk, interim revenue director',
+  title: 'Interim CRO Services UK | Hire a Temporary CRO',
+  description: 'Hire an Interim CRO for full-time temporary revenue leadership. 3-12 month engagements for CRO vacancies, sales turnarounds, and go-to-market transformation. £1,200-£2,000/day.',
+  keywords: 'interim cro, interim cro services, hire interim cro, temporary cro, interim chief revenue officer, interim cro uk, interim revenue director, cro for hire',
   alternates: {
     canonical: 'https://interim.quest/interim-cro-services',
   },
   openGraph: {
-    title: 'Interim CRO Services UK | Hire a Part-Time Chief Revenue Officer',
-    description: 'Hire a Interim CRO for your business. Senior revenue leadership at a fraction of full-time cost.',
+    title: 'Interim CRO Services UK | Hire a Temporary CRO',
+    description: 'Full-time temporary CRO leadership for 3-12 months. Fill leadership gaps, drive sales turnarounds, execute go-to-market transformation.',
     images: ['/images/interim-cro-services.jpg'],
     url: 'https://interim.quest/interim-cro-services',
   },
@@ -71,26 +71,26 @@ export default function InterimCROServicesPage() {
                 <span className="text-green-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim CRO</strong> to accelerate your revenue.
-                Senior revenue leadership across sales, marketing, and customer success—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim CRO</strong> for full-time temporary revenue leadership.
+                Fill critical gaps, drive sales turnarounds, and execute go-to-market transformation.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-green-400">50%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-green-400">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Months</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">Full-Time</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Commitment</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">2x</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Revenue Growth</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1.2-2k</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Day Rate</div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-green-500 text-black font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">
-                  Hire a Interim CRO
+                  Hire an Interim CRO
                 </Link>
                 <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
@@ -106,23 +106,23 @@ export default function InterimCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CRO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim CRO</strong> (Chief Revenue Officer) is an experienced revenue executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic leadership across your entire revenue engine—sales, marketing, and customer success—without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim CRO</strong> (Chief Revenue Officer) is a senior revenue executive who joins your company <strong className="font-semibold text-gray-900">full-time for 3-12 months</strong> to provide temporary leadership during critical periods. They step into the role immediately—leading sales teams, driving revenue operations, and executing strategic initiatives while you search for permanent leadership or navigate transformation.
             </p>
             <p>
-              Unlike a VP of Sales who focuses only on selling, an interim CRO takes a holistic view of revenue. They align all customer-facing functions, optimise the full buyer journey, and build the systems for predictable, scalable revenue growth.
+              This is not part-time consulting or advisory work. Interim CROs are hands-on operational leaders who take full accountability for revenue performance. They're in the office daily, leading team meetings, making tough decisions, and driving results just like a permanent CRO—but with a defined exit timeline.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-green-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "An interim CRO connects the dots between marketing, sales, and customer success to create a true revenue machine."
+                "An interim CRO provides the leadership stability you need during transitions, without the 18-month hiring process or long-term employment commitment."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Beyond Siloed Sales and Marketing</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Full-Time Leadership, Fixed Duration</h3>
             <p>
-              In many companies, sales and marketing operate as separate functions with different goals and metrics. This creates friction, blame games, and leaked revenue. An interim CRO breaks down these silos, creating unified revenue operations that drive predictable growth.
+              When your CRO leaves unexpectedly, your sales organization is underperforming, or you're executing a major revenue transformation, you can't afford a leadership vacuum. An interim CRO fills that gap immediately—providing experienced leadership while you navigate change, search for the right permanent hire, or complete your transformation programme.
             </p>
           </div>
         </div>
@@ -133,45 +133,50 @@ export default function InterimCROServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CRO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CRO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does an Interim CRO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Full-time operational leadership across your revenue organization</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Revenue Strategy',
-                description: 'Develop comprehensive revenue strategy. Define go-to-market approach, pricing, packaging, and the path to revenue targets.',
+                title: 'Stabilize Revenue Operations',
+                description: 'Take immediate control of underperforming sales teams. Diagnose issues, implement fixes, and restore pipeline health and forecast accuracy.',
                 icon: '🎯',
               },
               {
-                title: 'Sales & Marketing Alignment',
-                description: 'Break down silos between sales and marketing. Create shared metrics, unified processes, and collaborative culture.',
-                icon: '🤝',
+                title: 'Execute Turnarounds',
+                description: 'Drive rapid performance improvement in struggling sales organizations. Reset culture, upgrade talent, and rebuild revenue momentum.',
+                icon: '🔄',
               },
               {
-                title: 'Revenue Operations',
-                description: 'Build RevOps infrastructure—CRM, automation, reporting, and processes that enable predictable revenue.',
+                title: 'Lead Transformation',
+                description: 'Execute major go-to-market transformations. Restructure sales teams, implement new revenue models, or pivot market strategies.',
                 icon: '⚙️',
               },
               {
-                title: 'Pipeline Management',
-                description: 'Implement pipeline discipline. Create forecasting processes, deal reviews, and the visibility needed to hit targets.',
+                title: 'Revenue Operations Overhaul',
+                description: 'Redesign and implement revenue operations. Rebuild CRM infrastructure, create forecasting discipline, and establish reporting systems.',
                 icon: '📊',
               },
               {
-                title: 'Go-to-Market Playbooks',
-                description: 'Develop repeatable GTM playbooks—sales processes, marketing campaigns, and customer success motions that scale.',
-                icon: '📋',
+                title: 'Channel Restructuring',
+                description: 'Rationalize and restructure sales channels. Optimize direct sales, partner programs, and channel mix for maximum revenue efficiency.',
+                icon: '🔀',
               },
               {
-                title: 'Team Leadership',
-                description: 'Lead and develop revenue teams across sales, marketing, and customer success. Hire key roles and build capability.',
+                title: 'Leadership Gap Coverage',
+                description: 'Provide immediate CRO leadership when your permanent CRO leaves. Maintain stability and momentum while conducting executive search.',
                 icon: '👥',
               },
               {
-                title: 'Customer Success',
-                description: 'Ensure customer success drives expansion revenue. Build retention and upsell motions that maximise customer lifetime value.',
-                icon: '❤️',
+                title: 'M&A Revenue Integration',
+                description: 'Integrate sales teams and revenue operations post-acquisition. Unify processes, consolidate systems, and realize revenue synergies.',
+                icon: '🤝',
+              },
+              {
+                title: 'Build Revenue Capabilities',
+                description: 'Establish new revenue capabilities your organization lacks. Build enterprise sales, implement key account management, or create inside sales.',
+                icon: '📈',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200 hover:border-green-300 transition-colors">
@@ -189,39 +194,39 @@ export default function InterimCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Benefits</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire a Interim CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire an Interim CRO?</h2>
           </div>
           <div className="space-y-8">
             {[
               {
-                title: 'Unified Revenue Leadership',
-                description: 'Get one leader accountable for the entire revenue engine. No more finger-pointing between sales and marketing—just aligned growth.',
-                stat: '1',
-                statLabel: 'Revenue Leader',
+                title: 'Immediate Leadership Availability',
+                description: 'Interim CROs can start within days, not months. When your CRO leaves or you need urgent revenue leadership, you can\'t wait 4-6 months for a permanent hire. Fill the gap immediately.',
+                stat: '48hrs',
+                statLabel: 'Time to Start',
               },
               {
-                title: 'Cost Efficiency',
-                description: 'Access CRO-level expertise at 40-60% less than a full-time hire. Pay only for the time you need—typically £90,000-£150,000 per year versus £250,000+ for full-time.',
-                stat: '50%',
-                statLabel: 'Cost Savings',
+                title: 'Proven Crisis & Transformation Experience',
+                description: 'Interim CROs specialize in turnarounds and transformations. They\'ve fixed broken sales organizations, integrated acquisitions, and executed major changes—repeatedly. They know how to deliver results under pressure.',
+                stat: '5+',
+                statLabel: 'Turnarounds Led',
               },
               {
-                title: 'Faster Revenue Growth',
-                description: 'Interim CROs have scaled revenue before. They know what works, can avoid common mistakes, and accelerate your path to targets.',
-                stat: '2x',
-                statLabel: 'Revenue Growth',
+                title: 'No Long-Term Commitment',
+                description: 'Get full-time executive leadership without permanent employment risk. 3-12 month engagements provide the leadership you need during critical periods, then a clean exit when transformation is complete.',
+                stat: '3-12',
+                statLabel: 'Month Terms',
               },
               {
-                title: 'Predictable Pipeline',
-                description: 'Build the systems and processes for predictable revenue. Know what\'s coming, forecast accurately, and hit targets consistently.',
-                stat: '95%',
-                statLabel: 'Forecast Accuracy',
+                title: 'Objective External Perspective',
+                description: 'Interim CROs bring fresh eyes and no internal politics. They make tough calls on underperforming team members, broken processes, and strategic pivots without internal baggage.',
+                stat: '100%',
+                statLabel: 'Objectivity',
               },
               {
-                title: 'Proven Playbooks',
-                description: 'Interim CROs bring playbooks from multiple companies. They know what GTM motions work for businesses like yours.',
-                stat: '10+',
-                statLabel: 'GTM Playbooks',
+                title: 'Bridge to Permanent Leadership',
+                description: 'Maintain revenue momentum while conducting a thorough search for permanent CRO. Your interim CRO stabilizes operations, defines requirements, and can even help evaluate final candidates.',
+                stat: '6-9',
+                statLabel: 'Month Searches',
               },
             ].map((benefit, index) => (
               <div key={index} className="flex gap-6 p-6 bg-gray-50 border-l-4 border-green-500">
@@ -244,39 +249,39 @@ export default function InterimCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CRO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire an Interim CRO?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'Sales & Marketing Misalignment',
-                description: 'Sales blames marketing for bad leads. Marketing blames sales for not closing. You need someone to align both functions around revenue.',
-                timing: 'Before it gets worse',
+                scenario: 'CRO Vacancy or Unexpected Departure',
+                description: 'Your CRO has left and you need immediate leadership. You can\'t afford 6-9 months without revenue leadership while conducting an executive search. Fill the gap now.',
+                timing: 'Immediately',
               },
               {
-                scenario: 'Unpredictable Revenue',
-                description: 'You\'re missing forecasts, pipeline is chaotic, and you don\'t know if you\'ll hit targets. Time for revenue discipline.',
-                timing: 'ASAP',
+                scenario: 'Sales Organization Turnaround',
+                description: 'Your sales team is missing targets, pipeline is weak, and morale is low. You need an experienced leader to diagnose issues and drive rapid performance improvement.',
+                timing: 'Before Q ends',
               },
               {
-                scenario: 'Scaling Go-to-Market',
-                description: 'You\'ve found PMF and need to scale revenue. Time to professionalise GTM with proven playbooks and processes.',
-                timing: 'Post-PMF',
+                scenario: 'Go-to-Market Transformation',
+                description: 'Executing a major GTM change—new market entry, product pivot, or business model shift. Need full-time leadership to plan and execute transformation over 6-12 months.',
+                timing: 'At planning stage',
               },
               {
-                scenario: 'Preparing for Fundraising',
-                description: 'Investors want to see strong revenue leadership and predictable growth. An interim CRO provides credibility and structure.',
-                timing: '3-6 months before raise',
+                scenario: 'Revenue Operations Overhaul',
+                description: 'Your revenue systems are broken—poor CRM adoption, no forecasting discipline, misaligned sales and marketing. Need someone to rebuild infrastructure and processes.',
+                timing: 'When forecasts slip',
               },
               {
-                scenario: 'New Market Entry',
-                description: 'Launching into new segments or geographies. Need strategic revenue leadership to develop and execute GTM.',
-                timing: 'At strategy phase',
+                scenario: 'Sales Channel Restructuring',
+                description: 'Rationalizing channel strategy—optimizing direct vs partner, building enterprise from SMB, or creating inside sales. Major structural change requiring dedicated leadership.',
+                timing: 'Pre-restructure',
               },
               {
-                scenario: 'Transition Between Revenue Models',
-                description: 'Moving from founder-led sales to a sales team, or from outbound to inbound, or enterprise to PLG.',
-                timing: 'Before the transition',
+                scenario: 'Post-M&A Revenue Integration',
+                description: 'You\'ve acquired a company and need to integrate sales teams, unify revenue operations, and realize synergies. This is a 6-12 month programme requiring focused leadership.',
+                timing: 'Week of close',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
@@ -294,7 +299,7 @@ export default function InterimCROServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CRO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Fractional vs Interim vs Full-Time CRO</h2>
           </div>
           <ServiceComparisonTable role="CRO" accentColor="emerald" />
         </div>
@@ -305,7 +310,7 @@ export default function InterimCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CRO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim CRO</h2>
           </div>
           <HireProcessStepper accentColor="emerald" />
         </div>
@@ -327,14 +332,14 @@ export default function InterimCROServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-green-400">Interim CRO?</span>
+            Ready to Hire an<br /><span className="text-green-400">Interim CRO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your revenue challenges and we'll match you with pre-vetted interim CROs who have solved them before.
+            Tell us about your revenue leadership needs and we'll match you with experienced interim CROs available for immediate full-time engagement.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-green-500 text-black font-bold uppercase tracking-wider hover:bg-green-400 transition-colors">
-              Find a Interim CRO
+              Find an Interim CRO
             </Link>
             <Link href="/interim-cro-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CRO Looking for Roles

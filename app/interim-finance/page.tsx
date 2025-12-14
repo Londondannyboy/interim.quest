@@ -7,9 +7,9 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Finance Leadership UK | Hire Part-Time Finance Executives',
-  description: 'Hire interim finance leaders for your business. Part-time CFOs, Finance Directors, and Controllers. Expert financial leadership without full-time cost.',
-  keywords: 'interim finance, interim finance director, part-time finance executive, interim controller, hire finance leader',
+  title: 'Interim Finance Leadership UK | Full-Time Temporary CFOs & Finance Directors',
+  description: 'Hire full-time interim finance leaders (3-12 months). Experienced CFOs and finance directors to cover departures, lead fundraising, manage restructuring, or prepare for exit.',
+  keywords: 'interim finance, interim finance director, interim cfo, temporary finance executive, interim controller, hire finance leader',
   alternates: { canonical: 'https://interim.quest/interim-finance' },
 }
 
@@ -24,7 +24,7 @@ export default function InterimFinancePage() {
             <div className="max-w-4xl">
               <span className="inline-block bg-emerald-500 text-white px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] mb-6">Functional Leadership</span>
               <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-[0.9]">Interim<br /><span className="text-emerald-400">Finance</span></h1>
-              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Access senior financial leadership without the full-time commitment. From CFOs to Finance Directors, find the right level of expertise for your growth stage.</p>
+              <p className="text-xl text-white/80 leading-relaxed max-w-2xl mb-8">Full-time temporary finance leadership for 3-12 months. Experienced CFOs and finance directors to cover departures, lead fundraising, manage restructuring, or prepare for exit.</p>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-emerald-500 text-white font-bold uppercase tracking-wider hover:bg-emerald-400 transition-colors">Find Finance Leadership</Link>
                 <Link href="/interim-cfo-services" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">Interim CFO Services</Link>
@@ -36,13 +36,18 @@ export default function InterimFinancePage() {
 
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-6">Interim Finance Leadership</h2>
-          <p className="text-xl text-gray-600 leading-relaxed mb-6">Every business needs strong financial leadership, but not every business needs (or can afford) a full-time finance executive. Interim finance leaders work part-time providing the financial strategy, controls, and reporting your business needs to scale.</p>
-          <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">When You Need Interim Finance Leadership</h2>
+          <p className="text-xl text-gray-600 leading-relaxed mb-6">Interim finance leaders provide full-time, experienced financial leadership during critical periods. When your CFO departs, you're raising capital, preparing for sale, or managing restructuring—interim leaders step in immediately to maintain financial control and credibility.</p>
+          <div className="bg-emerald-50 border-l-4 border-emerald-500 p-6 my-8">
+            <h3 className="font-bold text-gray-900 mb-2">Interim vs Fractional Finance Leadership</h3>
+            <p className="text-gray-700 text-sm mb-2">Interim finance leaders work full-time for a defined period (typically 3-12 months) to cover departures, lead fundraising, or manage crisis situations.</p>
+            <p className="text-gray-700 text-sm">For ongoing part-time finance support (1-3 days per week), explore <Link href="/fractional-finance" className="text-emerald-600 hover:text-emerald-700 underline">fractional finance leadership</Link>.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Interim CFO', description: 'C-level financial leadership for strategy, fundraising, and M&A.', link: '/interim-cfo-services' },
-              { title: 'Finance Director', description: 'Senior finance leadership for FP&A, reporting, and team management.', link: '#contact' },
-              { title: 'Controller', description: 'Hands-on financial operations, accounting, and compliance.', link: '#contact' },
+              { title: 'Interim CFO', description: 'Full-time C-level financial leadership for fundraising, M&A, and major transitions.', link: '/interim-cfo-services' },
+              { title: 'Interim Finance Director', description: 'Full-time senior finance leadership for FP&A, reporting, and team building.', link: '#contact' },
+              { title: 'Interim Controller', description: 'Full-time hands-on financial operations, accounting, and compliance leadership.', link: '#contact' },
             ].map((item, i) => (
               <Link key={i} href={item.link} className="block p-6 bg-gray-50 border border-gray-200 hover:border-emerald-500 transition-colors">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -55,15 +60,15 @@ export default function InterimFinancePage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-black text-gray-900 mb-8">What Interim Finance Leaders Do</h2>
+          <h2 className="text-3xl font-black text-gray-900 mb-8">Common Interim Finance Scenarios</h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
-              { title: 'Financial Strategy', description: 'Develop financial strategies that support business growth and sustainability.' },
-              { title: 'Fundraising Support', description: 'Lead investor relations, pitch preparation, and funding round execution.' },
-              { title: 'Financial Planning', description: 'Build budgets, forecasts, and financial models for informed decision-making.' },
-              { title: 'Cash Management', description: 'Optimise cash flow, working capital, and treasury operations.' },
-              { title: 'Financial Controls', description: 'Implement robust financial controls, processes, and governance.' },
-              { title: 'Board Reporting', description: 'Create board packs, management accounts, and investor reporting.' },
+              { title: 'Leadership Departure', description: 'CFO or finance director has left—you need immediate senior coverage while recruiting.' },
+              { title: 'Fundraising', description: 'Raising capital and need experienced CFO to lead investor relations and due diligence.' },
+              { title: 'M&A Activity', description: 'Acquiring or being acquired and need finance leadership for transaction execution.' },
+              { title: 'Restructuring', description: 'Financial distress or turnaround requiring experienced crisis management leadership.' },
+              { title: 'Exit Preparation', description: 'Preparing for sale or IPO and need finance leadership to ready the business.' },
+              { title: 'Systems Implementation', description: 'Implementing new ERP or financial systems and need leadership through transition.' },
             ].map((item, i) => (
               <div key={i} className="p-6 bg-white border-l-4 border-emerald-500">
                 <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>

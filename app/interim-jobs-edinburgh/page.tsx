@@ -6,11 +6,11 @@ import { JobCard } from '@/components/JobCard'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Edinburgh - Executive Roles in Scotland',
-  description: 'Find interim executive jobs in Edinburgh and Scotland. CFO, CMO, CTO roles. £700-£1,200 daily rates. Scotland\'s leading interim market.',
+  title: 'Interim Jobs Edinburgh | Interim Quest',
+  description: 'Find interim executive jobs in Edinburgh and Scotland. Full-time temporary CFO, CMO, CTO roles. £700-£1,200 daily rates. Scotland\'s leading interim management market.',
   openGraph: {
-    title: 'Interim Jobs Edinburgh - Executive Roles in Scotland',
-    description: 'Find interim executive jobs in Edinburgh and across Scotland.',
+    title: 'Interim Jobs Edinburgh | Interim Quest',
+    description: 'Find interim executive jobs in Edinburgh. Full-time temporary CFO, CMO, CTO roles across Scotland.',
     type: 'website',
   },
 }
@@ -104,7 +104,7 @@ export default async function EdinburghPage() {
           <img src="/logo.svg" alt="Interim Jobs Edinburgh - Executive roles in Scotland" className="hidden" width={1} height={1} />
           
           <p className="max-w-2xl text-xl text-purple-100 mb-10 leading-relaxed">
-            {stats.total}+ interim executive opportunities across Scotland. £700-£1,200 daily rates. Financial services, energy, and tech sectors leading demand.
+            {stats.total}+ full-time temporary executive roles across Scotland. Interim management positions in finance, energy, and tech sectors. £700-£1,200 daily rates for fixed-term leadership assignments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -256,11 +256,11 @@ export default async function EdinburghPage() {
           <div className="space-y-6">
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                How much do interim executives earn in Edinburgh?
+                How much do interim managers earn in Edinburgh?
                 <span className="text-purple-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Edinburgh interim executives typically earn £700-£1,200 per day. Financial services and energy roles command premium rates, often matching London levels.
+                Edinburgh interim managers typically earn £700-£1,200 per day on full-time temporary contracts. Financial services and energy roles command premium rates, often matching London levels for 3-18 month assignments.
               </p>
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">

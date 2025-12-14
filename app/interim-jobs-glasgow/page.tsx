@@ -6,11 +6,11 @@ import { JobCard } from '@/components/JobCard'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Glasgow - Executive Roles in Scotland\'s Business Capital',
-  description: 'Find interim executive jobs in Glasgow. CFO, CMO, CTO roles in Scotland\'s largest city. £600-£1,200 daily rates. Growing tech and financial services hub.',
+  title: 'Interim Jobs Glasgow | Interim Quest',
+  description: 'Find interim executive jobs in Glasgow. Full-time temporary CFO, CMO, CTO roles in Scotland\'s largest city. £600-£1,200 daily rates. Growing interim management market.',
   openGraph: {
-    title: 'Interim Jobs Glasgow - Executive Roles in Scotland\'s Business Capital',
-    description: 'Find interim executive jobs in Glasgow. CFO, CMO, CTO roles in Scotland\'s largest city. £600-£1,200 daily rates.',
+    title: 'Interim Jobs Glasgow | Interim Quest',
+    description: 'Find interim executive jobs in Glasgow. Full-time temporary CFO, CMO, CTO roles in Scotland\'s largest city.',
     type: 'website',
   },
 }
@@ -35,7 +35,7 @@ const glasgowIndustries = [
 
 const successStories = [
   {
-    quote: "Glasgow's tech scene is booming. I work with 3 SaaS companies and a fintech startup. The cost of living means my rates go much further than they would in London.",
+    quote: "Glasgow's interim management market is thriving. I completed a 12-month CTO assignment with a SaaS scale-up, then moved to a 6-month fintech transformation project. Full-time interim work gives you deep impact.",
     name: "James McAllister",
     role: "Interim CTO",
     area: "Finnieston",
@@ -43,7 +43,7 @@ const successStories = [
     earnings: "£145k/year"
   },
   {
-    quote: "The life sciences cluster around the university is incredible for interim CFO work. These companies need financial expertise but can't justify a full-time hire yet.",
+    quote: "The life sciences cluster around the university is perfect for interim CFO roles. I take on 6-12 month assignments helping companies through funding rounds and scale-up phases.",
     name: "Claire Robertson",
     role: "Interim CFO",
     area: "West End",
@@ -51,7 +51,7 @@ const successStories = [
     earnings: "£135k/year"
   },
   {
-    quote: "I moved from London and took a small rate cut, but the quality of life is incomparable. Glasgow companies are genuinely innovative and eager to grow.",
+    quote: "I moved from London to Glasgow for an 18-month interim CMO role. The assignment extended, and I've stayed in the Glasgow market. Full-time temporary roles here offer real strategic impact.",
     name: "David Thomson",
     role: "Interim CMO",
     area: "Merchant City",
@@ -147,7 +147,7 @@ export default async function GlasgowPage() {
             Interim Jobs Glasgow
           </h1>
           <p className="max-w-2xl text-xl text-blue-100 mb-10 leading-relaxed">
-            {stats.totalGlasgow}+ interim executive opportunities in Scotland's largest city. £600-£1,200 daily rates. Work with innovative tech, life sciences, and financial services companies.
+            {stats.totalGlasgow}+ full-time temporary executive roles in Scotland's largest city. Interim management positions with innovative tech, life sciences, and financial services companies. £600-£1,200 daily rates for fixed-term assignments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -406,17 +406,17 @@ export default async function GlasgowPage() {
                 <span className="text-blue-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Glasgow is a part-time executive role where you work with Glasgow-based companies for 1-3 days per week. Glasgow has a growing interim market, particularly in tech, life sciences, and financial services sectors.
+                An interim job in Glasgow is a full-time temporary executive role on a fixed-term contract, typically lasting 3-18 months. You work exclusively with one Glasgow-based company during the assignment, providing senior leadership through transformation, growth phases, or covering permanent hires. Glasgow has a growing interim management market in tech, life sciences, and financial services.
               </p>
             </details>
 
             <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                How much do interim executives earn in Glasgow?
+                How much do interim managers earn in Glasgow?
                 <span className="text-blue-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Glasgow interim executives typically earn £600-£1,200 per day. While rates are slightly lower than London, the lower cost of living means take-home value is often comparable. Most professionals work with 2-4 clients, earning £120,000-£200,000+ annually.
+                Glasgow interim managers typically earn £600-£1,200 per day on full-time temporary contracts. While rates are slightly lower than London, the lower cost of living means take-home value is often comparable. Annual earnings range from £120,000-£240,000 depending on assignment length and role seniority.
               </p>
             </details>
 

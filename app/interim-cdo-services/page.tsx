@@ -11,41 +11,41 @@ const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHo
 
 const CDO_SERVICE_FAQS = [
   {
-    question: 'What is a Interim CDO?',
-    answer: 'An Interim CDO (Chief Data Officer) is an experienced data executive who works with your company part-time, typically 1-3 days per week. You get strategic data leadership, analytics expertise, and data governance without the cost of a full-time executive.',
+    question: 'What is an Interim CDO?',
+    answer: 'An Interim CDO (Chief Data Officer) is a senior data executive who joins your organisation full-time for 3-12 months to provide temporary leadership during critical periods. They fill CDO vacancies, lead data transformations, implement data strategies, or remediate GDPR compliance issues—delivering immediate impact without long-term commitment.',
   },
   {
-    question: 'When should my company hire a Interim CDO?',
-    answer: 'Consider hiring an interim CDO when: you\'re not getting value from your data; you need to build data infrastructure; you\'re preparing for AI/ML initiatives; you have data quality or governance issues; or you need to monetise or productise your data.',
+    question: 'When should I hire an Interim CDO?',
+    answer: 'Hire an Interim CDO when you have a leadership gap (CDO departure or maternity leave), need to lead a data transformation or platform build, require GDPR/compliance remediation, are implementing AI/ML strategy, or need to establish data governance frameworks. They excel at time-bound, high-impact initiatives.',
   },
   {
-    question: 'How much does a Interim CDO cost?',
-    answer: 'Interim CDOs typically charge £900-£1,500 per day in the UK. At 2 days per week, this translates to roughly £90,000-£150,000 annually—compared to £180,000-£280,000+ for a full-time CDO.',
+    question: 'How much does an Interim CDO cost?',
+    answer: 'Interim CDOs typically charge £1,200-£2,000 per day in the UK, working full-time (5 days per week). For a 6-month engagement, expect £144,000-£240,000 total. While more expensive than part-time, you get full executive attention during critical transformation periods with no long-term commitment.',
   },
   {
-    question: 'What does a Interim CDO do?',
-    answer: 'An Interim CDO develops data strategy, builds analytics capabilities, ensures data quality and governance, leads AI/ML initiatives, creates data products, manages data teams, and ensures the organisation becomes truly data-driven.',
+    question: 'What\'s the typical engagement length for an Interim CDO?',
+    answer: 'Most Interim CDO engagements run 3-12 months. Short engagements (3-6 months) suit crisis management or specific deliverables like GDPR remediation. Longer engagements (6-12 months) accommodate data transformations, platform builds, or strategy implementation that requires sustained leadership.',
   },
   {
-    question: 'How is a CDO different from a Head of Analytics?',
-    answer: 'A Head of Analytics focuses on analysis and reporting—answering questions with data. A CDO has broader responsibility for the entire data function: strategy, infrastructure, governance, quality, and ensuring data drives business value. They operate at the executive level.',
+    question: 'How is an Interim CDO different from a fractional CDO?',
+    answer: 'An Interim CDO works full-time for 3-12 months during transformations, crises, or leadership gaps—they\'re your temporary CDO. A fractional CDO works part-time (1-3 days/week) ongoing for cost-effective long-term leadership. Interim is for urgent, time-bound situations; fractional is for sustained strategic guidance.',
   },
   {
-    question: 'Can a Interim CDO help prepare for AI initiatives?',
-    answer: 'Yes—AI readiness is a key CDO responsibility. An interim CDO can assess your data maturity, build the data infrastructure needed for AI, establish data quality practices, and develop the governance frameworks that AI requires.',
+    question: 'Can an Interim CDO help with GDPR compliance?',
+    answer: 'Yes—GDPR remediation is a common Interim CDO use case. They can audit current compliance, implement data governance frameworks, establish privacy controls, create data retention policies, and prepare for regulatory audits. Their temporary engagement provides focused expertise without permanent overhead.',
   },
 ]
 
 export const metadata: Metadata = {
-  title: 'Interim CDO Services UK | Hire a Part-Time Chief Data Officer',
-  description: 'Hire a Interim CDO for your business. Access senior data leadership at a fraction of full-time cost. Expert CDOs for data strategy, analytics, AI readiness, and data governance. Start within days.',
-  keywords: 'interim cdo, interim cdo services, hire interim cdo, part time cdo, interim chief data officer, interim cdo uk, interim data director',
+  title: 'Interim CDO Services UK | Hire a Temporary CDO',
+  description: 'Hire an Interim CDO for 3-12 months. Full-time temporary data leadership for transformations, GDPR compliance, platform builds, and leadership gaps. £1,200-£2,000/day. Start within days.',
+  keywords: 'interim cdo, interim cdo services, hire interim cdo, temporary cdo, interim chief data officer, interim cdo uk, interim data director, cdo maternity cover',
   alternates: {
     canonical: 'https://interim.quest/interim-cdo-services',
   },
   openGraph: {
-    title: 'Interim CDO Services UK | Hire a Part-Time Chief Data Officer',
-    description: 'Hire a Interim CDO for your business. Senior data leadership at a fraction of full-time cost.',
+    title: 'Interim CDO Services UK | Hire a Temporary CDO',
+    description: 'Full-time Interim CDO for 3-12 months. Data transformations, GDPR compliance, and leadership gaps.',
     images: ['/images/interim-cdo-services.jpg'],
     url: 'https://interim.quest/interim-cdo-services',
   },
@@ -71,26 +71,26 @@ export default function InterimCDOServicesPage() {
                 <span className="text-cyan-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim CDO</strong> to unlock your data.
-                Senior data leadership, analytics strategy, and AI readiness—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim CDO</strong> for full-time temporary data leadership.
+                Fill leadership gaps, drive transformations, and deliver critical data initiatives in 3-12 months.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-cyan-400">50%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-cyan-400">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Months</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">Full-Time</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Commitment</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">AI Ready</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Expertise</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1.2-2k</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Per Day</div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-cyan-500 text-black font-bold uppercase tracking-wider hover:bg-cyan-400 transition-colors">
-                  Hire a Interim CDO
+                  Hire an Interim CDO
                 </Link>
                 <Link href="#responsibilities" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
                   Learn More
@@ -101,31 +101,31 @@ export default function InterimCDOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Interim CDO */}
+      {/* What is an Interim CDO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CDO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CDO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim CDO</strong> (Chief Data Officer) is an experienced data executive who works with your company on a part-time basis—typically 1-3 days per week. You get strategic data leadership, analytics expertise, and data governance without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim CDO</strong> (Chief Data Officer) is a senior data executive who joins your organisation full-time for 3-12 months to provide temporary leadership during critical periods. They fill CDO vacancies, lead data transformations, implement data platforms, or remediate compliance issues—delivering immediate impact without permanent commitment.
             </p>
             <p>
-              Unlike data analysts who answer specific questions, an interim CDO builds the entire data function. They create data strategy, build infrastructure, establish governance, and transform the organisation into one that uses data to drive decisions.
+              Unlike fractional CDOs who work part-time, Interim CDOs are fully embedded in your organisation. They run daily operations, lead teams, drive urgent initiatives, and deliver measurable outcomes within defined timeframes. You get complete executive-level data leadership when you need it most.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-cyan-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "Data is the new oil, but only if you can refine it. An interim CDO turns raw data into business fuel."
+                "Interim CDOs excel at the impossible: delivering transformation-level impact in months, not years."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">From Data Rich to Data Driven</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When You Need Full-Time Leadership, Not Part-Time Advice</h3>
             <p>
-              Many companies are data rich but insight poor. They collect vast amounts of data but cannot use it effectively. Decisions are still made on gut feel, reports take weeks, and data quality is questionable.
+              Some situations demand full-time executive attention. Your CDO has left suddenly. You're facing a GDPR audit in 6 months. Your data transformation can't wait. Your board demands AI strategy now.
             </p>
             <p>
-              An interim CDO bridges this gap. They build the systems, processes, and culture that turn data into competitive advantage—enabling faster decisions, better predictions, and AI-powered innovation.
+              An Interim CDO provides hands-on leadership during these critical windows. They don't just advise—they execute. They run teams, make decisions, drive delivery, and solve crises. When the engagement ends, your organisation has measurable results and sustainable systems in place.
             </p>
           </div>
         </div>
@@ -136,45 +136,55 @@ export default function InterimCDOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CDO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CDO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does an Interim CDO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Core deliverables your Interim CDO will execute during their engagement</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Data Strategy',
-                description: 'Develop data strategy aligned with business objectives. Define how data will create value and competitive advantage.',
-                icon: '🎯',
+                title: 'Leadership Gap Coverage',
+                description: 'Step into vacant CDO role immediately. Run daily operations, lead teams, maintain momentum during transitions, maternity cover, or recruitment delays.',
+                icon: '👤',
               },
               {
-                title: 'Analytics & BI',
-                description: 'Build analytics capabilities—dashboards, reports, and self-service BI. Ensure the business has the insights it needs.',
-                icon: '📊',
-              },
-              {
-                title: 'Data Infrastructure',
-                description: 'Design and implement data architecture—warehouses, lakes, pipelines, and platforms that scale.',
+                title: 'Data Platform Implementation',
+                description: 'Build and deploy data platforms—data warehouses, lakes, pipelines, and analytics infrastructure. Deliver production-ready systems in 6-12 months.',
                 icon: '🏗️',
               },
               {
-                title: 'Data Governance',
-                description: 'Establish data governance frameworks—quality, security, privacy, and compliance. Ensure data is trustworthy and compliant.',
+                title: 'GDPR & Compliance Remediation',
+                description: 'Audit current compliance, implement governance frameworks, establish data privacy controls, and prepare for regulatory audits within tight deadlines.',
                 icon: '🔒',
               },
               {
-                title: 'AI & ML Readiness',
-                description: 'Prepare the organisation for AI. Build the data foundations, infrastructure, and practices that AI requires.',
+                title: 'Data Transformation',
+                description: 'Lead organisation-wide data transformations. Modernise legacy systems, migrate to cloud, consolidate data sources, and establish new operating models.',
+                icon: '⚡',
+              },
+              {
+                title: 'AI/ML Strategy & Implementation',
+                description: 'Assess AI readiness, build data foundations for ML, implement first AI use cases, and establish MLOps practices. Deliver working AI capability.',
                 icon: '🤖',
               },
               {
-                title: 'Data Team',
-                description: 'Build and lead the data team—analysts, engineers, scientists. Define roles, hire key talent, and develop capabilities.',
+                title: 'Crisis Management',
+                description: 'Resolve data quality crises, fix broken analytics, recover from data breaches, or stabilise failing data initiatives. Deliver urgent remediation.',
+                icon: '🚨',
+              },
+              {
+                title: 'Data Governance Implementation',
+                description: 'Design and deploy governance frameworks—data quality standards, master data management, metadata catalogues, and data ownership models.',
+                icon: '📋',
+              },
+              {
+                title: 'Team Building & Restructure',
+                description: 'Restructure data teams, hire critical roles, define new operating models, establish career frameworks, and build sustainable data organisations.',
                 icon: '👥',
               },
               {
-                title: 'Data Culture',
-                description: 'Drive data literacy and data-driven culture. Ensure decisions across the organisation are informed by data.',
-                icon: '🧠',
+                title: 'Business Case & Strategy',
+                description: 'Develop data monetisation strategies, create business cases for data investment, and design data products that generate revenue.',
+                icon: '💼',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200 hover:border-cyan-300 transition-colors">
@@ -191,46 +201,56 @@ export default function InterimCDOServicesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CDO?</h2>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Use Cases</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire an Interim CDO?</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'Data Not Delivering Value',
-                description: "You have lots of data but can't use it effectively. Reports are slow, insights are limited, and decisions are still based on gut feel.",
-                timing: 'Before competitors out-data you',
+                scenario: 'CDO Vacancy or Departure',
+                description: "Your CDO has left suddenly, is on extended leave, or you're recruiting for a permanent hire. Need immediate leadership to maintain momentum and prevent data initiatives stalling.",
+                timing: '3-12 months',
               },
               {
-                scenario: 'Preparing for AI',
-                description: "Want to implement AI/ML but your data isn't ready. Need to build the foundations before AI can deliver value.",
-                timing: '6-12 months before AI',
+                scenario: 'Data Transformation Programme',
+                description: "Leading a major data transformation—cloud migration, platform modernisation, or operating model change. Need dedicated executive leadership to drive delivery.",
+                timing: '6-12 months',
               },
               {
-                scenario: 'Scaling Data Function',
-                description: 'Growing from ad-hoc analysis to a proper data team. Need leadership to structure the function and hire right.',
-                timing: 'When team exceeds 3',
+                scenario: 'GDPR & Compliance Remediation',
+                description: "Facing regulatory audit, GDPR non-compliance, or industry-specific data requirements. Need urgent expertise to implement governance and pass audits.",
+                timing: '3-6 months',
+              },
+              {
+                scenario: 'Data Platform Build',
+                description: "Building new data infrastructure—data warehouse, data lake, analytics platform, or ML infrastructure. Need hands-on leadership from design through implementation.",
+                timing: '6-12 months',
+              },
+              {
+                scenario: 'AI/ML Strategy Implementation',
+                description: "Board demands AI capability but your data foundations aren't ready. Need to assess readiness, build infrastructure, and deliver first AI use cases.",
+                timing: '6-9 months',
               },
               {
                 scenario: 'Data Quality Crisis',
-                description: "Can't trust your data. Different sources give different answers, and no one knows what's accurate.",
-                timing: 'ASAP',
+                description: "Critical data quality issues affecting business operations, reporting failures, or loss of trust in data. Need immediate intervention to diagnose and remediate.",
+                timing: '3-6 months',
               },
               {
-                scenario: 'Regulatory Compliance',
-                description: 'Need to meet GDPR, data protection, or industry-specific data requirements. Need governance expertise.',
-                timing: 'Before audits',
+                scenario: 'M&A Data Integration',
+                description: "Acquired a company and need to integrate data systems, consolidate analytics, establish unified governance, and migrate to common platforms.",
+                timing: '6-12 months',
               },
               {
-                scenario: 'Data Monetisation',
-                description: 'Want to create data products or monetise your data assets. Need strategic leadership to identify and execute opportunities.',
-                timing: 'At opportunity identification',
+                scenario: 'Team Restructure & Capability Build',
+                description: "Data team is underperforming, lacks structure, or needs new capabilities. Require leadership to restructure, hire key roles, and establish new operating model.",
+                timing: '6-9 months',
               },
             ].map((item, index) => (
               <div key={index} className="bg-gray-50 p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">{item.scenario}</h3>
                 <p className="text-gray-600 text-sm mb-3">{item.description}</p>
-                <span className="inline-block text-xs font-bold text-cyan-600 uppercase tracking-wider">{item.timing}</span>
+                <span className="inline-block text-xs font-bold text-cyan-600 uppercase tracking-wider">Typical Duration: {item.timing}</span>
               </div>
             ))}
           </div>
@@ -242,7 +262,7 @@ export default function InterimCDOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CDO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Fractional vs Full-Time CDO</h2>
           </div>
           <ServiceComparisonTable role="CDO" accentColor="blue" />
         </div>
@@ -253,7 +273,7 @@ export default function InterimCDOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CDO</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim CDO</h2>
           </div>
           <HireProcessStepper accentColor="blue" />
         </div>
@@ -275,14 +295,14 @@ export default function InterimCDOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-cyan-400">Interim CDO?</span>
+            Ready to Hire an<br /><span className="text-cyan-400">Interim CDO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your data challenges and we'll match you with pre-vetted interim CDOs who have solved them before.
+            Tell us about your data transformation, leadership gap, or compliance challenge. We'll match you with pre-vetted Interim CDOs who can start within days.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-cyan-500 text-black font-bold uppercase tracking-wider hover:bg-cyan-400 transition-colors">
-              Find a Interim CDO
+              Find an Interim CDO
             </Link>
             <Link href="/interim-cdo-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CDO Looking for Roles

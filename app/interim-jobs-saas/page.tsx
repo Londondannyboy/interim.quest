@@ -9,11 +9,11 @@ import { FAQ, SAAS_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs SaaS - Executive Roles in Software & Cloud',
-  description: 'Find interim executive jobs in SaaS. CFO, CMO, CTO roles in B2B software, cloud platforms, and subscription businesses. £700-£1,300 daily rates.',
+  title: 'Interim Jobs in SaaS | Interim Quest',
+  description: 'Full-time temporary executive roles in B2B SaaS. £700-£1,300 daily rates. Drive ARR growth, improve unit economics, and scale from $1M to $10M ARR.',
   openGraph: {
-    title: 'Interim Jobs SaaS - Executive Roles in Software',
-    description: 'Find interim executive jobs in SaaS and B2B software.',
+    title: 'Interim Jobs in SaaS | Interim Quest',
+    description: 'Full-time temporary SaaS leadership for critical growth phases.',
     type: 'website',
   },
 }
@@ -97,7 +97,7 @@ export default async function SaasPage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles in B2B software and cloud platforms. £700-£1,300 daily rates. Work with the UK's fastest-growing subscription businesses.
+                    Full-time temporary executive roles for B2B SaaS companies in transition. Drive ARR growth, improve retention, and scale revenue operations. £700-£1,300 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -209,29 +209,29 @@ export default async function SaasPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="w-14 h-14 bg-violet-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">📊</span>
+                <span className="text-3xl">📈</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Metrics-Driven</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Growth Inflections</h3>
               <p className="text-gray-600">
-                SaaS companies understand the value of expertise. They measure everything - ARR, NDR, CAC/LTV - and pay premium rates for executives who can move these metrics.
+                SaaS companies hire interim CROs to scale from $1M to $10M ARR. Full-time, 9-18 month engagements to build sales infrastructure, establish pricing, and create repeatable go-to-market.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="w-14 h-14 bg-violet-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🎯</span>
+                <span className="text-3xl">🔧</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Growth Stages</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Product Pivots</h3>
               <p className="text-gray-600">
-                SaaS has well-defined phases - PMF, scale, expansion, efficiency. Interim executives can provide targeted expertise for each stage without long-term commitment.
+                B2B SaaS firms need interim CPOs during major product pivots or after losing product leadership. Temporary, full-time roles to re-establish product strategy and roadmap.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <div className="w-14 h-14 bg-violet-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">💰</span>
+                <span className="text-3xl">💼</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Well-Funded</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Churn Crisis</h3>
               <p className="text-gray-600">
-                VC-backed SaaS companies have capital to invest in growth but need to manage burn. Interim executives provide senior leadership cost-effectively.
+                When NDR drops below 100% or churn spikes, SaaS companies hire interim executives for 6-12 months to diagnose retention issues and rebuild customer success operations.
               </p>
             </div>
           </div>

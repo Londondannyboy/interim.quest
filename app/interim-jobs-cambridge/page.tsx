@@ -32,20 +32,20 @@ const cambridgeIndustries = [
 
 const successStories = [
   {
-    quote: "Cambridge is the UK's epicentre for deep tech. I work with companies developing quantum computing and AI. The intellectual capital here is unmatched globally.",
+    quote: "Led a 14-month commercialization program for a Cambridge quantum computing startup from university spin-out through Series B. The intellectual capital here is unmatched globally.",
     name: "Dr Sarah Mitchell",
     role: "Interim CTO",
     area: "Science Park",
     clients: 3,
-    earnings: "£175k/year"
+    earnings: "£1,100/day"
   },
   {
-    quote: "Biotech companies here need experienced CFOs who understand complex funding rounds and regulatory pathways. The demand for interim finance leadership is extraordinary.",
+    quote: "Took a Cambridge biotech through EMA approval and IPO preparation. These companies need experienced interim CFOs who understand complex regulatory and funding pathways.",
     name: "Richard Chambers",
     role: "Interim CFO",
     area: "Biomedical Campus",
     clients: 3,
-    earnings: "£165k/year"
+    earnings: "£1,000/day"
   },
 ]
 
@@ -85,7 +85,7 @@ export default async function CambridgePage() {
             Interim Jobs Cambridge
           </h1>
           <p className="max-w-2xl text-xl text-cyan-100 mb-10 leading-relaxed">
-            {stats.totalCambridge}+ interim executive opportunities in Silicon Fen. £700-£1,200 daily rates. Work with world-leading deep tech, biotech, and AI companies.
+            {stats.totalCambridge}+ full-time temporary executive roles in Silicon Fen. £700-£1,200 daily rates. Lead IPO preparations, fundraising, and commercialization initiatives with world-leading deep tech, biotech, and AI companies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -166,21 +166,21 @@ export default async function CambridgePage() {
               <span className="text-3xl mb-4 block">🧬</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Biotech Capital</h3>
               <p className="text-gray-600">
-                Cambridge has the UK's largest life sciences cluster with AstraZeneca, Abcam, and 500+ biotech companies. Interim CFOs are in high demand for IPO-ready companies.
+                Cambridge has the UK's largest life sciences cluster with AstraZeneca, Abcam, and 500+ biotech companies. These companies regularly need interim CFOs for IPO preparations, regulatory approvals, and complex fundraising rounds.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🤖</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">AI & Deep Tech Hub</h3>
               <p className="text-gray-600">
-                Home to DeepMind spinouts, ARM, and leading AI research. Cambridge attracts more VC per capita than anywhere outside Silicon Valley.
+                Home to DeepMind spinouts, ARM, and leading AI research. Cambridge attracts more VC per capita than anywhere outside Silicon Valley, creating consistent demand for interim CTOs to commercialize breakthrough technology.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🎓</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">World-Class Talent</h3>
               <p className="text-gray-600">
-                Cambridge University's 900+ spinouts create constant demand for experienced interim leadership to commercialize breakthrough research.
+                Cambridge University's 900+ spinouts create constant demand for experienced interim leadership to commercialize breakthrough research, navigate regulatory pathways, and prepare for funding rounds or IPOs.
               </p>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default async function CambridgePage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-cyan-200 text-sm">{story.role}</p>
-                    <p className="text-cyan-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-cyan-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default async function CambridgePage() {
                 <span className="text-cyan-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Cambridge is a part-time executive role working 1-3 days per week. Cambridge's deep tech and biotech clusters create exceptional demand for interim CTOs and CFOs with specialist expertise.
+                An interim job in Cambridge is a full-time temporary executive role, typically lasting 6-18 months. You lead critical initiatives like IPO preparations, regulatory approvals, or research commercialization. Cambridge's deep tech and biotech clusters create exceptional demand for interim CTOs and CFOs with specialist expertise.
               </p>
             </details>
 
@@ -257,7 +257,7 @@ export default async function CambridgePage() {
                 <span className="text-cyan-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Cambridge interim executives earn £700-£1,200 per day - some of the highest rates outside London. Deep tech and biotech specialists can earn £150,000-£250,000+ annually.
+                Cambridge interim executives earn £700-£1,200 per day on 6-18 month contracts - some of the highest rates in the UK. Deep tech and biotech specialists can earn £150,000-£250,000+ annually for full-time interim engagements.
               </p>
             </details>
 
@@ -313,10 +313,10 @@ export default async function CambridgePage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-cyan-900 via-cyan-800 to-cyan-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Cambridge?
+            Ready for Interim Work in Cambridge?
           </h2>
           <p className="text-xl text-cyan-100 mb-10">
-            {stats.totalCambridge}+ interim opportunities in the UK's innovation capital.
+            {stats.totalCambridge}+ full-time temporary executive roles in the UK's innovation capital.
           </p>
           <Link
             href="/interim-jobs?location=Cambridge"

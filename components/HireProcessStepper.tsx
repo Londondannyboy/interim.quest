@@ -16,22 +16,22 @@ const DEFAULT_STEPS: Step[] = [
   {
     number: 1,
     title: 'Brief',
-    description: 'Tell us about your needs, company stage, and what you\'re looking for in a interim executive.',
+    description: 'Tell us about your needs, timeline, and what you\'re looking for in an interim executive for your 3-12 month assignment.',
   },
   {
     number: 2,
     title: 'Match',
-    description: 'We curate a shortlist of pre-vetted interim executives who match your specific requirements.',
+    description: 'We curate a shortlist of pre-vetted interim executives available for full-time temporary assignments.',
   },
   {
     number: 3,
     title: 'Meet',
-    description: 'Interview your top candidates. We handle scheduling and provide interview frameworks.',
+    description: 'Interview your top candidates. We handle scheduling and ensure they can start within your timeframe.',
   },
   {
     number: 4,
     title: 'Start',
-    description: 'Your interim executive begins within days. We support onboarding and ongoing success.',
+    description: 'Your interim executive begins full-time within days. We support onboarding and contract management throughout.',
   },
 ]
 

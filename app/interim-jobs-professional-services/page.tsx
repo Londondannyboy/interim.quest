@@ -5,11 +5,11 @@ import { createDbQuery } from '@/lib/db'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Professional Services - Executive Roles in Consulting & Advisory',
-  description: 'Find interim executive jobs in professional services. CFO, COO, CMO roles in consulting, legal tech, and advisory firms. £600-£1,100 daily rates.',
+  title: 'Interim Jobs in Professional Services | Interim Quest',
+  description: 'Full-time temporary executive roles in professional services firms. £600-£1,100 daily rates. Lead digital transformation, mergers, and operational restructuring.',
   openGraph: {
-    title: 'Interim Jobs Professional Services - Consulting & Advisory Roles',
-    description: 'Find interim executive jobs in professional services and consulting.',
+    title: 'Interim Jobs in Professional Services | Interim Quest',
+    description: 'Full-time temporary professional services leadership for critical transitions.',
     type: 'website',
   },
 }
@@ -81,7 +81,7 @@ export default async function ProfessionalServicesPage() {
             Interim Jobs Professional Services
           </h1>
           <p className="max-w-2xl text-xl text-gray-100 mb-10 leading-relaxed">
-            {stats.totalPS}+ interim executive opportunities in consulting, legal, and advisory firms. £600-£1,100 daily rates. Help professional services firms digitize and scale.
+            Full-time temporary executive roles in consulting, legal, and advisory firms. Lead digital transformation, post-merger integration, and operational restructuring. £600-£1,100 daily rates.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -153,24 +153,24 @@ export default async function ProfessionalServicesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-50 rounded-2xl p-8">
-              <span className="text-3xl mb-4 block">🔄</span>
+              <span className="text-3xl mb-4 block">💻</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Digital Transformation</h3>
               <p className="text-gray-600">
-                Professional services firms are undergoing massive digital transformation. They need CTOs and COOs who understand partnership models and professional culture.
+                Law firms and consultancies hire interim CTOs for 9-18 month digital transformation projects. Full-time commitment to implement practice management systems and modernize technology.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
-              <span className="text-3xl mb-4 block">🤝</span>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Partnership Model</h3>
+              <span className="text-3xl mb-4 block">🔄</span>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Post-Merger Integration</h3>
               <p className="text-gray-600">
-                PS firms understand the value of expertise - it's their business model. They're willing to pay for senior interim talent who can drive operational excellence.
+                Professional services firms hire interim COOs after mergers or acquisitions. Temporary, full-time roles for 6-15 months to integrate operations, harmonize systems, and realize synergies.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
-              <span className="text-3xl mb-4 block">📈</span>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Scaling Mid-Market</h3>
+              <span className="text-3xl mb-4 block">📊</span>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Practice Restructuring</h3>
               <p className="text-gray-600">
-                Mid-market PS firms (£5m-£50m) need interim CFOs and COOs to professionalize operations without the cost of full-time C-suite.
+                Mid-market firms (£5m-£50m) need interim CFOs during partner departures, practice area closures, or financial difficulties. Full-time, 6-12 month turnaround engagements.
               </p>
             </div>
           </div>

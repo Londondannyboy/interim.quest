@@ -11,15 +11,15 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim COO Services UK | Hire a Part-Time COO',
-  description: 'Hire a Interim COO for your business. Access senior operations leadership at a fraction of full-time cost. Expert COOs for scaling, process optimisation, and operational excellence. Start within days.',
-  keywords: 'interim coo, interim coo services, hire interim coo, part time coo, interim chief operating officer, interim coo uk, interim operations director',
+  title: 'Interim COO Services UK | Hire a Temporary COO',
+  description: 'Hire an Interim COO for full-time temporary operations leadership. Expert COOs for leadership gaps, operational turnarounds, restructuring, and transformation projects. 3-12 month engagements.',
+  keywords: 'interim coo, interim coo services, hire interim coo, temporary coo, interim chief operating officer, interim coo uk, interim operations director',
   alternates: {
     canonical: 'https://interim.quest/interim-coo-services',
   },
   openGraph: {
-    title: 'Interim COO Services UK | Hire a Part-Time COO',
-    description: 'Hire a Interim COO for your business. Senior operations leadership at a fraction of full-time cost.',
+    title: 'Interim COO Services UK | Hire a Temporary COO',
+    description: 'Hire an Interim COO for full-time temporary operations leadership. Expert COOs for leadership gaps and operational transformation.',
     images: ['/images/interim-coo-services.jpg'],
     url: 'https://interim.quest/interim-coo-services',
   },
@@ -45,21 +45,21 @@ export default function InterimCOOServicesPage() {
                 <span className="text-orange-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim COO</strong> to scale your operations.
-                Senior operational leadership, process excellence, and scaling expertise—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim COO</strong> for full-time temporary operations leadership.
+                Expert COOs for leadership gaps, operational turnarounds, restructuring, and transformation projects.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-orange-400">55%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-orange-400">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Months</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">Full-Time</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Commitment</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">7 Days</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">To Start</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1.2-2K</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Day Rate</div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
@@ -67,7 +67,7 @@ export default function InterimCOOServicesPage() {
                   Hire a Interim COO
                 </Link>
                 <Link href="#calculator" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-                  Calculate Savings
+                  View Pricing
                 </Link>
               </div>
             </div>
@@ -84,22 +84,22 @@ export default function InterimCOOServicesPage() {
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim COO</strong> is an experienced Chief Operating Officer who works with your company on a part-time basis—typically 1-3 days per week. You get the operational leadership, scaling expertise, and process optimisation skills of a senior COO without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim COO</strong> is an experienced Chief Operating Officer who joins your company on a full-time, temporary basis—typically for 3-12 months. They provide immediate operational leadership during critical periods: COO vacancies, operational turnarounds, rapid scale-up, restructuring, or crisis management.
             </p>
             <p>
-              Unlike operations consultants who advise from the sidelines, a interim COO becomes your operational leader. They attend leadership meetings, manage cross-functional initiatives, build operational infrastructure, and take ownership of execution—just not five days a week.
+              Unlike consultants who advise from the sidelines, an interim COO becomes your operational leader. They join the executive team, take full ownership of operations, drive transformation programmes, and deliver measurable results—all within a defined timeframe.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-orange-500">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "A interim COO frees the CEO to focus on strategy and growth while ensuring the business runs smoothly."
+                "An interim COO delivers the operational leadership and transformation your business needs—without the 12-month recruitment cycle."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When the CEO is Doing Too Much</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Full-Time Leadership When You Need It Most</h3>
             <p>
-              In many growing companies, the CEO is handling operations by default—managing projects, solving operational fires, and coordinating between teams. This takes time away from strategy, fundraising, and business development.
+              Interim COOs are deployed during periods of change, crisis, or opportunity. Whether you're covering a sudden departure, executing a turnaround, integrating an acquisition, or preparing for rapid growth, an interim COO brings the experience to lead through complexity.
             </p>
             <p>
-              A interim COO takes operational responsibility off the CEO's plate. They bring structure, systems, and accountability so the CEO can focus on what only they can do: leading the company's vision and growth.
+              They've done it before—multiple times. They diagnose problems quickly, build high-performing teams, implement robust processes, and deliver the operational transformation your business requires. When the engagement ends, you have a stronger, more scalable operation.
             </p>
           </div>
         </div>
@@ -116,38 +116,38 @@ export default function InterimCOOServicesPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Operational Strategy',
-                description: 'Design and implement the operating model that supports your growth. Align operations with business strategy and ensure execution excellence.',
+                title: 'Operational Turnaround',
+                description: 'Diagnose operational failures, implement corrective actions, and stabilise underperforming operations. Drive immediate improvements in productivity, quality, and efficiency.',
                 icon: '🎯',
               },
               {
-                title: 'Process Optimisation',
-                description: 'Identify bottlenecks, streamline workflows, and implement efficient processes. Build the operational infrastructure that scales.',
+                title: 'Transformation Leadership',
+                description: 'Lead large-scale operational transformation programmes. Restructure operations, implement new systems, and drive organisational change.',
                 icon: '⚙️',
               },
               {
-                title: 'Team & Structure',
-                description: 'Design organisational structure, define roles, and build high-performing teams. Ensure the right people are in the right positions.',
+                title: 'Crisis Management',
+                description: 'Take control during operational crises—supply chain failures, quality issues, customer service breakdowns. Stabilise operations and prevent recurrence.',
                 icon: '👥',
               },
               {
-                title: 'Project Management',
-                description: 'Lead critical initiatives and cross-functional projects. Ensure key programmes are delivered on time and on budget.',
+                title: 'M&A Integration',
+                description: 'Lead post-merger operational integration. Harmonise processes, consolidate systems, realise synergies, and integrate teams across merged entities.',
                 icon: '📋',
               },
               {
-                title: 'Systems & Tools',
-                description: 'Select and implement operational systems—CRM, ERP, project management, and communication tools that enable productivity.',
+                title: 'Scale-Up Execution',
+                description: 'Build the operational infrastructure for rapid growth. Implement scalable processes, systems, and structures that support 2-5x revenue expansion.',
                 icon: '🛠️',
               },
               {
-                title: 'Metrics & KPIs',
-                description: 'Define operational KPIs, build dashboards, and create accountability frameworks. Make operations data-driven.',
+                title: 'Cost Reduction Programmes',
+                description: 'Identify and eliminate operational inefficiencies. Renegotiate supplier contracts, optimise processes, and deliver measurable cost savings.',
                 icon: '📊',
               },
               {
-                title: 'Vendor Management',
-                description: 'Manage key supplier relationships, negotiate contracts, and optimise the partner ecosystem for cost and quality.',
+                title: 'Interim Leadership',
+                description: 'Fill COO vacancies while you recruit permanently. Maintain operational continuity, drive key initiatives, and keep the business moving forward.',
                 icon: '🤝',
               },
             ].map((item, index) => (
@@ -171,34 +171,34 @@ export default function InterimCOOServicesPage() {
           <div className="space-y-8">
             {[
               {
-                title: 'Free Your CEO',
-                description: 'Let your CEO focus on strategy, fundraising, and growth instead of day-to-day operations. A interim COO handles execution so leadership can lead.',
-                stat: '50%',
-                statLabel: 'CEO Time Freed',
+                title: 'Immediate Operational Leadership',
+                description: 'Fill critical COO vacancies within 2-3 weeks instead of 6-12 months. Maintain operational continuity and momentum while you search for a permanent hire or during periods of transformation.',
+                stat: '2-3',
+                statLabel: 'Weeks to Start',
               },
               {
-                title: 'Cost Efficiency',
-                description: 'Access COO-level expertise at 40-60% less than a full-time hire. Pay only for the time you need—typically £75,000-£140,000 per year versus £180,000+ for full-time.',
-                stat: '55%',
-                statLabel: 'Cost Savings',
+                title: 'Crisis-Ready Expertise',
+                description: 'Interim COOs have led through operational crises, turnarounds, and transformations multiple times. They diagnose problems quickly and implement proven solutions under pressure.',
+                stat: '10+',
+                statLabel: 'Turnarounds Led',
               },
               {
-                title: 'Scale Faster',
-                description: 'Interim COOs have scaled companies before. They know what operational infrastructure you need at each stage and can implement it quickly.',
-                stat: '2x',
-                statLabel: 'Scaling Speed',
+                title: 'Transformation Delivery',
+                description: 'Drive major operational change programmes—restructuring, M&A integration, system implementations, efficiency drives. Interim COOs deliver measurable results within defined timeframes.',
+                stat: '3-12',
+                statLabel: 'Month Engagements',
               },
               {
-                title: 'Immediate Impact',
-                description: 'Skip months of recruitment. A interim COO can start within days, diagnose operational issues quickly, and begin implementing improvements.',
-                stat: '7',
-                statLabel: 'Days to Start',
+                title: 'No Long-Term Commitment',
+                description: 'Engage for exactly as long as you need. Whether it\'s a 3-month turnaround or 12-month transformation, you get senior leadership without permanent employment obligations.',
+                stat: 'Zero',
+                statLabel: 'Long-Term Commitment',
               },
               {
-                title: 'Cross-Company Experience',
-                description: 'Interim COOs work across multiple businesses. They bring best practices, benchmarks, and proven playbooks from diverse operational challenges.',
+                title: 'Cross-Industry Experience',
+                description: 'Interim COOs have worked across multiple sectors and business models. They bring best practices, benchmarking data, and proven methodologies from diverse operational challenges.',
                 stat: '5+',
-                statLabel: 'Companies Seen',
+                statLabel: 'Industries Covered',
               },
             ].map((benefit, index) => (
               <div key={index} className="flex gap-6 p-6 bg-gray-50 border-l-4 border-orange-500">
@@ -225,40 +225,40 @@ export default function InterimCOOServicesPage() {
           </div>
           <div className="prose prose-lg prose-gray max-w-none mb-8">
             <p>
-              The right time to hire a interim COO depends on your operational challenges. Here are the most common scenarios:
+              Interim COOs are deployed during critical operational moments. Here are the most common scenarios requiring full-time temporary operational leadership:
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'CEO Overwhelmed with Operations',
-                description: 'If the CEO is spending more time managing operations than leading strategy, it\'s time for a COO to take the operational load.',
-                timing: 'Before burnout',
+                scenario: 'COO Vacancy or Departure',
+                description: 'Your COO has left suddenly or during a planned transition. You need immediate operational leadership while recruiting a permanent replacement to maintain continuity.',
+                timing: 'Immediate deployment',
               },
               {
-                scenario: 'Rapid Growth',
-                description: 'Scaling fast and operations are struggling to keep up. Processes are breaking, quality is slipping, and the team is stretched thin.',
-                timing: 'At 50%+ growth',
+                scenario: 'Operational Turnaround',
+                description: 'Operations are failing—missed deadlines, quality issues, cost overruns, customer complaints. You need an experienced leader to diagnose problems and implement fixes fast.',
+                timing: 'Within 2 weeks',
               },
               {
-                scenario: 'Post-Funding Scale',
-                description: 'You\'ve raised capital and need to scale quickly. Investors expect operational excellence and the ability to execute on growth plans.',
-                timing: 'Immediately after close',
+                scenario: 'Rapid Scale-Up',
+                description: 'You\'re scaling 2-5x and need to build operational infrastructure quickly. An interim COO implements processes, systems, and structures that support aggressive growth.',
+                timing: 'Pre-growth phase',
               },
               {
-                scenario: 'Operational Chaos',
-                description: 'Things are falling through the cracks. Projects are delayed, communication is broken, and there\'s no clear accountability.',
-                timing: 'As soon as possible',
+                scenario: 'M&A Integration',
+                description: 'You\'ve acquired a business and need to integrate operations. An interim COO leads the integration, harmonises processes, and realises synergies within 6-12 months.',
+                timing: 'At deal close',
               },
               {
-                scenario: 'Preparing for Exit',
-                description: 'M&A buyers and IPO investors want to see operational maturity. A interim COO can professionalise operations for due diligence.',
-                timing: '12-18 months before',
+                scenario: 'Restructuring Programme',
+                description: 'You\'re restructuring operations—closing sites, consolidating functions, implementing redundancies. An interim COO provides objective leadership through difficult change.',
+                timing: 'Before announcement',
               },
               {
-                scenario: 'Building Infrastructure',
-                description: 'You need to implement systems, processes, and structures but lack the expertise. A interim COO can build the foundation.',
-                timing: 'Before it becomes urgent',
+                scenario: 'Supply Chain Crisis',
+                description: 'Major supply chain disruption, quality failures, or logistics breakdowns. An interim COO takes control, stabilises operations, and prevents recurrence.',
+                timing: 'Immediate',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
@@ -275,17 +275,46 @@ export default function InterimCOOServicesPage() {
       <section id="calculator" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-8 text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim COO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time COO</p>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Pricing</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does an Interim COO Cost?</h2>
+            <p className="text-gray-600 mt-4">Full-time temporary COO leadership pricing</p>
           </div>
-          <RoleCalculator role="coo" />
-          <div className="mt-8 prose prose-gray max-w-none">
-            <h3 className="text-xl font-bold text-gray-900">Typical Interim COO Pricing</h3>
+          <div className="prose prose-gray max-w-none">
+            <div className="bg-gray-50 p-8 border-l-4 border-orange-500 mb-8">
+              <h3 className="text-2xl font-bold text-gray-900 mt-0 mb-4">Typical Interim COO Day Rates</h3>
+              <div className="grid md:grid-cols-3 gap-6 mb-6">
+                <div>
+                  <div className="text-3xl font-black text-orange-600">£1,200-£1,500</div>
+                  <div className="text-sm text-gray-600 mt-1">Mid-sized companies</div>
+                  <div className="text-xs text-gray-500 mt-2">£10M-£50M revenue</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-black text-orange-600">£1,500-£1,800</div>
+                  <div className="text-sm text-gray-600 mt-1">Large companies</div>
+                  <div className="text-xs text-gray-500 mt-2">£50M-£200M revenue</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-black text-orange-600">£1,800-£2,000</div>
+                  <div className="text-sm text-gray-600 mt-1">Complex turnarounds</div>
+                  <div className="text-xs text-gray-500 mt-2">Crisis or transformation</div>
+                </div>
+              </div>
+            </div>
+
+            <h3 className="text-xl font-bold text-gray-900">Engagement Costs</h3>
             <ul className="text-gray-600">
-              <li><strong>Day Rate:</strong> £750-£1,400 per day (depending on experience and complexity)</li>
-              <li><strong>Monthly Retainer:</strong> £3,000-£5,500 for 1-2 days per week</li>
-              <li><strong>Annual Cost:</strong> £75,000-£140,000 (vs £180,000+ for full-time)</li>
+              <li><strong>3-month engagement:</strong> £72,000-£120,000 (60 working days)</li>
+              <li><strong>6-month engagement:</strong> £144,000-£240,000 (120 working days)</li>
+              <li><strong>12-month engagement:</strong> £288,000-£480,000 (240 working days)</li>
+            </ul>
+
+            <h3 className="text-xl font-bold text-gray-900 mt-8">What's Included</h3>
+            <ul className="text-gray-600">
+              <li>Full-time operational leadership (5 days/week)</li>
+              <li>Executive team membership</li>
+              <li>No employer NI, pension, or benefits costs</li>
+              <li>No notice period or redundancy liability</li>
+              <li>Flexible engagement duration</li>
             </ul>
           </div>
         </div>
@@ -296,8 +325,8 @@ export default function InterimCOOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time COO</h2>
-            <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Fractional vs Full-Time COO</h2>
+            <p className="text-gray-600 mt-4">Choose the right operational leadership model</p>
           </div>
           <ServiceComparisonTable role="COO" accentColor="orange" />
         </div>
@@ -308,8 +337,8 @@ export default function InterimCOOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim COO</h2>
-            <p className="text-gray-600 mt-4">From first conversation to start date in as little as 7 days</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim COO</h2>
+            <p className="text-gray-600 mt-4">From first conversation to start date in 2-3 weeks</p>
           </div>
           <HireProcessStepper accentColor="orange" />
         </div>
@@ -331,17 +360,17 @@ export default function InterimCOOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-orange-400">Interim COO?</span>
+            Ready to Hire an<br /><span className="text-orange-400">Interim COO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your operational challenges and we'll match you with pre-vetted interim COOs who have solved them before.
+            Tell us about your operational challenge and we'll match you with experienced interim COOs who have led similar transformations, turnarounds, or transitions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/handler/sign-up" className="px-10 py-5 bg-orange-500 text-black font-bold uppercase tracking-wider hover:bg-orange-400 transition-colors">
-              Find a Interim COO
+              Find an Interim COO
             </Link>
             <Link href="/interim-coo-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-              I'm a COO Looking for Roles
+              I'm a COO Looking for Interim Roles
             </Link>
           </div>
         </div>

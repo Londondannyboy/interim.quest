@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import { FAQ, CFO_SERVICE_FAQS } from '@/components/FAQ'
 import { VideoHeroBackground } from '@/components/VideoHeroBackground'
-import { RoleCalculator } from '@/components/RoleCalculator'
 import { HireProcessStepper } from '@/components/HireProcessStepper'
 import { ServiceComparisonTable } from '@/components/ServiceComparisonTable'
 
@@ -11,15 +10,15 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim CFO Services UK | Hire a Part-Time CFO',
-  description: 'Hire a Interim CFO for your business. Access senior financial leadership at a fraction of full-time cost. Expert CFOs for fundraising, financial strategy, and growth. Start within days.',
-  keywords: 'interim cfo, interim cfo services, hire interim cfo, part time cfo, interim chief financial officer, interim cfo uk, interim finance director',
+  title: 'Interim CFO Services UK | Hire a Temporary CFO',
+  description: 'Hire an Interim CFO for leadership transitions, turnarounds, and transformation. Full-time temporary financial leadership for 3-12 months. Start within days.',
+  keywords: 'interim cfo, interim cfo services, hire interim cfo, temporary cfo, interim chief financial officer, interim cfo uk, interim finance director',
   alternates: {
     canonical: 'https://interim.quest/interim-cfo-services',
   },
   openGraph: {
-    title: 'Interim CFO Services UK | Hire a Part-Time CFO',
-    description: 'Hire a Interim CFO for your business. Senior financial leadership at a fraction of full-time cost.',
+    title: 'Interim CFO Services UK | Hire a Temporary CFO',
+    description: 'Hire an Interim CFO for leadership transitions, turnarounds, and transformation. Full-time temporary financial leadership.',
     images: ['/images/interim-cfo-services.jpg'],
     url: 'https://interim.quest/interim-cfo-services',
   },
@@ -45,29 +44,29 @@ export default function InterimCFOServicesPage() {
                 <span className="text-gray-400">Services UK</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
-                Hire a <strong className="text-white">Interim CFO</strong> to lead your finance function.
-                Senior financial leadership, strategic expertise, and hands-on support—at a fraction of full-time cost.
+                Hire an <strong className="text-white">Interim CFO</strong> for leadership transitions, turnarounds, and transformation.
+                Full-time temporary financial leadership when you need it most.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">60%</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Cost Savings</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">Full-Time</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Dedicated Focus</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">1-3</div>
-                  <div className="text-white/60 text-sm uppercase tracking-wider">Days/Week</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">3-12</div>
+                  <div className="text-white/60 text-sm uppercase tracking-wider">Month Engagements</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">7 Days</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">48hrs</div>
                   <div className="text-white/60 text-sm uppercase tracking-wider">To Start</div>
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="#contact" className="px-8 py-4 bg-white text-black font-bold uppercase tracking-wider hover:bg-gray-100 transition-colors">
-                  Hire a Interim CFO
+                  Hire an Interim CFO
                 </Link>
-                <Link href="#calculator" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
-                  Calculate Savings
+                <Link href="#when-to-hire" className="px-8 py-4 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
+                  When You Need One
                 </Link>
               </div>
             </div>
@@ -75,31 +74,31 @@ export default function InterimCFOServicesPage() {
         </div>
       </section>
 
-      {/* What is a Interim CFO */}
+      {/* What is an Interim CFO */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Overview</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is a Interim CFO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What is an Interim CFO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              A <strong className="font-semibold text-gray-900">Interim CFO</strong> is an experienced Chief Financial Officer who works with your company on a part-time basis—typically 1-3 days per week. You get the strategic financial leadership, expertise, and guidance of a senior CFO without the commitment and cost of a full-time hire.
+              An <strong className="font-semibold text-gray-900">Interim CFO</strong> is a senior finance executive who steps into your organisation on a full-time basis for a defined period—typically 3-12 months. They provide immediate, hands-on leadership during critical transitions, turnarounds, or transformation programmes.
             </p>
             <p>
-              Unlike consultants who advise from the sidelines, a interim CFO becomes part of your leadership team. They attend board meetings, manage your finance function, build investor relationships, and take ownership of financial outcomes—just not five days a week.
+              Unlike fractional CFOs who work part-time across multiple clients, an interim CFO is fully dedicated to your business. They're embedded in your team, attending every meeting, driving day-to-day decisions, and taking complete ownership of your finance function.
             </p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-gray-900">
               <p className="text-xl font-semibold text-gray-900 mb-0">
-                "Companies access CFO expertise for £3,000-£6,000 per week instead of £12,500+ monthly for a full-time CFO."
+                "Interim CFOs are deployed when organisations face leadership gaps, major transformations, or crisis situations requiring immediate senior expertise."
               </p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CFO vs Full-Time CFO</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim CFO vs Fractional CFO</h3>
             <p>
-              A full-time CFO costs £150,000-£250,000 in salary alone, plus benefits, equity, office space, and management overhead. For many growing companies, that's overkill—you need CFO-level thinking on capital strategy and fundraising, but not 40 hours a week of it.
+              A fractional CFO works 1-3 days per week, providing strategic oversight while you handle day-to-day operations. An interim CFO works full-time—they're in the trenches every day, managing your team, handling operational finance, and driving transformation at pace.
             </p>
             <p>
-              A interim CFO gives you exactly what you need: senior financial leadership scaled to your actual requirements. As your company grows, you can increase their time—or transition to a full-time hire when the role justifies it.
+              Choose <strong>interim</strong> when you need someone to fully own the role (vacancy, crisis, transformation). Choose <strong>fractional</strong> when you need strategic guidance but don't have full-time work to justify the cost.
             </p>
           </div>
         </div>
@@ -110,45 +109,45 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Responsibilities</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does a Interim CFO Do?</h2>
-            <p className="text-xl text-gray-600 mt-4">Core responsibilities your interim CFO will own</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">What Does an Interim CFO Do?</h2>
+            <p className="text-xl text-gray-600 mt-4">Full ownership of your finance function during critical periods</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Financial Strategy',
-                description: 'Develop and execute financial strategies aligned with your business goals. Create financial models, set KPIs, and drive data-informed decisions.',
-                icon: '📊',
+                title: 'Leadership Gap Coverage',
+                description: 'Step in immediately when your CFO resigns, is terminated, or takes extended leave. Maintain continuity while you recruit a permanent replacement.',
+                icon: '🎯',
               },
               {
-                title: 'Fundraising & Capital',
-                description: 'Lead equity raises and debt facilities. Build financial models, prepare data rooms, manage due diligence, and negotiate terms with investors.',
-                icon: '💰',
+                title: 'Turnaround & Restructuring',
+                description: 'Lead financial restructuring, cost reduction programmes, and cash conservation. Navigate distressed situations with creditors and stakeholders.',
+                icon: '🔄',
               },
               {
-                title: 'Cash Flow Management',
-                description: 'Optimise working capital, manage cash flow forecasting, and ensure your runway supports your growth plans.',
-                icon: '📈',
-              },
-              {
-                title: 'Financial Reporting',
-                description: 'Produce board packs, investor reports, and management accounts. Build the reporting infrastructure that scales with you.',
-                icon: '📋',
-              },
-              {
-                title: 'Team Building',
-                description: 'Hire and develop your finance team. Implement processes, systems, and controls that professionalise your finance function.',
-                icon: '👥',
-              },
-              {
-                title: 'Investor Relations',
-                description: 'Manage relationships with existing investors. Prepare for board meetings and provide the financial credibility investors expect.',
+                title: 'M&A Execution',
+                description: 'Drive financial due diligence, integration planning, and post-merger integration. Lead carve-outs, disposals, and acquisition programmes.',
                 icon: '🤝',
               },
               {
-                title: 'M&A Support',
-                description: 'Lead financial due diligence for acquisitions. Prepare your company for sale or IPO with investor-ready financials.',
-                icon: '🔄',
+                title: 'IPO & Exit Preparation',
+                description: 'Prepare your finance function for IPO-readiness. Implement controls, clean up accounts, and lead the financial workstream of listing preparations.',
+                icon: '📈',
+              },
+              {
+                title: 'Systems & Transformation',
+                description: 'Lead ERP implementations, finance transformation programmes, and operational improvement initiatives requiring dedicated leadership.',
+                icon: '⚙️',
+              },
+              {
+                title: 'Crisis Management',
+                description: 'Provide immediate leadership during financial crises, fraud investigations, regulatory issues, or unexpected departures.',
+                icon: '🚨',
+              },
+              {
+                title: 'Private Equity Support',
+                description: 'Support PE-backed companies through value creation plans, 100-day programmes, and preparing businesses for exit.',
+                icon: '💼',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200 hover:border-gray-400 transition-colors">
@@ -166,39 +165,39 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Benefits</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire a Interim CFO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Why Hire an Interim CFO?</h2>
           </div>
           <div className="space-y-8">
             {[
               {
-                title: 'Cost Efficiency',
-                description: 'Access CFO-level expertise at 40-60% less than a full-time hire. Pay only for the time you need—typically £80,000-£150,000 per year versus £200,000+ for full-time.',
-                stat: '60%',
-                statLabel: 'Cost Savings',
+                title: 'Immediate Availability',
+                description: 'Interim CFOs can start within days, not months. When your CFO resigns or you face a crisis, you can't wait 3-6 months for a permanent hire.',
+                stat: '48h',
+                statLabel: 'To Start',
               },
               {
-                title: 'Immediate Impact',
-                description: 'Skip the 3-6 month recruitment process. Interim CFOs are experienced professionals who can start within days and make immediate impact.',
-                stat: '7',
-                statLabel: 'Days to Start',
+                title: 'Full-Time Dedication',
+                description: 'Unlike fractional or consulting arrangements, an interim CFO is 100% focused on your business. They're in the office, managing your team, and driving results every day.',
+                stat: '100%',
+                statLabel: 'Dedicated',
               },
               {
-                title: 'Senior Expertise',
-                description: 'Get a CFO with 15-20+ years of experience who has seen your challenges before. Many have raised hundreds of millions in funding across multiple companies.',
-                stat: '15+',
+                title: 'No Long-Term Commitment',
+                description: 'Engage for exactly as long as you need—whether that's 3 months to cover a gap or 12 months to lead a transformation. No permanent hire obligations.',
+                stat: '3-12',
+                statLabel: 'Months Typical',
+              },
+              {
+                title: 'Battle-Tested Experience',
+                description: 'Interim CFOs have typically led finance functions at multiple companies. They've seen turnarounds, IPOs, and crises before—and know how to navigate them.',
+                stat: '20+',
                 statLabel: 'Years Experience',
               },
               {
-                title: 'Flexibility',
-                description: 'Scale up during fundraising or critical periods, scale down during steady states. No long-term commitments—engagements flex with your needs.',
-                stat: '1-5',
-                statLabel: 'Days/Week Flex',
-              },
-              {
-                title: 'Fresh Perspective',
-                description: 'Interim CFOs work across multiple companies and industries. They bring best practices, benchmarks, and insights you wouldn\'t get from a single-company CFO.',
-                stat: '3-5',
-                statLabel: 'Companies Seen',
+                title: 'Objective Perspective',
+                description: 'As an outsider, an interim CFO can make tough decisions, challenge sacred cows, and implement changes that an internal candidate might avoid.',
+                stat: 'Fresh',
+                statLabel: 'Eyes',
               },
             ].map((benefit, index) => (
               <div key={index} className="flex gap-6 p-6 bg-gray-50 border-l-4 border-gray-900">
@@ -217,48 +216,48 @@ export default function InterimCFOServicesPage() {
       </section>
 
       {/* When to Hire */}
-      <section className="py-20 bg-gray-50">
+      <section id="when-to-hire" className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Timing</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire a Interim CFO?</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">When Should You Hire an Interim CFO?</h2>
           </div>
           <div className="prose prose-lg prose-gray max-w-none mb-8">
             <p>
-              The right time to hire a interim CFO depends on your company's stage and challenges. Here are the most common scenarios:
+              Interim CFOs are typically engaged in situations requiring immediate, full-time senior leadership. Here are the most common scenarios:
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                scenario: 'Preparing for Fundraising',
-                description: 'You\'re planning a Series A, B, or later round. You need financial models, a data room, and someone who can represent your finances to investors credibly.',
-                timing: 'Start 3-6 months before',
+                scenario: 'CFO Resignation or Departure',
+                description: 'Your CFO has resigned, been terminated, or is taking extended leave. You need immediate cover while recruiting a permanent replacement.',
+                timing: 'Immediate',
               },
               {
-                scenario: 'Post-Funding Scale-Up',
-                description: 'You\'ve raised capital and need to professionalise finance. Investors expect proper reporting, controls, and financial leadership.',
-                timing: 'Immediately after close',
+                scenario: 'Turnaround or Restructuring',
+                description: 'Your business is in distress and needs experienced leadership to manage cash, negotiate with creditors, and drive cost reduction.',
+                timing: 'Crisis situations',
               },
               {
-                scenario: 'Revenue £1M-£20M',
-                description: 'You\'ve outgrown a bookkeeper or part-time accountant but can\'t justify a £200k CFO. This is the sweet spot for interim.',
-                timing: 'When complexity increases',
+                scenario: 'M&A Transaction',
+                description: 'You're acquiring a business, being acquired, or executing a carve-out. You need dedicated CFO leadership to drive the financial workstream.',
+                timing: '3-6 months before close',
               },
               {
-                scenario: 'CEO Spending Too Much Time on Finance',
-                description: 'If you\'re handling investor updates, cash management, and financial planning yourself, it\'s time to delegate to a professional.',
-                timing: 'Before burnout',
-              },
-              {
-                scenario: 'M&A or Exit Planning',
-                description: 'You\'re considering acquiring companies, being acquired, or preparing for IPO. These processes require dedicated financial leadership.',
+                scenario: 'IPO or Major Fundraise',
+                description: 'You're preparing for IPO or a significant funding round and need CFO-level leadership to prepare the business for scrutiny.',
                 timing: '6-12 months before',
               },
               {
-                scenario: 'Financial Function Needs Building',
-                description: 'You need to implement systems, hire finance staff, and create processes. A interim CFO can build the foundation, then hand off to an FD.',
-                timing: 'As early as practical',
+                scenario: 'PE Portfolio Company',
+                description: 'Private equity firms often deploy interim CFOs into portfolio companies for value creation, 100-day plans, or exit preparation.',
+                timing: 'Post-acquisition',
+              },
+              {
+                scenario: 'Finance Transformation',
+                description: 'You're implementing a new ERP, restructuring your finance function, or driving a major change programme requiring dedicated leadership.',
+                timing: 'Project duration',
               },
             ].map((item, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
@@ -271,26 +270,42 @@ export default function InterimCFOServicesPage() {
         </div>
       </section>
 
-      {/* Cost Calculator */}
-      <section id="calculator" className="py-20 bg-white">
+      {/* Cost Section */}
+      <section id="cost" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-8 text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Calculator</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does a Interim CFO Cost?</h2>
-            <p className="text-gray-600 mt-4">Compare the cost of interim vs full-time CFO</p>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Investment</span>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How Much Does an Interim CFO Cost?</h2>
+            <p className="text-gray-600 mt-4">Day rates for full-time interim engagement</p>
           </div>
-          <RoleCalculator role="cfo" />
-          <div className="mt-8 prose prose-gray max-w-none">
-            <h3 className="text-xl font-bold text-gray-900">Typical Interim CFO Pricing</h3>
-            <ul className="text-gray-600">
-              <li><strong>Day Rate:</strong> £800-£1,500 per day (depending on experience and specialisation)</li>
-              <li><strong>Monthly Retainer:</strong> £3,000-£6,000 for 1-2 days per week</li>
-              <li><strong>Annual Cost:</strong> £80,000-£150,000 (vs £200,000+ for full-time)</li>
-            </ul>
-            <p className="text-sm text-gray-500">
-              Pricing varies based on the CFO's experience, your industry, and complexity of the role.
-              Specialist expertise (e.g., SaaS metrics, PE-backed companies) commands premium rates.
-            </p>
+          <div className="bg-gray-50 p-8 border border-gray-200">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              <div className="text-center">
+                <div className="text-4xl font-black text-gray-900">£1,200-£1,800</div>
+                <div className="text-sm text-gray-600 mt-1">Day Rate (Typical)</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-black text-gray-900">£2,000-£2,500</div>
+                <div className="text-sm text-gray-600 mt-1">Day Rate (Premium/FTSE)</div>
+              </div>
+              <div className="text-center">
+                <div className="text-4xl font-black text-gray-900">£25k-£45k</div>
+                <div className="text-sm text-gray-600 mt-1">Monthly Cost</div>
+              </div>
+            </div>
+            <div className="prose prose-gray max-w-none">
+              <h3 className="text-xl font-bold text-gray-900">Typical Interim CFO Pricing</h3>
+              <ul className="text-gray-600">
+                <li><strong>Standard Day Rate:</strong> £1,200-£1,800 per day (SME to mid-market)</li>
+                <li><strong>Premium Day Rate:</strong> £2,000-£2,500 per day (large corporates, FTSE, complex situations)</li>
+                <li><strong>Monthly Cost:</strong> £25,000-£45,000 for full-time engagement</li>
+                <li><strong>Typical Engagement:</strong> 3-12 months with 1-month notice period</li>
+              </ul>
+              <p className="text-sm text-gray-500">
+                Rates vary based on seniority, sector expertise, and complexity of the assignment.
+                Crisis situations and turnarounds typically command premium rates.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -300,8 +315,8 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Comparison</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Interim vs Full-Time CFO</h2>
-            <p className="text-gray-600 mt-4">Choose the right model for your needs</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim vs Fractional vs Full-Time CFO</h2>
+            <p className="text-gray-600 mt-4">Choose the right model for your situation</p>
           </div>
           <ServiceComparisonTable role="CFO" accentColor="gray" />
         </div>
@@ -312,18 +327,18 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Process</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire a Interim CFO</h2>
-            <p className="text-gray-600 mt-4">From first conversation to start date in as little as 7 days</p>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">How to Hire an Interim CFO</h2>
+            <p className="text-gray-600 mt-4">From first conversation to start date in as little as 48 hours</p>
           </div>
           <HireProcessStepper accentColor="gray" />
           <div className="mt-12 prose prose-gray max-w-none">
             <h3 className="text-xl font-bold text-gray-900">What to Look For</h3>
             <ul className="text-gray-600">
-              <li><strong>Relevant Experience:</strong> Have they worked with companies at your stage and in your industry?</li>
-              <li><strong>Specific Expertise:</strong> Do they have the skills you need most (fundraising, M&A, international expansion)?</li>
-              <li><strong>Cultural Fit:</strong> Will they work well with your team and leadership style?</li>
-              <li><strong>Availability:</strong> Can they commit to the time you need, when you need it?</li>
-              <li><strong>Track Record:</strong> Can they demonstrate results from previous interim engagements?</li>
+              <li><strong>Relevant Situation Experience:</strong> Have they handled similar situations (turnaround, M&A, IPO)?</li>
+              <li><strong>Sector Knowledge:</strong> Do they understand your industry's specific financial challenges?</li>
+              <li><strong>Immediate Availability:</strong> Can they start when you need them?</li>
+              <li><strong>Track Record:</strong> Can they demonstrate successful outcomes from previous interim assignments?</li>
+              <li><strong>Cultural Fit:</strong> Will they integrate well with your team during an intense period?</li>
             </ul>
           </div>
         </div>
@@ -334,17 +349,17 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="mb-12">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Industries</span>
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CFOs by Industry</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900">Interim CFOs by Sector</h2>
             <p className="text-gray-600 mt-4">Specialists with deep sector experience</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { name: 'SaaS & Technology', description: 'ARR/MRR metrics, burn rate management, growth financing', link: '/interim-jobs-saas' },
-              { name: 'E-commerce & DTC', description: 'Unit economics, inventory financing, marketplace expansion', link: '/interim-jobs-ecommerce' },
-              { name: 'FinTech', description: 'Regulatory compliance, funding rounds, FCA requirements', link: '/interim-jobs-finance' },
-              { name: 'Healthcare & HealthTech', description: 'NHS contracting, clinical economics, health regulations', link: '/interim-jobs-healthcare' },
-              { name: 'Professional Services', description: 'Partner economics, utilisation metrics, practice management', link: '/interim-jobs-professional-services' },
-              { name: 'Startups & Scale-ups', description: 'Seed to Series C, investor relations, rapid scaling', link: '/interim-jobs-startups' },
+              { name: 'Technology & SaaS', description: 'Scaling finance functions, fundraising, SaaS metrics and unit economics', link: '/interim-jobs-tech' },
+              { name: 'Private Equity Portfolio', description: 'Value creation, 100-day plans, exit preparation, carve-outs', link: '/interim-jobs-finance' },
+              { name: 'Healthcare & Life Sciences', description: 'NHS contracting, clinical trials finance, regulatory compliance', link: '/interim-jobs-healthcare' },
+              { name: 'Manufacturing & Industrial', description: 'Cost reduction, working capital, operational turnaround', link: '/interim-jobs-ecommerce' },
+              { name: 'Professional Services', description: 'Partner economics, utilisation, practice restructuring', link: '/interim-jobs-professional-services' },
+              { name: 'Retail & Consumer', description: 'Turnaround, restructuring, cash management, CVA experience', link: '/interim-jobs-startups' },
             ].map((industry, index) => (
               <Link key={index} href={industry.link} className="block bg-white p-6 border border-gray-200 hover:border-gray-400 hover:shadow-lg transition-all">
                 <h3 className="font-bold text-gray-900 mb-2">{industry.name}</h3>
@@ -371,14 +386,14 @@ export default function InterimCFOServicesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500 mb-4 block">Get Started</span>
           <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">
-            Ready to Hire a<br /><span className="text-gray-400">Interim CFO?</span>
+            Ready to Hire an<br /><span className="text-gray-400">Interim CFO?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
-            Tell us about your needs and we'll match you with pre-vetted interim CFOs who fit your requirements. Start conversations within 48 hours.
+            Tell us about your situation and we'll match you with experienced interim CFOs who can start immediately. First conversations within 24 hours.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/handler/sign-up" className="px-10 py-5 bg-white text-black font-bold uppercase tracking-wider hover:bg-gray-100 transition-colors">
-              Find a Interim CFO
+            <Link href="/contact/companies" className="px-10 py-5 bg-white text-black font-bold uppercase tracking-wider hover:bg-gray-100 transition-colors">
+              Find an Interim CFO
             </Link>
             <Link href="/interim-cfo-jobs-uk" className="px-10 py-5 border-2 border-white text-white font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors">
               I'm a CFO Looking for Roles
@@ -397,7 +412,7 @@ export default function InterimCFOServicesPage() {
               <Link href="/interim-cto-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim CTO</Link>
               <Link href="/interim-coo-services" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">Interim COO</Link>
               <Link href="/interim-cfo-jobs-uk" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">CFO Jobs</Link>
-              <Link href="/interim-cfo-salary" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">CFO Salary Guide</Link>
+              <Link href="/interim-cfo-salary" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">CFO Day Rates</Link>
             </div>
           </div>
         </div>

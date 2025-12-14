@@ -35,28 +35,28 @@ const liverpoolIndustries = [
 
 const successStories = [
   {
-    quote: "Baltic Triangle has transformed Liverpool's tech scene. I work with three digital agencies and a SaaS startup. The energy here rivals anywhere in the UK.",
+    quote: "Led a 9-month digital transformation for a Liverpool scale-up in Baltic Triangle. The tech scene here is vibrant and the interim market is growing rapidly.",
     name: "Sarah Hughes",
     role: "Interim CMO",
     area: "Baltic Triangle",
     clients: 4,
-    earnings: "£115k/year"
+    earnings: "£650/day"
   },
   {
-    quote: "The Knowledge Quarter offers incredible opportunities in life sciences. These university spin-outs need experienced financial leadership as they scale.",
+    quote: "Took a Knowledge Quarter biotech startup through Series A funding. These university spin-outs need experienced interim CFOs who understand complex fundraising.",
     name: "Michael O'Brien",
     role: "Interim CFO",
     area: "Knowledge Quarter",
     clients: 3,
-    earnings: "£125k/year"
+    earnings: "£750/day"
   },
   {
-    quote: "Liverpool's cost of living means my interim income goes much further. I'm earning the same as my London peers but with a much better lifestyle.",
+    quote: "Liverpool's lower costs mean my day rate goes further. I moved from London and never looked back - same quality work, better quality of life.",
     name: "James Harrison",
     role: "Interim CTO",
     area: "City Centre",
     clients: 3,
-    earnings: "£130k/year"
+    earnings: "£800/day"
   },
 ]
 
@@ -147,7 +147,7 @@ export default async function LiverpoolPage() {
             Interim Jobs Liverpool
           </h1>
           <p className="max-w-2xl text-xl text-red-100 mb-10 leading-relaxed">
-            {stats.totalLiverpool}+ interim executive opportunities in the Liverpool City Region. £550-£1,000 daily rates. Work with innovative digital, creative, and life sciences companies.
+            {stats.totalLiverpool}+ full-time temporary executive roles in the Liverpool City Region. £550-£1,000 daily rates. Lead transformation, change, and growth initiatives with innovative digital, creative, and life sciences companies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -273,7 +273,7 @@ export default async function LiverpoolPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Creative Capital</h3>
               <p className="text-gray-600">
-                Liverpool has the UK's largest creative and digital cluster outside London. Baltic Triangle hosts over 500 creative and tech businesses.
+                Liverpool has the UK's largest creative and digital cluster outside London. Baltic Triangle hosts over 500 creative and tech businesses needing interim leadership for growth initiatives, digital transformations, and market expansion.
               </p>
             </div>
 
@@ -293,7 +293,7 @@ export default async function LiverpoolPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Knowledge Quarter</h3>
               <p className="text-gray-600">
-                World-class universities driving innovation in life sciences, materials, and AI. A hotbed for interim CFO and CTO opportunities.
+                World-class universities driving innovation in life sciences, materials, and AI. University spin-outs regularly seek interim CFOs and CTOs to commercialize research and scale operations.
               </p>
             </div>
           </div>
@@ -381,7 +381,7 @@ export default async function LiverpoolPage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-red-200 text-sm">{story.role}</p>
-                    <p className="text-red-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-red-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -405,7 +405,7 @@ export default async function LiverpoolPage() {
                 <span className="text-red-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Liverpool is a part-time executive role where you work with Liverpool-based companies 1-3 days per week. Liverpool's growing digital and creative sectors make it an excellent market for interim CFOs, CMOs, and CTOs.
+                An interim job in Liverpool is a full-time temporary executive role, typically lasting 3-18 months. You work on-site or hybrid to lead specific initiatives like transformations, turnarounds, or growth projects. Liverpool's growing digital and creative sectors create strong demand for interim CFOs, CMOs, and CTOs.
               </p>
             </details>
 
@@ -415,7 +415,7 @@ export default async function LiverpoolPage() {
                 <span className="text-red-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Liverpool interim executives typically earn £550-£1,000 per day. With the city's lower cost of living (40% less than London), take-home value is excellent. Most professionals earn £110,000-£180,000+ annually working with 2-4 clients.
+                Liverpool interim executives typically earn £550-£1,000 per day on 3-12 month contracts. With the city's lower cost of living (40% less than London), take-home value is excellent. Annual earnings range from £110,000-£200,000+ for full-time interim engagements.
               </p>
             </details>
 
@@ -515,10 +515,10 @@ export default async function LiverpoolPage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-red-900 via-red-800 to-red-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Liverpool?
+            Ready for Interim Work in Liverpool?
           </h2>
           <p className="text-xl text-red-100 mb-10">
-            {stats.totalLiverpool}+ interim opportunities in the North West's creative capital.
+            {stats.totalLiverpool}+ full-time temporary executive roles in the North West's creative capital.
           </p>
           <Link
             href="/interim-jobs?location=Liverpool"

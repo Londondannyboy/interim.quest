@@ -6,11 +6,11 @@ import { JobCard } from '@/components/JobCard'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Bristol - Executive Roles in the South West',
-  description: 'Find interim executive jobs in Bristol and the South West. CFO, CMO, CTO roles. £650-£1,100 daily rates. Tech, aerospace, and creative industries.',
+  title: 'Interim Jobs Bristol | Interim Quest',
+  description: 'Find interim executive jobs in Bristol and the South West. Full-time temporary CFO, CMO, CTO roles. £650-£1,100 daily rates. Tech, aerospace, and creative industries.',
   openGraph: {
-    title: 'Interim Jobs Bristol - Executive Roles in the South West',
-    description: 'Find interim executive jobs in Bristol and across the South West.',
+    title: 'Interim Jobs Bristol | Interim Quest',
+    description: 'Find interim executive jobs in Bristol. Full-time temporary CFO, CMO, CTO roles across the South West.',
     type: 'website',
   },
 }
@@ -104,7 +104,7 @@ export default async function BristolPage() {
           </h1>
           <img src="/logo.svg" alt="Interim Jobs Bristol - Executive roles in the South West" className="hidden" width={1} height={1} />
           <p className="max-w-2xl text-xl text-purple-100 mb-10 leading-relaxed">
-            {stats.total}+ interim executive opportunities across Bristol and the South West. £650-£1,100 daily rates. Aerospace, tech, and creative sectors thriving.
+            {stats.total}+ full-time temporary executive roles across Bristol and the South West. Interim management positions in aerospace, tech, and creative sectors. £650-£1,100 daily rates for fixed-term leadership assignments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -256,11 +256,11 @@ export default async function BristolPage() {
           <div className="space-y-6">
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                How much do interim executives earn in Bristol?
+                How much do interim managers earn in Bristol?
                 <span className="text-purple-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Bristol interim executives typically earn £650-£1,100 per day. Aerospace and tech roles command the highest rates, often matching London levels for specialist expertise.
+                Bristol interim managers typically earn £650-£1,100 per day on full-time temporary contracts. Aerospace and tech roles command the highest rates, often matching London levels for specialist expertise on 3-18 month assignments.
               </p>
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">

@@ -4,38 +4,38 @@ import { Suspense } from 'react'
 import { RateDistribution } from '@/components/RateDistribution'
 
 export const metadata: Metadata = {
-  title: 'Interim CMO Salary UK 2025 - Day Rates, Annual Earnings & Pay Guide',
-  description: 'Interim CMO salary guide for 2025. UK day rates £700-£1,400. Annual earnings £110k-£220k. Compare rates by location, industry and experience.',
-  keywords: 'interim cmo salary, interim cmo day rate, interim cmo pay, part time cmo salary, interim cmo uk salary',
+  title: 'Interim CMO Day Rates UK 2025 - Pay Guide & Monthly Earnings',
+  description: 'Interim CMO day rates in the UK for 2025. Typical rates £1,000-£2,000/day. Monthly earnings potential £20k-£42k. Full-time daily rates by location, industry and experience level.',
+  keywords: 'interim cmo day rate, interim cmo rates uk, interim cmo pay, interim cmo daily rate, interim cmo earnings',
   openGraph: {
-    title: 'Interim CMO Salary UK 2025 - Complete Pay Guide',
-    description: 'Interim CMO salary guide. UK day rates £700-£1,400. Annual earnings £110k-£220k.',
+    title: 'Interim CMO Day Rates UK 2025 - Complete Pay Guide',
+    description: 'Interim CMO day rates. UK rates £1,000-£2,000/day. Monthly earnings £20k-£42k.',
   },
 }
 
 const salaryData = {
   dayRates: [
-    { level: 'Entry-level Interim CMO', range: '£600-£800/day', annual: '£90k-£125k', experience: '10-12 years' },
-    { level: 'Mid-level Interim CMO', range: '£800-£1,100/day', annual: '£125k-£175k', experience: '12-18 years' },
-    { level: 'Senior Interim CMO', range: '£1,100-£1,400/day', annual: '£175k-£220k', experience: '18+ years' },
+    { level: 'Mid-level Interim CMO', range: '£1,000-£1,400/day', monthly: '£21k-£29k', experience: '12-18 years' },
+    { level: 'Senior Interim CMO', range: '£1,400-£1,800/day', monthly: '£29k-£38k', experience: '18-25 years' },
+    { level: 'Executive Interim CMO', range: '£1,800-£2,200/day', monthly: '£38k-£46k', experience: '25+ years' },
   ],
   byLocation: [
-    { location: 'London (Shoreditch/Tech City)', range: '£900-£1,400/day', premium: '+20%' },
-    { location: 'London (City/Canary Wharf)', range: '£850-£1,200/day', premium: '+15%' },
-    { location: 'Manchester', range: '£700-£1,000/day', premium: 'Base' },
-    { location: 'Birmingham', range: '£650-£950/day', premium: '-5%' },
-    { location: 'Edinburgh', range: '£700-£1,000/day', premium: 'Base' },
-    { location: 'Bristol', range: '£700-£1,000/day', premium: 'Base' },
-    { location: 'Remote UK', range: '£650-£950/day', premium: '-10%' },
+    { location: 'London (Tech/Scale-ups)', range: '£1,600-£2,200/day', premium: '+25%' },
+    { location: 'London (City/Corporate)', range: '£1,400-£2,000/day', premium: '+15%' },
+    { location: 'Manchester', range: '£1,100-£1,600/day', premium: 'Base' },
+    { location: 'Birmingham', range: '£1,000-£1,500/day', premium: '-5%' },
+    { location: 'Edinburgh', range: '£1,100-£1,600/day', premium: 'Base' },
+    { location: 'Bristol', range: '£1,100-£1,600/day', premium: 'Base' },
+    { location: 'Remote UK', range: '£1,000-£1,400/day', premium: '-10%' },
   ],
   byIndustry: [
-    { industry: 'B2B SaaS', range: '£1,000-£1,400/day', demand: 'Very High' },
-    { industry: 'DTC / E-commerce', range: '£900-£1,300/day', demand: 'Very High' },
-    { industry: 'FinTech', range: '£900-£1,250/day', demand: 'High' },
-    { industry: 'HealthTech / MedTech', range: '£850-£1,150/day', demand: 'High' },
-    { industry: 'Marketplaces', range: '£850-£1,200/day', demand: 'High' },
-    { industry: 'Professional Services', range: '£700-£1,000/day', demand: 'Medium' },
-    { industry: 'Non-profit / Social Enterprise', range: '£600-£850/day', demand: 'Low' },
+    { industry: 'B2B SaaS', range: '£1,600-£2,200/day', demand: 'Very High' },
+    { industry: 'DTC / E-commerce', range: '£1,400-£2,000/day', demand: 'Very High' },
+    { industry: 'FinTech', range: '£1,400-£1,900/day', demand: 'High' },
+    { industry: 'HealthTech / MedTech', range: '£1,300-£1,800/day', demand: 'High' },
+    { industry: 'Marketplaces', range: '£1,300-£1,900/day', demand: 'High' },
+    { industry: 'Professional Services', range: '£1,100-£1,500/day', demand: 'Medium' },
+    { industry: 'Non-profit / Social Enterprise', range: '£900-£1,300/day', demand: 'Low' },
   ],
 }
 
@@ -46,9 +46,9 @@ export default function InterimCmoSalaryPage() {
       <section className="bg-gradient-to-br from-purple-900 to-purple-800 py-20">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-purple-200 hover:text-white mb-6 inline-block">← Back to Home</Link>
-          <h1 className="text-5xl md:text-6xl font-black text-white mb-6">Interim CMO Salary UK 2025</h1>
+          <h1 className="text-5xl md:text-6xl font-black text-white mb-6">Interim CMO Day Rates UK 2025</h1>
           <p className="text-xl text-purple-100 mb-8">
-            Complete guide to interim CMO pay rates, day rates, and annual earnings in the UK market.
+            Complete guide to interim CMO day rates and monthly earnings in the UK market.
           </p>
         </div>
       </section>
@@ -58,16 +58,16 @@ export default function InterimCmoSalaryPage() {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-black text-purple-700">£950</div>
+              <div className="text-4xl font-black text-purple-700">£1,500</div>
               <div className="text-gray-600">Average Day Rate</div>
             </div>
             <div>
-              <div className="text-4xl font-black text-purple-700">£150k</div>
-              <div className="text-gray-600">Average Annual</div>
+              <div className="text-4xl font-black text-purple-700">£31k</div>
+              <div className="text-gray-600">Monthly Earnings</div>
             </div>
             <div>
-              <div className="text-4xl font-black text-purple-700">2-3</div>
-              <div className="text-gray-600">Days Per Client</div>
+              <div className="text-4xl font-black text-purple-700">5</div>
+              <div className="text-gray-600">Days Per Week</div>
             </div>
           </div>
         </div>
@@ -95,12 +95,12 @@ export default function InterimCmoSalaryPage() {
       <article className="py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="prose prose-lg prose-purple mb-12">
-            <h2>Interim CMO Salary Overview</h2>
+            <h2>Interim CMO Day Rates Overview</h2>
             <p>
-              <strong>Interim CMO salary</strong> in the UK varies based on experience, specialisation, location, and the types of clients you work with. Unlike traditional full-time CMO roles with annual salaries of £100,000-£180,000, interim CMOs charge day rates—typically £700 to £1,400 per day in 2025.
+              <strong>Interim CMO day rates</strong> in the UK vary based on experience, specialisation, location, and scope of work. Unlike fractional CMOs who work part-time, interim CMOs work full-time on daily rates—typically ranging from £1,000 to £2,200 per day in 2025.
             </p>
             <p>
-              The <strong>interim CMO UK salary</strong> model often delivers higher total compensation than full-time equivalents. A interim CMO working with 2-3 clients at 2 days each can earn £150,000-£200,000 annually while maintaining flexibility and variety that full-time roles don't offer.
+              The <strong>interim CMO pay</strong> model is designed for full-time temporary engagements. An interim CMO working 5 days per week at £1,500/day earns approximately £31,000 per month (£372,000 annually if working year-round). These are professional daily rates for experienced marketing executives handling growth transformations, brand repositioning, or interim leadership during transitions.
             </p>
           </div>
 
@@ -113,7 +113,7 @@ export default function InterimCmoSalaryPage() {
                   <tr className="bg-purple-50">
                     <th className="text-left p-4 font-semibold text-gray-900">Level</th>
                     <th className="text-left p-4 font-semibold text-gray-900">Day Rate</th>
-                    <th className="text-left p-4 font-semibold text-gray-900">Annual (Est.)</th>
+                    <th className="text-left p-4 font-semibold text-gray-900">Monthly Earnings</th>
                     <th className="text-left p-4 font-semibold text-gray-900">Experience</th>
                   </tr>
                 </thead>
@@ -122,14 +122,14 @@ export default function InterimCmoSalaryPage() {
                     <tr key={i} className="border-b">
                       <td className="p-4 font-medium text-gray-900">{row.level}</td>
                       <td className="p-4 text-purple-700 font-semibold">{row.range}</td>
-                      <td className="p-4 text-gray-700">{row.annual}</td>
+                      <td className="p-4 text-gray-700">{row.monthly}</td>
                       <td className="p-4 text-gray-600">{row.experience}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-600 text-sm mt-4">*Annual estimates based on 155 billable days per year</p>
+            <p className="text-gray-600 text-sm mt-4">*Monthly earnings based on ~21 working days per month (5 days/week)</p>
           </div>
 
           {/* By Location */}
@@ -183,22 +183,22 @@ export default function InterimCmoSalaryPage() {
           </div>
 
           <div className="prose prose-lg prose-purple">
-            <h2>What Affects Interim CMO Salary?</h2>
-            <p>Several factors influence <strong>interim CMO earnings</strong>:</p>
+            <h2>What Affects Interim CMO Day Rates?</h2>
+            <p>Several factors influence <strong>interim CMO day rates</strong>:</p>
             <ul>
               <li><strong>B2B vs B2C experience</strong> - B2B SaaS expertise commands highest rates due to demand</li>
               <li><strong>Track record</strong> - Proven results (pipeline growth, CAC reduction) add 15-25% premium</li>
               <li><strong>Industry specialisation</strong> - Deep vertical expertise (FinTech, HealthTech) pays more</li>
               <li><strong>Channel expertise</strong> - Performance marketing, PLG, or brand specialists earn premium rates</li>
-              <li><strong>Team size managed</strong> - Experience scaling teams adds to your value proposition</li>
+              <li><strong>Scope of work</strong> - Growth transformations, rebrands, or go-to-market strategy command top rates (£1,800-£2,200/day)</li>
             </ul>
 
-            <h2>Interim CMO vs Full-Time CMO Salary</h2>
+            <h2>Permanent CMO vs Interim CMO Rates</h2>
             <p>
-              A full-time CMO at a Series A/B startup typically earns £120,000-£160,000 plus equity. A <strong>interim CMO</strong> earning £1,000/day for 150 days achieves £150,000—comparable cash with more flexibility. The trade-off is equity: full-time roles often include meaningful stock options that interim arrangements typically don't.
+              A permanent CMO at a Series A/B startup typically earns £120,000-£160,000 plus equity. An <strong>interim CMO</strong> at £1,500/day working 5 days/week earns £31,000/month (£372,000 annually if sustained year-round). The premium reflects the temporary nature, specialized expertise, immediate availability, and lack of long-term commitment or equity.
             </p>
             <p>
-              However, interim CMOs can mitigate this by negotiating advisory equity or working with multiple companies, diversifying their portfolio exposure while maintaining higher cash compensation.
+              Interim CMOs are not fractional executives—they work full-time during the engagement period but on defined-term contracts rather than permanent employment. This makes them ideal for bridging periods between permanent hires, leading specific transformation projects, or when companies need immediate senior marketing leadership without permanent hiring costs.
             </p>
           </div>
         </div>
@@ -207,8 +207,8 @@ export default function InterimCmoSalaryPage() {
       {/* CTA */}
       <section className="py-16 bg-purple-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Explore Interim CMO Opportunities?</h2>
-          <p className="text-purple-100 mb-8">Browse live CMO roles or create your profile to get matched with companies.</p>
+          <h2 className="text-3xl font-bold mb-4">Ready to Explore Interim CMO Roles?</h2>
+          <p className="text-purple-100 mb-8">Browse live interim CMO positions with competitive day rates.</p>
           <div className="flex justify-center gap-4">
             <Link href="/interim-jobs?role=CMO" className="px-8 py-4 bg-white text-purple-900 rounded-lg font-semibold hover:bg-purple-50">
               Browse CMO Jobs

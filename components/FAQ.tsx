@@ -95,77 +95,77 @@ export function FAQ({ items, title = 'Frequently Asked Questions', className = '
 // Pre-defined FAQ sets for common pages
 export const CMO_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CMO?',
-    answer: 'A Interim CMO (Chief Marketing Officer) is an experienced marketing executive who works with companies on a part-time or contract basis, typically 1-3 days per week. They provide strategic marketing leadership without the commitment and cost of a full-time hire, making senior marketing expertise accessible to startups, scale-ups, and SMEs.',
+    question: 'What is an Interim CMO?',
+    answer: 'An Interim CMO (Chief Marketing Officer) is a senior marketing executive who works full-time with a company on a temporary basis, typically for 3-12 months. Unlike fractional CMOs who work part-time across multiple clients, interim CMOs are embedded full-time to lead during critical periods such as leadership transitions, turnarounds, market expansions, or post-acquisition integrations.',
   },
   {
     question: 'How much do Interim CMO jobs pay in the UK?',
-    answer: 'Interim CMO day rates in the UK typically range from £700 to £1,400 per day, depending on experience, industry, and location. London-based roles often command premium rates of £900-£1,400/day, while regional positions average £700-£1,000/day. Annual earnings for interim CMOs working with multiple clients can range from £100,000 to £250,000+.',
+    answer: 'Interim CMO day rates in the UK typically range from £1,200 to £2,500 per day, depending on experience, industry complexity, and the urgency of the engagement. These are full-time roles (5 days/week), so monthly earnings range from £24,000-£50,000. Engagements typically last 3-12 months, with total engagement values of £75,000-£600,000.',
   },
   {
     question: 'What qualifications do I need for Interim CMO jobs?',
-    answer: 'Successful Interim CMO candidates typically have 12-15+ years of marketing experience with at least 5 years in senior leadership roles. Key requirements include a proven track record of driving revenue growth, expertise in specific marketing channels (performance, brand, PLG, ABM), experience building and managing teams, and strong stakeholder management skills.',
+    answer: 'Interim CMO roles require 15-20+ years of marketing experience with extensive senior leadership experience. Key requirements include a proven track record of leading through change, crisis management or turnaround experience, expertise in specific marketing transformations (digital transformation, rebrand, market entry), strong team leadership during transitions, and the ability to deliver results quickly in challenging environments.',
   },
   {
-    question: 'How many days per week do Interim CMOs work?',
-    answer: 'Most Interim CMO engagements involve 1-3 days per week per client. Many interim CMOs work with 2-4 clients simultaneously, totaling 4-5 working days per week. Engagement intensity often varies based on company needs - increasing during product launches or fundraising and reducing during steady-state periods.',
+    question: 'How long do Interim CMO engagements last?',
+    answer: 'Most Interim CMO engagements last 3-12 months, with 6 months being typical. The duration depends on the specific mandate - leadership gap coverage might be 3-6 months, turnarounds 6-9 months, and transformations or M&A integrations 9-12 months. Engagements can be extended if additional work is identified.',
   },
   {
     question: 'What industries hire Interim CMOs in the UK?',
-    answer: 'The highest demand for Interim CMOs in the UK comes from B2B SaaS companies, FinTech, DTC/E-commerce, HealthTech, and Professional Services. Startups post-Series A frequently hire interim CMOs to establish marketing foundations, while established SMEs use them for specific initiatives like rebranding or market expansion.',
+    answer: 'Industries with high interim CMO demand include Private Equity-backed companies (for portfolio company turnarounds), B2B SaaS (for growth pivots), Retail and E-commerce (for digital transformations), Financial Services (for regulatory-driven changes), and companies undergoing M&A. Any sector experiencing significant change, crisis, or transition hires interim CMOs.',
   },
   {
-    question: 'What is the difference between a Interim CMO and a Marketing Consultant?',
-    answer: 'A Interim CMO is an embedded executive who takes ownership of marketing strategy and typically manages teams, attends leadership meetings, and is accountable for results. A Marketing Consultant typically provides advice and recommendations on specific projects without the ongoing leadership responsibilities. Interim CMOs are often seen as part of the executive team.',
+    question: 'What is the difference between an Interim CMO and a Fractional CMO?',
+    answer: 'An Interim CMO works full-time (5 days/week) for a single client on a temporary basis (3-12 months), typically earning £1,200-£2,500/day. They address urgent needs like leadership gaps or turnarounds. A Fractional CMO works part-time (1-3 days/week) across multiple clients on an ongoing basis, earning £700-£1,400/day. Interim is full-time temporary; fractional is part-time ongoing.',
   },
 ]
 
 export const CFO_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CFO?',
-    answer: 'A Interim CFO (Chief Financial Officer) is an experienced finance executive who works with companies on a part-time basis, typically 1-3 days per week. They provide strategic financial leadership, fundraising support, and financial operations expertise without the cost of a full-time CFO hire.',
+    question: 'What is an Interim CFO?',
+    answer: 'An Interim CFO (Chief Financial Officer) is a senior finance executive who works full-time with a company on a temporary basis, typically for 3-12 months. They are brought in to manage critical financial situations such as restructuring, insolvency risk, pre-IPO preparation, post-acquisition integration, or to cover sudden CFO departures while a permanent replacement is found.',
   },
   {
     question: 'How much do Interim CFO jobs pay in the UK?',
-    answer: 'Interim CFO day rates in the UK typically range from £800 to £1,500 per day, with London roles often at the higher end. Annual earnings for experienced interim CFOs with multiple clients can exceed £200,000.',
+    answer: 'Interim CFO day rates in the UK typically range from £1,200 to £2,500 per day, with complex restructuring or PE-backed turnarounds at the higher end. These are full-time engagements (5 days/week), translating to monthly earnings of £24,000-£50,000. Total engagement values typically range from £75,000-£600,000 depending on duration and complexity.',
   },
   {
     question: 'What qualifications do I need for Interim CFO jobs?',
-    answer: 'Interim CFOs typically need ACA, ACCA, or CIMA qualifications, 15+ years of finance experience including senior leadership roles, and expertise in areas like fundraising, M&A, or financial transformation. Industry-specific knowledge (e.g., SaaS metrics, e-commerce) is highly valued.',
+    answer: 'Interim CFOs typically need ACA, ACCA, or CIMA qualifications plus 15-20+ years of senior finance experience. Critical requirements include turnaround or restructuring experience, crisis management skills, M&A integration expertise, experience navigating insolvency or distressed situations, and the ability to quickly assess financial situations and implement remedial action. PE or Big 4 backgrounds are common.',
   },
   {
     question: 'What do Interim CFOs do?',
-    answer: 'Interim CFOs handle strategic financial planning, fundraising and investor relations, financial reporting and compliance, cash flow management, building finance teams, M&A support, and board reporting. They act as a strategic partner to the CEO and leadership team.',
+    answer: 'Interim CFOs handle critical financial situations: managing cash crises and liquidity, leading restructuring or turnarounds, preparing companies for sale or IPO, integrating acquisitions, implementing financial controls during crises, managing lender or investor relationships during difficulties, building or rebuilding finance teams, and providing stability during leadership transitions. They are problem-solvers in high-pressure situations.',
   },
 ]
 
 export const CTO_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CTO?',
-    answer: 'A Interim CTO (Chief Technology Officer) is an experienced technology leader who works with companies on a part-time basis. They provide technical strategy, architecture guidance, and engineering leadership without the commitment of a full-time CTO hire.',
+    question: 'What is an Interim CTO?',
+    answer: 'An Interim CTO (Chief Technology Officer) is a senior technology executive who works full-time with a company on a temporary basis, typically for 3-12 months. They are brought in to handle critical technical situations such as major technology transformations, post-acquisition technology integration, cyber security incidents, platform migrations, or to stabilize engineering teams during leadership transitions.',
   },
   {
     question: 'How much do Interim CTO jobs pay in the UK?',
-    answer: 'Interim CTO day rates in the UK typically range from £800 to £1,600 per day, with highly specialized roles (AI, security) commanding premium rates. London-based and FinTech roles often pay at the higher end of this range.',
+    answer: 'Interim CTO day rates in the UK typically range from £1,200 to £2,500 per day, with complex transformations, security incidents, or specialized domains (AI, fintech) at the higher end. These are full-time roles (5 days/week), so monthly earnings range from £24,000-£50,000. Engagements typically last 3-12 months depending on the technical mandate.',
   },
   {
-    question: 'When should a company hire a Interim CTO?',
-    answer: 'Companies typically hire Interim CTOs when they need technical leadership but cannot justify or afford a full-time CTO. Common scenarios include early-stage startups building their first product, companies needing technical due diligence for fundraising, or businesses undergoing digital transformation.',
+    question: 'When should a company hire an Interim CTO?',
+    answer: 'Companies hire Interim CTOs for urgent technical situations: sudden CTO departure requiring immediate coverage, major platform migration or technology transformation, post-acquisition technology integration, cyber security incidents or major technical failures, scaling engineering teams rapidly during growth, preparing technology for due diligence (sale/IPO), or stabilizing troubled engineering organizations. Interim CTOs address crisis and change.',
   },
 ]
 
 export const COO_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim COO?',
-    answer: 'A Interim COO (Chief Operating Officer) is an experienced operations executive who works with companies on a part-time basis. They focus on operational efficiency, process optimization, scaling operations, and implementing systems to support growth.',
+    question: 'What is an Interim COO?',
+    answer: 'An Interim COO (Chief Operating Officer) is a senior operations executive who works full-time with a company on a temporary basis, typically for 3-12 months. They are brought in to manage operational crises, lead major operational transformations, integrate acquisitions, restructure operations during turnarounds, or stabilize operations during leadership transitions.',
   },
   {
     question: 'How much do Interim COO jobs pay in the UK?',
-    answer: 'Interim COO day rates in the UK typically range from £700 to £1,300 per day. Rates vary based on industry, company stage, and specific operational challenges being addressed.',
+    answer: 'Interim COO day rates in the UK typically range from £1,200 to £2,500 per day, depending on the complexity of the operational challenge. These are full-time engagements (5 days/week), translating to monthly earnings of £24,000-£50,000. Complex turnarounds, PE-backed transformations, or large-scale integrations command premium rates.',
   },
   {
-    question: 'What does a Interim COO do?',
-    answer: 'Interim COOs focus on operational strategy, process improvement, team structure optimization, implementing operational systems, managing key initiatives, and ensuring the business can scale efficiently. They often work closely with the CEO to execute on strategic priorities.',
+    question: 'What does an Interim COO do?',
+    answer: 'Interim COOs handle critical operational situations: leading operational turnarounds and restructuring, integrating operations post-acquisition, implementing major operational transformations, managing operational crises (supply chain failures, quality issues), rapidly scaling operations during growth phases, building or rebuilding operational teams and systems, and providing operational stability during C-suite transitions. They are change agents in high-pressure environments.',
   },
 ]
 
@@ -173,49 +173,49 @@ export const COO_FAQS: FAQItem[] = [
 export const LONDON_FAQS: FAQItem[] = [
   {
     question: 'How much do interim executives earn in London?',
-    answer: 'London interim executives typically earn £800-£1,500 per day, which is 15-25% higher than national UK averages. Most professionals work with 2-4 clients simultaneously, earning £150,000-£300,000+ annually.',
+    answer: 'London interim executives typically earn £1,200-£2,500 per day for full-time engagements. These are temporary roles lasting 3-12 months at a single client. Complex turnarounds, PE-backed mandates, or specialized crises (cyber security, insolvency) command the highest rates. Total engagement values typically range from £75,000-£600,000.',
   },
   {
     question: 'Which London areas have the most interim jobs?',
-    answer: 'The City of London has the most opportunities, followed by Shoreditch/Tech City. Canary Wharf, Kings Cross, and Westminster also have strong interim markets. Each area tends to specialize: City for finance, Shoreditch for tech startups, Canary Wharf for corporate.',
+    answer: 'The City of London and Canary Wharf have the highest concentration of interim roles, particularly in financial services, PE-backed companies, and corporate turnarounds. Shoreditch/Tech City has interim opportunities in tech transformations and distressed startups. Westminster attracts government and regulatory-focused interim work.',
   },
   {
-    question: 'Do I need to commute to London for interim roles?',
-    answer: 'Most London interim roles are hybrid, requiring 1-2 days per week in the office. Around 65% of positions offer remote working for the remaining days. Some roles are fully remote with occasional in-person meetings.',
+    question: 'Do I need to be based in London for interim roles?',
+    answer: 'While London-based interim roles require full-time presence (5 days/week on-site is common), many interim executives live outside London and secure short-term accommodation during engagements. The intensity and temporary nature (3-12 months) make this approach viable. Remote work is rare for interim roles due to their crisis/change nature.',
   },
   {
     question: 'What industries hire interim executives in London?',
-    answer: 'FinTech, SaaS/Cloud, and HealthTech lead interim hiring in London. E-commerce, PropTech, and EdTech are also growing rapidly. The City attracts finance-focused roles while Shoreditch dominates tech hiring.',
+    answer: 'Private Equity-backed portfolio companies lead interim hiring (for turnarounds and value creation), followed by Financial Services (restructuring, regulatory change), Professional Services (transformation), Retail (distressed situations), and Technology (post-acquisition integration, turnarounds). London\'s mature market means more crisis and change mandates.',
   },
   {
-    question: 'Is London competitive for interim roles?',
-    answer: 'Yes, but the market is large enough for experienced executives. London accounts for around 60% of UK interim opportunities. Building a niche specialism (industry or function) and strong network are key to standing out.',
+    question: 'How competitive is the London interim market?',
+    answer: 'London has the highest concentration of interim opportunities in the UK but also the most experienced candidates. Success requires a strong track record in turnarounds, transformations, or crisis management, plus networks with PE firms, turnaround boutiques, and executive search firms. Specialized expertise (restructuring, M&A, specific industries) is essential.',
   },
 ]
 
 export const MANCHESTER_FAQS: FAQItem[] = [
   {
     question: 'How much do interim executives earn in Manchester?',
-    answer: 'Manchester interim executives typically earn £650-£1,200 per day. While lower than London rates, the lower cost of living means comparable purchasing power. Many executives work with a mix of Manchester and remote London clients.',
+    answer: 'Manchester interim executives typically earn £1,000-£2,000 per day for full-time temporary engagements. While slightly lower than London rates, they remain substantial for crisis and transformation work. The lower cost of living means strong purchasing power, though many executives secure accommodation near clients during 3-12 month engagements.',
   },
   {
     question: 'What industries hire interim executives in Manchester?',
-    answer: 'Manchester has strong demand in digital/ecommerce, media, and professional services. The growing tech scene in MediaCityUK and the Northern Quarter creates opportunities for interim CTOs and CMOs.',
+    answer: 'Manchester has strong interim demand in Retail (restructuring and transformation), Digital/E-commerce (turnarounds), Manufacturing (operational transformation), Media (cost reduction), and PE-backed portfolio companies across the North West. The region\'s concentration of mid-market companies creates steady interim demand.',
   },
   {
     question: 'Is Manchester a good base for interim work?',
-    answer: 'Yes. Manchester offers excellent transport links, lower living costs than London, and a growing business ecosystem. Many interim executives are based in Manchester and work with clients across the North and remotely with London companies.',
+    answer: 'Yes. Manchester offers excellent transport links for interim work across the North and Midlands, plus proximity to many PE firms and corporate headquarters. The city\'s mature business ecosystem generates interim opportunities in turnarounds, transformations, and leadership gaps. Many executives balance Manchester and London interim mandates.',
   },
 ]
 
 export const BIRMINGHAM_FAQS: FAQItem[] = [
   {
     question: 'How much do interim executives earn in Birmingham?',
-    answer: 'Birmingham interim executives typically earn £600-£1,100 per day. The Midlands market is growing, with opportunities in manufacturing, automotive, and professional services sectors.',
+    answer: 'Birmingham interim executives typically earn £1,000-£2,000 per day for full-time temporary engagements. The Midlands market has substantial opportunities in manufacturing turnarounds, automotive transformations, and logistics restructuring - sectors that require interim crisis management and operational transformation expertise.',
   },
   {
     question: 'What sectors hire interim executives in Birmingham?',
-    answer: 'Birmingham has strong demand in manufacturing, automotive, logistics, and professional services. The city is also seeing growth in FinTech and tech startups, creating new opportunities for interim leaders.',
+    answer: 'Birmingham has strong interim demand in Manufacturing (restructuring, cost reduction), Automotive (transformation, supply chain), Logistics and Distribution (operational turnarounds), Professional Services (change management), and PE-backed industrial companies. The region\'s industrial base creates steady demand for operational interim executives during times of change.',
   },
 ]
 
@@ -223,214 +223,214 @@ export const BIRMINGHAM_FAQS: FAQItem[] = [
 export const TECH_FAQS: FAQItem[] = [
   {
     question: 'How much do Interim CTOs earn in the UK?',
-    answer: 'Interim CTOs in the UK typically earn £1,000-£1,500 per day. Those with expertise in AI/ML, cloud architecture, or cybersecurity command the highest rates. Working 2-3 days per week across 2-3 clients, annual earnings of £200,000-£350,000 are achievable.',
+    answer: 'Interim CTOs in the UK typically earn £1,200-£2,500 per day for full-time temporary engagements. Those handling cyber security incidents, major cloud migrations, or post-acquisition technology integration command the highest rates. Engagements typically last 3-12 months, with total values of £75,000-£600,000 depending on complexity.',
   },
   {
     question: 'What experience do I need for interim tech roles?',
-    answer: 'Most interim tech leadership roles require 15+ years of experience with at least 5 years in senior positions (CTO, VP Engineering, Tech Director). Startup or scale-up experience is highly valued, as is experience with technical due diligence and team scaling.',
+    answer: 'Interim tech leadership roles require 15-20+ years of experience with extensive crisis management or transformation delivery. Essential experience includes technology turnarounds, post-acquisition integration, platform migrations under pressure, cyber security incident response, or rescuing failed technology projects. Proven ability to stabilize troubled engineering organizations and deliver under pressure is critical.',
   },
   {
     question: 'Are interim tech roles mostly remote?',
-    answer: 'Yes - approximately 65% of interim tech roles offer remote or hybrid working. Tech leadership is well-suited to remote work, though most clients prefer some in-person time for team building and strategic sessions.',
+    answer: 'No - interim tech roles typically require full-time on-site presence (5 days/week) due to their crisis or transformation nature. Major incidents, team stabilization, and rapid change require physical presence. Unlike fractional work, interim mandates are too urgent and complex for remote delivery. Some travel between sites may be required for multi-location companies.',
   },
   {
     question: 'What tech skills are most in demand for interim roles?',
-    answer: 'Cloud architecture (AWS/GCP/Azure), AI/ML implementation, DevOps, security/compliance, and team scaling are the most sought-after skills. Experience with technical due diligence for fundraising and M&A is also highly valued.',
+    answer: 'Crisis and transformation skills are most valued: cyber security incident response, legacy platform migration, post-acquisition technology integration, cloud transformation under pressure, technical due diligence (buy-side and sell-side), rescuing failed projects, and rebuilding troubled engineering teams. Technical depth matters less than ability to diagnose problems quickly and drive change.',
   },
 ]
 
 export const SAAS_FAQS: FAQItem[] = [
   {
     question: 'Why do SaaS companies hire interim executives?',
-    answer: 'SaaS companies often need specialized expertise at different growth stages. Interim executives provide experienced leadership for challenges like scaling ARR, building teams, preparing for fundraising, or expanding into new markets - without full-time costs.',
+    answer: 'SaaS companies hire interim executives during critical transitions and crises: sudden executive departures, failed growth strategies requiring pivots, preparing for sale or acquisition, post-acquisition integration, major platform migrations, or turnarounds when burn rate exceeds growth. Interim executives provide full-time crisis leadership for 3-12 months during periods of urgent change.',
   },
   {
     question: 'What interim roles are most common in SaaS?',
-    answer: 'Interim CMOs and CTOs are most common, followed by CFOs. SaaS companies particularly value interim executives with experience in product-led growth, demand generation, SaaS metrics, and preparing for venture funding.',
+    answer: 'Interim CFOs are most common (for preparing companies for sale, managing cash crises, or restructuring), followed by CTOs (for platform migrations, post-acquisition integration, or technical turnarounds) and CMOs (for growth pivots or preparing for exit). These are full-time roles during critical 3-12 month periods, not ongoing fractional arrangements.',
   },
   {
     question: 'What SaaS experience do interim roles require?',
-    answer: 'Most SaaS interim roles require proven experience with SaaS metrics (ARR, MRR, churn, CAC/LTV), understanding of subscription business models, and track record of scaling SaaS companies through different growth stages.',
+    answer: 'SaaS interim roles require deep experience with SaaS turnarounds, sale preparation, post-acquisition integration, or major transformations. Essential skills include managing SaaS companies through crises (cash, churn, failed products), preparing companies for M&A, integrating acquisitions, or leading major pivots. Experience with distressed or PE-backed SaaS companies is highly valued.',
   },
 ]
 
 export const FINANCE_FAQS: FAQItem[] = [
   {
     question: 'What interim roles are available in financial services?',
-    answer: 'Financial services companies hire interim executives across finance, technology, compliance, and operations. Interim CFOs, CTOs, and Chief Risk Officers are particularly common in FinTech and growing financial services firms.',
+    answer: 'Financial services interim roles focus on regulatory change, crisis response, and transformation: Interim CFOs for restructuring or regulatory remediation, CTOs for cyber security incidents or technology transformation, Chief Risk Officers for regulatory breaches, and Compliance heads for FCA investigations. These are urgent, full-time mandates addressing crises or mandatory change programs.',
   },
   {
     question: 'Do I need financial services experience for these roles?',
-    answer: 'Most roles in financial services require sector-specific experience, particularly around regulatory compliance (FCA), risk management, and financial product development. FinTech roles often value both traditional finance and tech backgrounds.',
+    answer: 'Yes - financial services interim roles require deep sector experience, particularly in regulated environments. Essential requirements include FCA regulatory experience, managing regulatory investigations or enforcement actions, implementing remediation programs, crisis management in regulated contexts, or leading major compliance transformations. Big 4 or regulatory backgrounds are common.',
   },
 ]
 
 export const HEALTHCARE_FAQS: FAQItem[] = [
   {
     question: 'What interim opportunities exist in healthcare?',
-    answer: 'Healthcare and HealthTech companies hire interim executives in technology, commercial, operations, and clinical leadership. Interim CTOs, CMOs, and COOs are common, along with specialist roles like Chief Medical Officers.',
+    answer: 'Healthcare interim roles address crisis and regulatory situations: Interim Chief Medical Officers for CQC failures or clinical governance issues, CEOs for failing NHS trusts or care providers, Finance Directors for financial recovery, and Operations Directors for service transformation or merger integration. These are full-time crisis and turnaround mandates in highly regulated environments.',
   },
   {
     question: 'What qualifications are needed for healthcare interim roles?',
-    answer: 'Healthcare interim roles typically require sector experience, understanding of NHS/private healthcare landscapes, and knowledge of healthcare regulations. HealthTech roles often seek executives who can bridge clinical and commercial expertise.',
+    answer: 'Healthcare interim roles require extensive NHS or regulated healthcare experience, particularly in turnarounds, CQC/regulatory remediation, financial recovery, or service transformation. Clinical qualifications (for CMO/Medical Director roles) plus management experience are essential. Track record managing through CQC inspections, special measures, or financial crisis is highly valued.',
   },
 ]
 
 export const ECOMMERCE_FAQS: FAQItem[] = [
   {
     question: 'What interim roles do ecommerce companies hire?',
-    answer: 'Ecommerce and DTC brands commonly hire interim CMOs (for customer acquisition and retention), CTOs (for platform scaling), and CFOs (for unit economics and funding). Interim COOs help with fulfilment and operations scaling.',
+    answer: 'Ecommerce and DTC brands hire interim executives during crises and transitions: Interim COOs for fulfilment failures or supply chain crises, CFOs for cash management or preparing for sale, CMOs for failing customer acquisition strategies, and CTOs for platform failures or migrations. These are full-time crisis mandates, not part-time growth support.',
   },
   {
     question: 'What skills are valued in ecommerce interim roles?',
-    answer: 'Experience with performance marketing, marketplace management (Amazon, Shopify), conversion optimization, and unit economics are highly valued. Understanding seasonal planning, inventory management, and logistics is also important.',
+    answer: 'Crisis and turnaround skills specific to ecommerce: managing cash flow crises with inventory, rescuing failed fulfilment operations, restructuring unprofitable DTC brands, preparing ecommerce businesses for sale, post-acquisition integration, platform migration under pressure, or pivoting failed growth strategies. Experience with distressed retail or PE-backed brands is highly valued.',
   },
 ]
 
 export const STARTUPS_FAQS: FAQItem[] = [
   {
-    question: 'When should a startup hire a interim executive?',
-    answer: 'Startups typically hire interim executives when they need senior expertise but cannot afford or justify full-time C-suite hires. Common triggers include preparing for fundraising, scaling after Series A, or addressing specific growth challenges.',
+    question: 'When should a startup hire an interim executive?',
+    answer: 'Startups hire interim executives during crises and critical transitions: sudden co-founder or executive departure, pivoting from a failing strategy, preparing for emergency fundraising, managing near-insolvency situations, preparing for acquisition, integrating an acquisition, or stabilizing operations after rapid scaling. These are full-time crisis roles (5 days/week), not part-time fractional support.',
   },
   {
-    question: 'What do interim executives cost vs full-time hires?',
-    answer: 'Interim executives typically cost 30-50% less than equivalent full-time hires when factoring in salary, equity, benefits, and overhead. A interim CFO at £1,000/day for 2 days/week costs around £100k/year vs £150-180k for a full-time CFO.',
+    question: 'What do interim executives cost for startups?',
+    answer: 'Interim executives cost £1,200-£2,500/day for full-time work (5 days/week). While expensive at £24,000-£50,000/month, this is for 3-12 month crisis periods where the alternative is company failure. Startups use interim executives for survival situations, not cost savings. Total engagement costs of £75,000-£600,000 are typical.',
   },
   {
     question: 'How do startups structure interim engagements?',
-    answer: 'Most startup interim engagements are 1-2 days per week on retainer, with flexibility to scale up during critical periods (fundraising, launches). Typical engagement lengths are 6-12 months, though many become ongoing relationships.',
+    answer: 'Startup interim engagements are full-time (5 days/week) for 3-12 months to address specific crises or transitions. Common structures: 3-6 months for leadership gap coverage, 6-9 months for turnarounds or pivots, 9-12 months for sale preparation or post-acquisition integration. Extensions occur if additional crisis work emerges, but interim is always temporary and full-time.',
   },
 ]
 
 // Service-focused FAQs (for company/employer audience)
 export const CFO_SERVICE_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CFO?',
-    answer: 'A Interim CFO is an experienced Chief Financial Officer who works with your company on a part-time basis, typically 1-3 days per week. You get senior-level financial leadership, strategic guidance, and hands-on expertise at a fraction of the cost of a full-time CFO.',
+    question: 'What is an Interim CFO?',
+    answer: 'An Interim CFO is an experienced Chief Financial Officer who works with your company full-time on a temporary basis, typically for 3-12 months. They are brought in to manage financial crises, lead restructuring, prepare for sale/IPO, integrate acquisitions, or provide immediate CFO coverage after a sudden departure. This is full-time crisis leadership, not part-time ongoing support.',
   },
   {
-    question: 'When should my company hire a Interim CFO?',
-    answer: 'Consider hiring a interim CFO when: you\'re preparing for fundraising or due diligence; your finance function needs professionalising; you need strategic financial guidance but can\'t justify a full-time CFO; you\'re scaling rapidly and need to build financial infrastructure; or you\'re navigating a major transition (M&A, restructuring, IPO prep).',
+    question: 'When should my company hire an Interim CFO?',
+    answer: 'Hire an interim CFO for urgent financial situations: your CFO has suddenly left and you need immediate coverage; you\'re facing a cash crisis or insolvency risk; you\'re preparing for sale or IPO; you\'re restructuring or turning around; you\'re integrating an acquisition; you\'re navigating a major regulatory issue; or your lenders/PE owners demand immediate financial expertise.',
   },
   {
-    question: 'How much does a Interim CFO cost?',
-    answer: 'Interim CFOs typically charge £800-£1,500 per day in the UK, depending on experience and specialisation. At 2 days per week, this translates to roughly £80,000-£150,000 annually—compared to £180,000-£300,000+ for a full-time CFO (including salary, benefits, and overhead).',
+    question: 'How much does an Interim CFO cost?',
+    answer: 'Interim CFOs charge £1,200-£2,500 per day in the UK for full-time work (5 days/week). Monthly costs are £24,000-£50,000. While expensive, this is for critical 3-12 month periods addressing crises or mandatory transitions. Total engagement costs typically range from £75,000-£600,000. The alternative to hiring an interim CFO is often company failure or missed opportunities.',
   },
   {
-    question: 'What does a Interim CFO do?',
-    answer: 'A Interim CFO handles strategic financial planning, cash flow management, fundraising support, financial reporting and board packs, budgeting and forecasting, team building, investor relations, compliance, and financial process improvement. They act as a strategic partner to the CEO and leadership team.',
+    question: 'What does an Interim CFO do?',
+    answer: 'An Interim CFO handles critical financial situations: managing cash crises and covenant breaches, leading financial restructuring or turnarounds, preparing financial due diligence for sale/IPO, integrating acquisition finance functions, implementing emergency financial controls, managing difficult lender/investor relationships, rebuilding failed finance teams, and providing stability during financial transitions. They solve urgent financial problems.',
   },
   {
-    question: 'How is a Interim CFO different from a Finance Director or Financial Controller?',
-    answer: 'A Interim CFO operates at the strategic level—they focus on capital strategy, fundraising, M&A, and board-level reporting. Finance Directors and Financial Controllers focus more on operational finance, day-to-day accounting, and financial controls. Many companies use a interim CFO alongside an internal FD or FC.',
+    question: 'How is an Interim CFO different from a Finance Director or Financial Controller?',
+    answer: 'An Interim CFO is a crisis and transformation specialist who operates at board level on urgent situations like restructuring, sale preparation, or major transitions. They are temporary (3-12 months) and work full-time. Finance Directors and Financial Controllers are permanent operational roles. You hire an interim CFO when you need urgent C-level intervention, not ongoing operational finance.',
   },
   {
     question: 'How long do Interim CFO engagements typically last?',
-    answer: 'Most interim CFO engagements start with a 6-month commitment and extend based on mutual fit. Many become ongoing relationships lasting 2-3+ years. Engagements can flex up (during fundraising) or down (during steady periods) based on your needs.',
+    answer: 'Interim CFO engagements typically last 3-12 months depending on the mandate. Leadership gap coverage: 3-6 months. Restructuring or turnaround: 6-9 months. Sale/IPO preparation or M&A integration: 9-12 months. Engagements can extend if additional crisis work emerges, but interim roles are always temporary with defined end dates.',
   },
   {
-    question: 'What should I look for when hiring a Interim CFO?',
-    answer: 'Look for: relevant industry experience (SaaS metrics, e-commerce, etc.); track record with companies at your stage; specific expertise you need (fundraising, M&A, international expansion); cultural fit with your team; professional qualifications (ACA, ACCA, CIMA); and strong communication skills for board and investor interactions.',
+    question: 'What should I look for when hiring an Interim CFO?',
+    answer: 'Look for: proven turnaround or crisis management experience; relevant industry experience (your sector); specific expertise in your situation (restructuring, insolvency, M&A, IPO); professional qualifications (ACA, ACCA, CIMA); ability to work under pressure and deliver quickly; strong track record with PE firms, banks, or Big 4; and cultural resilience for difficult situations.',
   },
   {
-    question: 'Can a Interim CFO help with fundraising?',
-    answer: 'Yes—fundraising support is one of the most common reasons to hire a interim CFO. They can build financial models, prepare data rooms, create investor presentations, manage due diligence, negotiate terms, and provide credibility with investors. Many interim CFOs have raised hundreds of millions across multiple deals.',
+    question: 'Can an Interim CFO help with preparing for sale?',
+    answer: 'Yes—sale preparation is a common interim CFO mandate. They prepare financial due diligence, clean up historical issues, implement vendor due diligence processes, manage buyer DD inquiries, optimize working capital, address financial weaknesses that could derail sale, and ensure financial readiness. Many interim CFOs have prepared dozens of companies for successful exits.',
   },
 ]
 
 export const CMO_SERVICE_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CMO?',
-    answer: 'A Interim CMO is an experienced Chief Marketing Officer who works with your company part-time, typically 1-3 days per week. You get strategic marketing leadership, team management, and growth expertise without the cost of a full-time executive hire.',
+    question: 'What is an Interim CMO?',
+    answer: 'An Interim CMO is an experienced Chief Marketing Officer who works with your company full-time on a temporary basis, typically for 3-12 months. They are brought in to handle marketing crises, lead major rebrand or repositioning, prepare for acquisition, pivot failing marketing strategies, or provide immediate CMO coverage after a sudden departure. This is full-time crisis and transformation leadership.',
   },
   {
-    question: 'When should my company hire a Interim CMO?',
-    answer: 'Consider hiring a interim CMO when: you need to build or rebuild your marketing strategy; your marketing team needs senior leadership; you\'re scaling and need to professionalise marketing; you\'re launching into new markets or segments; your current marketing isn\'t delivering results; or you need expertise in specific areas (PLG, demand gen, brand).',
+    question: 'When should my company hire an Interim CMO?',
+    answer: 'Hire an interim CMO for urgent marketing situations: your CMO has suddenly left; your marketing strategy has failed and you need a rapid pivot; you\'re preparing for sale and need to fix positioning/brand; you\'re post-acquisition and need marketing integration; you\'re rebranding or repositioning under pressure; or you need to rescue a major marketing transformation or product launch.',
   },
   {
-    question: 'How much does a Interim CMO cost?',
-    answer: 'Interim CMOs typically charge £700-£1,400 per day in the UK. At 2 days per week, this translates to roughly £70,000-£140,000 annually—compared to £150,000-£250,000+ for a full-time CMO (including salary, benefits, and overhead). You save 40-60% while getting equivalent expertise.',
+    question: 'How much does an Interim CMO cost?',
+    answer: 'Interim CMOs charge £1,200-£2,500 per day in the UK for full-time work (5 days/week). Monthly costs are £24,000-£50,000. While expensive, this is for critical 3-12 month periods addressing crises or major transformations. Total engagement costs typically range from £75,000-£600,000. The cost is justified when marketing failure threatens the business.',
   },
   {
-    question: 'What does a Interim CMO do?',
-    answer: 'A Interim CMO develops marketing strategy, manages and mentors your marketing team, oversees campaigns and channels, builds marketing infrastructure, tracks performance metrics, manages agency relationships, aligns marketing with sales, and reports to the board on marketing performance and ROI.',
+    question: 'What does an Interim CMO do?',
+    answer: 'An Interim CMO handles critical marketing situations: pivoting failed marketing strategies, leading major rebrand or repositioning, preparing marketing for due diligence (sale/IPO), integrating marketing post-acquisition, rescuing failed product launches or campaigns, rebuilding failed marketing teams, implementing marketing transformation, and providing stability during marketing leadership transitions. They solve urgent marketing problems.',
   },
   {
-    question: 'How is a Interim CMO different from a marketing agency?',
-    answer: 'A Interim CMO is an embedded leader—they join your team, attend leadership meetings, manage your people, and take ownership of results. Agencies execute specific campaigns or channels but don\'t provide strategic leadership or team management. Many companies use both: a interim CMO to lead strategy with agencies handling execution.',
+    question: 'How is an Interim CMO different from a marketing agency?',
+    answer: 'An Interim CMO is a temporary full-time executive who takes complete ownership of marketing during crises or transitions. They make strategic decisions, manage teams, report to the board, and are accountable for results during critical periods. Agencies provide execution support. An interim CMO is crisis leadership; agencies are service providers.',
   },
   {
-    question: 'What experience should a Interim CMO have?',
-    answer: 'Look for: 12-15+ years of marketing experience with 5+ years in leadership roles; proven track record of driving growth; expertise relevant to your business (B2B, DTC, PLG, ABM); experience at companies similar to your stage; team building and management experience; and strong analytical skills.',
+    question: 'What experience should an Interim CMO have?',
+    answer: 'Look for: 15-20+ years of marketing experience with extensive crisis or transformation delivery; proven track record in turnarounds, major pivots, or rebrand; experience preparing companies for sale or integrating acquisitions; ability to diagnose failing marketing quickly and implement remedial action; team stabilization experience; and proven ability to deliver under pressure in difficult situations.',
   },
   {
-    question: 'Can a Interim CMO work with my existing marketing team?',
-    answer: 'Yes—managing and mentoring existing teams is a core part of the role. A interim CMO can provide the leadership and direction your team needs, help develop team members, identify skill gaps, and make hiring recommendations. They provide the "CMO layer" that many marketing teams are missing.',
+    question: 'Can an Interim CMO work with my existing marketing team?',
+    answer: 'Yes—interim CMOs often inherit troubled or demoralized marketing teams and must quickly stabilize them. They assess team capability, address performance issues, implement new structures, make difficult personnel decisions if needed, and provide direction during chaos. They excel at team stabilization and rapid improvement in crisis environments.',
   },
   {
-    question: 'How quickly can a Interim CMO make an impact?',
-    answer: 'Most interim CMOs can begin adding value within the first 2-4 weeks—conducting audits, identifying quick wins, and developing initial strategy. Significant results typically emerge within 3-6 months as strategies are implemented. The key is that interim CMOs are experienced and can move fast.',
+    question: 'How quickly can an Interim CMO make an impact?',
+    answer: 'Interim CMOs must deliver quickly due to the crisis nature of engagements. Expect rapid assessment (1-2 weeks), immediate stabilization actions (weeks 2-4), and strategic pivot or transformation initiation (weeks 4-8). Unlike fractional CMOs who build gradually, interim CMOs are hired because speed is critical. Results must be visible within 30-60 days.',
   },
 ]
 
 export const CTO_SERVICE_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim CTO?',
-    answer: 'A Interim CTO is an experienced Chief Technology Officer who works with your company part-time, typically 1-3 days per week. You get technical leadership, architecture guidance, and engineering strategy without the cost of a full-time CTO.',
+    question: 'What is an Interim CTO?',
+    answer: 'An Interim CTO is an experienced Chief Technology Officer who works with your company full-time on a temporary basis, typically for 3-12 months. They are brought in to handle technology crises, lead major platform migrations, integrate technology post-acquisition, respond to cyber security incidents, or provide immediate CTO coverage after a sudden departure. This is full-time crisis and transformation leadership.',
   },
   {
-    question: 'When should my company hire a Interim CTO?',
-    answer: 'Consider hiring a interim CTO when: you\'re building your first product and need technical direction; your engineering team needs senior leadership; you\'re preparing for fundraising and need technical credibility; you\'re scaling and need to evolve your architecture; or you need expertise in specific areas (AI, security, cloud migration).',
+    question: 'When should my company hire an Interim CTO?',
+    answer: 'Hire an interim CTO for urgent technology situations: your CTO has suddenly left; you\'ve suffered a major cyber security incident or breach; you\'re undertaking a critical platform migration; you\'re integrating technology post-acquisition; your technology function is failing and needs rapid turnaround; you\'re preparing technology for sale/IPO; or you\'ve had a major technical failure requiring immediate expert intervention.',
   },
   {
-    question: 'How much does a Interim CTO cost?',
-    answer: 'Interim CTOs typically charge £850-£1,600 per day in the UK, with specialised expertise (AI, security) at the higher end. At 2 days per week, this translates to roughly £85,000-£160,000 annually—compared to £180,000-£350,000+ for a full-time CTO.',
+    question: 'How much does an Interim CTO cost?',
+    answer: 'Interim CTOs charge £1,200-£2,500 per day in the UK for full-time work (5 days/week), with cyber security or complex transformations at the higher end. Monthly costs are £24,000-£50,000. Total engagement costs typically range from £75,000-£600,000 for 3-12 month mandates. The cost is justified when technology failure threatens the business.',
   },
   {
-    question: 'What does a Interim CTO do?',
-    answer: 'A Interim CTO sets technical strategy, makes architecture decisions, leads and mentors engineering teams, conducts code and security reviews, manages technical debt, oversees vendor selection, supports fundraising with technical credibility, and reports to the board on technology matters.',
+    question: 'What does an Interim CTO do?',
+    answer: 'An Interim CTO handles critical technology situations: responding to and recovering from cyber security incidents, leading major platform migrations or technology transformations, integrating technology post-acquisition, rescuing failed technology projects, rebuilding failed engineering teams, preparing technology for due diligence (sale/IPO), implementing emergency security measures, and providing stability during technology leadership transitions. They solve urgent technology problems.',
   },
   {
-    question: 'Can a Interim CTO help with technical due diligence?',
-    answer: 'Yes—technical due diligence is a common reason to engage a interim CTO. They can prepare your technology for investor scrutiny, address technical debt concerns, document architecture, and represent your technical capabilities during fundraising or M&A processes.',
+    question: 'Can an Interim CTO help after a cyber security incident?',
+    answer: 'Yes—cyber security incident response is a critical interim CTO mandate. They lead incident response, coordinate with security firms and forensics, implement remediation, manage regulatory reporting (ICO, etc.), rebuild security controls, stabilize affected systems, communicate with board/customers, and prevent recurrence. Many interim CTOs specialize in security crisis management.',
   },
   {
-    question: 'What\'s the difference between a Interim CTO and a technical consultant?',
-    answer: 'A Interim CTO takes ownership and accountability—they lead your technical function, make decisions, manage people, and are responsible for outcomes. Technical consultants typically advise on specific problems without ongoing leadership responsibility. A interim CTO is part of your team.',
+    question: 'What\'s the difference between an Interim CTO and a technical consultant?',
+    answer: 'An Interim CTO is a temporary full-time executive who takes complete ownership of technology during crises or major transitions. They make all technology decisions, manage teams, report to the board, and are fully accountable. Technical consultants advise on specific problems. An interim CTO provides crisis leadership; consultants provide advice.',
   },
   {
-    question: 'What experience should a Interim CTO have?',
-    answer: 'Look for: 15+ years of engineering experience with significant leadership roles; experience at companies similar to your stage and scale; relevant technical expertise (your stack, your challenges); track record of building and scaling teams; strong communication skills for board and investor interactions.',
+    question: 'What experience should an Interim CTO have?',
+    answer: 'Look for: 15-20+ years of engineering leadership with extensive crisis or transformation delivery; proven track record in technology turnarounds, major migrations, or incident response; experience with post-acquisition integration; ability to rapidly assess technology problems and implement fixes; security incident experience; team stabilization skills; and proven ability to deliver under extreme pressure.',
   },
   {
-    question: 'How does a Interim CTO work with existing developers?',
-    answer: 'A Interim CTO provides the technical leadership layer your developers need. They set technical direction, remove blockers, make architecture decisions, conduct code reviews, mentor senior engineers, and create the processes and standards that help teams work effectively. They elevate your whole engineering function.',
+    question: 'How does an Interim CTO work with existing developers?',
+    answer: 'Interim CTOs often inherit troubled or demoralized engineering teams. They quickly assess team capability, address performance issues, make difficult technical or personnel decisions, implement rapid changes to working practices, stabilize delivery, and provide direction during chaos. Unlike fractional CTOs who coach gradually, interim CTOs must stabilize and transform teams quickly.',
   },
 ]
 
 export const COO_SERVICE_FAQS: FAQItem[] = [
   {
-    question: 'What is a Interim COO?',
-    answer: 'A Interim COO is an experienced Chief Operating Officer who works with your company part-time, typically 1-3 days per week. You get operational leadership, process optimisation, and scaling expertise without the cost of a full-time COO.',
+    question: 'What is an Interim COO?',
+    answer: 'An Interim COO is an experienced Chief Operating Officer who works with your company full-time on a temporary basis, typically for 3-12 months. They are brought in to handle operational crises, lead major operational transformations, integrate operations post-acquisition, manage restructuring, or provide immediate COO coverage after a sudden departure. This is full-time crisis and transformation leadership.',
   },
   {
-    question: 'When should my company hire a Interim COO?',
-    answer: 'Consider hiring a interim COO when: you\'re scaling rapidly and operations are struggling to keep up; your processes are inefficient or undocumented; you need to build operational infrastructure; you\'re experiencing growing pains; or the CEO is spending too much time on operations instead of strategy.',
+    question: 'When should my company hire an Interim COO?',
+    answer: 'Hire an interim COO for urgent operational situations: your COO has suddenly left; you\'re facing operational crisis (supply chain failure, quality issues, delivery collapse); you\'re restructuring or turning around operations; you\'re integrating operations post-acquisition; you\'re undertaking major operational transformation; or your operations are failing and threatening the business.',
   },
   {
-    question: 'How much does a Interim COO cost?',
-    answer: 'Interim COOs typically charge £750-£1,400 per day in the UK. At 2 days per week, this translates to roughly £75,000-£140,000 annually—compared to £160,000-£250,000+ for a full-time COO.',
+    question: 'How much does an Interim COO cost?',
+    answer: 'Interim COOs charge £1,200-£2,500 per day in the UK for full-time work (5 days/week), with complex turnarounds or transformations at the higher end. Monthly costs are £24,000-£50,000. Total engagement costs typically range from £75,000-£600,000 for 3-12 month mandates. The cost is justified when operational failure threatens the business.',
   },
   {
-    question: 'What does a Interim COO do?',
-    answer: 'A Interim COO optimises operations and processes, implements systems and tools, manages key initiatives and projects, builds operational teams, creates playbooks and SOPs, oversees vendor relationships, drives cross-functional alignment, and frees the CEO to focus on strategy and growth.',
+    question: 'What does an Interim COO do?',
+    answer: 'An Interim COO handles critical operational situations: managing operational crises (supply chain, quality, delivery failures), leading operational restructuring or turnarounds, integrating operations post-acquisition, implementing major operational transformations, rescuing failed operational projects, rebuilding failed operational teams, preparing operations for sale/IPO, and providing stability during operational leadership transitions. They solve urgent operational problems.',
   },
   {
-    question: 'How is a Interim COO different from an Operations Manager?',
-    answer: 'A Interim COO operates at the strategic level—they design the operating model, make decisions about systems and structure, and work across all departments. Operations Managers focus on day-to-day execution within specific areas. A interim COO often builds the framework that operations managers then run.',
+    question: 'How is an Interim COO different from an Operations Manager?',
+    answer: 'An Interim COO is a temporary full-time executive who takes complete ownership of operations during crises or major transitions. They operate at board level, make strategic decisions, manage across all functions, and are fully accountable. Operations Managers handle day-to-day execution. An interim COO provides crisis leadership; operations managers provide operational delivery.',
   },
   {
-    question: 'What experience should a Interim COO have?',
-    answer: 'Look for: 15+ years of operations experience with senior leadership roles; experience scaling companies similar to yours; track record of building systems and processes; cross-functional experience (operations touches everything); project management and implementation skills; and change management expertise.',
+    question: 'What experience should an Interim COO have?',
+    answer: 'Look for: 15-20+ years of operations leadership with extensive crisis or transformation delivery; proven track record in operational turnarounds, restructuring, or post-acquisition integration; experience managing supply chain, quality, or delivery crises; ability to rapidly diagnose operational problems and implement fixes; team stabilization skills; and proven ability to deliver under extreme pressure in difficult environments.',
   },
 ]

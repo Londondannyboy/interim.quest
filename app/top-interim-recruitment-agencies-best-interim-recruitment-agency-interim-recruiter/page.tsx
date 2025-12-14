@@ -5,15 +5,15 @@ import { VideoHeroBackground } from '@/components/VideoHeroBackground'
 import { getAgencies, Agency } from '@/lib/agencies'
 
 export const metadata: Metadata = {
-  title: 'Best Interim Recruitment Agency UK | Top Recruiters',
-  description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters for CFO, CTO, CMO hiring. Save 40-60% vs full-time executive hires.',
-  keywords: 'best interim recruitment agency, interim recruiters, top interim recruitment agencies, interim recruitment agency uk, interim executive recruitment, interim cfo recruitment',
+  title: 'Best Interim Recruitment Agency UK | Top Interim Recruiters',
+  description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters for full-time temporary CFO, CTO, CMO placements (3-12 months).',
+  keywords: 'best interim recruitment agency, interim recruiters, top interim recruitment agencies, interim recruitment agency uk, interim executive recruitment, temporary executive recruitment',
   alternates: {
     canonical: 'https://interim.quest/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter',
   },
   openGraph: {
-    title: 'Best Interim Recruitment Agency UK | Top Recruiters',
-    description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters and save 40-60% vs full-time hires.',
+    title: 'Best Interim Recruitment Agency UK | Top Interim Recruiters',
+    description: 'Find the best interim recruitment agency in the UK. Compare top interim recruiters for full-time temporary executive placements.',
     type: 'website',
     url: 'https://interim.quest/top-interim-recruitment-agencies-best-interim-recruitment-agency-interim-recruiter',
   },
@@ -57,7 +57,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
                 </h1>
 
                 <p className="text-xl text-white/80 leading-relaxed max-w-xl mb-8">
-                  We're building a better way to connect businesses with interim executives.
+                  We're building a better way to connect businesses with full-time temporary executives.
                   Transparent fees. Quality over quantity. <strong className="text-white">Currently in beta</strong>—join us as we launch.
                 </p>
 
@@ -143,7 +143,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
                       name="message"
                       rows={3}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                      placeholder="e.g., Series A startup needs interim CFO 2 days/week for fundraising support..."
+                      placeholder="e.g., Need interim CFO full-time for 6 months to lead financial restructuring..."
                     />
                   </div>
 
@@ -186,7 +186,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
               How Our Interim Recruitment Agency Works
             </h2>
             <p className="text-xl text-gray-600 mt-4 max-w-2xl mx-auto">
-              A interim recruitment agency that prioritises quality matching over volume, with transparent pricing.
+              An interim recruitment agency that prioritises quality matching over volume, with transparent pricing for full-time temporary placements.
             </p>
           </div>
 
@@ -272,12 +272,12 @@ export default async function TopInterimRecruitmentAgenciesPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: 'Access Senior Talent', description: 'Interim executives bring years of experience to your specific challenges without the full-time commitment.', icon: '✓' },
-              { title: 'Faster Than Executive Search', description: 'Traditional executive search can take 3-6 months. Interim placements typically happen in weeks.', icon: '⚡' },
-              { title: 'Lower Commitment', description: 'Start with an interim arrangement and scale up if needed. Less risk than a full-time hire.', icon: '🛡️' },
-              { title: 'Cost Efficient', description: 'Get senior expertise without full-time salary, benefits, and equity costs.', icon: '💰' },
-              { title: 'Specialist Matching', description: 'Interim recruitment requires understanding both executive capability and part-time working dynamics.', icon: '🎯' },
-              { title: 'Flexible Engagement', description: 'Matched on industry, stage, culture fit, and specific business challenges—not just availability.', icon: '🤝' }
+              { title: 'Immediate Impact', description: 'Interim executives hit the ground running, delivering results in transformation, crisis, or growth scenarios.', icon: '✓' },
+              { title: 'Faster Than Permanent Search', description: 'Traditional executive search takes 3-6 months. Interim placements typically happen in 2-4 weeks.', icon: '⚡' },
+              { title: 'Fixed-Term Commitment', description: 'Full-time executives for defined periods (3-12 months) without permanent obligations.', icon: '🛡️' },
+              { title: 'Proven Track Record', description: 'Experienced executives who have solved similar challenges across multiple companies.', icon: '💰' },
+              { title: 'Specialist Matching', description: 'Interim recruitment requires understanding crisis management, transformation, and rapid onboarding.', icon: '🎯' },
+              { title: 'Project-Based Focus', description: 'Matched on specific deliverables, industry experience, and transformation capability.', icon: '🤝' }
             ].map((benefit, index) => (
               <div key={index} className="bg-gray-50 p-6 border border-gray-200">
                 <div className="text-3xl mb-4">{benefit.icon}</div>
@@ -339,11 +339,11 @@ export default async function TopInterimRecruitmentAgenciesPage() {
 
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed mb-8 font-light">
-              The <strong className="font-semibold text-gray-900">best interim recruitment agency</strong> specialises in connecting businesses with experienced executives who work on a part-time, ongoing basis. Unlike traditional recruitment agencies that place full-time employees, top interim recruiters understand the unique requirements of part-time executive engagements.
+              The <strong className="font-semibold text-gray-900">best interim recruitment agency</strong> specialises in connecting businesses with experienced executives for full-time temporary placements (typically 3-12 months). Unlike traditional recruitment agencies that place permanent employees, top interim recruiters understand the unique requirements of temporary executive engagements.
             </p>
 
             <p>
-              The <strong>best interim recruitment agencies</strong> in the UK maintain networks of verified interim CFOs, CTOs, CMOs, COOs, and other C-suite professionals. They understand that interim hiring requires different assessment criteria: candidates must excel at rapid onboarding, managing multiple clients, and delivering impact in limited time.
+              The <strong>best interim recruitment agencies</strong> in the UK maintain networks of verified interim CFOs, CTOs, CMOs, COOs, and other C-suite professionals. They understand that interim hiring requires different assessment criteria: candidates must excel at rapid onboarding, crisis management, transformation delivery, and achieving specific outcomes within fixed timeframes.
             </p>
 
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-amber-500">
@@ -354,16 +354,16 @@ export default async function TopInterimRecruitmentAgenciesPage() {
 
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What to Look for in Interim Recruiters</h3>
             <ul className="space-y-3">
-              <li><strong>Specialisation:</strong> They focus on interim placements, not just interim or permanent roles</li>
-              <li><strong>Quality over Volume:</strong> Vetted executives with proven interim experience</li>
-              <li><strong>Transparent Fees:</strong> Clear pricing without hidden costs or retainers</li>
-              <li><strong>Understanding of Interim Work:</strong> Knowledge of part-time executive dynamics</li>
-              <li><strong>Guarantee:</strong> Replacement guarantee if the match doesn't work</li>
+              <li><strong>Specialisation:</strong> They focus on interim placements, not just permanent or contract roles</li>
+              <li><strong>Quality over Volume:</strong> Vetted executives with proven interim experience across multiple engagements</li>
+              <li><strong>Transparent Fees:</strong> Clear pricing (typically 15-20% of total contract value) without hidden costs</li>
+              <li><strong>Understanding of Interim Work:</strong> Knowledge of crisis management, transformation, and fixed-term delivery</li>
+              <li><strong>Replacement Guarantee:</strong> Commitment to replace executives if initial placement doesn't work</li>
             </ul>
 
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Interim vs Interim Recruitment</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">When to Use Interim Recruitment Agencies</h3>
             <p>
-              <strong>Interim recruiters</strong> place part-time executives for ongoing engagements (typically 1-3 days/week indefinitely). <strong>Interim recruiters</strong> place full-time executives for temporary periods (3-12 months). The best interim recruitment agency understands this distinction and builds networks accordingly.
+              <strong>Interim recruiters</strong> are essential when you need full-time temporary executives for transformation projects, crisis situations, leadership gaps, or rapid growth phases. They provide speed to market (2-4 weeks vs 3-6 months for permanent search), proven talent with relevant experience, and reduced risk through replacement guarantees.
             </p>
           </article>
         </div>
@@ -381,11 +381,11 @@ export default async function TopInterimRecruitmentAgenciesPage() {
 
           <div className="space-y-4">
             {[
-              { q: 'What is a interim recruitment agency?', a: 'A interim recruitment agency specialises in placing executives who work part-time with businesses on an ongoing basis. Unlike interim recruitment (full-time, temporary), interim means part-time, typically 1-3 days per week.' },
-              { q: 'How much do interim recruiters charge?', a: 'Interim recruitment agency fees typically range from 10-25% of first year engagement value. This is often lower than traditional executive search firms which charge 25-33% of annual salary for full-time placements.' },
-              { q: 'How long does interim recruitment take?', a: 'Interim placements typically happen faster than full-time executive search—often 2-4 weeks versus 3-6 months. However, quality matching is more important than speed.' },
-              { q: 'What roles do interim recruiters fill?', a: 'Interim recruitment agencies typically place C-suite roles (CFO, CTO, CMO, COO) and senior director positions. These are roles where strategic expertise is needed but full-time isn\'t required.' },
-              { q: 'What\'s the difference between interim and interim?', a: 'Interim recruiters place full-time executives for temporary periods (3-12 months). Interim recruiters place part-time executives for ongoing engagements, typically 1-3 days per week on an indefinite basis.' }
+              { q: 'What is an interim recruitment agency?', a: 'An interim recruitment agency specialises in placing executives on a full-time temporary basis (typically 3-12 months) to lead specific business challenges, transformations, or fill critical gaps. Unlike permanent search firms, they focus on fixed-term executive placements.' },
+              { q: 'How much do interim recruiters charge?', a: 'Interim recruitment agency fees typically range from 15-20% of total engagement value (total contract value over the full term). For a 6-month CFO placement at £1,400/day, the recruitment fee would be £27,000-36,000.' },
+              { q: 'How long does interim recruitment take?', a: 'Interim placements typically happen in 2-4 weeks versus 3-6 months for permanent executive search. Speed is critical as businesses usually need interim executives urgently for crisis, transformation, or gap-filling situations.' },
+              { q: 'What roles do interim recruiters fill?', a: 'Interim recruitment agencies typically place C-suite roles (interim CFO, CTO, CMO, COO, CEO) and senior director positions for transformation projects, crisis management, leadership transitions, or capability gaps requiring full-time temporary leadership.' },
+              { q: 'What makes a good interim executive?', a: 'The best interim executives have deep experience across multiple companies, can rapidly assess situations, deliver specific outcomes within tight timeframes, and excel at knowledge transfer. They typically charge £800-£2,000/day depending on seniority and specialism.' }
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 border border-gray-200">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{faq.q}</h3>

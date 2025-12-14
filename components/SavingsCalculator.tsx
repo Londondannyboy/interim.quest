@@ -2,28 +2,30 @@
 
 import { useState } from 'react'
 
-const ROLE_DEFAULTS: Record<string, { salary: number; label: string }> = {
-  cto: { salary: 150000, label: 'CTO' },
-  cfo: { salary: 140000, label: 'CFO' },
-  cmo: { salary: 130000, label: 'CMO' },
-  coo: { salary: 135000, label: 'COO' },
-  ciso: { salary: 145000, label: 'CISO' },
-  chro: { salary: 125000, label: 'CHRO' },
-  cpo: { salary: 140000, label: 'CPO' },
+const ROLE_DEFAULTS: Record<string, { salary: number; label: string; dayRate: number }> = {
+  cto: { salary: 150000, label: 'CTO', dayRate: 1700 },
+  cfo: { salary: 140000, label: 'CFO', dayRate: 1600 },
+  cmo: { salary: 130000, label: 'CMO', dayRate: 1500 },
+  coo: { salary: 135000, label: 'COO', dayRate: 1500 },
+  ciso: { salary: 145000, label: 'CISO', dayRate: 1650 },
+  chro: { salary: 125000, label: 'CHRO', dayRate: 1400 },
+  cpo: { salary: 140000, label: 'CPO', dayRate: 1550 },
 }
 
 export function SavingsCalculator() {
   const [role, setRole] = useState('cto')
   const [fullTimeSalary, setFullTimeSalary] = useState(150000)
-  const [hoursNeeded, setHoursNeeded] = useState(16) // 2 days per week
+  const [contractMonths, setContractMonths] = useState(6)
 
-  // Calculate costs
+  // Calculate costs - Full-time interim vs permanent
+  const roleData = ROLE_DEFAULTS[role]
   const fullTimeTotalCost = fullTimeSalary * 1.35 // Include NI, benefits, overhead
-  const hourlyRate = 150 // Average interim executive hourly rate
-  const weeksPerYear = 48
-  const interimAnnualCost = hoursNeeded * hourlyRate * weeksPerYear
-  const savings = fullTimeTotalCost - interimAnnualCost
-  const savingsPercent = Math.round((savings / fullTimeTotalCost) * 100)
+  const daysPerWeek = 5 // Full-time interim
+  const weeksPerMonth = 4.33
+  const interimTotalCost = roleData.dayRate * daysPerWeek * weeksPerMonth * contractMonths
+  const permanentCostForPeriod = (fullTimeTotalCost / 12) * contractMonths
+  const costDifference = interimTotalCost - permanentCostForPeriod
+  const costComparisonPercent = Math.round((costDifference / permanentCostForPeriod) * 100)
 
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-GB', {
@@ -42,10 +44,10 @@ export function SavingsCalculator() {
     <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-900 rounded-3xl shadow-2xl p-8 md:p-10 text-white">
       <div className="text-center mb-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-3">
-          How Much Will You Save?
+          Interim Executive Investment Calculator
         </h2>
         <p className="text-purple-200 text-lg">
-          Calculate your savings by hiring a interim executive vs full-time
+          Compare full-time interim costs vs permanent hire for your specific timeframe
         </p>
       </div>
 
@@ -77,7 +79,7 @@ export function SavingsCalculator() {
           {/* Full-Time Salary */}
           <div>
             <label className="block text-sm font-medium text-purple-200 mb-2">
-              Full-Time {ROLE_DEFAULTS[role].label} Salary (Base)
+              Permanent {ROLE_DEFAULTS[role].label} Salary (Base)
             </label>
             <div className="text-3xl font-bold mb-3">
               {formatCurrency(fullTimeSalary)}
@@ -97,79 +99,89 @@ export function SavingsCalculator() {
             </div>
           </div>
 
-          {/* Hours Needed */}
+          {/* Contract Length */}
           <div>
             <label className="block text-sm font-medium text-purple-200 mb-2">
-              Hours Per Week You Actually Need
+              Interim Contract Length (Full-Time)
             </label>
             <div className="text-3xl font-bold mb-3">
-              {hoursNeeded} hours <span className="text-lg font-normal text-purple-300">({(hoursNeeded / 8).toFixed(1)} days)</span>
+              {contractMonths} months
             </div>
             <input
               type="range"
-              min="4"
-              max="40"
-              step="4"
-              value={hoursNeeded}
-              onChange={(e) => setHoursNeeded(Number(e.target.value))}
+              min="3"
+              max="12"
+              step="1"
+              value={contractMonths}
+              onChange={(e) => setContractMonths(Number(e.target.value))}
               className="w-full h-3 bg-purple-700 rounded-lg appearance-none cursor-pointer accent-white"
             />
             <div className="flex justify-between text-xs text-purple-300 mt-1">
-              <span>4 hrs (0.5 days)</span>
-              <span>40 hrs (5 days)</span>
+              <span>3 months</span>
+              <span>12 months</span>
             </div>
           </div>
         </div>
 
         {/* Right Column - Results */}
         <div className="bg-white/10 backdrop-blur rounded-2xl p-6 space-y-4">
-          <h3 className="text-xl font-semibold text-center mb-6">Annual Cost Comparison</h3>
+          <h3 className="text-xl font-semibold text-center mb-6">{contractMonths}-Month Cost Comparison</h3>
 
-          {/* Full-Time Cost */}
-          <div className="bg-red-500/20 rounded-xl p-4">
+          {/* Permanent Cost */}
+          <div className="bg-blue-500/20 rounded-xl p-4">
             <div className="flex justify-between items-center">
               <div>
-                <div className="text-sm text-purple-200">Full-Time {ROLE_DEFAULTS[role].label}</div>
-                <div className="text-xs text-purple-300">(Salary + NI + Benefits + Overhead)</div>
+                <div className="text-sm text-purple-200">Permanent {ROLE_DEFAULTS[role].label}</div>
+                <div className="text-xs text-purple-300">({contractMonths} months salary + benefits)</div>
               </div>
-              <div className="text-2xl font-bold text-red-300">
-                {formatCurrency(fullTimeTotalCost)}
+              <div className="text-2xl font-bold text-blue-300">
+                {formatCurrency(permanentCostForPeriod)}
               </div>
             </div>
           </div>
 
           {/* Interim Cost */}
-          <div className="bg-green-500/20 rounded-xl p-4">
+          <div className="bg-amber-500/20 rounded-xl p-4">
             <div className="flex justify-between items-center">
               <div>
                 <div className="text-sm text-purple-200">Interim {ROLE_DEFAULTS[role].label}</div>
-                <div className="text-xs text-purple-300">({hoursNeeded} hrs/week × 48 weeks)</div>
+                <div className="text-xs text-purple-300">(£{roleData.dayRate}/day × 5 days × {contractMonths} months)</div>
               </div>
-              <div className="text-2xl font-bold text-green-300">
-                {formatCurrency(interimAnnualCost)}
+              <div className="text-2xl font-bold text-amber-300">
+                {formatCurrency(interimTotalCost)}
               </div>
             </div>
           </div>
 
-          {/* Savings */}
-          <div className="bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl p-5 text-center mt-6">
-            <div className="text-sm font-medium text-green-100 mb-1">Your Annual Savings</div>
+          {/* Cost Comparison */}
+          <div className={`${costDifference > 0 ? 'bg-gradient-to-r from-amber-500 to-orange-500' : 'bg-gradient-to-r from-green-500 to-emerald-500'} rounded-xl p-5 text-center mt-6`}>
+            <div className="text-sm font-medium text-white/90 mb-1">Investment Comparison</div>
             <div className="text-4xl font-bold text-white mb-1">
-              {formatCurrency(savings)}
+              {costDifference > 0 ? '+' : ''}{formatCurrency(Math.abs(costDifference))}
             </div>
-            <div className="text-lg font-semibold text-green-100">
-              That's {savingsPercent}% less than full-time
+            <div className="text-lg font-semibold text-white/90">
+              {costDifference > 0
+                ? `${costComparisonPercent}% premium for immediate expertise`
+                : `${Math.abs(costComparisonPercent)}% less than permanent`}
             </div>
           </div>
 
           <p className="text-xs text-purple-300 text-center mt-4">
-            Based on £150/hr average interim rate. Full-time includes 35% for employer NI, pension, benefits and overhead.
+            Based on £{roleData.dayRate}/day {ROLE_DEFAULTS[role].label} rate (full-time, 5 days/week). Permanent includes 35% for NI, pension, benefits and overhead.
           </p>
         </div>
       </div>
 
+      {/* Value Proposition */}
+      <div className="mt-6 p-4 bg-purple-950/50 rounded-xl border border-purple-700/50">
+        <p className="text-sm text-purple-200 text-center">
+          <strong className="text-white">Why Interim?</strong> Get immediate access to senior expertise without long-term commitment.
+          Perfect for transformation projects, crisis management, or bridging leadership gaps while you find the perfect permanent hire.
+        </p>
+      </div>
+
       {/* CTA */}
-      <div className="text-center">
+      <div className="text-center mt-6">
         <a
           href="#contact"
           className="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-bold rounded-xl hover:bg-purple-100 transition-all shadow-lg hover:shadow-xl"

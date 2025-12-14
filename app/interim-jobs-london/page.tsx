@@ -12,11 +12,11 @@ export const revalidate = 3600 // Revalidate every hour
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs London - Executive Roles in the City, Shoreditch & Canary Wharf',
-  description: 'Find interim executive jobs in London. CFO, CMO, CTO roles across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates. 85+ opportunities.',
+  title: 'Interim Jobs London | Interim Quest',
+  description: 'Find interim executive jobs in London. Full-time temporary CFO, CMO, CTO roles across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates. 85+ opportunities.',
   openGraph: {
-    title: 'Interim Jobs London - Executive Roles in the City, Shoreditch & Canary Wharf',
-    description: 'Find interim executive jobs in London. CFO, CMO, CTO roles across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates.',
+    title: 'Interim Jobs London | Interim Quest',
+    description: 'Find interim executive jobs in London. Full-time temporary CFO, CMO, CTO roles across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates.',
     type: 'website',
   },
 }
@@ -125,7 +125,7 @@ export default async function LondonPage() {
                   />
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    CFO, CMO, CTO roles across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates. Work with London's top startups and scale-ups.
+                    Full-time temporary executive roles - CFO, CMO, CTO positions across the City, Shoreditch, Canary Wharf. £800-£1,500 daily rates for interim management assignments.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -184,7 +184,7 @@ export default async function LondonPage() {
           </div>
           <div className="prose prose-xl prose-gray max-w-none">
             <p className="text-xl text-gray-600 leading-relaxed text-center">
-              Accounting for 60% of all interim opportunities nationwide, London offers unmatched access to startups, scale-ups, and established companies seeking flexible leadership. Day rates range from £800-£1,500, with professionals earning £150,000-£300,000+ annually across 2-4 clients.
+              Accounting for 60% of all interim opportunities nationwide, London dominates the UK's interim management market. Companies across the City, Shoreditch, and Canary Wharf hire interim executives for full-time temporary assignments - from 3-month transformation projects to 18-month leadership roles. Day rates range from £800-£1,500, with interim managers earning £150,000-£300,000+ annually on fixed-term contracts.
             </p>
           </div>
         </div>

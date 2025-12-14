@@ -9,11 +9,11 @@ import { FAQ, STARTUPS_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs for Startups UK - CFO, CTO, CMO for Scale-ups',
-  description: 'Find interim executive jobs at startups and scale-ups. Interim CFO, CTO, CMO for Series A-C companies. £800-£1,300 daily rates. Equity options available.',
+  title: 'Interim Jobs in Startups | Interim Quest',
+  description: 'Full-time temporary executive roles for startups and scale-ups. £800-£1,300 daily rates. Bridge leadership gaps, lead critical projects, and prepare for next funding round.',
   openGraph: {
-    title: 'Interim Jobs for Startups UK - CFO, CTO, CMO for Scale-ups',
-    description: 'Find interim executive jobs at UK startups and scale-ups.',
+    title: 'Interim Jobs in Startups | Interim Quest',
+    description: 'Full-time temporary startup leadership for critical growth phases.',
     type: 'website',
   },
 }
@@ -103,7 +103,7 @@ export default async function StartupJobsPage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    Interim CFO, CTO, CMO for Series A-C companies. £800-£1,300 daily rates plus potential equity. Join high-growth companies.
+                    Full-time temporary executive roles for startups in transition. Bridge leadership gaps, lead fundraising, and professionalize operations. £800-£1,300 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -234,29 +234,29 @@ export default async function StartupJobsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">💎</span>
+                <span className="text-3xl">🔄</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Equity Upside</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Leadership Gaps</h3>
               <p className="text-gray-600">
-                25% of startup interim roles include equity. A successful exit could multiply your earnings significantly beyond day rates.
+                Startups hire interim executives when co-founders depart, permanent hires fail, or they need senior leadership before affording full-time. Full-time, 6-18 month bridge roles.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🎯</span>
+                <span className="text-3xl">💰</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">High Impact</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Fundraising Sprints</h3>
               <p className="text-gray-600">
-                Shape strategy and build from scratch. Your decisions directly impact company trajectory. More autonomy than corporate roles.
+                Series A-C companies hire interim CFOs for 4-9 months to prepare fundraising materials, build financial models, and manage investor due diligence. Temporary, full-time commitment.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">🚀</span>
+                <span className="text-3xl">⚡</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Fast-Paced</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Professionalization</h3>
               <p className="text-gray-600">
-                Move quickly, learn constantly. Work with ambitious founders and talented teams building the next generation of companies.
+                Scale-ups need interim COOs to establish processes, implement systems, and professionalize operations as they grow from 20 to 100+ employees. Full-time, 9-15 month engagements.
               </p>
             </div>
           </div>

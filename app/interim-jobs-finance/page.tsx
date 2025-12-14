@@ -9,11 +9,11 @@ import { FAQ, FINANCE_FAQS } from '@/components/FAQ'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Finance Jobs UK - CFO, FD, Finance Director Roles',
-  description: 'Find interim finance jobs in the UK. Interim CFO, Finance Director, FD roles. £800-£1,400 daily rates. PE-backed, startups, and SMEs.',
+  title: 'Interim Jobs in Finance | Interim Quest',
+  description: 'Full-time temporary CFO, Finance Director, and FD roles. £800-£1,400 daily rates. Lead fundraising rounds, financial restructuring, and exit preparation.',
   openGraph: {
-    title: 'Interim Finance Jobs UK - CFO, FD, Finance Director Roles',
-    description: 'Find interim finance leadership roles across the UK.',
+    title: 'Interim Jobs in Finance | Interim Quest',
+    description: 'Full-time temporary finance leadership roles for critical transitions.',
     type: 'website',
   },
 }
@@ -100,7 +100,7 @@ export default async function FinanceJobsPage() {
                   </h1>
 
                   <p className="text-lg text-white/70 mb-8 leading-relaxed max-w-lg">
-                    Interim CFO, Finance Director, FD positions. £800-£1,400 daily rates across PE-backed companies, startups, and SMEs.
+                    Full-time temporary finance leadership for companies in transition. Lead fundraising rounds, financial turnarounds, and exit preparation. £800-£1,400 daily rates.
                   </p>
 
                   <div className="flex flex-wrap gap-4">
@@ -230,29 +230,29 @@ export default async function FinanceJobsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">📈</span>
+                <span className="text-3xl">💼</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">PE/VC Demand</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Fundraising Specialists</h3>
               <p className="text-gray-600">
-                45% of interim CFO roles are with PE-backed companies. Investors demand senior finance expertise their portfolio companies can't afford full-time.
+                Companies hire interim CFOs specifically for Series A-C rounds. Full-time engagement for 4-9 months to prepare materials, manage due diligence, and close funding.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
-                <span className="text-3xl">💼</span>
+                <span className="text-3xl">📊</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Highest Demand</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Financial Restructuring</h3>
               <p className="text-gray-600">
-                CFO/Finance Director is the most common interim role, accounting for 35% of all positions. Every growing company needs financial leadership.
+                Interim finance leaders step in during cash crises, pre-administration situations, or post-acquisition integrations. These are temporary, full-time assignments requiring urgent action.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-8">
               <div className="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
                 <span className="text-3xl">🎯</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Clear Value</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Exit Preparation</h3>
               <p className="text-gray-600">
-                Interim CFOs deliver measurable ROI - improved cash flow, successful fundraises, and exit readiness. Value is easy to demonstrate.
+                PE-backed companies hire interim CFOs for 6-12 months pre-exit to clean up finances, implement proper controls, and maximize valuation for sale or IPO.
               </p>
             </div>
           </div>

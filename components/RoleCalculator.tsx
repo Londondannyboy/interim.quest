@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-// Role-specific defaults based on UK market data
+// Role-specific defaults based on UK interim market data
 const ROLE_DEFAULTS: Record<string, {
   label: string
   avgDayRate: number
@@ -14,64 +14,64 @@ const ROLE_DEFAULTS: Record<string, {
 }> = {
   cmo: {
     label: 'CMO',
-    avgDayRate: 950,
+    avgDayRate: 1500,
     avgSalary: 130000,
-    minDayRate: 700,
-    maxDayRate: 1400,
+    minDayRate: 1200,
+    maxDayRate: 2200,
     color: 'amber',
     colorDark: 'amber-600',
   },
   cfo: {
     label: 'CFO',
-    avgDayRate: 1050,
+    avgDayRate: 1600,
     avgSalary: 145000,
-    minDayRate: 800,
-    maxDayRate: 1500,
+    minDayRate: 1300,
+    maxDayRate: 2400,
     color: 'emerald',
     colorDark: 'emerald-600',
   },
   cto: {
     label: 'CTO',
-    avgDayRate: 1100,
+    avgDayRate: 1700,
     avgSalary: 155000,
-    minDayRate: 850,
-    maxDayRate: 1600,
+    minDayRate: 1400,
+    maxDayRate: 2500,
     color: 'blue',
     colorDark: 'blue-600',
   },
   coo: {
     label: 'COO',
-    avgDayRate: 950,
+    avgDayRate: 1500,
     avgSalary: 140000,
-    minDayRate: 750,
-    maxDayRate: 1400,
+    minDayRate: 1200,
+    maxDayRate: 2300,
     color: 'orange',
     colorDark: 'orange-600',
   },
   ciso: {
     label: 'CISO',
-    avgDayRate: 1150,
+    avgDayRate: 1650,
     avgSalary: 150000,
-    minDayRate: 900,
-    maxDayRate: 1600,
+    minDayRate: 1300,
+    maxDayRate: 2400,
     color: 'red',
     colorDark: 'red-600',
   },
   chro: {
     label: 'CHRO',
-    avgDayRate: 850,
+    avgDayRate: 1400,
     avgSalary: 125000,
-    minDayRate: 650,
-    maxDayRate: 1200,
+    minDayRate: 1200,
+    maxDayRate: 2000,
     color: 'pink',
     colorDark: 'pink-600',
   },
   cpo: {
     label: 'CPO',
-    avgDayRate: 1000,
+    avgDayRate: 1550,
     avgSalary: 145000,
-    minDayRate: 800,
-    maxDayRate: 1400,
+    minDayRate: 1300,
+    maxDayRate: 2200,
     color: 'purple',
     colorDark: 'purple-600',
   },
@@ -90,25 +90,24 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
 
   // Candidate calculator state
   const [dayRate, setDayRate] = useState(roleData.avgDayRate)
-  const [daysPerWeek, setDaysPerWeek] = useState(2.5)
-  const [clients, setClients] = useState(2)
+  const [contractLength, setContractLength] = useState(6) // months
 
   // Employer calculator state
   const [fullTimeSalary, setFullTimeSalary] = useState(roleData.avgSalary)
-  const [hoursNeeded, setHoursNeeded] = useState(16) // 2 days
+  const [contractMonths, setContractMonths] = useState(6)
 
-  // Candidate calculations
-  const weeklyEarnings = dayRate * daysPerWeek * clients
-  const monthlyEarnings = weeklyEarnings * 4.33
-  const annualEarnings = weeklyEarnings * 48
+  // Candidate calculations - Full-time interim
+  const daysPerWeek = 5
+  const weeksPerMonth = 4.33
+  const monthlyEarnings = dayRate * daysPerWeek * weeksPerMonth
+  const totalContractValue = monthlyEarnings * contractLength
 
-  // Employer calculations
+  // Employer calculations - Compare interim to full-time permanent
   const fullTimeTotalCost = fullTimeSalary * 1.35 // Include NI, benefits, overhead
-  const interimDailyEquivalent = roleData.avgDayRate
-  const daysPerWeekNeeded = hoursNeeded / 8
-  const interimAnnualCost = interimDailyEquivalent * daysPerWeekNeeded * 48
-  const savings = fullTimeTotalCost - interimAnnualCost
-  const savingsPercent = Math.round((savings / fullTimeTotalCost) * 100)
+  const interimTotalCost = dayRate * daysPerWeek * weeksPerMonth * contractMonths
+  const permanentCostForPeriod = (fullTimeTotalCost / 12) * contractMonths
+  const costDifference = interimTotalCost - permanentCostForPeriod
+  const costComparisonPercent = Math.round((costDifference / permanentCostForPeriod) * 100)
 
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-GB', {
@@ -140,7 +139,7 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
               : 'bg-gray-900 text-gray-400 hover:text-white'
           }`}
         >
-          I'm Hiring - How Much Will I Save?
+          I'm Hiring - What's The Cost?
         </button>
       </div>
 
@@ -150,10 +149,10 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
           <div>
             <div className="mb-8">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">Interim {roleData.label} Earnings</span>
-              <h3 className="text-2xl font-black mt-1">Calculate Your Potential Income</h3>
+              <h3 className="text-2xl font-black mt-1">Calculate Your Full-Time Interim Income</h3>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
               {/* Day Rate */}
               <div>
                 <label className="block text-sm font-medium text-gray-400 mb-2">
@@ -178,85 +177,58 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
                 </div>
               </div>
 
-              {/* Days Per Week */}
+              {/* Contract Length */}
               <div>
                 <label className="block text-sm font-medium text-gray-400 mb-2">
-                  Days Per Client/Week
+                  Contract Length (Full-Time)
                 </label>
                 <div className="text-3xl font-black text-white mb-3">
-                  {daysPerWeek} days
+                  {contractLength} months
                 </div>
                 <input
                   type="range"
-                  min="1"
-                  max="5"
-                  step="0.5"
-                  value={daysPerWeek}
-                  onChange={(e) => setDaysPerWeek(Number(e.target.value))}
-                  className="w-full h-2 bg-gray-800 rounded-lg appearance-none cursor-pointer accent-amber-500"
-                />
-                <div className="flex justify-between text-xs text-gray-500 mt-1">
-                  <span>1 day</span>
-                  <span>5 days</span>
-                </div>
-              </div>
-
-              {/* Number of Clients */}
-              <div>
-                <label className="block text-sm font-medium text-gray-400 mb-2">
-                  Number of Clients
-                </label>
-                <div className="text-3xl font-black text-white mb-3">
-                  {clients} {clients === 1 ? 'client' : 'clients'}
-                </div>
-                <input
-                  type="range"
-                  min="1"
-                  max="4"
+                  min="3"
+                  max="12"
                   step="1"
-                  value={clients}
-                  onChange={(e) => setClients(Number(e.target.value))}
+                  value={contractLength}
+                  onChange={(e) => setContractLength(Number(e.target.value))}
                   className="w-full h-2 bg-gray-800 rounded-lg appearance-none cursor-pointer accent-amber-500"
                 />
                 <div className="flex justify-between text-xs text-gray-500 mt-1">
-                  <span>1</span>
-                  <span>4</span>
+                  <span>3 months</span>
+                  <span>12 months</span>
                 </div>
               </div>
             </div>
 
             {/* Results */}
-            <div className="grid grid-cols-3 gap-4 p-6 bg-gray-900 border border-gray-800">
+            <div className="grid grid-cols-2 gap-4 p-6 bg-gray-900 border border-gray-800">
               <div className="text-center">
-                <div className="text-sm text-gray-500 mb-1 uppercase tracking-wider">Weekly</div>
-                <div className="text-2xl font-bold text-white">
-                  {formatCurrency(weeklyEarnings)}
-                </div>
-              </div>
-              <div className="text-center border-x border-gray-800">
                 <div className="text-sm text-gray-500 mb-1 uppercase tracking-wider">Monthly</div>
                 <div className="text-2xl font-bold text-white">
                   {formatCurrency(monthlyEarnings)}
                 </div>
+                <div className="text-xs text-gray-500 mt-1">5 days/week</div>
               </div>
-              <div className="text-center">
-                <div className="text-sm text-gray-500 mb-1 uppercase tracking-wider">Annual</div>
+              <div className="text-center border-l border-gray-800">
+                <div className="text-sm text-gray-500 mb-1 uppercase tracking-wider">Total Contract</div>
                 <div className="text-3xl font-black text-amber-400">
-                  {formatCurrency(annualEarnings)}
+                  {formatCurrency(totalContractValue)}
                 </div>
+                <div className="text-xs text-gray-500 mt-1">{contractLength} months</div>
               </div>
             </div>
 
             <p className="text-xs text-gray-600 mt-4">
-              Based on {daysPerWeek} days/week x {clients} clients x 48 working weeks. {roleData.label} UK average day rate: £{roleData.avgDayRate}.
+              Based on full-time interim assignment (5 days/week). {roleData.label} UK average interim day rate: £{roleData.avgDayRate}.
             </p>
           </div>
         ) : (
           /* Employer View */
           <div>
             <div className="mb-8">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">Interim {roleData.label} vs Full-Time</span>
-              <h3 className="text-2xl font-black mt-1">Calculate Your Savings</h3>
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-500">Interim {roleData.label} Investment</span>
+              <h3 className="text-2xl font-black mt-1">Compare Interim vs Permanent Costs</h3>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -265,7 +237,7 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
                 {/* Full-Time Salary */}
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">
-                    Full-Time {roleData.label} Salary (Base)
+                    Full-Time Permanent {roleData.label} Salary (Base)
                   </label>
                   <div className="text-3xl font-black text-white mb-3">
                     {formatCurrency(fullTimeSalary)}
@@ -286,76 +258,80 @@ export function RoleCalculator({ role, className = '' }: RoleCalculatorProps) {
                   </div>
                 </div>
 
-                {/* Hours Needed */}
+                {/* Contract Length */}
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-2">
-                    Hours Per Week You Actually Need
+                    Interim Contract Length (Full-Time)
                   </label>
                   <div className="text-3xl font-black text-white mb-3">
-                    {hoursNeeded} hours <span className="text-lg font-normal text-gray-500">({daysPerWeekNeeded.toFixed(1)} days)</span>
+                    {contractMonths} months
                   </div>
                   <input
                     type="range"
-                    min="4"
-                    max="40"
-                    step="4"
-                    value={hoursNeeded}
-                    onChange={(e) => setHoursNeeded(Number(e.target.value))}
+                    min="3"
+                    max="12"
+                    step="1"
+                    value={contractMonths}
+                    onChange={(e) => setContractMonths(Number(e.target.value))}
                     className="w-full h-2 bg-gray-800 rounded-lg appearance-none cursor-pointer accent-amber-500"
                   />
                   <div className="flex justify-between text-xs text-gray-500 mt-1">
-                    <span>4 hrs (0.5 days)</span>
-                    <span>40 hrs (5 days)</span>
+                    <span>3 months</span>
+                    <span>12 months</span>
                   </div>
                 </div>
               </div>
 
               {/* Results */}
               <div className="bg-gray-900 border border-gray-800 p-6 space-y-4">
-                <h4 className="text-lg font-bold text-center mb-4 text-gray-400 uppercase tracking-wider">Annual Cost Comparison</h4>
+                <h4 className="text-lg font-bold text-center mb-4 text-gray-400 uppercase tracking-wider">{contractMonths}-Month Cost Comparison</h4>
 
-                {/* Full-Time Cost */}
-                <div className="bg-red-900/30 border border-red-900/50 p-4">
+                {/* Permanent Cost */}
+                <div className="bg-blue-900/30 border border-blue-900/50 p-4">
                   <div className="flex justify-between items-center">
                     <div>
-                      <div className="text-sm text-gray-400">Full-Time {roleData.label}</div>
-                      <div className="text-xs text-gray-500">(Salary + NI + Benefits)</div>
+                      <div className="text-sm text-gray-400">Permanent {roleData.label}</div>
+                      <div className="text-xs text-gray-500">({contractMonths} months salary + benefits)</div>
                     </div>
-                    <div className="text-2xl font-bold text-red-400">
-                      {formatCurrency(fullTimeTotalCost)}
+                    <div className="text-2xl font-bold text-blue-400">
+                      {formatCurrency(permanentCostForPeriod)}
                     </div>
                   </div>
                 </div>
 
                 {/* Interim Cost */}
-                <div className="bg-emerald-900/30 border border-emerald-900/50 p-4">
+                <div className="bg-amber-900/30 border border-amber-900/50 p-4">
                   <div className="flex justify-between items-center">
                     <div>
                       <div className="text-sm text-gray-400">Interim {roleData.label}</div>
-                      <div className="text-xs text-gray-500">({daysPerWeekNeeded.toFixed(1)} days/week x 48 weeks)</div>
+                      <div className="text-xs text-gray-500">(£{roleData.avgDayRate}/day × 5 days × {contractMonths} months)</div>
                     </div>
-                    <div className="text-2xl font-bold text-emerald-400">
-                      {formatCurrency(interimAnnualCost)}
+                    <div className="text-2xl font-bold text-amber-400">
+                      {formatCurrency(interimTotalCost)}
                     </div>
                   </div>
                 </div>
 
-                {/* Savings */}
-                <div className="bg-amber-500 text-black p-5 text-center mt-4">
-                  <div className="text-sm font-bold uppercase tracking-wider mb-1">Your Annual Savings</div>
+                {/* Cost Comparison */}
+                <div className={`${costDifference > 0 ? 'bg-amber-500' : 'bg-emerald-500'} text-black p-5 text-center mt-4`}>
+                  <div className="text-sm font-bold uppercase tracking-wider mb-1">Investment Comparison</div>
                   <div className="text-4xl font-black mb-1">
-                    {formatCurrency(savings)}
+                    {costDifference > 0 ? '+' : ''}{formatCurrency(Math.abs(costDifference))}
                   </div>
                   <div className="text-lg font-bold">
-                    That's {savingsPercent}% less than full-time
+                    {costDifference > 0
+                      ? `${costComparisonPercent}% premium for immediate expertise`
+                      : `${Math.abs(costComparisonPercent)}% less than permanent hire`}
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="text-xs text-gray-600 mt-4">
-              Based on £{roleData.avgDayRate}/day average {roleData.label} rate. Full-time includes 35% for employer NI, pension, benefits and overhead.
-            </p>
+            <div className="mt-6 p-4 bg-gray-900 border border-gray-800 rounded">
+              <p className="text-xs text-gray-400">
+                <strong className="text-white">Value Beyond Cost:</strong> Interim executives provide immediate impact, specialized expertise for specific challenges, and no long-term commitment. Average interim {roleData.label} day rate: £{roleData.avgDayRate} (full-time, 5 days/week).
+              </p>
+            </div>
           </div>
         )}
 

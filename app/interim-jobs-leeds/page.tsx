@@ -6,11 +6,11 @@ import { JobCard } from '@/components/JobCard'
 export const revalidate = 3600
 
 export const metadata: Metadata = {
-  title: 'Interim Jobs Leeds - Executive Roles in Yorkshire',
-  description: 'Find interim executive jobs in Leeds and Yorkshire. CFO, CMO, CTO roles. £600-£1,000 daily rates. Growing digital and financial services hub.',
+  title: 'Interim Jobs Leeds | Interim Quest',
+  description: 'Find interim executive jobs in Leeds and Yorkshire. Full-time temporary CFO, CMO, CTO roles. £600-£1,000 daily rates. Growing interim management market.',
   openGraph: {
-    title: 'Interim Jobs Leeds - Executive Roles in Yorkshire',
-    description: 'Find interim executive jobs in Leeds and across Yorkshire.',
+    title: 'Interim Jobs Leeds | Interim Quest',
+    description: 'Find interim executive jobs in Leeds. Full-time temporary CFO, CMO, CTO roles across Yorkshire.',
     type: 'website',
   },
 }
@@ -104,7 +104,7 @@ export default async function LeedsPage() {
           <img src="/logo.svg" alt="Interim Jobs Leeds - Executive roles in Yorkshire" className="hidden" width={1} height={1} />
           
           <p className="max-w-2xl text-xl text-purple-100 mb-10 leading-relaxed">
-            {stats.total}+ interim executive opportunities across Leeds and Yorkshire. £600-£1,000 daily rates. The North's fastest-growing interim market.
+            {stats.total}+ full-time temporary executive roles across Leeds and Yorkshire. Interim management positions in legal, financial services, and digital sectors. £600-£1,000 daily rates for fixed-term assignments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -256,11 +256,11 @@ export default async function LeedsPage() {
           <div className="space-y-6">
             <details className="group bg-white rounded-xl p-6 cursor-pointer">
               <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
-                How much do interim executives earn in Leeds?
+                How much do interim managers earn in Leeds?
                 <span className="text-purple-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600">
-                Leeds interim executives typically earn £600-£1,000 per day. Legal and financial services roles command premium rates, often comparable to Birmingham levels.
+                Leeds interim managers typically earn £600-£1,000 per day on full-time temporary contracts. Legal and financial services roles command premium rates, often comparable to Birmingham levels, with typical assignments lasting 3-12 months.
               </p>
             </details>
             <details className="group bg-white rounded-xl p-6 cursor-pointer">

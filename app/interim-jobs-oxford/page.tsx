@@ -32,20 +32,20 @@ const oxfordIndustries = [
 
 const successStories = [
   {
-    quote: "Oxford's vaccine success put the life sciences cluster on the global map. I work with spinouts that are genuinely changing medicine. The calibre of science is extraordinary.",
+    quote: "Led a 12-month regulatory approval and Series B preparation for an Oxford vaccine spinout. The calibre of science here is extraordinary - these companies are genuinely changing medicine.",
     name: "Dr James Richardson",
     role: "Interim CFO",
     area: "Headington",
     clients: 3,
-    earnings: "£155k/year"
+    earnings: "£950/day"
   },
   {
-    quote: "Harwell is becoming the UK's space tech capital. I'm working with companies building satellite communications and space data analytics. Incredible growth opportunity.",
+    quote: "Took a Harwell space tech startup from prototype to commercial launch in 10 months. The UK space sector is booming and Oxford is at the epicenter.",
     name: "Emma Thompson",
     role: "Interim CTO",
     area: "Harwell Campus",
     clients: 3,
-    earnings: "£145k/year"
+    earnings: "£900/day"
   },
 ]
 
@@ -85,7 +85,7 @@ export default async function OxfordPage() {
             Interim Jobs Oxford
           </h1>
           <p className="max-w-2xl text-xl text-indigo-100 mb-10 leading-relaxed">
-            {stats.totalOxford}+ interim executive opportunities in the Oxford cluster. £700-£1,100 daily rates. Work with world-changing life sciences and deep tech companies.
+            {stats.totalOxford}+ full-time temporary executive roles in the Oxford cluster. £700-£1,100 daily rates. Lead regulatory approvals, commercialization, and growth initiatives with world-changing life sciences and deep tech companies.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -166,21 +166,21 @@ export default async function OxfordPage() {
               <span className="text-3xl mb-4 block">🧬</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Life Sciences Leader</h3>
               <p className="text-gray-600">
-                Oxford developed the AstraZeneca vaccine and hosts Europe's largest life sciences cluster. Interim CFOs are critical for navigating complex funding and regulatory pathways.
+                Oxford developed the AstraZeneca vaccine and hosts Europe's largest life sciences cluster. Spinouts regularly need interim CFOs to navigate complex regulatory approvals, prepare for IPOs, and manage multi-stage fundraising.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🚀</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Space Tech Hub</h3>
               <p className="text-gray-600">
-                Harwell Campus is the UK's space tech epicentre with ESA, Satellite Applications Catapult, and 100+ space companies creating demand for tech leadership.
+                Harwell Campus is the UK's space tech epicentre with ESA, Satellite Applications Catapult, and 100+ space companies. These ventures regularly need interim CTOs for product commercialization, technical scaling, and regulatory compliance.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🎓</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">200+ Spinouts</h3>
               <p className="text-gray-600">
-                Oxford University has created 200+ spinout companies valued at £13bn+. These research-led companies need experienced interim executives to scale commercially.
+                Oxford University has created 200+ spinout companies valued at £13bn+. These research-led companies need experienced interim executives to commercialize technology, navigate regulatory pathways, and prepare for funding rounds.
               </p>
             </div>
           </div>
@@ -224,7 +224,7 @@ export default async function OxfordPage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-indigo-200 text-sm">{story.role}</p>
-                    <p className="text-indigo-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-indigo-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default async function OxfordPage() {
                 <span className="text-indigo-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Oxford is a part-time executive role working 1-3 days per week. Oxford's life sciences and deep tech clusters create exceptional demand for interim CFOs and CTOs.
+                An interim job in Oxford is a full-time temporary executive role, typically lasting 6-18 months. You lead critical initiatives like regulatory approvals, research commercialization, or international expansion. Oxford's life sciences and deep tech clusters create exceptional demand for interim CFOs and CTOs.
               </p>
             </details>
 
@@ -257,7 +257,7 @@ export default async function OxfordPage() {
                 <span className="text-indigo-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Oxford interim executives earn £700-£1,100 per day. Life sciences and space tech specialists can earn £140,000-£220,000+ annually working with 2-4 clients.
+                Oxford interim executives earn £700-£1,100 per day on 6-18 month contracts. Life sciences and space tech specialists can earn £140,000-£220,000+ annually for full-time interim engagements.
               </p>
             </details>
 
@@ -313,10 +313,10 @@ export default async function OxfordPage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-indigo-900 via-indigo-800 to-indigo-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Oxford?
+            Ready for Interim Work in Oxford?
           </h2>
           <p className="text-xl text-indigo-100 mb-10">
-            {stats.totalOxford}+ interim opportunities in the UK's life sciences capital.
+            {stats.totalOxford}+ full-time temporary executive roles in the UK's life sciences capital.
           </p>
           <Link
             href="/interim-jobs?location=Oxford"

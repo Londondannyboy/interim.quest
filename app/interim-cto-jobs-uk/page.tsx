@@ -15,12 +15,12 @@ export const revalidate = 3600
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y"
 
 export const metadata: Metadata = {
-  title: 'Interim CTO Jobs UK | Part-Time CTO Roles',
-  description: 'Interim CTO jobs UK - Find part-time Chief Technology Officer positions paying £850-£1,600/day. Browse live CTO roles for experienced tech leaders.',
-  keywords: 'interim cto jobs uk, interim cto jobs, part time cto jobs, interim cto uk, cto jobs uk, part time chief technology officer',
+  title: 'Interim CTO Jobs UK | Interim Quest',
+  description: 'Interim CTO jobs UK - Full-time temporary Chief Technology Officer assignments (3-12 months) paying £1,200-£2,000/day. Leadership gaps, turnarounds, transformations.',
+  keywords: 'interim cto jobs uk, interim cto jobs, interim cto opportunities, interim cto uk, interim chief technology officer, cto interim roles, temporary cto jobs',
   openGraph: {
-    title: 'Interim CTO Jobs UK | Part-Time CTO Roles',
-    description: 'Interim CTO jobs UK - Find part-time CTO positions paying £850-£1,600/day.',
+    title: 'Interim CTO Jobs UK | Interim Quest',
+    description: 'Interim CTO jobs UK - Full-time temporary CTO assignments (3-12 months) paying £1,200-£2,000/day.',
     images: ['/images/interim-cto-jobs-uk.jpg'],
   },
 }
@@ -80,7 +80,7 @@ export default async function InterimCtoJobsUkPage() {
               </h1>
               <p className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl mb-8">
                 <strong className="text-white">Interim CTO jobs UK</strong> for experienced technology leaders.
-                Part-time Chief Technology Officer roles paying £850-£1,600/day.
+                Full-time temporary assignments (3-12 months) paying £1,200-£2,000/day.
               </p>
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
@@ -88,7 +88,7 @@ export default async function InterimCtoJobsUkPage() {
                   <div className="text-white/60 text-sm uppercase tracking-wider">Live Roles</div>
                 </div>
                 <div>
-                  <div className="text-4xl md:text-5xl font-black text-white">£1,100</div>
+                  <div className="text-4xl md:text-5xl font-black text-white">£1,500</div>
                   <div className="text-white/60 text-sm uppercase tracking-wider">Avg Day Rate</div>
                 </div>
                 <div>
@@ -183,28 +183,28 @@ export default async function InterimCtoJobsUkPage() {
           </figure>
           <article className="prose prose-lg prose-gray max-w-none">
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8 font-light">
-              <strong className="font-semibold text-gray-900">Interim CTO jobs</strong> represent the new frontier of technology leadership. Part-time Chief Technology Officer positions where experienced leaders provide strategic technical guidance to multiple companies simultaneously—delivering world-class expertise at a fraction of the cost.
+              <strong className="font-semibold text-gray-900">Interim CTO jobs</strong> are full-time temporary assignments where experienced technology leaders step into critical roles for 3-12 months. These are NOT part-time or fractional positions—interim CTOs work full-time hours (typically 5 days/week) on defined assignments such as leadership gaps, turnarounds, or major transformations.
             </p>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">The Rise of Interim CTO Jobs UK</h3>
-            <p>The UK market for <strong>interim CTO jobs UK</strong> has grown significantly, driven by non-technical founders, digital transformation initiatives, and the need for expert technical due diligence. Companies that previously couldn't afford senior tech leadership now access world-class CTOs paying £850-£1,600 per day rather than £180,000-£350,000 annually.</p>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">What Are Interim CTO Jobs?</h3>
+            <p>The UK market for <strong>interim CTO jobs UK</strong> has grown substantially as companies need senior technology leadership for temporary, high-impact assignments. Typical interim CTO roles last 3-12 months and pay £1,200-£2,000 per day. These are full-time, temporary positions—not fractional or part-time roles.</p>
             <div className="bg-gray-50 p-8 my-10 border-l-4 border-blue-500">
-              <p className="text-xl font-semibold text-gray-900 mb-0">"Non-technical founders access CTO expertise without diluting equity or committing to £200k+ salaries."</p>
+              <p className="text-xl font-semibold text-gray-900 mb-0">"Interim CTOs provide full-time leadership during transitions, turnarounds, or transformation projects—not ongoing part-time support."</p>
             </div>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Interim CTO Jobs Are Booming</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Why Companies Hire Interim CTOs</h3>
             <ul className="space-y-3">
-              <li><strong>Non-technical founders:</strong> First-time founders need technical leadership without equity dilution</li>
-              <li><strong>Digital transformation:</strong> Traditional businesses need strategic tech guidance</li>
-              <li><strong>Technical due diligence:</strong> VCs require independent tech assessment</li>
-              <li><strong>Team scaling:</strong> Companies need CTOs to build teams from 2 to 20+</li>
-              <li><strong>Architecture decisions:</strong> Critical build vs buy decisions require experience</li>
+              <li><strong>Leadership gaps:</strong> Cover CTO departures or extended leave while recruiting permanent replacement</li>
+              <li><strong>Turnarounds:</strong> Bring in crisis technical expertise to stabilize engineering and product delivery</li>
+              <li><strong>Transformations:</strong> Lead major technology change programs (cloud migration, architecture overhaul)</li>
+              <li><strong>Rapid scaling:</strong> Provide experienced leadership during high-growth phases requiring team expansion</li>
+              <li><strong>Due diligence:</strong> Provide technical assessment for M&A transactions or investor evaluation</li>
             </ul>
-            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CTO Jobs</h3>
+            <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Types of Interim CTO Assignments</h3>
             <div className="grid md:grid-cols-2 gap-6 not-prose my-8">
               {[
-                { title: 'Startup CTO', desc: 'Building MVP & hiring first engineers', rate: '£1,000-£1,400/day' },
-                { title: 'Scale-up CTO', desc: 'Scaling architecture & building teams', rate: '£1,100-£1,500/day' },
-                { title: 'Due Diligence CTO', desc: 'Technical assessment for M&A', rate: '£1,200-£1,600/day' },
-                { title: 'Transformation CTO', desc: 'Leading digital transformation', rate: '£950-£1,300/day' },
+                { title: 'Leadership Gap CTO', desc: 'Cover departures during permanent recruitment', rate: '£1,200-£1,800/day' },
+                { title: 'Turnaround CTO', desc: 'Stabilize engineering and restore delivery', rate: '£1,400-£2,000/day' },
+                { title: 'Transformation CTO', desc: 'Lead cloud migration or architecture overhaul', rate: '£1,300-£1,900/day' },
+                { title: 'Due Diligence CTO', desc: 'Technical assessment for M&A or investment', rate: '£1,500-£2,000/day' },
               ].map((type, i) => (
                 <div key={i} className="bg-gray-50 p-6 border border-gray-200">
                   <h4 className="font-bold text-gray-900 mb-1">{type.title}</h4>
@@ -215,11 +215,11 @@ export default async function InterimCtoJobsUkPage() {
             </div>
             <h3 className="text-2xl font-black text-gray-900 mt-12 mb-4">Requirements for Interim CTO Jobs</h3>
             <ul className="space-y-2">
-              <li>15+ years of software engineering experience</li>
-              <li>5+ years in CTO, VP Engineering, or Technical Director roles</li>
-              <li>Experience scaling engineering teams (5 to 50+)</li>
-              <li>Broad technology stack knowledge</li>
-              <li>Strong communication with non-technical stakeholders</li>
+              <li>20+ years software engineering experience, including 5+ years as CTO or VP Engineering</li>
+              <li>Track record delivering results in temporary, high-pressure assignments</li>
+              <li>Experience scaling engineering teams and managing complex technical transformations</li>
+              <li>Strong crisis management, restructuring, or major transformation experience</li>
+              <li>Excellent stakeholder management and board-level communication skills</li>
             </ul>
           </article>
         </div>
@@ -231,9 +231,9 @@ export default async function InterimCtoJobsUkPage() {
           <div className="mb-12 text-center">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">UK Tax</span>
             <h2 className="text-3xl md:text-4xl font-black text-gray-900">IR35: Inside vs Outside</h2>
-            <p className="text-gray-600 mt-4">As a interim CTO, your IR35 status significantly impacts your take-home pay</p>
+            <p className="text-gray-600 mt-4">As an interim CTO, your IR35 status significantly impacts your take-home pay</p>
           </div>
-          <IR35Calculator defaultDayRate={1100} />
+          <IR35Calculator defaultDayRate={1500} />
         </div>
       </section>
 

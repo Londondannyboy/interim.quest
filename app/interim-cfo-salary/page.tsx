@@ -4,38 +4,38 @@ import { Suspense } from 'react'
 import { RateDistribution } from '@/components/RateDistribution'
 
 export const metadata: Metadata = {
-  title: 'Interim CFO Salary UK 2025 - Day Rates, Annual Earnings & Pay Guide',
-  description: 'Interim CFO salary guide for 2025. UK day rates £800-£1,500. Annual earnings £120k-£250k. Compare rates by location, industry and experience level.',
-  keywords: 'interim cfo salary, interim cfo day rate, interim cfo pay, part time cfo salary, interim cfo earnings uk',
+  title: 'Interim CFO Day Rates UK 2025 - Pay Guide & Monthly Earnings',
+  description: 'Interim CFO day rates in the UK for 2025. Typical rates £1,200-£2,500/day. Monthly earnings potential £25k-£50k. Full-time daily rates by location, industry and experience level.',
+  keywords: 'interim cfo day rate, interim cfo rates uk, interim cfo pay, interim cfo daily rate, interim cfo earnings',
   openGraph: {
-    title: 'Interim CFO Salary UK 2025 - Complete Pay Guide',
-    description: 'Interim CFO salary guide. UK day rates £800-£1,500. Annual earnings £120k-£250k.',
+    title: 'Interim CFO Day Rates UK 2025 - Complete Pay Guide',
+    description: 'Interim CFO day rates. UK rates £1,200-£2,500/day. Monthly earnings £25k-£50k.',
   },
 }
 
 const salaryData = {
   dayRates: [
-    { level: 'Entry-level Interim CFO', range: '£700-£900/day', annual: '£100k-£140k', experience: '10-15 years' },
-    { level: 'Mid-level Interim CFO', range: '£900-£1,200/day', annual: '£140k-£190k', experience: '15-20 years' },
-    { level: 'Senior Interim CFO', range: '£1,200-£1,500/day', annual: '£190k-£250k', experience: '20+ years' },
+    { level: 'Mid-level Interim CFO', range: '£1,200-£1,600/day', monthly: '£25k-£33k', experience: '15-20 years' },
+    { level: 'Senior Interim CFO', range: '£1,600-£2,000/day', monthly: '£33k-£42k', experience: '20-25 years' },
+    { level: 'Executive Interim CFO', range: '£2,000-£2,500/day', monthly: '£42k-£52k', experience: '25+ years' },
   ],
   byLocation: [
-    { location: 'London (City/Canary Wharf)', range: '£1,000-£1,500/day', premium: '+25%' },
-    { location: 'London (Shoreditch/Tech City)', range: '£900-£1,300/day', premium: '+15%' },
-    { location: 'Manchester', range: '£800-£1,100/day', premium: 'Base' },
-    { location: 'Birmingham', range: '£750-£1,050/day', premium: '-5%' },
-    { location: 'Edinburgh', range: '£800-£1,100/day', premium: 'Base' },
-    { location: 'Bristol', range: '£800-£1,100/day', premium: 'Base' },
-    { location: 'Remote UK', range: '£750-£1,000/day', premium: '-10%' },
+    { location: 'London (City/Canary Wharf)', range: '£1,800-£2,500/day', premium: '+30%' },
+    { location: 'London (Tech/Scale-ups)', range: '£1,600-£2,200/day', premium: '+20%' },
+    { location: 'Manchester', range: '£1,300-£1,800/day', premium: 'Base' },
+    { location: 'Birmingham', range: '£1,200-£1,700/day', premium: '-5%' },
+    { location: 'Edinburgh', range: '£1,300-£1,800/day', premium: 'Base' },
+    { location: 'Bristol', range: '£1,300-£1,800/day', premium: 'Base' },
+    { location: 'Remote UK', range: '£1,200-£1,600/day', premium: '-10%' },
   ],
   byIndustry: [
-    { industry: 'Private Equity / VC Portfolio', range: '£1,200-£1,600/day', demand: 'Very High' },
-    { industry: 'FinTech', range: '£1,100-£1,400/day', demand: 'Very High' },
-    { industry: 'SaaS / Tech', range: '£1,000-£1,300/day', demand: 'High' },
-    { industry: 'Healthcare / Pharma', range: '£950-£1,250/day', demand: 'Medium' },
-    { industry: 'E-commerce / Retail', range: '£850-£1,150/day', demand: 'High' },
-    { industry: 'Manufacturing', range: '£800-£1,050/day', demand: 'Medium' },
-    { industry: 'Professional Services', range: '£800-£1,100/day', demand: 'Medium' },
+    { industry: 'Private Equity / VC Portfolio', range: '£2,000-£2,500/day', demand: 'Very High' },
+    { industry: 'FinTech', range: '£1,800-£2,300/day', demand: 'Very High' },
+    { industry: 'SaaS / Tech', range: '£1,600-£2,100/day', demand: 'High' },
+    { industry: 'Healthcare / Pharma', range: '£1,500-£2,000/day', demand: 'High' },
+    { industry: 'E-commerce / Retail', range: '£1,400-£1,900/day', demand: 'High' },
+    { industry: 'Manufacturing', range: '£1,300-£1,700/day', demand: 'Medium' },
+    { industry: 'Professional Services', range: '£1,300-£1,800/day', demand: 'Medium' },
   ],
 }
 
@@ -46,9 +46,9 @@ export default function InterimCfoSalaryPage() {
       <section className="bg-gradient-to-br from-emerald-900 to-emerald-800 py-20">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-emerald-200 hover:text-white mb-6 inline-block">← Back to Home</Link>
-          <h1 className="text-5xl md:text-6xl font-black text-white mb-6">Interim CFO Salary UK 2025</h1>
+          <h1 className="text-5xl md:text-6xl font-black text-white mb-6">Interim CFO Day Rates UK 2025</h1>
           <p className="text-xl text-emerald-100 mb-8">
-            Complete guide to interim CFO pay rates, day rates, and annual earnings in the UK market.
+            Complete guide to interim CFO day rates and monthly earnings in the UK market.
           </p>
         </div>
       </section>
@@ -58,16 +58,16 @@ export default function InterimCfoSalaryPage() {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-black text-emerald-700">£1,050</div>
+              <div className="text-4xl font-black text-emerald-700">£1,700</div>
               <div className="text-gray-600">Average Day Rate</div>
             </div>
             <div>
-              <div className="text-4xl font-black text-emerald-700">£165k</div>
-              <div className="text-gray-600">Average Annual</div>
+              <div className="text-4xl font-black text-emerald-700">£35k</div>
+              <div className="text-gray-600">Monthly Earnings</div>
             </div>
             <div>
-              <div className="text-4xl font-black text-emerald-700">2-3</div>
-              <div className="text-gray-600">Days Per Client</div>
+              <div className="text-4xl font-black text-emerald-700">5</div>
+              <div className="text-gray-600">Days Per Week</div>
             </div>
           </div>
         </div>
@@ -95,12 +95,12 @@ export default function InterimCfoSalaryPage() {
       <article className="py-16">
         <div className="max-w-4xl mx-auto px-4">
           <div className="prose prose-lg prose-emerald mb-12">
-            <h2>Interim CFO Salary Overview</h2>
+            <h2>Interim CFO Day Rates Overview</h2>
             <p>
-              <strong>Interim CFO salary</strong> in the UK varies significantly based on experience, location, industry specialisation, and client portfolio. Unlike full-time CFO roles with fixed annual salaries, interim CFOs charge day rates—typically ranging from £800 to £1,500 per day in 2025.
+              <strong>Interim CFO day rates</strong> in the UK vary significantly based on experience, location, industry specialisation, and scope of work. Unlike fractional CFOs who work part-time, interim CFOs work full-time on daily rates—typically ranging from £1,200 to £2,500 per day in 2025.
             </p>
             <p>
-              The <strong>interim CFO pay</strong> model offers higher effective hourly earnings than most full-time positions. A interim CFO working 3 days per week at £1,100/day earns approximately £170,000 annually—comparable to a full-time CFO at a Series B startup, but with significantly more flexibility.
+              The <strong>interim CFO pay</strong> model is designed for full-time temporary engagements. An interim CFO working 5 days per week at £1,700/day earns approximately £35,000 per month (£420,000 annually if working year-round). These are professional daily rates for experienced executives handling critical business transformations, fundraising, or interim leadership roles.
             </p>
           </div>
 
@@ -113,7 +113,7 @@ export default function InterimCfoSalaryPage() {
                   <tr className="bg-emerald-50">
                     <th className="text-left p-4 font-semibold text-gray-900">Level</th>
                     <th className="text-left p-4 font-semibold text-gray-900">Day Rate</th>
-                    <th className="text-left p-4 font-semibold text-gray-900">Annual (Est.)</th>
+                    <th className="text-left p-4 font-semibold text-gray-900">Monthly Earnings</th>
                     <th className="text-left p-4 font-semibold text-gray-900">Experience</th>
                   </tr>
                 </thead>
@@ -122,14 +122,14 @@ export default function InterimCfoSalaryPage() {
                     <tr key={i} className="border-b">
                       <td className="p-4 font-medium text-gray-900">{row.level}</td>
                       <td className="p-4 text-emerald-700 font-semibold">{row.range}</td>
-                      <td className="p-4 text-gray-700">{row.annual}</td>
+                      <td className="p-4 text-gray-700">{row.monthly}</td>
                       <td className="p-4 text-gray-600">{row.experience}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-            <p className="text-gray-600 text-sm mt-4">*Annual estimates based on 160 billable days per year</p>
+            <p className="text-gray-600 text-sm mt-4">*Monthly earnings based on ~21 working days per month (5 days/week)</p>
           </div>
 
           {/* By Location */}
@@ -183,19 +183,22 @@ export default function InterimCfoSalaryPage() {
           </div>
 
           <div className="prose prose-lg prose-emerald">
-            <h2>Factors Affecting Interim CFO Salary</h2>
-            <p>Several factors influence <strong>interim CFO earnings</strong>:</p>
+            <h2>Factors Affecting Interim CFO Day Rates</h2>
+            <p>Several factors influence <strong>interim CFO day rates</strong>:</p>
             <ul>
               <li><strong>Qualifications</strong> - ACA/ACCA/CIMA qualified CFOs command 10-15% higher rates</li>
-              <li><strong>Fundraising experience</strong> - Series A-C experience adds £100-200/day premium</li>
+              <li><strong>Fundraising experience</strong> - Series A-C experience adds £200-400/day premium</li>
               <li><strong>Industry specialisation</strong> - Deep sector expertise (FinTech, PE) commands premium rates</li>
-              <li><strong>Client portfolio</strong> - Established interim CFOs with referral networks earn more</li>
-              <li><strong>Scope of work</strong> - Roles requiring M&A, fundraising, or turnaround expertise pay more</li>
+              <li><strong>Scope of work</strong> - Turnaround, M&A, or IPO expertise commands top rates (£2,000-£2,500/day)</li>
+              <li><strong>Engagement duration</strong> - Longer engagements (6+ months) may negotiate slightly lower rates</li>
             </ul>
 
-            <h2>Full-Time CFO vs Interim CFO Salary</h2>
+            <h2>Permanent CFO vs Interim CFO Rates</h2>
             <p>
-              Comparing <strong>interim CFO salary</strong> to full-time equivalents requires considering total compensation and working patterns. A full-time CFO at a Series B startup might earn £150,000-£200,000 plus equity. A interim CFO earning £1,100/day for 150 days achieves £165,000—similar cash compensation with more flexibility and typically better effective hourly rate.
+              A permanent CFO at a Series B startup typically earns £150,000-£200,000 plus equity. An <strong>interim CFO</strong> at £1,700/day working 5 days/week earns £35,000/month (£420,000 annually if sustained year-round). The premium reflects the temporary nature, specialized expertise, immediate availability, and lack of long-term commitment or equity.
+            </p>
+            <p>
+              Interim CFOs are not fractional executives—they work full-time during the engagement period but on defined-term contracts rather than permanent employment. This makes them ideal for bridging periods, transformations, or when companies need immediate senior finance leadership without permanent hiring costs.
             </p>
           </div>
         </div>
@@ -204,8 +207,8 @@ export default function InterimCfoSalaryPage() {
       {/* CTA */}
       <section className="py-16 bg-emerald-900 text-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Explore Interim CFO Opportunities?</h2>
-          <p className="text-emerald-100 mb-8">Browse live CFO roles or create your profile to get matched with companies.</p>
+          <h2 className="text-3xl font-bold mb-4">Ready to Explore Interim CFO Roles?</h2>
+          <p className="text-emerald-100 mb-8">Browse live interim CFO positions with competitive day rates.</p>
           <div className="flex justify-center gap-4">
             <Link href="/interim-jobs?role=CFO" className="px-8 py-4 bg-white text-emerald-900 rounded-lg font-semibold hover:bg-emerald-50">
               Browse CFO Jobs

@@ -32,20 +32,20 @@ const belfastIndustries = [
 
 const successStories = [
   {
-    quote: "Belfast's cyber security cluster is world-class. I work with companies protecting global financial institutions. The talent here is exceptional.",
+    quote: "Led an 8-month security transformation for a Belfast cyber firm protecting global banks. The talent and expertise here rivals anywhere globally.",
     name: "Patrick O'Connor",
     role: "Interim CTO",
     area: "Titanic Quarter",
     clients: 3,
-    earnings: "£115k/year"
+    earnings: "£750/day"
   },
   {
-    quote: "The fintech sector in Belfast is exploding. Lower costs than Dublin or London but access to incredible talent from Queen's and Ulster University.",
+    quote: "Took a Belfast fintech through FCA authorization and Series A funding. Lower costs than Dublin or London with exceptional university talent.",
     name: "Siobhan Murphy",
     role: "Interim CFO",
     area: "City Centre",
     clients: 4,
-    earnings: "£110k/year"
+    earnings: "£700/day"
   },
 ]
 
@@ -85,7 +85,7 @@ export default async function BelfastPage() {
             Interim Jobs Belfast
           </h1>
           <p className="max-w-2xl text-xl text-emerald-100 mb-10 leading-relaxed">
-            {stats.totalBelfast}+ interim executive opportunities in Northern Ireland. £500-£900 daily rates. Work with Europe's leading cyber security cluster.
+            {stats.totalBelfast}+ full-time temporary executive roles in Northern Ireland. £500-£900 daily rates. Lead transformations and growth initiatives with Europe's leading cyber security cluster.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -166,14 +166,14 @@ export default async function BelfastPage() {
               <span className="text-3xl mb-4 block">🔐</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Cyber Security Hub</h3>
               <p className="text-gray-600">
-                Belfast has Europe's largest cyber security cluster with 100+ companies. Global leaders like Proofpoint, Rapid7, and BlackBerry have major operations here.
+                Belfast has Europe's largest cyber security cluster with 100+ companies. Global leaders like Proofpoint, Rapid7, and BlackBerry regularly need interim CTOs and CISOs for security transformations and compliance projects.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
               <span className="text-3xl mb-4 block">🎓</span>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Talent Pipeline</h3>
               <p className="text-gray-600">
-                Queen's University and Ulster University produce world-class graduates. Belfast's talent pool rivals Dublin at a fraction of the cost.
+                Queen's University and Ulster University produce world-class tech and business graduates. Belfast's talent pool rivals Dublin at a fraction of the cost, creating ideal conditions for interim-led growth initiatives.
               </p>
             </div>
             <div className="bg-gray-50 rounded-2xl p-8">
@@ -224,7 +224,7 @@ export default async function BelfastPage() {
                   <div>
                     <p className="font-bold text-white">{story.name}</p>
                     <p className="text-emerald-200 text-sm">{story.role}</p>
-                    <p className="text-emerald-300 text-xs">{story.area} • {story.clients} Clients • {story.earnings}</p>
+                    <p className="text-emerald-300 text-xs">{story.area} • {story.earnings}</p>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default async function BelfastPage() {
                 <span className="text-emerald-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                An interim job in Belfast is a part-time executive role working 1-3 days per week. Belfast's cyber security and fintech clusters make it ideal for interim CTOs and CFOs.
+                An interim job in Belfast is a full-time temporary executive role, typically lasting 3-18 months. You lead specific initiatives like security transformations, regulatory compliance, or international expansion. Belfast's cyber security and fintech clusters create strong demand for interim CTOs and CFOs.
               </p>
             </details>
 
@@ -257,7 +257,7 @@ export default async function BelfastPage() {
                 <span className="text-emerald-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Belfast interim executives earn £500-£900 per day. With 55% lower cost of living than London, take-home value is exceptional. Most earn £90,000-£150,000+ annually.
+                Belfast interim executives earn £500-£900 per day on 3-12 month contracts. With 55% lower cost of living than London, take-home value is exceptional. Annual earnings range from £90,000-£180,000+ for full-time interim engagements.
               </p>
             </details>
 
@@ -313,10 +313,10 @@ export default async function BelfastPage() {
       <section className="py-20 md:py-28 bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Work in Belfast?
+            Ready for Interim Work in Belfast?
           </h2>
           <p className="text-xl text-emerald-100 mb-10">
-            {stats.totalBelfast}+ interim opportunities in Northern Ireland's tech capital.
+            {stats.totalBelfast}+ full-time temporary executive roles in Northern Ireland's tech capital.
           </p>
           <Link
             href="/interim-jobs?location=Belfast"

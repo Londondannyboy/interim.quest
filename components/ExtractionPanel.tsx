@@ -104,7 +104,7 @@ export function ExtractionPanel({ userId, liveExtraction, isExtracting, onRefres
           </button>
         </div>
         <p className="text-sm text-gray-600 mt-1">
-          Confirm the information we've extracted
+          Confirm the information we have extracted
         </p>
       </div>
 

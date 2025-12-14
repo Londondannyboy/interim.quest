@@ -265,7 +265,7 @@ export default async function ProfessionalServicesPage() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Mid-market firms (£5m-£50m revenue) are the primary market. They've outgrown partner-led operations but cannot justify full C-suite. Growing boutiques and firms undergoing digital transformation also hire interim executives.
+                Mid-market firms (£5m-£50m revenue) are the primary market. They have outgrown partner-led operations but cannot justify full C-suite. Growing boutiques and firms undergoing digital transformation also hire interim executives.
               </p>
             </details>
           </div>

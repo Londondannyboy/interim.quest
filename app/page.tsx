@@ -205,31 +205,41 @@ export default async function Home() {
     ]
   };
 
-  // JobPosting aggregate JSON-LD
+  // JobPosting aggregate JSON-LD - with all required Google fields
   const jobPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Interim Executive Jobs UK - Temporary Leadership Roles",
     description: `Browse ${totalJobs}+ interim executive jobs in the UK. Find interim CFO, CEO, CTO roles for 3-12 month engagements with immediate start dates.`,
     numberOfItems: totalJobs,
-    itemListElement: featuredJobs.slice(0, 3).map((job: any, index: number) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      item: {
-        "@type": "JobPosting",
-        title: job.title,
-        hiringOrganization: {
-          "@type": "Organization",
-          name: job.company_name
-        },
-        jobLocation: {
-          "@type": "Place",
-          address: job.location || "United Kingdom"
-        },
-        employmentType: "TEMPORARY",
-        datePosted: job.posted_date || new Date().toISOString()
-      }
-    }))
+    itemListElement: featuredJobs.slice(0, 3).map((job: any, index: number) => {
+      const postedDate = job.posted_date || new Date().toISOString().split('T')[0];
+      const validThrough = new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]; // 90 days from now
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "JobPosting",
+          title: job.title,
+          description: job.description || `${job.title} - Interim executive role in the UK. Full-time temporary engagement for 3-12 months. Immediate start available.`,
+          hiringOrganization: {
+            "@type": "Organization",
+            name: job.company_name || "Confidential"
+          },
+          jobLocation: {
+            "@type": "Place",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: job.location || "London",
+              addressCountry: "GB"
+            }
+          },
+          employmentType: "TEMPORARY",
+          datePosted: postedDate,
+          validThrough: validThrough
+        }
+      };
+    })
   };
 
   return (
@@ -399,7 +409,7 @@ export default async function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Battle-Tested Experience</h3>
               <p className="text-gray-600">
-                Senior executives with 15-25+ years navigating turnarounds, transformations, and high-stakes situations. They've solved your problem before.
+                Senior executives with 15-25+ years navigating turnarounds, transformations, and high-stakes situations. They have solved your problem before.
               </p>
             </div>
           </div>
@@ -703,7 +713,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim executives typically have 15-25+ years of senior leadership experience with proven track records in complex situations. They've navigated multiple turnarounds, transformations, crises, or high-growth periods. Many are former CFOs, CEOs, or CTOs from public companies, PE-backed firms, or major corporates. They've solved your exact problem before—that is why they can deliver immediate impact.
+                Interim executives typically have 15-25+ years of senior leadership experience with proven track records in complex situations. They have navigated multiple turnarounds, transformations, crises, or high-growth periods. Many are former CFOs, CEOs, or CTOs from public companies, PE-backed firms, or major corporates. They have solved your exact problem before—that is why they can deliver immediate impact.
               </p>
             </details>
           </div>

@@ -99,7 +99,7 @@ export default function InterimCOOServicesPage() {
               Interim COOs are deployed during periods of change, crisis, or opportunity. Whether you are covering a sudden departure, executing a turnaround, integrating an acquisition, or preparing for rapid growth, an interim COO brings the experience to lead through complexity.
             </p>
             <p>
-              They've done it before—multiple times. They diagnose problems quickly, build high-performing teams, implement robust processes, and deliver the operational transformation your business requires. When the engagement ends, you have a stronger, more scalable operation.
+              They have done it before—multiple times. They diagnose problems quickly, build high-performing teams, implement robust processes, and deliver the operational transformation your business requires. When the engagement ends, you have a stronger, more scalable operation.
             </p>
           </div>
         </div>

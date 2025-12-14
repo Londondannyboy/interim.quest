@@ -300,7 +300,7 @@ export default function OnboardingPage() {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-xl font-semibold text-gray-900 mb-1">Your Experience</h2>
-                  <p className="text-gray-600 text-sm mb-4">Add key companies you've worked with</p>
+                  <p className="text-gray-600 text-sm mb-4">Add key companies you have worked with</p>
                 </div>
 
                 <div className="space-y-3">

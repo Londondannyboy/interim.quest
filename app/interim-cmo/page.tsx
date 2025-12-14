@@ -239,7 +239,7 @@ export default function InterimCMOPage() {
 
           <div className="mt-8 p-6 bg-amber-50 border border-amber-200 rounded-lg">
             <p className="text-amber-800 font-medium mb-2">Typical Background:</p>
-            <p className="text-amber-700">Most interim CMOs are 40-55 years old with 15-25 years of marketing experience. They've held permanent CMO or Marketing Director roles and are looking for variety, higher earnings, and the challenge of different assignments.</p>
+            <p className="text-amber-700">Most interim CMOs are 40-55 years old with 15-25 years of marketing experience. They have held permanent CMO or Marketing Director roles and are looking for variety, higher earnings, and the challenge of different assignments.</p>
           </div>
         </div>
       </section>
@@ -351,7 +351,7 @@ export default function InterimCMOPage() {
                 <span className="text-amber-500 font-bold">→</span>
                 <div>
                   <strong className="text-gray-900">Your Network</strong>
-                  <p className="text-gray-600 text-sm">Former colleagues, board connections, and CEOs you've worked with are often the best source of interim work</p>
+                  <p className="text-gray-600 text-sm">Former colleagues, board connections, and CEOs you have worked with are often the best source of interim work</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">

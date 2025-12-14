@@ -299,7 +299,7 @@ export default async function TopInterimRecruitmentAgenciesPage() {
                 Other Interim Recruiters UK
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We've compiled other reputable interim recruitment agencies operating in the UK market for comparison.
+                We have compiled other reputable interim recruitment agencies operating in the UK market for comparison.
               </p>
             </div>
 

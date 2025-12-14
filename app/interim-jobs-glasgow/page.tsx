@@ -51,7 +51,7 @@ const successStories = [
     earnings: "£135k/year"
   },
   {
-    quote: "I moved from London to Glasgow for an 18-month interim CMO role. The assignment extended, and I've stayed in the Glasgow market. Full-time temporary roles here offer real strategic impact.",
+    quote: "I moved from London to Glasgow for an 18-month interim CMO role. The assignment extended, and I have stayed in the Glasgow market. Full-time temporary roles here offer real strategic impact.",
     name: "David Thomson",
     role: "Interim CMO",
     area: "Merchant City",

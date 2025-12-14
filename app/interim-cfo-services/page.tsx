@@ -189,7 +189,7 @@ export default function InterimCFOServicesPage() {
               },
               {
                 title: 'Battle-Tested Experience',
-                description: 'Interim CFOs have typically led finance functions at multiple companies. They've seen turnarounds, IPOs, and crises before—and know how to navigate them.',
+                description: 'Interim CFOs have typically led finance functions at multiple companies. They have seen turnarounds, IPOs, and crises before—and know how to navigate them.',
                 stat: '20+',
                 statLabel: 'Years Experience',
               },

@@ -80,7 +80,7 @@ export default function ChatPage() {
         { role: 'user', content: input.trim() },
         {
           role: 'assistant',
-          content: "You've reached your free message limit. Sign in for unlimited access to our chat assistant!",
+          content: "You have reached your free message limit. Sign in for unlimited access to our chat assistant!",
         },
       ])
       setInput('')

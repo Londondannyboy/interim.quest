@@ -315,7 +315,7 @@ export default function InterimCOOPage() {
           <div className="space-y-6">
             <div className="bg-white p-6 border border-gray-200">
               <h3 className="font-bold text-gray-900 mb-2">How long do Interim COO assignments typically last?</h3>
-              <p className="text-gray-600">Most assignments run 3-12 months. Vacancy cover tends to be shorter (3-6 months), while turnarounds and transformations typically require 6-12 months. Extensions are common if objectives haven't been fully delivered.</p>
+              <p className="text-gray-600">Most assignments run 3-12 months. Vacancy cover tends to be shorter (3-6 months), while turnarounds and transformations typically require 6-12 months. Extensions are common if objectives have not been fully delivered.</p>
             </div>
 
             <div className="bg-white p-6 border border-gray-200">

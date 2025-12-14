@@ -238,7 +238,7 @@ function VoiceInterface({ token, userId, profile, memoryContext, graphData, onPr
       const { preferences, should_confirm } = await response.json()
 
       if (should_confirm && preferences.length > 0) {
-        // Find the highest confidence preference that hasn't been confirmed yet
+        // Find the highest confidence preference that has not been confirmed yet
         const highConfidence = preferences.find(
           (p: ExtractedPreference) =>
             p.confidence === 'high' &&

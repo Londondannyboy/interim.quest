@@ -269,7 +269,7 @@ export default function InterimCTOPage() {
           </div>
           <div className="mt-8 p-6 bg-gray-50 border border-gray-200 rounded-lg">
             <p className="text-gray-700 text-sm mb-4">
-              <strong>Alternative Entry Point:</strong> Some Interim CTOs come from consulting backgrounds (McKinsey, BCG, Big 4) where they've led technology transformations. This path emphasises change management and stakeholder engagement over hands-on technical experience.
+              <strong>Alternative Entry Point:</strong> Some Interim CTOs come from consulting backgrounds (McKinsey, BCG, Big 4) where they have led technology transformations. This path emphasises change management and stakeholder engagement over hands-on technical experience.
             </p>
             <p className="text-gray-700 text-sm">
               <strong>Key Success Factor:</strong> Building a strong network is critical. Most interim assignments come through referrals, not job boards. Active engagement in CTO communities, conference speaking, and maintaining relationships with former colleagues and clients drives deal flow.

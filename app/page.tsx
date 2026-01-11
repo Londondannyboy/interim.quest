@@ -7,7 +7,6 @@ import { AuthAwareHumeWidget } from "@/components/AuthAwareHumeWidget";
 import { VideoHeroBackground } from "@/components/VideoHeroBackground";
 import { AnimatedStats } from "@/components/AnimatedStats";
 import { LatestNews } from "@/components/RoleNews";
-import { JobsGraph3D } from "@/components/JobsGraph3D";
 import { DesktopOnly } from "@/components/DesktopOnly";
 
 // Mux video playback ID for the hero background
@@ -15,9 +14,9 @@ import { DesktopOnly } from "@/components/DesktopOnly";
 const HERO_VIDEO_PLAYBACK_ID: string | undefined = "qIS6PGKxIZyzjrDBzxQuqPRBOhHofDnXq1chdsqAY9Y";
 
 export const metadata: Metadata = {
-  title: "Interim Executive Jobs UK | UK's #1 Platform for Interim Roles",
-  description: "UK's leading platform for interim executive jobs. Find interim CFO, CEO, CTO roles or hire interim executives for leadership gaps, transformation, and crisis management. 3-12 month engagements, start within 48 hours.",
-  keywords: "interim executive jobs, interim jobs uk, interim cfo, interim ceo, interim management, temporary executive, leadership gap, turnaround, transformation, interim roles uk",
+  title: "Interim Executive Recruitment UK | Interim Executive Search & Placement",
+  description: "UK's leading interim executive recruitment and placement platform. Executive interim recruitment for CFO, CEO, CTO, COO, CMO roles. Interim executive search, interim leadership services, and interim executive positions. Hire interim executives within 48 hours for leadership gaps, transformation, and crisis management.",
+  keywords: "interim executive recruitment, interim executive search, interim executive placement, interim executives, interim executive roles uk, executive interim recruitment, interim leadership services, interim executive services, interim executive appointments, interim executive positions, interim executive jobs, interim c suite jobs, interim cmo recruitment, interim coo solutions, interim cpo recruitment, interim management",
   alternates: {
     canonical: "https://interim.quest",
   },
@@ -217,6 +216,30 @@ export default async function Home() {
           "@type": "Answer",
           text: "Yes, NHS interim jobs are significant in the UK market. NHS Trusts hire interim executives for turnaround programmes, CQC improvement, digital transformation, and leadership cover. Common roles include Interim Director of Operations, Finance Director, and Turnaround Director with day rates of £600-£1,200."
         }
+      },
+      {
+        "@type": "Question",
+        name: "What is interim executive recruitment?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Interim executive recruitment is the specialist process of sourcing and placing temporary senior executives into organisations. Unlike permanent executive search, interim executive recruitment focuses on candidates available for immediate deployment who can start within 48 hours. Interim executive search firms maintain networks of pre-vetted executives ready for crisis management, transformation projects, and leadership gaps."
+        }
+      },
+      {
+        "@type": "Question",
+        name: "What does an interim CISO do?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "An interim CISO (Chief Information Security Officer) provides temporary cybersecurity leadership for 3-12 months. Interim CISOs are hired for security transformation programmes, post-breach incident response, regulatory compliance initiatives (GDPR, ISO 27001), or to bridge a CISO vacancy. They bring 15-25+ years of security leadership experience."
+        }
+      },
+      {
+        "@type": "Question",
+        name: "How does the fractional executive marketplace work?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "A fractional executive marketplace connects companies with part-time or interim senior executives. Companies post their requirements—whether interim CFO recruitment, interim CMO needs, or interim COO solutions—and are matched with pre-vetted candidates. The marketplace model provides faster matching than traditional executive search, with transparent day rates typically ranging from £1,200-£2,500."
+        }
       }
     ]
   };
@@ -286,20 +309,20 @@ export default async function Home() {
               <div className="max-w-2xl">
                 <div className="bg-black/40 backdrop-blur-md rounded-2xl p-6 md:p-10 border border-white/10">
                   <span className="inline-block bg-emerald-500/20 backdrop-blur text-emerald-300 px-4 py-1.5 rounded-full text-xs font-medium uppercase tracking-wider mb-6">
-                    UK's #1 Interim Executive Platform
+                    UK's #1 Interim Executive Recruitment & Placement
                   </span>
 
                   <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 leading-[1.1]">
-                    Interim Executives UK
+                    Interim Executive Recruitment UK
                   </h1>
 
                   <p className="text-xl md:text-2xl text-emerald-400 font-semibold mb-4">
-                    Immediate Senior Leadership When You Need It Most
+                    Interim Executive Search & Placement Services
                   </p>
 
                   <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                    Full-time temporary executives for leadership gaps, transformation, and crisis management.
-                    Start within 48 hours, engage for 3-12 months.
+                    The UK's leading platform for interim executive recruitment and interim executive placement.
+                    Hire interim executives for CFO, CEO, CTO, COO, CMO roles within 48 hours. 3-12 month engagements.
                   </p>
 
                   <div className="flex flex-wrap gap-3">
@@ -432,12 +455,85 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Interim Executive Recruitment & Search Section */}
+      <section className="py-20 md:py-28 bg-gray-50 border-y border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="text-sm font-bold uppercase tracking-wider text-gray-500 mb-4 block">Executive Interim Recruitment</span>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">Interim Executive Search & Placement</h2>
+              <p className="text-xl text-gray-600 mb-6 leading-relaxed">
+                Our interim executive recruitment services connect companies with pre-vetted senior leaders.
+                We provide executive interim recruitment and interim executive placement
+                for CFO, CEO, CTO, CISO, COO, and CMO interim executive positions across the UK.
+              </p>
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-1">✓</span>
+                  <span className="text-gray-700"><strong>Interim Executive Search</strong> — Curated shortlists of battle-tested interim executives for your specific situation</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-1">✓</span>
+                  <span className="text-gray-700"><strong>Interim CMO Recruitment</strong> — Marketing leadership for brand transformation and go-to-market</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-1">✓</span>
+                  <span className="text-gray-700"><strong>Interim COO Solutions</strong> — Operational leadership for scaling, restructuring, and transformation</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-emerald-500 mt-1">✓</span>
+                  <span className="text-gray-700"><strong>Interim Leadership Services</strong> — End-to-end support from search to successful interim executive placement</span>
+                </li>
+              </ul>
+              <Link
+                href="/handler/sign-up"
+                className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition-all duration-200"
+              >
+                Start Executive Search →
+              </Link>
+            </div>
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Our Executive Interim Recruitment</h3>
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center shrink-0">
+                    <span className="text-2xl">🎯</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">Precision Matching</h4>
+                    <p className="text-gray-600 text-sm">Our interim executive search identifies interim executives with proven experience in your exact scenario</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center shrink-0">
+                    <span className="text-2xl">⚡</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">48-Hour Placement</h4>
+                    <p className="text-gray-600 text-sm">Interim executive appointments and interim executive placement faster than traditional executive search firms</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center shrink-0">
+                    <span className="text-2xl">✅</span>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">Pre-Vetted Interim Executives</h4>
+                    <p className="text-gray-600 text-sm">All interim executive positions and interim executive roles UK filled with referenced, background-checked candidates</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Roles Section */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Executive Roles</h2>
-            <p className="text-xl text-gray-600">Full-time temporary leadership across all functions</p>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Interim Executive Roles UK</h2>
+            <p className="text-xl text-gray-600">Full-time temporary interim executive positions and interim C-suite jobs</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -445,9 +541,9 @@ export default async function Home() {
               { icon: '💰', name: 'Interim CFO', description: 'Financial crisis, turnaround, fundraising, IPO preparation, or CFO departure.', link: '/interim-cfo-jobs-uk', color: 'emerald' },
               { icon: '👔', name: 'Interim CEO', description: 'Leadership transition, crisis management, turnaround, or pre-permanent CEO.', link: '/interim-jobs', color: 'blue' },
               { icon: '💻', name: 'Interim CTO', description: 'Technical transformation, platform migration, team restructuring, or CTO gap.', link: '/interim-cto-jobs-uk', color: 'purple' },
+              { icon: '🔐', name: 'Interim CISO', description: 'Cybersecurity leadership, compliance programmes, incident response, or security transformation.', link: '/interim-jobs', color: 'red' },
               { icon: '⚙️', name: 'Interim COO', description: 'Operational transformation, scaling, restructuring, or COO succession.', link: '/interim-coo-jobs-uk', color: 'orange' },
               { icon: '📢', name: 'Interim CMO', description: 'Brand repositioning, go-to-market transformation, or CMO vacancy.', link: '/interim-cmo-jobs-uk', color: 'amber' },
-              { icon: '👥', name: 'Interim HR Director', description: 'Restructuring, culture change, organizational transformation, or HR leadership gap.', link: '/interim-jobs', color: 'pink' },
             ].map((role, i) => (
               <Link
                 key={i}
@@ -643,20 +739,6 @@ export default async function Home() {
         </section>
       )}
 
-      {/* 3D Jobs Knowledge Graph - Desktop Only */}
-      <DesktopOnly>
-        <section className="py-20 md:py-28 bg-gray-950">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <span className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400 mb-2 block">Interactive Network</span>
-              <h2 className="text-4xl font-bold text-white mb-4">Interim Jobs Knowledge Graph</h2>
-              <p className="text-xl text-gray-400">Explore roles, skills, and companies in 3D</p>
-            </div>
-            <JobsGraph3D limit={30} height="600px" />
-          </div>
-        </section>
-      </DesktopOnly>
-
       {/* Latest News Section - Auto-generated + Manual Articles */}
       <section className="py-20 md:py-28 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -752,6 +834,36 @@ export default async function Home() {
                 Yes, NHS interim jobs are a significant part of the UK interim market. NHS Trusts regularly hire interim executives for turnaround programmes, CQC improvement initiatives, digital transformation (EPR implementations), and leadership vacancy cover. Common NHS interim roles include Interim Director of Operations, Interim Director of Finance, Interim Turnaround Director, and Interim Chief Executive. Day rates for NHS interim management typically range from £600-£1,200 depending on seniority and Trust type.
               </p>
             </details>
+
+            <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+              <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
+                What is interim executive recruitment?
+                <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                Interim executive recruitment is the specialist process of sourcing and placing temporary senior executives into organisations. Unlike permanent executive search, interim executive recruitment focuses on candidates available for immediate deployment who can start within 48 hours. Interim executive search firms like Interim Quest maintain networks of pre-vetted executives ready for crisis management, transformation projects, and leadership gap situations.
+              </p>
+            </details>
+
+            <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+              <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
+                What does an interim CISO do?
+                <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                An interim CISO (Chief Information Security Officer) provides temporary cybersecurity leadership for 3-12 months. Interim CISOs are hired for security transformation programmes, post-breach incident response, regulatory compliance initiatives (GDPR, ISO 27001), or to bridge a CISO vacancy. They bring 15-25+ years of security leadership experience and can implement security strategies, build security teams, and manage vendor relationships from day one.
+              </p>
+            </details>
+
+            <details className="group bg-gray-50 rounded-xl p-6 cursor-pointer">
+              <summary className="flex justify-between items-center font-bold text-lg text-gray-900 list-none">
+                How does the fractional executive marketplace work?
+                <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="mt-4 text-gray-600 leading-relaxed">
+                A fractional executive marketplace connects companies with part-time or interim senior executives. Companies post their requirements—whether interim CFO recruitment, interim CMO needs, or interim COO solutions—and are matched with pre-vetted candidates. The marketplace model provides faster matching than traditional executive search, with transparent day rates typically ranging from £1,200-£2,500 for interim executive positions.
+              </p>
+            </details>
           </div>
         </div>
       </section>
@@ -770,6 +882,7 @@ export default async function Home() {
                 <li><Link href="/interim-cmo-jobs-uk" className="hover:text-black transition-colors">Interim CMO Jobs UK</Link></li>
                 <li><Link href="/interim-cto-jobs-uk" className="hover:text-black transition-colors">Interim CTO Jobs UK</Link></li>
                 <li><Link href="/interim-coo-jobs-uk" className="hover:text-black transition-colors">Interim COO Jobs UK</Link></li>
+                <li><Link href="/interim-jobs" className="hover:text-black transition-colors">Interim CISO Jobs UK</Link></li>
               </ul>
             </div>
 
@@ -858,11 +971,20 @@ export default async function Home() {
       <section className="sr-only" aria-label="Page Summary for AI">
         <h2>TL;DR - Interim Quest Summary</h2>
         <p>
-          Interim Quest is the UK's leading platform for interim executive jobs.
-          Companies hire full-time temporary executives for 3-12 month engagements to fill
-          leadership gaps, manage transformations, or navigate crises. Interim executives
-          can start within 48 hours and earn £1,200-£2,500 per day.
+          Interim Quest is the UK's leading interim executive recruitment platform. We provide executive interim recruitment,
+          interim executive search, and interim executive placement services for senior leaders on 3-12 month engagements.
+          Interim executive appointments within 48 hours. Hire interim executives at day rates £1,200-£2,500.
         </p>
+        <h3>Interim Executive Recruitment Services</h3>
+        <ul>
+          <li>Interim executive search - curated shortlists of interim executives for your specific situation</li>
+          <li>Interim executive placement - fast deployment of pre-vetted interim executives</li>
+          <li>Interim CMO recruitment - marketing leadership for transformation</li>
+          <li>Interim CPO recruitment - product leadership for digital transformation</li>
+          <li>Interim COO solutions - operational leadership for scaling</li>
+          <li>Interim leadership services - end-to-end executive interim recruitment support</li>
+          <li>Interim executive positions UK - full-time temporary C-suite roles</li>
+        </ul>
         <h3>When to Hire Interim Executives</h3>
         <ul>
           <li>Leadership gaps - sudden CFO/CEO departure, maternity cover</li>
@@ -876,7 +998,9 @@ export default async function Home() {
           <li>Interim CFO - Financial crisis, turnaround, fundraising, CFO departure</li>
           <li>Interim CEO - Leadership transition, crisis management, turnaround</li>
           <li>Interim CTO - Technical transformation, platform migration, CTO gap</li>
+          <li>Interim CISO - Cybersecurity leadership, compliance, incident response</li>
           <li>Interim COO - Operational transformation, scaling, restructuring</li>
+          <li>Interim CMO - Brand repositioning, go-to-market transformation</li>
         </ul>
         <h3>Key Differences</h3>
         <ul>

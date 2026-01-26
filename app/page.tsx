@@ -801,7 +801,7 @@ export default async function Home() {
                 <span className="text-gray-700 group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Interim executives work full-time for 3-12 months on temporary assignments, taking complete operational responsibility as acting CFO, CEO, etc. Fractional executives work part-time (1-3 days/week) on an ongoing basis with multiple clients simultaneously. Interim is for urgent, full-time leadership needs (crisis, gap, transformation). Fractional is for ongoing strategic advisory when you do not need full-time leadership.
+                Interim executives work full-time for 3-12 months on temporary assignments, taking complete operational responsibility as acting CFO, CEO, etc. <a href="https://fractional.quest" className="text-emerald-600 hover:underline">Fractional executives</a> work part-time (1-3 days/week) on an ongoing basis with multiple clients simultaneously. Interim is for urgent, full-time leadership needs (crisis, gap, transformation). Fractional is for ongoing strategic advisory when you do not need full-time leadership. For fractional executive opportunities, visit our partners at <a href="https://fractional.quest" className="text-emerald-600 hover:underline">Fractional Quest</a>.
               </p>
             </details>
 
